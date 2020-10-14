@@ -8,8 +8,8 @@ Script to download dataset from https://climateknowledgeportal.worldbank.org/api
 PATH = '/media/NAS-Divers/dev/datasets/WorldBank/precipitation/'
 
 nature_of_data = ['projection', 'historical']
-countries_code = ['FRA']
-countries_name = ['France']
+countries_code = ['CIV', 'FRA']
+countries_name = ['CotedIvoire', 'France']
 
 variables = ['pr']
 
@@ -40,26 +40,25 @@ https://climateknowledgeportal.worldbank.org/api/data/get-download-data
     https://climateknowledgeportal.worldbank.org/api/data/get-download-data/projection/mavg/pr/rcp85/2060-2079/FRA/France
 
 '''
+for country_code, country_name in zip(countries_code, countries_name):
+    for nature in nature_of_data:
+        time_series=past_time_series if nature == 'historical' else futu_time_series
+        data_type = '' if nature == 'historical' else  '/mavg'
+        projection = '' if nature == 'historical' else '/rcp85'
+        for period in time_series:
+            filename = '_'.join([nature, period, country_code, country_name]) + '.csv'
+            url = 'https://climateknowledgeportal.worldbank.org/api/data/get-download-data/' \
+                + f'{nature}{data_type}/pr{projection}/{period}/{country_code}/{country_name}'
+            destination = os.path.join(PATH, filename)
+            print(url, '->', destination)
 
-for nature in nature_of_data:
-    time_series=past_time_series if nature == 'historical' else futu_time_series
-    data_type = '' if nature == 'historical' else  '/mavg'
-    projection = '' if nature == 'historical' else '/rcp85'
-    for period in time_series:
-        country_code = 'FRA'
-        country_name = 'France'
-        filename = '_'.join([nature, period, country_code, country_name]) + '.csv'
-        url = 'https://climateknowledgeportal.worldbank.org/api/data/get-download-data/' \
-            + f'{nature}{data_type}/pr{projection}/{period}/{country_code}/{country_name}'
-        destination = os.path.join(PATH, filename)
-        print(url, '->', destination)
-
-        r = requests.get(url)
-        if r.status_code != 200:
-            print(f'ERROR HTTP : {r.status_code} for {url}')
-            continue
-        if len(r.content) < 1_000:
-            print(f'ERROR HTTP content too small : ', r.content)
-            continue
-        with open(destination, 'wb') as f:
-            f.write(r.content)
+            r = requests.get(url)
+            if r.status_code != 200:
+                print(f'ERROR HTTP : {r.status_code} for {url}')
+                continue
+            if len(r.content) < 1_000:
+                print(f'ERROR HTTP content too small : ', r.content)
+                continue
+            with open(destination, 'wb') as f:
+                f.write(r.content)
+            #break
