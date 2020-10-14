@@ -8,8 +8,33 @@ Script to download dataset from https://climateknowledgeportal.worldbank.org/api
 PATH = '/media/NAS-Divers/dev/datasets/WorldBank/precipitation/'
 
 nature_of_data = ['projection', 'historical']
-countries_code = ['CIV', 'FRA']
-countries_name = ['CotedIvoire', 'France']
+
+countries_code = ['AFG', 'ALB', 'ALG', 'AND', 'ANG','ANT', 'ARG','ARM',
+		  'AUS', 'AUST', 'AZE', 'BAH', 'BAHR', 'BANG', 'BAR', 'BELZ', 'BELG',
+		  'BELZ', 'BEN', 'BHU', 'BOL', 'BOS', 'BOT', 'BRA', 'BRU', 'BULG',
+		  'BURK', 'BURU', 'CAMB', 'CAM', 'CAN', 'CAV', 'CAR', 'CHA', 'CHIL', 'CHI',
+		  'COL', 'COM', 'CDR', 'CON', 'COS', 'CIV', 'CROA', 'CUB', 'CYP', 'CZE',
+		  'DEN', 'DJI', 'DOM', 'DOMR',
+		  'ECUA', 'EGY', 'ESAL', 'EGUI', 'ERI', 'EST', 'ETH',
+		  'FARI', 'FSM', 'FIJ', 'FIN', 'FRA',
+		  'GAB', 'GAM', 'GEOR', 'GER', 'GHA', 'GRE', 'GREE', 'GREN', 'GUA', 'GUI', 'GUIB', 'GUY', 
+		  'HAI', '', '', '', '', '', '', '', '']
+
+countries_name = ['Afghanistan', 'Albania', 'Algeria,
+		  'Andorra', 'Angola', 'AntiguaBarbuda', 'Argentina', 'Armenia',
+		  'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh',
+		  'Barbados', 'Belarus', 'Belgium', 'Belize', 'Benin', 'Bhutan', 'Bolivia',
+		  'BosniaHerzegovina', 'Botswana', 'Brazil', 'Brunei', 'Bulgaria',
+		  'BurnkinaFaso', 'Burundi', 'Cambodia', 'Cameroon', 'Canada', 'Cape_Verde',
+		  'CentralAfricanRepublic', 'Chad', 'Chile', 'China', 'Colombia', 'Comoros',
+		  'CongoDemocraticRepublic', 'CongoRepublic', 'CostaRica', 'CoteIvoire', 'Croatia',
+		  'Cuba', 'Cyprus', 'CzechRpublic',
+		  'Denmark', 'Djibouti', 'Dominica', 'DominicanRepublic',
+		  'Ecuador', 'Egypt', 'Elsalvador', 'EquatorialGuinea', 'Eritrea', 'Estonia', 'Ethiopia',
+		  'FaroeIslands', 'FederalStateOfMicronesia', 'Fiji', 'Finland', 'France', 'Gabon', 'Gambia',
+		  'Georgia', 'Germany', 'Ghana', 'Greece', 'Greenland', 'Grenada', 'Guatemala', 'Guinea',
+		  'GuineaBissau', 'Guyana',
+		  'Haiti', '', '', '', '', '', '', '', '', '', '', '', '' ]
 
 variables = ['pr']
 
