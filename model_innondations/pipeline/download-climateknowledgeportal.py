@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 import os, sys
 import pandas as pd
@@ -60,7 +61,7 @@ https://climateknowledgeportal.worldbank.org/api/data/get-download-data
 '''
 
 
-def get_url(url, destination):
+def get_url(url, destination, country_code):
     if Path(destination).is_file():
         logger.info(f'{destination} already exist ! No download.')
         return False
@@ -68,15 +69,19 @@ def get_url(url, destination):
     # Retreive the content
     try:
         r = requests.get(url)
-        
+        content = r.content
         if r.status_code != 200:
             logger.error(f'ERROR HTTP : {r.status_code} for {url}')
             return False
         if len(r.content) < 1_000:
-            logger.error(f'ERROR HTTP content too small : {r.content} for {url}')
+            logger.error(f'ERROR HTTP content too small : {content} for {url}')
             return False
+        
+        if country_code == 'PRK':
+            to_replace = bytes('Korea, Democratic People’s Republic of', 'utf-8') #
+            content = content.replace(to_replace, b'Korea')
         with open(destination, 'wb') as f:
-            f.write(r.content)
+            f.write(content)
         return True
     except:
         logger.error(f'Unexpected ERROR for {url}: {sys.exc_info()[0]}')
@@ -102,7 +107,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
                 filename = '_'.join([nature, period, country_code]) + '.csv'
                 destination = os.path.join(PATH, filename)
                 #tasks.append(asyncloop.create_task(get_url(url, destination)))
-                futures.append(executor.submit(get_url, url=url, destination=destination))
+                futures.append(executor.submit(get_url, url=url, destination=destination, country_code=country_code))
     for future in concurrent.futures.as_completed(futures):
         #print(future.result())
         logger.debug(f'Done {future.result()}')
