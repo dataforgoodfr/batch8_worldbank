@@ -1,0 +1,123 @@
+/* Custom App CSS Below --------------------------------- */
+/*Fonts ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
+
+
+/* For devices larger than 400px */
+@media (min-width: 400px) and (max-width: 549px) {
+  .container {
+      width: 85%;
+      padding: 0;
+  }
+}
+
+.twelve.columns { width: 100%; margin-left: 0; }
+
+/* Main Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+#root {
+  margin: 0;
+}
+#logo {
+  height: 45px;
+  padding-bottom: 32px;
+  margin-left: 8px;
+}
+
+html {
+  font-size: 50%;
+  background-color: #ffffff;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0;
+}
+
+body {
+  font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #7fafdf;
+  margin: 0;
+}
+
+#app-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 5rem;
+}
+
+h4 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 4rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.banner {
+  height: 5rem;
+  padding: 0rem 2rem 0rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.banner Img {
+  position: relative;
+  height: 3rem;
+  width: auto;
+  margin-left: 2%;
+ 
+}
+
+#left-column {
+  margin-right: 1.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  flex: 6 60%;
+}
+}
+
+#right-column {
+  margin-top: 10px; 
+  flex-flow: left; 
+}
+
+
+h1{
+  color: #2c8cff;
+
+}
+
+#description {
+  font-size: 1.5rem;
+  border-right: #2cfec1 solid 1rem;
+  padding-left: 1rem;
+  max-width: 100rem;
+  margin: 2rem 0 3rem 0;
+}
+
+/* Slider
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#slider-container {
+  background-color: #e0e1e2;
+  padding: 2rem 6rem 4rem 4rem;
+  height: 8rem;
+}
+
+#slider-text, #chart-selector {
+  margin-bottom: 2rem !important;
+  font-size: 2rem;
+}
+
