@@ -49,7 +49,26 @@ def Region_card():
                                        {'label': 'South America', 'value': 'South America'}
                                     ],
                             value=['Asia', 'Europe']
-                          )                 
+                          )
+
+def Repartition_cart():
+    """
+
+    :return: A Div containing dashboard title & descriptions.
+    """
+    return dcc.Graph(
+                        id='example-graph',
+                        figure={
+                            'data': [
+                                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'Flood'},
+                                #{'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Storm'},
+                                #{'x': [1, 2, 3], 'y': [6, 7, 8], 'type': 'bar', 'name': u'Drought'},
+                            ],
+                            'layout': {
+                                'title': 'Dash Data Visualization'
+                            }
+                        }
+                    )                 
                                                      
 
 # App layout
@@ -120,7 +139,7 @@ app.layout = html.Div(
                                                                         html.Div(className='card',
                                                                                  children=[
                                                                                                 
-                                                                                                DisasterType_card(),
+                                                                                                Repartition_cart(),
                                                                                                 html.Br(),
                                                                                                 html.Br(),
                                                                                                 
