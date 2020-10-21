@@ -1,123 +1,84 @@
-/* Custom App CSS Below --------------------------------- */
-/*Fonts ––––––––––––––––––––––––––––––––––––––––––––––––––*/
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #ffffff;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 3px;
+  text-align: left;
+  background: rgb(255, 255, 255);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+#logo {
+  height: 45px;
+  padding-bottom: 3px;
+  margin-left: 3px;
+  }
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 15%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 60%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  height:50px;
+  width: 35%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
-/* For devices larger than 400px */
-@media (min-width: 400px) and (max-width: 549px) {
-  .container {
-      width: 85%;
-      padding: 0;
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
   }
 }
 
-.twelve.columns { width: 100%; margin-left: 0; }
-
-/* Main Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
-
-
-#root {
-  margin: 0;
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
-#logo {
-  height: 45px;
-  padding-bottom: 32px;
-  margin-left: 8px;
-}
-
-html {
-  font-size: 50%;
-  background-color: #ffffff;
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0;
-}
-
-body {
-  font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #7fafdf;
-  margin: 0;
-}
-
-#app-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  margin-bottom: 5rem;
-}
-
-h4 {
-  font-family: "Playfair Display", sans-serif;
-  font-size: 4rem;
-  line-height: 1.35;
-  letter-spacing: -.08rem;
-  margin-bottom: 1.2rem;
-  margin-top: 1.2rem;
-}
-
-.banner {
-  height: 5rem;
-  padding: 0rem 2rem 0rem;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.banner Img {
-  position: relative;
-  height: 3rem;
-  width: auto;
-  margin-left: 2%;
- 
-}
-
-#left-column {
-  margin-right: 1.5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-content: center;
-  flex: 6 60%;
-}
-}
-
-#right-column {
-  margin-top: 10px; 
-  flex-flow: left; 
-}
-
-
-h1{
-  color: #2c8cff;
-
-}
-
-#description {
-  font-size: 1.5rem;
-  border-right: #2cfec1 solid 1rem;
-  padding-left: 1rem;
-  max-width: 100rem;
-  margin: 2rem 0 3rem 0;
-}
-
-/* Slider
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#slider-container {
-  background-color: #e0e1e2;
-  padding: 2rem 6rem 4rem 4rem;
-  height: 8rem;
-}
-
-#slider-text, #chart-selector {
-  margin-bottom: 2rem !important;
-  font-size: 2rem;
-}
-
