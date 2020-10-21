@@ -9,12 +9,13 @@ import dash_core_components as dcc
 
 
 # Initialize app
-external_stylesheets = ['assets/style.css']
+external_stylesheets =['assets/style.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 
 # Load data
 dataset= pd.read_csv("data/DataForGood2020_updated.csv")
+dataset.head()
 YEARS = [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]
 
 
@@ -25,7 +26,7 @@ def DisasterType_card():
     :return: A Div containing dashboard title & descriptions.
     """
     return dcc.Dropdown(
-                          id='description',
+                          
                           options=[
                                      {'label': 'Drought', 'value': 'Drought'},
                                      {'label': 'Flood', 'value': 'Flood'},
@@ -39,7 +40,7 @@ def Region_card():
 
     :return: A Div containing dashboard title & descriptions.
     """
-    return dcc.Checklist(
+    return dcc.Dropdown(
                              options=[
                                        {'label': 'Asia', 'value': 'Asia'},
                                        {'label': 'Europe', 'value': 'Europe'},
@@ -52,35 +53,34 @@ def Region_card():
                                                      
 
 # App layout
-app.layout = html.Div(
-                        id="root",
-                        children=[
-                                    html.Div(
-                                        id="header",
-                                        children=[html.Img(id="logo",src=app.get_asset_url("WB_logo.jpg"))
-                                                  ],
-                                    ),
-                                    
-                                    html.Div(
-                                              id='app-container',
-                                              className="row twelve columns",
-                                              children=[
-                                                        html.Div(
-                                                                    id="left-column",
-                                                                    children=[
-                                                                    DisasterType_card(),
-                                                                    Region_card()
-                                                                    ]
-                                                                 ),
-                                                         html.Div(
-                                                                    id="slider-container",
+app.layout = html.Div( 
+                      id="root",
+                      children=[
+
+                                html.Div(
+                                          className="header",
+                                          children=[
+                                                     html.Div(className='leftcolumn',
+                                                              children=[
+                                                                          html.Img(id="logo",src=app.get_asset_url("WB_logo.jpg"))
+                                                                          
+                                                                        ]
+                                                             ),
+                                                      html.Div(className='leftcolumn',
+                                                              children=[
+                                                                        html.H2('WORLD')
+                                                                        ]
+                                                             ),
+                                                      html.Div(
+                                                                    #id="slider-container",
+                                                                    className='rightcolumn',
                                                                     children=[
                                                                         html.P(
-                                                                            id="slider-text",
+                                                                            #id="slider-text",
                                                                             children="Drag the slider to change the year:",
                                                                         ),
                                                                         dcc.Slider(
-                                                                            id="years-slider",
+                                                                            #id="years-slider",
                                                                             min=min(YEARS),
                                                                             max=max(YEARS),
                                                                             value=min(YEARS),
@@ -94,39 +94,65 @@ app.layout = html.Div(
                                                                         ),
                                                                     ],
                                                                 ),
-                                                            html.Div(
-                                                                    
-                                                                    children=[
-                                                                        html.P(
-                                                                                children="MAP",
-                                                                        ),
+                                                    ] 
+
+                                          ),
+
+                                 html.Div(className="row",
+                                          children=[html.Div(className='leftcolumn',
+                                                             children=[
+                                                                            html.Div(className='card',
+                                                                                    children=[
+                                                                                                DisasterType_card(),
+                                                                                                html.Br(),
+                                                                                                html.Br(),
+                                                                                                Region_card()
+                                                                                             ]
+                                                                            
+                                                                            
+                                                                                    ),
+                                                                      ]
                                                                         
-                                                                    ],
-                                                                ),
-                                                        ]
+                                                            ),
+                                                    html.Div(className='leftcolumn',
+                                                             children=[
+                                                                            
+                                                                        html.Div(className='card',
+                                                                                 children=[
+                                                                                                
+                                                                                                DisasterType_card(),
+                                                                                                html.Br(),
+                                                                                                html.Br(),
+                                                                                                
+                                                                                            ]
+                                                                            
+                                                                            
+                                                                                ),
+                                                                      ]
+                                                                        
+                                                            ),
+                                                    #Map     
+                                                    html.Div(className='rightcolumn',
+                                                             children=[html.Div(className='card',
+                                                                                children=[html.H2('MAP'),
+                                                                                                
+                                                                                          html.Div(className='fakeimg',
+                                                                                                   children=['Map']
+                                                                                                
+                                                                                                ),
+                                                                                            
+                                                                                        ]
+                                                                            
+                                                                                    ),
+                                                                 ]
+                                                        ), 
+                                                     ]
+                                         )
 
-                                                
-                                                         
-                                    )
-
-                                     
-                                  #  html.Div(
-                                  #              id="left-column",
-                                  #              children=[html.H1('MAP')]
-                                  #  ),
-                                  #  html.Div(id='right-column',children=['test'])
 
 
-
-                        ]  
-             )
-             
-                    
-
-
-        
-
-
+                                ]
+                )
 if __name__ == '__main__':
     app.run_server()
 
