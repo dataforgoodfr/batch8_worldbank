@@ -13,6 +13,10 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 dataset = pd.read_csv("data/DataForGood2020_updated.csv")
 YEARS = [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]
 
+# Mapbox parameters
+mapbox_access_token = "pk.eyJ1IjoibWFoZGlrYXJhYmliZW4iLCJhIjoiY2tmeWlnZzJqMXhyMzJ0czgzcWc3ejViNyJ9.MsvguTk0F7cxDBaV1Zlm_g"
+mapbox_style = "mapbox://styles/plotlymapbox/cjvprkf3t1kns1cqjxuxmwixz"
+
 
 def disaster_type_card():
     """
@@ -71,98 +75,122 @@ def repartition_cart():
 app.layout = html.Div(
     id="root",
     children=[
-
         html.Div(
-            className="header",
+            id="header",
             children=[
-                html.Div(className='leftcolumn',
-                         children=[
-                             html.Img(id="logo", src=app.get_asset_url("WB_logo.jpg"))
-
-                         ]
-                         ),
-                html.Div(className='leftcolumn',
-                         children=[
-                             html.H2('Disasters Impact Dashboard')
-                         ]
-                         ),
+                html.Img(id="logo", src=app.get_asset_url("WB_logo.jpg")),
+                html.H4(children="Financial impact of disasters per year"),
+                html.P(
+                    id="description",
+                    children="Dashboard description / project presentation",
+                ),
+            ],
+        ),
+        html.Div(
+            id="app-container",
+            children=[
                 html.Div(
-                    # id="slider-container",
-                    className='rightcolumn',
+                    id="left-column",
                     children=[
-                        html.P(
-                            # id="slider-text",
-                            children="Drag the slider to change the year:",
+                        html.Div(
+                            id="slider-container",
+                            children=[
+                                html.P(
+                                    id="slider-text",
+                                    children="Drag the slider to change the year:",
+                                ),
+                                dcc.Slider(
+                                    id="years-slider",
+                                    min=min(YEARS),
+                                    max=max(YEARS),
+                                    value=min(YEARS),
+                                    marks={
+                                        str(year): {
+                                            "label": str(year),
+                                            "style": {"color": "#7fafdf"},
+                                        }
+                                        for year in YEARS
+                                    },
+                                ),
+                            ],
                         ),
-                        dcc.Slider(
-                            # id="years-slider",
-                            min=min(YEARS),
-                            max=max(YEARS),
-                            value=min(YEARS),
-                            marks={
-                                str(year): {
-                                    "label": str(year),
-                                    "style": {"color": "#7fafdf"},
-                                }
-                                for year in YEARS
-                            },
+                        html.Div(
+                            id="heatmap-container",
+                            children=[
+                                html.P(
+                                    "Heatmap of age adjusted mortality rates \
+                            from poisonings in year {0}".format(
+                                        min(YEARS)
+                                    ),
+                                    id="heatmap-title",
+                                ),
+                                dcc.Graph(
+                                    id="county-choropleth",
+                                    figure=dict(
+                                        layout=dict(
+                                            mapbox=dict(
+                                                layers=[],
+                                                accesstoken=mapbox_access_token,
+                                                style=mapbox_style,
+                                                center=dict(
+                                                    lat=38.72490, lon=-95.61446
+                                                ),
+                                                pitch=0,
+                                                zoom=3.5,
+                                            ),
+                                            autosize=True,
+                                        ),
+                                    ),
+                                ),
+                            ],
                         ),
                     ],
                 ),
-            ]
-
+                html.Div(
+                    id="graph-container",
+                    children=[
+                        html.P(id="chart-selector", children="Select chart:"),
+                        dcc.Dropdown(
+                            options=[
+                                {
+                                    "label": "Histogram of total number of deaths (single year)",
+                                    "value": "show_absolute_deaths_single_year",
+                                },
+                                {
+                                    "label": "Histogram of total number of deaths (1999-2016)",
+                                    "value": "absolute_deaths_all_time",
+                                },
+                                {
+                                    "label": "Age-adjusted death rate (single year)",
+                                    "value": "show_death_rate_single_year",
+                                },
+                                {
+                                    "label": "Trends in age-adjusted death rate (1999-2016)",
+                                    "value": "death_rate_all_time",
+                                },
+                            ],
+                            value="show_death_rate_single_year",
+                            id="chart-dropdown",
+                        ),
+                        dcc.Graph(
+                            id="selected-data",
+                            figure=dict(
+                                data=[dict(x=0, y=0)],
+                                layout=dict(
+                                    paper_bgcolor="#F4F4F8",
+                                    plot_bgcolor="#F4F4F8",
+                                    autofill=True,
+                                    margin=dict(t=75, r=50, b=100, l=50),
+                                ),
+                            ),
+                        ),
+                    ],
+                ),
+            ],
         ),
-
-        html.Div(className="row",
-                 children=[html.Div(className='leftcolumn',
-                                    children=[
-                                        html.Div(className='card',
-                                                 children=[
-                                                     disaster_type_card(),
-                                                     html.Br(),
-                                                     html.Br(),
-                                                     region_card()
-                                                 ]
-
-                                                 ),
-                                    ]
-
-                                    ),
-                           html.Div(className='leftcolumn',
-                                    children=[
-
-                                        html.Div(className='card',
-                                                 children=[
-
-                                                     repartition_cart(),
-                                                     html.Br(),
-                                                     html.Br(),
-
-                                                 ]
-
-                                                 ),
-                                    ]
-
-                                    ),
-                           # Map
-                           html.Div(className='rightcolumn',
-                                    children=[html.Div(className='card',
-                                                       children=[html.H2('MAP'),
-
-                                                                 html.Div(className='fakeimg',
-                                                                          children=['Map']
-
-                                                                          ),
-
-                                                                 ]
-
-                                                       ),
-                                              ]
-                                    ),
-                           ]
-                 )
-
-    ]
+    ],
 )
+
+
 if __name__ == '__main__':
     app.run_server()
