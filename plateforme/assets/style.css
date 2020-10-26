@@ -723,6 +723,12 @@ hr {
     margin: 0;
 }
 
+#graph-container-2 {
+    background-color: #252e3f;
+    padding: 5rem;
+    margin: 0;
+}
+
 @media (max-width: 1250px) {
     /*For mobile and smaller screens*/
     #header h4 {
@@ -730,6 +736,10 @@ hr {
     }
 
     #graph-container {
+        margin-top: 5rem;
+    }
+
+    #graph-container-2 {
         margin-top: 5rem;
     }
 
@@ -741,7 +751,7 @@ hr {
 @media (min-width: 1251px) {
     /*For desktop*/
     #logo {
-        float: right;
+        float: left;
         padding-right: 2rem;
     }
 
@@ -750,7 +760,16 @@ hr {
     }
 
     #graph-container {
-        flex: 4 40%;
+        flex: 4 8%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+
+    #graph-container-2 {
+        flex: 4 8%;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -765,6 +784,10 @@ hr {
 
 @media (max-width: 550px) {
     #graph-container {
+        padding: 2.5rem;
+    }
+
+    #graph-container-2 {
         padding: 2.5rem;
     }
 
