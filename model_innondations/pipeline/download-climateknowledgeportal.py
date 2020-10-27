@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 import os, sys
 import pandas as pd
@@ -23,7 +24,7 @@ countries_name = df.name.to_list()
 
 variables = ['pr']
 
-past_time_series = ["1901-1930", "1931-1960", "1961-1990", "1901-2016", "1991-2016"]
+past_time_series = ["1901-2016"]
 futu_time_series = ["2020_2039", "2040_2059", "2060_2079", "2080_2099"]
 
 logger = logging.getLogger("download")
@@ -68,15 +69,16 @@ def get_url(url, destination):
     # Retreive the content
     try:
         r = requests.get(url)
-        
+        content = r.content
         if r.status_code != 200:
             logger.error(f'ERROR HTTP : {r.status_code} for {url}')
             return False
         if len(r.content) < 1_000:
-            logger.error(f'ERROR HTTP content too small : {r.content} for {url}')
+            logger.error(f'ERROR HTTP content too small : {content} for {url}')
             return False
+        
         with open(destination, 'wb') as f:
-            f.write(r.content)
+            f.write(content)
         return True
     except:
         logger.error(f'Unexpected ERROR for {url}: {sys.exc_info()[0]}')
