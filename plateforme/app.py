@@ -13,51 +13,14 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 # Load data
 df_input = pd.read_csv("data/DataForGood2020_updated.csv")
-YEARS = [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]
+YEARS = [1900, 1920, 1940, 1960, 1980, 2000, 2020, 2040, 2060, 2080, 2100]
 
-BINS = [
-    "0-2",
-    "2.1-4",
-    "4.1-6",
-    "6.1-8",
-    "8.1-10",
-    "10.1-12",
-    "12.1-14",
-    "14.1-16",
-    "16.1-18",
-    "18.1-20",
-    "20.1-22",
-    "22.1-24",
-    "24.1-26",
-    "26.1-28",
-    "28.1-30",
-    ">30",
-]
-
-DEFAULT_COLORSCALE = [
-    "#f2fffb",
-    "#bbffeb",
-    "#98ffe0",
-    "#79ffd6",
-    "#6df0c8",
-    "#69e7c0",
-    "#59dab2",
-    "#45d0a5",
-    "#31c194",
-    "#2bb489",
-    "#25a27b",
-    "#1e906d",
-    "#188463",
-    "#157658",
-    "#11684d",
-    "#10523e",
-]
 
 DEFAULT_OPACITY = 0.8
 
 # Mapbox parameters
 mapbox_access_token = "pk.eyJ1IjoibWFoZGlrYXJhYmliZW4iLCJhIjoiY2tmeWlnZzJqMXhyMzJ0czgzcWc3ejViNyJ9.MsvguTk0F7cxDBaV1Zlm_g"
-mapbox_style = "mapbox://styles/plotlymapbox/cjvprkf3t1kns1cqjxuxmwixz"
+mapbox_style = "mapbox://styles/mahdikarabiben/ckgzi4dac1jez19qlanqcpp5l"
 
 
 def disaster_type_card():
@@ -65,7 +28,7 @@ def disaster_type_card():
 
     :return: A Div containing dashboard title & descriptions.
     """
-    return dcc.Dropdown(
+    return dcc.RadioItems(
 
         options=[
             {'label': 'Drought', 'value': 'Drought'},
@@ -122,20 +85,13 @@ app.layout = html.Div(
                 html.Div(
                     id="graph-container",
                     children=[
-                        html.Img(id="logo", src=app.get_asset_url("WB_logo.jpg"), style={'textAlign': 'left'}),
+                        html.Img(className="wb-logo", src=app.get_asset_url("WB_logo.jpg"), style={'textAlign': 'left'}),
+                        html.Br(),
+                        html.Label('Disaster Type'),
                         disaster_type_card(),
                         html.Br(),
                         html.Br(),
                         region_card()
-                    ],
-                ),
-                html.Div(
-                    id="graph-container-2",
-                    children=[
-                        html.P(id="world", children="WORLD"),
-                        html.Br(),
-                        html.Br(),
-                        repartition_cart(),
                     ],
                 ),
                 html.Div(
@@ -148,11 +104,12 @@ app.layout = html.Div(
                                     id="slider-text",
                                     children="Drag the slider to change the year:",
                                 ),
-                                dcc.Slider(
+                                dcc.RangeSlider(
                                     id="years-slider",
-                                    min=min(YEARS),
-                                    max=max(YEARS),
-                                    value=min(YEARS),
+                                    min=1900,
+                                    max=2100,
+                                    step=10,
+                                    value=[1900, 1920],
                                     marks={
                                         str(year): {
                                             "label": str(year),
@@ -181,10 +138,10 @@ app.layout = html.Div(
                                                 accesstoken=mapbox_access_token,
                                                 style=mapbox_style,
                                                 center=dict(
-                                                    lat=38.72490, lon=-95.61446
+                                                    lat=0, lon=0
                                                 ),
                                                 pitch=0,
-                                                zoom=3.5,
+                                                zoom=1,
                                             ),
                                             autosize=True,
                                         ),
@@ -206,7 +163,6 @@ app.layout = html.Div(
     [State("county-choropleth", "figure")],
 )
 def display_map(year, figure):
-    cm = dict(zip(BINS, DEFAULT_COLORSCALE))
 
     data = [
         dict(
@@ -223,7 +179,7 @@ def display_map(year, figure):
         dict(
             showarrow=False,
             align="right",
-            text="<b>Disasters damage<br>per county per year</b>",
+            text="",
             font=dict(color="#2cfec1"),
             bgcolor="#1f2630",
             x=0.95,
@@ -231,30 +187,13 @@ def display_map(year, figure):
         )
     ]
 
-    for i, bin in enumerate(reversed(BINS)):
-        color = cm[bin]
-        annotations.append(
-            dict(
-                arrowcolor=color,
-                text=bin,
-                x=0.95,
-                y=0.85 - (i / 20),
-                ax=-60,
-                ay=0,
-                arrowwidth=5,
-                arrowhead=0,
-                bgcolor="#1f2630",
-                font=dict(color="#2cfec1"),
-            )
-        )
-
     if "layout" in figure:
         lat = figure["layout"]["mapbox"]["center"]["lat"]
         lon = figure["layout"]["mapbox"]["center"]["lon"]
         zoom = figure["layout"]["mapbox"]["zoom"]
     else:
-        lat = 38.72490
-        lon = -95.61446
+        lat = 0
+        lon = 0
         zoom = 3.5
 
     layout = dict(
@@ -268,21 +207,8 @@ def display_map(year, figure):
         hovermode="closest",
         margin=dict(r=0, l=0, t=0, b=0),
         annotations=annotations,
-        dragmode="lasso",
+        dragmode="pan",
     )
-
-    base_url = "https://raw.githubusercontent.com/jackparmer/mapbox-counties/master/"
-    for bin in BINS:
-        geo_layer = dict(
-            sourcetype="geojson",
-            source=base_url + str(year) + "/" + bin + ".geojson",
-            type="fill",
-            color=cm[bin],
-            opacity=DEFAULT_OPACITY,
-            # CHANGE THIS
-            fill=dict(outlinecolor="#afafaf"),
-        )
-        layout["mapbox"]["layers"].append(geo_layer)
 
     fig = dict(data=data, layout=layout)
     return fig

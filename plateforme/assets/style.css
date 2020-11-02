@@ -219,7 +219,7 @@ html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
     font-size: 50%;
-    background-color: #1f2630;
+    /* background-color: #1f2630; */
     max-width: 100% !important;
     width: 100% !important;
     margin: 0;
@@ -230,8 +230,12 @@ body {
     line-height: 1.6;
     font-weight: 400;
     font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #7fafdf;
+    /* color: #7fafdf; */
     margin: 0;
+}
+
+.wb-logo {
+  width: 40%;
 }
 
 #root {
@@ -240,13 +244,13 @@ body {
 
 @media (max-width: 550px) {
     #root {
-        padding: 2rem;
+        padding: 0rem;
     }
 }
 
 @media (min-width: 551px) {
     #root {
-        padding: 5rem;
+        padding: 0rem;
     }
 }
 
@@ -325,6 +329,9 @@ p {
 }
 
 #logo {
+    width: 90%;
+    margin-left: 4%;
+    /*margin-top: 40px;*/
     height: 5rem;
     margin-bottom: 2rem;
 }
@@ -642,7 +649,7 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #slider-container {
-    background-color: #252e3f;
+    background-color: #f5f5f5;
     padding: 2rem 6rem 4rem 4rem;
     height: 8rem;
 }
@@ -662,8 +669,8 @@ hr {
 /* Heatmap
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #heatmap-container {
-    margin: 2.5rem 0 0 0;
-    background-color: #252e3f;
+    margin: 0 0 0 0;
+    background-color: #f5f5f5;
 }
 
 #heatmap-title {
@@ -696,7 +703,6 @@ hr {
 @media only screen and (max-width: 1250px) {
     /*For mobile and smaller screens*/
     #left-column {
-        margin-right: 1.5%;
         width: 100%;
     }
 }
@@ -704,7 +710,6 @@ hr {
 @media (min-width: 1251px) {
     /*For desktop*/
     #left-column {
-        margin-right: 1.5%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -718,13 +723,7 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #graph-container {
-    background-color: #252e3f;
-    padding: 5rem;
-    margin: 0;
-}
-
-#graph-container-2 {
-    background-color: #252e3f;
+    background-color: #f5f5f5;
     padding: 5rem;
     margin: 0;
 }
@@ -736,11 +735,6 @@ hr {
     }
 
     #graph-container {
-        margin-top: 5rem;
-    }
-
-    #graph-container-2 {
-        margin-top: 5rem;
     }
 
     #selected-data {
@@ -753,6 +747,7 @@ hr {
     #logo {
         float: left;
         padding-right: 2rem;
+        margin: 0 auto;
     }
 
     #header p {
@@ -760,16 +755,7 @@ hr {
     }
 
     #graph-container {
-        flex: 4 8%;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        justify-content: flex-start;
-    }
-
-    #graph-container-2 {
-        flex: 4 8%;
+        flex: 2 8%;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -802,7 +788,6 @@ hr {
 
 
 #chart-dropdown {
-    margin-bottom: 6.6rem;
 }
 
 /* Dropdown
@@ -820,12 +805,12 @@ hr {
 }
 
 .Select-menu-outer {
-    background-color: #252e3f !important;
+    background-color: #f5f5f5 !important;
     border: 1px solid #7fafdf !important;
 }
 
 .Select div {
-    background-color: #252e3f !important;
+    background-color: #f5f5f5 !important;
 }
 
 .Select-menu-outer div:hover {
@@ -852,7 +837,6 @@ hr {
         flex-direction: column;
         justify-content: flex-start;
         align-items: stretch;
-        margin-bottom: 5rem;
     }
 }
 
@@ -864,12 +848,10 @@ hr {
         justify-content: flex-start;
         align-items: stretch;
         height: 100rem;
-        margin-bottom: 5rem;
     }
 }
 
 #header {
-    margin-left: 1.5%;
 }
 
 
