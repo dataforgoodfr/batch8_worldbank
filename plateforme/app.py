@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import dash
@@ -6,15 +7,39 @@ import dash_html_components as html
 import dash_core_components as dcc
 from dash.dependencies import Input, Output, State
 
-
 # Initialize app
 external_stylesheets = ['assets/style.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 # Load data
 df_input = pd.read_csv("data/DataForGood2020_updated.csv")
+df_map_data = df_input[['Year',
+                        'Disaster Group',
+                        'Disaster Subgroup',
+                        'Disaster Type',
+                        'Continent',
+                        'Region',
+                        'Country',
+                        'ISO',
+                        'Total Deaths',
+                        'No Injured',
+                        'No Affected',
+                        'No Homeless',
+                        'Total Affected',
+                        'latitude',
+                        'longitude',
+                        'name'
+                        ]]
+df_map_data = (df_map_data
+               .groupby(['Year', 'Region', 'Country', 'ISO', 'latitude', 'longitude'])
+               .agg({'Total Deaths': 'sum',
+                     'No Injured': 'sum',
+                     'No Affected': 'sum',
+                     'No Homeless': 'sum',
+                     'Total Affected': 'sum',
+                     'name': 'count'})
+               .reset_index())
 YEARS = [1900, 1920, 1940, 1960, 1980, 2000, 2020, 2040, 2060, 2080, 2100]
-
 
 DEFAULT_OPACITY = 0.8
 
@@ -75,6 +100,59 @@ def repartition_cart():
         }
     )
 
+
+
+
+'''@app.callback(
+    Output("county-choropleth", "figure"),
+    [Input("years-slider", "value")],
+    [State("county-choropleth", "figure")],
+)'''
+
+
+def display_map():
+    fig = go.Figure(
+        go.Scattermapbox(
+            lat=df_map_data["latitude"],
+            lon=df_map_data["longitude"],
+            mode='markers',
+            marker=go.scattermapbox.Marker(
+                size=df_map_data['name'],
+                color=df_map_data['name'],
+                showscale=True,
+                colorbar={'title': 'Disasters', 'titleside': 'top', 'thickness': 4, 'ticksuffix': ' %'},
+            ),
+            customdata=np.stack(
+                (pd.Series(df_map_data['Country']),
+                 df_map_data['No Injured'],
+                 df_map_data['No Affected'],
+                 df_map_data['Total Affected']),
+                axis=-1
+            ),
+
+            hovertemplate="""
+      <extra></extra>
+      <em>%{customdata[0]}  </em><br>
+      🚨  %{customdata[1]}<br>
+      🏡  %{customdata[2]}<br>
+      ⚰️  %{customdata[3]}
+      """,
+        )
+    )
+
+    # Specify layout information
+    fig.update_layout(
+        mapbox=dict(
+            accesstoken=mapbox_access_token,
+            style=mapbox_style,
+            center=go.layout.mapbox.Center(lat=45, lon=-73),
+            zoom=1
+        )
+    )
+    return fig
+
+
+
 # App layout
 app.layout = html.Div(
     id="root",
@@ -85,7 +163,8 @@ app.layout = html.Div(
                 html.Div(
                     id="graph-container",
                     children=[
-                        html.Img(className="wb-logo", src=app.get_asset_url("WB_logo.jpg"), style={'textAlign': 'left'}),
+                        html.Img(className="wb-logo", src=app.get_asset_url("WB_logo.jpg"),
+                                 style={'textAlign': 'left'}),
                         html.Br(),
                         html.Label('Disaster Type'),
                         disaster_type_card(),
@@ -131,21 +210,7 @@ app.layout = html.Div(
                                 ),
                                 dcc.Graph(
                                     id="county-choropleth",
-                                    figure=dict(
-                                        layout=dict(
-                                            mapbox=dict(
-                                                layers=[],
-                                                accesstoken=mapbox_access_token,
-                                                style=mapbox_style,
-                                                center=dict(
-                                                    lat=0, lon=0
-                                                ),
-                                                pitch=0,
-                                                zoom=1,
-                                            ),
-                                            autosize=True,
-                                        ),
-                                    ),
+                                    figure=display_map()
                                 ),
                             ],
                         ),
@@ -155,63 +220,6 @@ app.layout = html.Div(
         ),
     ],
 )
-
-
-@app.callback(
-    Output("county-choropleth", "figure"),
-    [Input("years-slider", "value")],
-    [State("county-choropleth", "figure")],
-)
-def display_map(year, figure):
-
-    data = [
-        dict(
-            lat=df_input["latitude"],
-            lon=df_input["longitude"],
-            text=df_input["Country"],
-            type="scattermapbox",
-            hoverinfo="text",
-            marker=dict(size=5, color="white", opacity=0),
-        )
-    ]
-
-    annotations = [
-        dict(
-            showarrow=False,
-            align="right",
-            text="",
-            font=dict(color="#2cfec1"),
-            bgcolor="#1f2630",
-            x=0.95,
-            y=0.95,
-        )
-    ]
-
-    if "layout" in figure:
-        lat = figure["layout"]["mapbox"]["center"]["lat"]
-        lon = figure["layout"]["mapbox"]["center"]["lon"]
-        zoom = figure["layout"]["mapbox"]["zoom"]
-    else:
-        lat = 0
-        lon = 0
-        zoom = 3.5
-
-    layout = dict(
-        mapbox=dict(
-            layers=[],
-            accesstoken=mapbox_access_token,
-            style=mapbox_style,
-            center=dict(lat=lat, lon=lon),
-            zoom=zoom,
-        ),
-        hovermode="closest",
-        margin=dict(r=0, l=0, t=0, b=0),
-        annotations=annotations,
-        dragmode="pan",
-    )
-
-    fig = dict(data=data, layout=layout)
-    return fig
 
 
 @app.callback(Output("heatmap-title", "children"), [Input("years-slider", "value")])

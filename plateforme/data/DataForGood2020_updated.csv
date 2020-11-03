@@ -1,4 +1,4 @@
-,Dis No,Year,Seq,Disaster Group,Disaster Subgroup,Disaster Type,Start Year,End Year,Continent,Region,Country,ISO,Total Deaths,No Injured,No Affected,No Homeless,Total Affected,codes,country,latitude,longitude,name
+id,Dis No,Year,Seq,Disaster Group,Disaster Subgroup,Disaster Type,Start Year,End Year,Continent,Region,Country,ISO,Total Deaths,No Injured,No Affected,No Homeless,Total Affected,codes,country,latitude,longitude,name
 0,1900-9002-CPV,1900,9002,Natural,Climatological,Drought,1900,1900,Africa,Western Africa,Cabo Verde,CPV,11000.0,,,,,CV,CV,16.002082,-24.013197,Cape Verde
 1,1910-9006-CPV,1910,9006,Natural,Climatological,Drought,1910,1914,Africa,Western Africa,Cabo Verde,CPV,,,,,,CV,CV,16.002082,-24.013197,Cape Verde
 2,1920-9004-CPV,1920,9004,Natural,Climatological,Drought,1920,1920,Africa,Western Africa,Cabo Verde,CPV,24000.0,,,,,CV,CV,16.002082,-24.013197,Cape Verde
