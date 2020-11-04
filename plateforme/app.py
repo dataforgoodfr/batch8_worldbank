@@ -230,3 +230,4 @@ def update_map_title(year):
 
 if __name__ == '__main__':
     app.run_server()
+    server = app.server
