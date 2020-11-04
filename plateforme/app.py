@@ -10,6 +10,7 @@ from dash.dependencies import Input, Output, State
 # Initialize app
 external_stylesheets = ['assets/style.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 # Load data
 df_input = pd.read_csv("data/DataForGood2020_updated.csv")
@@ -230,4 +231,3 @@ def update_map_title(year):
 
 if __name__ == '__main__':
     app.run_server()
-    server = app.server
