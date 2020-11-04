@@ -147,7 +147,8 @@ def display_map():
             style=mapbox_style,
             center=go.layout.mapbox.Center(lat=45, lon=-73),
             zoom=1
-        )
+        ),
+        margin=dict(l=0, r=0, t=0, b=0)
     )
     return fig
 
