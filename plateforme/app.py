@@ -32,7 +32,7 @@ df_map_data = df_input[['Year',
                         'name'
                         ]]
 df_map_data = (df_map_data
-               .groupby(['Year', 'Region', 'Country', 'ISO', 'latitude', 'longitude'])
+               .groupby(['Year', 'Region', 'latitude', 'longitude'])
                .agg({'Total Deaths': 'sum',
                      'No Injured': 'sum',
                      'No Affected': 'sum',
@@ -104,13 +104,11 @@ def repartition_cart():
 
 
 
-'''@app.callback(
+@app.callback(
     Output("county-choropleth", "figure"),
     [Input("years-slider", "value")],
     [State("county-choropleth", "figure")],
-)'''
-
-
+)
 def display_map():
     fig = go.Figure(
         go.Scattermapbox(
