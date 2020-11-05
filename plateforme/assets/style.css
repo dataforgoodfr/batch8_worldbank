@@ -44,6 +44,28 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
+.pretty_container {
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    border: 1px solid #3f3d3d;
+  }
+
+  .pretty_container-2 {
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    border: 1px solid white;
+  }
+
+  .app-title {
+    color: #333333;
+    padding-left: 2%;
+  }
 
 .column,
 .columns {
@@ -219,10 +241,21 @@ html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
     font-size: 50%;
-    /* background-color: #1f2630; */
+    background-color: white;
     max-width: 100% !important;
     width: 100% !important;
     margin: 0;
+    padding:0;
+
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+
 }
 
 body {
@@ -230,13 +263,17 @@ body {
     line-height: 1.6;
     font-weight: 400;
     font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* color: #7fafdf; */
+    /*color: #7fafdf;*/
+    background-color: #f9f9f9;
     margin: 0;
 }
 
-.wb-logo {
-  width: 40%;
-}
+.logo {
+    height: 100px;
+    width: 200px;
+    padding-bottom: 3px;
+    margin-left: 1px;
+    }
 
 #root {
     margin: 0;
@@ -244,13 +281,13 @@ body {
 
 @media (max-width: 550px) {
     #root {
-        padding: 0rem;
+        padding: 2rem;
     }
 }
 
 @media (min-width: 551px) {
     #root {
-        padding: 0rem;
+        padding: 5rem;
     }
 }
 
@@ -329,11 +366,8 @@ p {
 }
 
 #logo {
-    width: 90%;
-    margin-left: 4%;
-    /*margin-top: 40px;*/
-    height: 5rem;
-    margin-bottom: 2rem;
+    height: 45px;
+    width: 80px;
 }
 
 #slider-text, #chart-selector {
@@ -649,9 +683,10 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #slider-container {
-    background-color: #f5f5f5;
+    background-color: white;
     padding: 2rem 6rem 4rem 4rem;
     height: 8rem;
+    border: 1px solid black;
 }
 
 .rc-slider-dot-active, .rc-slider-handle {
@@ -669,8 +704,9 @@ hr {
 /* Heatmap
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #heatmap-container {
-    margin: 0 0 0 0;
-    background-color: #f5f5f5;
+    margin: 2.5rem 0 0 0;
+    background-color: white;
+    border: 1px solid black;
 }
 
 #heatmap-title {
@@ -703,6 +739,7 @@ hr {
 @media only screen and (max-width: 1250px) {
     /*For mobile and smaller screens*/
     #left-column {
+        margin-right: 1.5%;
         width: 100%;
     }
 }
@@ -710,6 +747,7 @@ hr {
 @media (min-width: 1251px) {
     /*For desktop*/
     #left-column {
+        margin-right: 1.5%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -723,7 +761,15 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #graph-container {
-    background-color: #f5f5f5;
+    /*background-color: #252e3f;*/
+    background-color: #f9f9f9;
+    padding: 5rem;
+    border: 1px solid white;
+    margin: 0;
+}
+
+#graph-container-2 {
+    background-color: #252e3f;
     padding: 5rem;
     margin: 0;
 }
@@ -735,6 +781,11 @@ hr {
     }
 
     #graph-container {
+        margin-top: 5rem;
+    }
+
+    #graph-container-2 {
+        margin-top: 5rem;
     }
 
     #selected-data {
@@ -747,7 +798,6 @@ hr {
     #logo {
         float: left;
         padding-right: 2rem;
-        margin: 0 auto;
     }
 
     #header p {
@@ -755,7 +805,16 @@ hr {
     }
 
     #graph-container {
-        flex: 2 8%;
+        flex: 4 8%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+
+    #graph-container-2 {
+        flex: 4 8%;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -788,6 +847,7 @@ hr {
 
 
 #chart-dropdown {
+    margin-bottom: 6.6rem;
 }
 
 /* Dropdown
@@ -797,33 +857,33 @@ hr {
 }
 
 .Select-control {
-    color: #7fafdf !important;
+    color: white !important;
 }
 
 .Select {
-    color: #7fafdf !important;
+    color: black !important;
 }
 
 .Select-menu-outer {
-    background-color: #f5f5f5 !important;
-    border: 1px solid #7fafdf !important;
+    background-color: white !important;
+    border: 1px solid black !important;
 }
 
 .Select div {
-    background-color: #f5f5f5 !important;
+    background-color: white !important;
 }
 
 .Select-menu-outer div:hover {
-    background-color: rgba(255, 255, 255, 0.01) !important;
+    background-color: white !important;
     cursor: pointer;
 }
 
 .Select-value-label {
-    color: #7fafdf !important;
+    color: #0d0d0e !important;
 }
 
 .Select--single > .Select-control .Select-value, .Select-placeholder {
-    border: 1px solid #7fafdf !important;
+    border: 1px solid #1f2020 !important;
     border-radius: 4px !important;
 }
 
@@ -837,6 +897,7 @@ hr {
         flex-direction: column;
         justify-content: flex-start;
         align-items: stretch;
+        margin-bottom: 5rem;
     }
 }
 
@@ -848,10 +909,12 @@ hr {
         justify-content: flex-start;
         align-items: stretch;
         height: 100rem;
+        margin-bottom: 5rem;
     }
 }
 
 #header {
+    margin-left: 1.5%;
 }
 
 
