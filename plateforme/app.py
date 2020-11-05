@@ -6,6 +6,8 @@ import dash_html_components as html
 import dash_core_components as dcc
 from dash.dependencies import Input, Output, State
 
+#import utils.dash_reusable_components as drc
+#import utils.figures as figs
 
 # Initialize app
 external_stylesheets = ['assets/style.css']
@@ -65,15 +67,24 @@ def disaster_type_card():
 
     :return: A Div containing dashboard title & descriptions.
     """
-    return dcc.Dropdown(
+    return html.Div(
+              children=[
+                        html.H6("Disaster Type"),
+                        dcc.Dropdown(
 
-        options=[
-            {'label': 'Drought', 'value': 'Drought'},
-            {'label': 'Flood', 'value': 'Flood'},
-            {'label': 'Storm', 'value': 'Storm'}
-        ],
-        value='Drought'
+                            options=[
+                                {'label': 'Drought', 'value': 'Drought'},
+                                {'label': 'Flood', 'value': 'Flood'},
+                                {'label': 'Storm', 'value': 'Storm'}
+                            ],
+                            value='Drought'
+                        )
+                    ]
+
+
     )
+    
+
 
 
 def region_card():
@@ -81,16 +92,21 @@ def region_card():
 
     :return: A Div containing dashboard title & descriptions.
     """
-    return dcc.Dropdown(
-        options=[
-            {'label': 'Asia', 'value': 'Asia'},
-            {'label': 'Europe', 'value': 'Europe'},
-            {'label': 'Middle East', 'value': 'Middle East'},
-            {'label': 'North America', 'value': 'North America'},
-            {'label': 'South America', 'value': 'South America'}
-        ],
-        value=['Asia', 'Europe']
-    )
+    return html.Div(
+              children=[
+                        html.H6("Region"),
+                        dcc.Dropdown(
+                            options=[
+                                {'label': 'Asia', 'value': 'Asia'},
+                                {'label': 'Europe', 'value': 'Europe'},
+                                {'label': 'Middle East', 'value': 'Middle East'},
+                                {'label': 'North America', 'value': 'North America'},
+                                {'label': 'South America', 'value': 'South America'}
+                            ],
+                            value=['Asia', 'Europe']
+                        )
+              ]
+    )   
 
 
 def repartition_cart():
@@ -112,6 +128,62 @@ def repartition_cart():
         }
     )
 
+def damage_type():
+    return  html.Div(
+                                    className="padding-top-bot",
+                                    children=[
+                                        html.H6("Damage Type"),
+                                        dcc.RadioItems(
+                                            id="chart-type",
+                                            options=[
+                                                {"label": " Human", "value": "box"},
+                                                {
+                                                    "label": " Dollars",
+                                                    "value": "violin",
+                                                },
+                                            ],
+                                            value="violin",
+                                            labelStyle={
+                                                "display": "inline-block",
+                                                "padding": "12px 12px 12px 0px",
+                                            },
+                                        ),
+                                    ],
+                                )
+
+def climate_scenario():
+
+    return  html.Div(
+                     children=[
+                               html.H6("Climate scenario"),
+                               dcc.RadioItems(
+                                    id="cluster-ctl",
+                                    options=[
+                                        {"label": " 4", "value": "4"},
+                                        {
+                                            "label": " 3",
+                                            "value": "3",
+                                        },
+                                        {
+                                            "label": " 2",
+                                            "value": "2",
+                                        },
+                                        {
+                                            "label": " 1",
+                                            "value": "1",
+                                        },
+
+                                    ],
+                                    value="no-cluster",
+                                ),
+                            ]
+                  )
+
+
+
+
+
+
 # App layout
 app.layout = html.Div(
     id="root",
@@ -122,21 +194,52 @@ app.layout = html.Div(
                 html.Div(
                     id="graph-container",
                     children=[
-                        html.Img(id="logo", src=app.get_asset_url("WB_logo.jpg"), style={'textAlign': 'left'}),
-                        disaster_type_card(),
+                        html.Div(
+                                children=[
+                                html.Img(id="logo",src=app.get_asset_url("WB_logo.jpg")),
+                                html.Span(
+                                            
+                                            html.H3(dcc.Markdown("**Disaster Economics Map Explorer**")),
+                                        
+                                    ),
+                                ]
+                        ),
+                        html.Div(
+                                className="pretty_container",
+                                children=[disaster_type_card()]
+                        ), 
                         html.Br(),
                         html.Br(),
-                        region_card()
+                        html.Div(
+                                className="pretty_container",
+                                children=[region_card()]
+                        ), 
+                        
+                        html.Br(),
+                        html.Div(
+                                className="pretty_container",
+                                children=[damage_type()]
+                        ), 
+                        
+                        html.Br(),
+                        html.Div(
+                                className="pretty_container",
+                                children=[climate_scenario()]
+                        ), 
+
+                        
                     ],
                 ),
+
                 html.Div(
-                    id="graph-container-2",
-                    children=[
-                        html.P(id="world", children="WORLD"),
-                        html.Br(),
-                        html.Br(),
-                        repartition_cart(),
-                    ],
+                   className="pretty_container-2",
+               #     children=[
+               #         html.P(id="world", children="WORLD"),
+               #         html.Br(),
+               #         html.Br(),
+               #         repartition_cart(),
+                        #damage_type()
+               #     ],
                 ),
                 html.Div(
                     id="left-column",
@@ -215,7 +318,7 @@ def display_map(year, figure):
             text=df_input["Country"],
             type="scattermapbox",
             hoverinfo="text",
-            marker=dict(size=5, color="white", opacity=0),
+            marker=dict(size=5, color="white", opacity=1),
         )
     ]
 

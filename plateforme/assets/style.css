@@ -44,6 +44,28 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
+.pretty_container {
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    border: 1px solid #3f3d3d;
+  }
+  
+  .pretty_container-2 {
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    border: 1px solid white;
+  }
+
+  .app-title {
+    color: #333333;
+    padding-left: 2%;
+  }
 
 .column,
 .columns {
@@ -219,10 +241,21 @@ html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
     font-size: 50%;
-    background-color: #1f2630;
+    background-color: white;
     max-width: 100% !important;
     width: 100% !important;
     margin: 0;
+    padding:0;
+
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+
 }
 
 body {
@@ -230,9 +263,17 @@ body {
     line-height: 1.6;
     font-weight: 400;
     font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #7fafdf;
+    /*color: #7fafdf;*/
+    background-color: #f9f9f9;
     margin: 0;
 }
+
+.logo {
+    height: 100px;
+    width: 200px;
+    padding-bottom: 3px;
+    margin-left: 1px;
+    }
 
 #root {
     margin: 0;
@@ -325,8 +366,8 @@ p {
 }
 
 #logo {
-    height: 5rem;
-    margin-bottom: 2rem;
+    height: 45px;
+    width: 80px;
 }
 
 #slider-text, #chart-selector {
@@ -642,9 +683,10 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #slider-container {
-    background-color: #252e3f;
+    background-color: white;
     padding: 2rem 6rem 4rem 4rem;
     height: 8rem;
+    border: 1px solid black;
 }
 
 .rc-slider-dot-active, .rc-slider-handle {
@@ -663,7 +705,8 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #heatmap-container {
     margin: 2.5rem 0 0 0;
-    background-color: #252e3f;
+    background-color: white;
+    border: 1px solid black;
 }
 
 #heatmap-title {
@@ -718,8 +761,10 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #graph-container {
-    background-color: #252e3f;
+    /*background-color: #252e3f;*/
+    background-color: #f9f9f9;
     padding: 5rem;
+    border: 1px solid white;
     margin: 0;
 }
 
@@ -812,33 +857,33 @@ hr {
 }
 
 .Select-control {
-    color: #7fafdf !important;
+    color: white !important;
 }
 
 .Select {
-    color: #7fafdf !important;
+    color: black !important;
 }
 
 .Select-menu-outer {
-    background-color: #252e3f !important;
-    border: 1px solid #7fafdf !important;
+    background-color: white !important;
+    border: 1px solid black !important;
 }
 
 .Select div {
-    background-color: #252e3f !important;
+    background-color: white !important;
 }
 
 .Select-menu-outer div:hover {
-    background-color: rgba(255, 255, 255, 0.01) !important;
+    background-color: white !important;
     cursor: pointer;
 }
 
 .Select-value-label {
-    color: #7fafdf !important;
+    color: #0d0d0e !important;
 }
 
 .Select--single > .Select-control .Select-value, .Select-placeholder {
-    border: 1px solid #7fafdf !important;
+    border: 1px solid #1f2020 !important;
     border-radius: 4px !important;
 }
 
