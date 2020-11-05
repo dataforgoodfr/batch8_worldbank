@@ -32,7 +32,7 @@ df_map_data = df_input[['Year',
                         'name'
                         ]]
 df_map_data = (df_map_data
-               .groupby(['Year', 'Region', 'latitude', 'longitude'])
+               .groupby(['Year', 'Region', 'Country', 'latitude', 'longitude'])
                .agg({'Total Deaths': 'sum',
                      'No Injured': 'sum',
                      'No Affected': 'sum',
@@ -172,11 +172,11 @@ def climate_scenario():
 
 
 
-@app.callback(
+'''@app.callback(
     Output("county-choropleth", "figure"),
     [Input("years-slider", "value")],
     [State("county-choropleth", "figure")],
-)
+)'''
 def display_map():
     fig = go.Figure(
         go.Scattermapbox(
