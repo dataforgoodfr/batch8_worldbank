@@ -392,7 +392,7 @@ Todo : describe files
 
 ## How to contribute
 
--   Get our project locally
+-   Clone our project locally
     
         $ git init
         $ git clone https://github.com/dataforgoodfr/batch8_worldbank/tree/master/plateforme
@@ -401,11 +401,50 @@ Todo : describe files
     
         $ git add newfilename
         $ git commit
-        $ git push origin master
+        $ git push
+-   When modifying an existing file, you have to submit modifications to its reviewer (i.e. owner). Ownership is distributed as follow :
 
--   When modifying an existing file do 
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">owner</th>
+<th scope="col" class="org-left">file</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">mahdiqb</td>
+<td class="org-left">`./app.py`</td>
+</tr>
+
+
+<tr>
+<td class="org-left">morgandavidson</td>
+<td class="org-left">`./README.md`</td>
+</tr>
+
+
+<tr>
+<td class="org-left">alencon</td>
+<td class="org-left">`./asset/style.css`</td>
+</tr>
+</tbody>
+</table>
+
+-   reviewees have to do
     
-        ???
+        $ git
+-   Reviewers have to do 
+    
+        $ git
 
 
 # Footnotes
