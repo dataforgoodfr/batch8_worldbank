@@ -1,73 +1,73 @@
 
 # Table of Contents
 
-1.  [Prototype/Wireframe](#org4a04fb0)
-    1.  [Features](#org6e515ac)
-        1.  [Worldmap](#orgdcdd0ed)
-        2.  [Pop-up](#orgb5d1860)
-        3.  [World figure](#orgf1f26d7)
-2.  [Dataset](#orga97cfc3)
-    1.  [Variables](#orga6acd98)
-    2.  [Data sources](#orgdcd7710)
-        1.  [Decade](#orgd669953)
-        2.  [UN<sub>Geosheme</sub><sub>Subregion</sub>](#orga97914b)
-        3.  [Disaster<sub>Type</sub>](#orgccefc77)
-        4.  [RCP](#org5e70083)
-        5.  [#LoDO](#orge4a0e37)
-        6.  [#MeDO](#orge3e88fc)
-        7.  [#HiDO](#org11841bb)
-        8.  [Human<sub>Impact</sub>](#org0691afb)
-        9.  [Financial<sub>mpact</sub>](#orge7611de)
-        10. [°C](#orgdf3d9cc)
-        11. [Geo](#org6ae1813)
-3.  [The Dashboard](#org8dc4499)
-    1.  [Why did we pick Dash?](#orgfc48739)
-    2.  [Design](#org01f0a4d)
-    3.  [Required files to run it](#org2df2f73)
-        1.  [app.py](#org4be09d9)
-        2.  [assets/style.css](#orgef5cab0)
-        3.  [assets/WB<sub>logo.jpg</sub>](#org676f795)
-4.  [Project Management](#orga29404f)
-    1.  [Methodology](#orgc538e1a)
-    2.  [tools](#org6c2c864)
-    3.  [How to contribute](#orgae3fc98)
+1.  [Prototype/Wireframe](#org2a1b173)
+    1.  [Features](#org36c6c72)
+        1.  [Worldmap](#org6875512)
+        2.  [Pop-up](#orgd023185)
+        3.  [World figure](#org3453d51)
+2.  [Dataset](#org81956ae)
+    1.  [Variables](#orgcb12757)
+    2.  [Data sources](#org2ab3892)
+        1.  [`Decade`](#org34bf763)
+        2.  [`UN_Geosheme_Subregion`](#org4972f10)
+        3.  [`Disaster_Type`](#orgfb02003)
+        4.  [`RCP`](#org605d0cb)
+        5.  [`#LoDO`](#orgb1dd6d2)
+        6.  [`#MeDO`](#org9c69bd4)
+        7.  [`#HiDO`](#org5550849)
+        8.  [`Human_Impact`](#org4a24e2a)
+        9.  [`Financial_Impact`](#org715d24b)
+        10. [`°C`](#org833bcb6)
+        11. [`Geo`](#org17375e9)
+3.  [The Dashboard](#org4b48432)
+    1.  [Why did we pick Dash?](#org31745be)
+    2.  [Design](#orgfb2ecaf)
+    3.  [Required files to run it](#orgca3c347)
+        1.  [`app.py`](#orgc69b781)
+        2.  [`assets/style.css`](#org5158cf9)
+        3.  [`assets/WB_logo.jpg`](#org09d2d72)
+4.  [Project Management](#orge3518ce)
+    1.  [Methodology](#org9730c32)
+    2.  [tools](#orgc637fad)
+    3.  [How to contribute](#org80e3b33)
 
 Todo : upload a screenshot of the delivered dashboard
 
 
-<a id="org4a04fb0"></a>
+<a id="org2a1b173"></a>
 
 # Prototype/Wireframe
 
 
-<a id="org6e515ac"></a>
+<a id="org36c6c72"></a>
 
 ## Features
 
 
-<a id="orgdcdd0ed"></a>
+<a id="org6875512"></a>
 
 ### Worldmap
 
 
-<a id="orgb5d1860"></a>
+<a id="orgd023185"></a>
 
 ### Pop-up
 
 
-<a id="orgf1f26d7"></a>
+<a id="org3453d51"></a>
 
 ### World figure
 
 
-<a id="orga97cfc3"></a>
+<a id="org81956ae"></a>
 
 # Dataset
 
 
-<a id="orga6acd98"></a>
+<a id="orgcb12757"></a>
 
-## DONE Variables
+## Variables
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -79,91 +79,87 @@ Todo : upload a screenshot of the delivered dashboard
 
 <col  class="org-left" />
 </colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Variable name</th>
+<th scope="col" class="org-left">Data type</th>
+<th scope="col" class="org-left">Description/Example</th>
+</tr>
+</thead>
+
 <tbody>
 <tr>
-<td class="org-left">Variable name</td>
-<td class="org-left">Data type</td>
-<td class="org-left">Description/Example</td>
-</tr>
-
-
-<tr>
-<td class="org-left">:----------------&#x2013;&#x2014;:+:----&#x2013;&#x2014;:+:-------------------------------------------------------------&#x2013;&#x2014; :</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Decade</td>
+<td class="org-left">`Decade`</td>
 <td class="org-left">int64</td>
 <td class="org-left">1900, 1910, &#x2026;, 2080, 2090</td>
 </tr>
 
 
 <tr>
-<td class="org-left">UN<sub>Geosheme</sub><sub>Subregion</sub></td>
+<td class="org-left">`UN_Geosheme_Subregion`</td>
 <td class="org-left">str</td>
 <td class="org-left">'Australia and New Zealand', 'Caribbean', etc., see [M49 sub regions](https://unstats.un.org/unsd/methodology/m49/)</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Disaster<sub>Type</sub></td>
+<td class="org-left">`Disaster_Type`</td>
 <td class="org-left">str</td>
 <td class="org-left">Either 'Floods', 'Droughts' or 'Storms'</td>
 </tr>
 
 
 <tr>
-<td class="org-left">RCP</td>
+<td class="org-left">`RCP`</td>
 <td class="org-left">float64</td>
 <td class="org-left">NaN for the past, either 2.6, 4.5, 6.0 or 8.5 for the future</td>
 </tr>
 
 
 <tr>
-<td class="org-left">#LoDO</td>
+<td class="org-left">`#LoDO`</td>
 <td class="org-left">int64</td>
 <td class="org-left">Provides the number of low impact disasters<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.</td>
 </tr>
 
 
 <tr>
-<td class="org-left">#MeDO</td>
+<td class="org-left">`#MeDO`</td>
 <td class="org-left">int64</td>
 <td class="org-left">Provides the number of medium impact disasters<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
 </tr>
 
 
 <tr>
-<td class="org-left">#HiDO</td>
+<td class="org-left">`#HiDO`</td>
 <td class="org-left">int64</td>
 <td class="org-left">Provides the number of high impact disasters<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Human<sub>Impact</sub></td>
+<td class="org-left">`Human_Impact`</td>
 <td class="org-left">int64</td>
 <td class="org-left">Provides the number of impacted people<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Financial<sub>mpact</sub></td>
+<td class="org-left">`Financial_mpact`</td>
 <td class="org-left">int64</td>
 <td class="org-left">Provides the financial impact<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
 </tr>
 
 
 <tr>
-<td class="org-left">°C</td>
+<td class="org-left">`°C`</td>
 <td class="org-left">int64</td>
 <td class="org-left">Provides the temperature in Celsius degrees<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></td>
 </tr>
 
 
 <tr>
-<td class="org-left">Geo</td>
+<td class="org-left">`Geo`</td>
 <td class="org-left">GeoPandas</td>
 <td class="org-left">Geospatial data delimitating geoscheme sub regions on the map</td>
 </tr>
@@ -171,104 +167,108 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="orgdcd7710"></a>
+<a id="org2ab3892"></a>
 
-## BACKLOG Data sources
+## Data sources
 
 
-<a id="orgd669953"></a>
+<a id="org34bf763"></a>
 
-### Decade
+### `Decade`
 
-Decade = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010,2020,2030,2040,2050,2060,2070,2080,2090]
+    Decade = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010,2020,2030,2040,2050,2060,2070,2080,2090]
+
 For example `2020` starts in 2020 and ends in 2029
 
 
-<a id="orga97914b"></a>
+<a id="org4972f10"></a>
 
-### UN<sub>Geosheme</sub><sub>Subregion</sub>
+### `UN_Geosheme_Subregion`
 
-UN<sub>Geosheme</sub><sub>Subregion</sub>=['Australia and New Zealand','Caribbean','Central America','Central Asia','Eastern Africa','Eastern Asia','Eastern Europe','Melanesia','Micronesia','Middle Africa','Northern Africa','Northern America','Northern Europe','Polynesia','South America','South-Eastern Asia','Southern Africa','Southern Asia','Southern Europe','Western Africa','Western Asia','Western Europe']
-Todo : take from 
+    UN_Geosheme_Subregion = ['Australia and New Zealand','Caribbean','Central America','Central Asia','Eastern Africa','Eastern Asia','Eastern Europe','Melanesia','Micronesia','Middle Africa','Northern Africa','Northern America','Northern Europe','Polynesia','South America','South-Eastern Asia','Southern Africa','Southern Asia','Southern Europe','Western Africa','Western Asia','Western Europe']
+
+Todo : sum up
 
 -   <https://en.wikipedia.org/wiki/United_Nations_geoscheme>
 -   <https://en.wikipedia.org/wiki/UN_M49>
 -   <https://unstats.un.org/unsd/methodology/m49/>
 
-and provide link  
+and provide links as sources  
 
 
-<a id="orgccefc77"></a>
+<a id="orgfb02003"></a>
 
-### Disaster<sub>Type</sub>
+### `Disaster_Type`
 
-Disaster<sub>Type</sub> = ['Droughts', 'Floods', 'Storms']
-Todo : link to github respective workstream pages
-
-
-<a id="org5e70083"></a>
-
-### RCP
-
-RCP = [2.6,4.5,6.0,8.5]
-TODO : take from <https://en.wikipedia.org/wiki/Representative_Concentration_Pathway> and provide link
-
-
-<a id="orge4a0e37"></a>
-
-### #LoDO
+    Disaster_Type = ['Droughts', 'Floods', 'Storms']
 
 Todo : link to github respective workstream pages
 
 
-<a id="orge3e88fc"></a>
+<a id="org605d0cb"></a>
 
-### #MeDO
+### `RCP`
 
-Todo : link to github respective workstream pages
+    RCP = [2.6,4.5,6.0,8.5]
 
-
-<a id="org11841bb"></a>
-
-### #HiDO
-
-Todo : link to github respective workstream pages
+TODO : sum up <https://en.wikipedia.org/wiki/Representative_Concentration_Pathway> and provide link as source
 
 
-<a id="org0691afb"></a>
+<a id="orgb1dd6d2"></a>
 
-### Human<sub>Impact</sub>
+### `#LoDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="orge7611de"></a>
+<a id="org9c69bd4"></a>
 
-### Financial<sub>mpact</sub>
+### `#MeDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="orgdf3d9cc"></a>
+<a id="org5550849"></a>
 
-### °C
+### `#HiDO`
+
+Todo : link to github respective workstream pages
+
+
+<a id="org4a24e2a"></a>
+
+### `Human_Impact`
+
+Todo : link to github respective workstream pages
+
+
+<a id="org715d24b"></a>
+
+### `Financial_Impact`
+
+Todo : link to github respective workstream pages
+
+
+<a id="org833bcb6"></a>
+
+### `°C`
 
 Todo : provide link and explain : <https://climateknowledgeportal.worldbank.org/download-data>
 
 
-<a id="org6ae1813"></a>
+<a id="org17375e9"></a>
 
-### Geo
+### `Geo`
 
 Todo : explain
 
 
-<a id="org8dc4499"></a>
+<a id="org4b48432"></a>
 
 # The Dashboard
 
 
-<a id="orgfc48739"></a>
+<a id="org31745be"></a>
 
 ## Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -340,46 +340,46 @@ According to following benchmarck team decided to develop the PoC with ****Dash*
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="org01f0a4d"></a>
+<a id="orgfb2ecaf"></a>
 
 ## Design
 
 Todo mention World Bank Visual Identity Guidelines
 
 
-<a id="org2df2f73"></a>
+<a id="orgca3c347"></a>
 
 ## Required files to run it
 
 Todo : describe files
 
 
-<a id="org4be09d9"></a>
+<a id="orgc69b781"></a>
 
-### app.py
-
-
-<a id="orgef5cab0"></a>
-
-### assets/style.css
+### `app.py`
 
 
-<a id="org676f795"></a>
+<a id="org5158cf9"></a>
 
-### assets/WB<sub>logo.jpg</sub>
+### `assets/style.css`
 
 
-<a id="orga29404f"></a>
+<a id="org09d2d72"></a>
+
+### `assets/WB_logo.jpg`
+
+
+<a id="orge3518ce"></a>
 
 # Project Management
 
 
-<a id="orgc538e1a"></a>
+<a id="org9730c32"></a>
 
 ## Methodology
 
 
-<a id="org6c2c864"></a>
+<a id="orgc637fad"></a>
 
 ## tools
 
@@ -388,7 +388,7 @@ Todo : describe files
 -   Zoom
 
 
-<a id="orgae3fc98"></a>
+<a id="org80e3b33"></a>
 
 ## How to contribute
 
