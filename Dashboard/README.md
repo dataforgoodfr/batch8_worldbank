@@ -66,18 +66,19 @@ Todo : upload a screenshot of the delivered dashboard
 
 ## DONE Variables
 
-| Variable name                             | Data type | Description/Example                                                                                                 |
-| Decade                                    | int64     | 1900, 1910, &#x2026;, 2080, 2090                                                                                    |
-| UN<sub>Geosheme</sub><sub>Subregion</sub> | str       | 'Australia and New Zealand', 'Caribbean', etc., see [M49 sub regions](https://unstats.un.org/unsd/methodology/m49/) |
-| Disaster<sub>Type</sub>                   | str       | Either 'Floods', 'Droughts' or 'Storms'                                                                             |
-| RCP                                       | float64   | NaN for the past, either 2.6, 4.5, 6.0 or 8.5 for the future                                                        |
-| #LoDO                                     | int64     | Provides the number of low impact disasters<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.             |
-| #MeDO                                     | int64     | Provides the number of medium impact disasters<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.      |
-| #HiDO                                     | int64     | Provides the number of high impact disasters<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.        |
-| Human<sub>Impact</sub>                    | int64     | Provides the number of impacted people<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.              |
-| Financial<sub>mpact</sub>                 | int64     | Provides the financial impact<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.                       |
-| °C                                        | int64     | Provides the temperature in Celsius degrees<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>              |
-| Geo                                       | GeoPandas | Geospatial data delimitating geoscheme sub regions on the map                                                       |
+|    Variable name    | Data type |                                                 Description/Example                                                 |
+|:-------------------:|:---------:|:-------------------------------------------------------------------------------------------------------------------:|
+| Decade              | int64     | 1900, 1910, …, 2080, 2090                                                                                           |
+| UNGeoshemeSubregion | str       | 'Australia and New Zealand', 'Caribbean', etc., see [M49 sub regions](https://unstats.un.org/unsd/methodology/m49/) |
+| DisasterType        | str       | Either 'Floods', 'Droughts' or 'Storms'                                                                             |
+| RCP                 | float64   | NaN for the past, either 2.6, 4.5, 6.0 or 8.5 for the future                                                        |
+| #LoDO               | int64     | Provides the number of low impact disasters1.                                                                       |
+| #MeDO               | int64     | Provides the number of medium impact disasters1.                                                                    |
+| #HiDO               | int64     | Provides the number of high impact disasters1.                                                                      |
+| HumanImpact         | int64     | Provides the number of impacted people1.                                                                            |
+| Financialmpact      | int64     | Provides the financial impact1.                                                                                     |
+| °C                  | int64     | Provides the temperature in Celsius degrees2                                                                        |
+| Geo                 | GeoPandas | Geospatial data delimitating geoscheme sub regions on the map                                                       |
 
 
 <a id="org48fd0c5"></a>
@@ -184,6 +185,7 @@ Todo : explain
 According to following benchmarck team decided to develop the PoC with ****Dash****
 
 |           | Maturity | Popularity | Simplicity | Adaptability |
+|:---------:|:--------:|:----------:|:----------:|:------------:|
 | Streamlit | C        | A          | A          | C            |
 | Dash      | B        | A          | B          | B            |
 | Voila     | C        | C          | A          | C            |
