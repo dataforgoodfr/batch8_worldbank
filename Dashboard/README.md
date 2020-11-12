@@ -1,71 +1,71 @@
 
 # Table of Contents
 
-1.  [Prototype/Wireframe](#org2a1b173)
-    1.  [Features](#org36c6c72)
-        1.  [Worldmap](#org6875512)
-        2.  [Pop-up](#orgd023185)
-        3.  [World figure](#org3453d51)
-2.  [Dataset](#org81956ae)
-    1.  [Variables](#orgcb12757)
-    2.  [Data sources](#org2ab3892)
-        1.  [`Decade`](#org34bf763)
-        2.  [`UN_Geosheme_Subregion`](#org4972f10)
-        3.  [`Disaster_Type`](#orgfb02003)
-        4.  [`RCP`](#org605d0cb)
-        5.  [`#LoDO`](#orgb1dd6d2)
-        6.  [`#MeDO`](#org9c69bd4)
-        7.  [`#HiDO`](#org5550849)
-        8.  [`Human_Impact`](#org4a24e2a)
-        9.  [`Financial_Impact`](#org715d24b)
-        10. [`°C`](#org833bcb6)
-        11. [`Geo`](#org17375e9)
-3.  [The Dashboard](#org4b48432)
-    1.  [Why did we pick Dash?](#org31745be)
-    2.  [Design](#orgfb2ecaf)
-    3.  [Required files to run it](#orgca3c347)
-        1.  [`app.py`](#orgc69b781)
-        2.  [`assets/style.css`](#org5158cf9)
-        3.  [`assets/WB_logo.jpg`](#org09d2d72)
-4.  [Project Management](#orge3518ce)
-    1.  [Methodology](#org9730c32)
-    2.  [tools](#orgc637fad)
-    3.  [How to contribute](#org80e3b33)
+1.  [Prototype/Wireframe](#org81e9ea7)
+    1.  [Features](#org3165407)
+        1.  [Worldmap](#org8f2dbb4)
+        2.  [Pop-up](#org52e8948)
+        3.  [World figure](#orga55a996)
+2.  [Dataset](#org10732bf)
+    1.  [Variables](#orgf9cbb30)
+    2.  [Data sources](#org8ecd002)
+        1.  [`Decade`](#org62b9047)
+        2.  [`UN_Geosheme_Subregion`](#org2595123)
+        3.  [`Disaster_Type`](#org15fb3d8)
+        4.  [`RCP`](#org99f595c)
+        5.  [`#LoDO`](#org2216c84)
+        6.  [`#MeDO`](#org296092c)
+        7.  [`#HiDO`](#orgf2274d8)
+        8.  [`Human_Impact`](#org0f73303)
+        9.  [`Financial_Impact`](#org21a4ca1)
+        10. [`°C`](#orgb232565)
+        11. [`Geo`](#orgd54272f)
+3.  [The Dashboard](#orge49ff3b)
+    1.  [Why did we pick Dash?](#org9aba4f6)
+    2.  [Design](#orgd34cb95)
+    3.  [Required files to run it](#orge351727)
+        1.  [`app.py`](#org6a4b293)
+        2.  [`assets/style.css`](#orgd48f6b5)
+        3.  [`assets/WB_logo.jpg`](#org0da6b09)
+4.  [Project Management](#orgfb973c1)
+    1.  [Methodology](#orgddf3664)
+    2.  [tools](#org437ee25)
+    3.  [How to contribute](#org579cdc8)
 
 Todo : upload a screenshot of the delivered dashboard
 
 
-<a id="org2a1b173"></a>
+<a id="org81e9ea7"></a>
 
 # Prototype/Wireframe
 
 
-<a id="org36c6c72"></a>
+<a id="org3165407"></a>
 
 ## Features
 
 
-<a id="org6875512"></a>
+<a id="org8f2dbb4"></a>
 
 ### Worldmap
 
 
-<a id="orgd023185"></a>
+<a id="org52e8948"></a>
 
 ### Pop-up
 
 
-<a id="org3453d51"></a>
+<a id="orga55a996"></a>
 
 ### World figure
 
 
-<a id="org81956ae"></a>
+<a id="org10732bf"></a>
 
 # Dataset
 
 
-<a id="orgcb12757"></a>
+<a id="orgf9cbb30"></a>
 
 ## Variables
 
@@ -98,7 +98,7 @@ Todo : upload a screenshot of the delivered dashboard
 <tr>
 <td class="org-left">`UN_Geosheme_Subregion`</td>
 <td class="org-left">str</td>
-<td class="org-left">'Australia and New Zealand', 'Caribbean', etc., see [M49 sub regions](https://unstats.un.org/unsd/methodology/m49/)</td>
+<td class="org-left">'Australia and New Zealand', 'Caribbean', etc.</td>
 </tr>
 
 
@@ -167,12 +167,12 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="org2ab3892"></a>
+<a id="org8ecd002"></a>
 
 ## Data sources
 
 
-<a id="org34bf763"></a>
+<a id="org62b9047"></a>
 
 ### `Decade`
 
@@ -181,7 +181,7 @@ Todo : upload a screenshot of the delivered dashboard
 For example `2020` starts in 2020 and ends in 2029
 
 
-<a id="org4972f10"></a>
+<a id="org2595123"></a>
 
 ### `UN_Geosheme_Subregion`
 
@@ -196,7 +196,7 @@ Todo : sum up
 and provide links as sources  
 
 
-<a id="orgfb02003"></a>
+<a id="org15fb3d8"></a>
 
 ### `Disaster_Type`
 
@@ -205,7 +205,7 @@ and provide links as sources
 Todo : link to github respective workstream pages
 
 
-<a id="org605d0cb"></a>
+<a id="org99f595c"></a>
 
 ### `RCP`
 
@@ -214,61 +214,61 @@ Todo : link to github respective workstream pages
 TODO : sum up <https://en.wikipedia.org/wiki/Representative_Concentration_Pathway> and provide link as source
 
 
-<a id="orgb1dd6d2"></a>
+<a id="org2216c84"></a>
 
 ### `#LoDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org9c69bd4"></a>
+<a id="org296092c"></a>
 
 ### `#MeDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org5550849"></a>
+<a id="orgf2274d8"></a>
 
 ### `#HiDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org4a24e2a"></a>
+<a id="org0f73303"></a>
 
 ### `Human_Impact`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org715d24b"></a>
+<a id="org21a4ca1"></a>
 
 ### `Financial_Impact`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org833bcb6"></a>
+<a id="orgb232565"></a>
 
 ### `°C`
 
 Todo : provide link and explain : <https://climateknowledgeportal.worldbank.org/download-data>
 
 
-<a id="org17375e9"></a>
+<a id="orgd54272f"></a>
 
 ### `Geo`
 
 Todo : explain
 
 
-<a id="org4b48432"></a>
+<a id="orge49ff3b"></a>
 
 # The Dashboard
 
 
-<a id="org31745be"></a>
+<a id="org9aba4f6"></a>
 
 ## Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -340,46 +340,46 @@ According to following benchmarck team decided to develop the PoC with ****Dash*
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="orgfb2ecaf"></a>
+<a id="orgd34cb95"></a>
 
 ## Design
 
 Todo mention World Bank Visual Identity Guidelines
 
 
-<a id="orgca3c347"></a>
+<a id="orge351727"></a>
 
 ## Required files to run it
 
 Todo : describe files
 
 
-<a id="orgc69b781"></a>
+<a id="org6a4b293"></a>
 
 ### `app.py`
 
 
-<a id="org5158cf9"></a>
+<a id="orgd48f6b5"></a>
 
 ### `assets/style.css`
 
 
-<a id="org09d2d72"></a>
+<a id="org0da6b09"></a>
 
 ### `assets/WB_logo.jpg`
 
 
-<a id="orge3518ce"></a>
+<a id="orgfb973c1"></a>
 
 # Project Management
 
 
-<a id="org9730c32"></a>
+<a id="orgddf3664"></a>
 
 ## Methodology
 
 
-<a id="orgc637fad"></a>
+<a id="org437ee25"></a>
 
 ## tools
 
@@ -388,7 +388,7 @@ Todo : describe files
 -   Zoom
 
 
-<a id="org80e3b33"></a>
+<a id="org579cdc8"></a>
 
 ## How to contribute
 
