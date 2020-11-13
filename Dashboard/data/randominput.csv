@@ -1,0 +1,2707 @@
+Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,#LoDO,#MeDO,#HiDO,°C
+1900,Australia and New Zealand,Droughts,,33619636,202896,18,11,17,8
+1900,Australia and New Zealand,Floods,,61142759,550122,94,3,27,-23
+1900,Australia and New Zealand,Storms,,22866278,771846,92,19,9,-17
+1900,Caribbean,Droughts,,56849661,632352,90,38,27,-44
+1900,Caribbean,Floods,,62743899,173691,31,27,87,9
+1900,Caribbean,Storms,,76931873,701360,82,13,27,44
+1900,Central America,Droughts,,9879090,10658,42,63,0,23
+1900,Central America,Floods,,23191625,308654,10,33,77,-6
+1900,Central America,Storms,,67367943,40703,18,84,89,26
+1900,Central Asia,Droughts,,71551243,278322,17,61,42,14
+1900,Central Asia,Floods,,19814226,728320,69,7,44,12
+1900,Central Asia,Storms,,44621793,719799,22,1,56,10
+1900,Eastern Africa,Droughts,,45382392,922223,86,78,15,20
+1900,Eastern Africa,Floods,,16604416,967726,49,11,87,36
+1900,Eastern Africa,Storms,,29123030,772543,3,50,71,34
+1900,Eastern Asia,Droughts,,92788740,837412,76,89,22,-44
+1900,Eastern Asia,Floods,,32819479,814897,6,23,9,25
+1900,Eastern Asia,Storms,,37729481,498673,12,51,8,6
+1900,Eastern Europe,Droughts,,67243556,405424,28,79,59,9
+1900,Eastern Europe,Floods,,46296751,161870,32,88,63,18
+1900,Eastern Europe,Storms,,36243728,922183,30,7,49,-53
+1900,Melanesia,Droughts,,66572213,541721,32,46,35,-19
+1900,Melanesia,Floods,,11960114,369876,17,23,96,-7
+1900,Melanesia,Storms,,85904226,183627,68,78,0,-23
+1900,Micronesia,Droughts,,21073761,923313,44,92,4,-14
+1900,Micronesia,Floods,,68478518,634272,11,42,61,-50
+1900,Micronesia,Storms,,19455485,132178,25,30,29,30
+1900,Middle Africa,Droughts,,65910840,967567,45,44,58,-42
+1900,Middle Africa,Floods,,56294911,956248,57,57,22,4
+1900,Middle Africa,Storms,,82397334,182137,32,91,65,11
+1900,Northern Africa,Droughts,,32689294,146658,52,91,85,26
+1900,Northern Africa,Floods,,41342564,672398,21,59,63,11
+1900,Northern Africa,Storms,,74601543,675270,89,10,40,-4
+1900,Northern America,Droughts,,8055749,147748,26,14,61,-28
+1900,Northern America,Floods,,38161357,862103,3,69,20,34
+1900,Northern America,Storms,,72279476,171679,22,75,44,20
+1900,Northern Europe,Droughts,,62226625,859651,97,42,83,45
+1900,Northern Europe,Floods,,50756662,78333,45,10,45,-20
+1900,Northern Europe,Storms,,46153213,172932,97,58,6,-15
+1900,Polynesia,Droughts,,56175717,345969,12,34,56,24
+1900,Polynesia,Floods,,87335696,246825,55,42,66,40
+1900,Polynesia,Storms,,1918634,351525,18,50,65,3
+1900,South America,Droughts,,91721185,555910,96,41,20,-33
+1900,South America,Floods,,62502831,855274,4,11,92,20
+1900,South America,Storms,,79885576,90039,46,69,52,13
+1900,South-Eastern Asia,Droughts,,91777480,582783,33,83,21,35
+1900,South-Eastern Asia,Floods,,64755913,330430,84,0,27,15
+1900,South-Eastern Asia,Storms,,79149968,802752,10,31,77,-45
+1900,Southern Africa,Droughts,,35097964,427633,11,78,62,30
+1900,Southern Africa,Floods,,66687582,62468,56,42,3,10
+1900,Southern Africa,Storms,,74683943,158150,44,78,14,18
+1900,Southern Asia,Droughts,,62476652,182749,93,6,96,-40
+1900,Southern Asia,Floods,,80114800,187706,98,98,48,-25
+1900,Southern Asia,Storms,,28168569,725664,42,32,56,24
+1900,Southern Europe,Droughts,,88995721,703561,91,52,47,20
+1900,Southern Europe,Floods,,27802468,292454,49,16,77,-39
+1900,Southern Europe,Storms,,77181347,672845,94,59,14,-5
+1900,Western Africa,Droughts,,92192751,647372,2,48,44,-59
+1900,Western Africa,Floods,,26810866,587495,30,81,31,-41
+1900,Western Africa,Storms,,20035766,251521,27,4,94,1
+1900,Western Asia,Droughts,,20815524,147501,79,52,21,10
+1900,Western Asia,Floods,,23907254,208016,30,89,37,39
+1900,Western Asia,Storms,,99522725,917969,40,58,43,24
+1900,Western Europe,Droughts,,8889085,712076,86,46,37,47
+1900,Western Europe,Floods,,66260485,55587,94,73,66,36
+1900,Western Europe,Storms,,39089501,148189,91,85,81,17
+1910,Australia and New Zealand,Droughts,,41869821,10360,75,61,68,21
+1910,Australia and New Zealand,Floods,,69076481,105433,9,34,96,5
+1910,Australia and New Zealand,Storms,,73742708,573997,72,57,11,16
+1910,Caribbean,Droughts,,79008452,78321,41,26,4,4
+1910,Caribbean,Floods,,37643243,609209,66,7,16,-29
+1910,Caribbean,Storms,,5712966,590405,83,12,3,1
+1910,Central America,Droughts,,47654912,396362,74,58,67,43
+1910,Central America,Floods,,7214816,685107,15,56,66,20
+1910,Central America,Storms,,69517204,282979,45,85,19,-3
+1910,Central Asia,Droughts,,39401228,922662,94,61,69,-6
+1910,Central Asia,Floods,,66734584,811221,16,97,90,-11
+1910,Central Asia,Storms,,14879055,876682,80,36,74,47
+1910,Eastern Africa,Droughts,,32824625,714570,99,75,84,15
+1910,Eastern Africa,Floods,,32628196,758086,39,57,33,-54
+1910,Eastern Africa,Storms,,43249703,884290,66,55,67,-21
+1910,Eastern Asia,Droughts,,25947117,973920,42,38,19,-32
+1910,Eastern Asia,Floods,,28779822,358468,63,37,31,27
+1910,Eastern Asia,Storms,,90151029,329555,23,24,66,18
+1910,Eastern Europe,Droughts,,61068274,322625,20,93,25,-9
+1910,Eastern Europe,Floods,,83649822,248906,18,53,86,-38
+1910,Eastern Europe,Storms,,4516697,876686,94,50,72,31
+1910,Melanesia,Droughts,,68268742,185865,65,51,5,21
+1910,Melanesia,Floods,,25769120,509251,75,14,73,-43
+1910,Melanesia,Storms,,79183736,239125,15,10,41,28
+1910,Micronesia,Droughts,,57533669,249786,52,44,63,23
+1910,Micronesia,Floods,,71955394,773929,94,80,33,-27
+1910,Micronesia,Storms,,1166101,780531,82,97,77,-59
+1910,Middle Africa,Droughts,,51561337,597001,47,97,25,12
+1910,Middle Africa,Floods,,89207635,605242,21,4,87,-55
+1910,Middle Africa,Storms,,18078566,602061,16,8,0,-39
+1910,Northern Africa,Droughts,,28392896,177950,71,38,13,18
+1910,Northern Africa,Floods,,58519216,915343,43,17,38,37
+1910,Northern Africa,Storms,,86987352,598015,41,96,79,22
+1910,Northern America,Droughts,,86865863,5184,39,94,80,-3
+1910,Northern America,Floods,,76914875,606564,25,72,31,-15
+1910,Northern America,Storms,,3692453,593030,71,67,44,-56
+1910,Northern Europe,Droughts,,35771020,474411,57,29,62,6
+1910,Northern Europe,Floods,,56915749,705379,15,52,58,15
+1910,Northern Europe,Storms,,20502356,937013,37,86,75,-58
+1910,Polynesia,Droughts,,65807719,437360,10,7,43,37
+1910,Polynesia,Floods,,78456656,218879,82,36,5,41
+1910,Polynesia,Storms,,85281047,551926,80,70,11,-22
+1910,South America,Droughts,,5416098,564512,74,87,66,-36
+1910,South America,Floods,,67971513,863829,34,55,79,-22
+1910,South America,Storms,,33730669,261295,80,97,55,-12
+1910,South-Eastern Asia,Droughts,,55369211,157073,80,59,45,13
+1910,South-Eastern Asia,Floods,,60425653,465370,48,55,43,-32
+1910,South-Eastern Asia,Storms,,88587192,597088,56,37,98,-1
+1910,Southern Africa,Droughts,,93702162,933742,64,13,98,-22
+1910,Southern Africa,Floods,,63144683,49416,81,57,44,-30
+1910,Southern Africa,Storms,,88156078,640756,65,36,23,-35
+1910,Southern Asia,Droughts,,25020685,74823,75,83,57,-38
+1910,Southern Asia,Floods,,34739206,16927,92,2,66,45
+1910,Southern Asia,Storms,,4004260,168294,25,12,62,-3
+1910,Southern Europe,Droughts,,95251868,575542,74,3,91,-31
+1910,Southern Europe,Floods,,10985734,795317,73,44,83,-6
+1910,Southern Europe,Storms,,17391765,976162,51,7,36,-41
+1910,Western Africa,Droughts,,7982398,34359,55,32,65,44
+1910,Western Africa,Floods,,82181046,231081,73,52,65,-20
+1910,Western Africa,Storms,,3310225,781469,49,73,53,17
+1910,Western Asia,Droughts,,99613911,996614,52,7,19,27
+1910,Western Asia,Floods,,34750115,329913,42,95,8,-50
+1910,Western Asia,Storms,,79373509,64583,26,93,64,41
+1910,Western Europe,Droughts,,20938020,410442,23,49,45,-5
+1910,Western Europe,Floods,,62995768,431582,80,39,97,34
+1910,Western Europe,Storms,,90288904,203833,94,40,69,-33
+1920,Australia and New Zealand,Droughts,,41914016,327380,90,19,48,-17
+1920,Australia and New Zealand,Floods,,12031932,35511,1,79,12,7
+1920,Australia and New Zealand,Storms,,77781960,415920,46,44,71,-28
+1920,Caribbean,Droughts,,55495722,458812,5,9,27,-60
+1920,Caribbean,Floods,,22882884,229055,52,87,47,47
+1920,Caribbean,Storms,,80693341,10794,73,70,42,14
+1920,Central America,Droughts,,67051417,553532,5,12,88,-16
+1920,Central America,Floods,,91360786,860501,55,40,57,-32
+1920,Central America,Storms,,47096455,664186,93,97,54,16
+1920,Central Asia,Droughts,,90251710,285429,31,57,37,14
+1920,Central Asia,Floods,,59003097,458896,63,85,91,-19
+1920,Central Asia,Storms,,60860551,954308,71,0,85,15
+1920,Eastern Africa,Droughts,,82649314,445594,12,93,47,-39
+1920,Eastern Africa,Floods,,19716028,983047,20,21,9,36
+1920,Eastern Africa,Storms,,291016,406914,77,24,98,8
+1920,Eastern Asia,Droughts,,2647942,513260,62,54,24,35
+1920,Eastern Asia,Floods,,16287384,380897,40,10,34,19
+1920,Eastern Asia,Storms,,83532361,511733,44,86,21,-1
+1920,Eastern Europe,Droughts,,61558318,125318,76,0,93,30
+1920,Eastern Europe,Floods,,5775939,936389,63,14,95,20
+1920,Eastern Europe,Storms,,51217346,618881,96,42,53,-38
+1920,Melanesia,Droughts,,30766657,264034,8,39,21,18
+1920,Melanesia,Floods,,17831866,841629,44,47,54,6
+1920,Melanesia,Storms,,5264098,852622,92,30,80,-46
+1920,Micronesia,Droughts,,53218899,528964,23,94,77,23
+1920,Micronesia,Floods,,28299058,752031,81,83,57,-10
+1920,Micronesia,Storms,,32421119,643826,43,99,62,11
+1920,Middle Africa,Droughts,,37396928,188719,50,53,74,-30
+1920,Middle Africa,Floods,,7523902,790184,79,42,87,47
+1920,Middle Africa,Storms,,41210606,119741,77,52,18,-1
+1920,Northern Africa,Droughts,,57191627,635295,38,33,38,-35
+1920,Northern Africa,Floods,,35417761,45183,53,80,31,28
+1920,Northern Africa,Storms,,38140483,850171,31,11,97,-57
+1920,Northern America,Droughts,,50370104,772085,30,40,37,1
+1920,Northern America,Floods,,44548775,994779,11,27,66,-17
+1920,Northern America,Storms,,6098235,268211,77,69,57,-33
+1920,Northern Europe,Droughts,,91387908,117594,1,13,28,45
+1920,Northern Europe,Floods,,56643113,639821,65,84,77,36
+1920,Northern Europe,Storms,,82978409,258348,4,72,90,-32
+1920,Polynesia,Droughts,,4231963,934220,23,56,74,-9
+1920,Polynesia,Floods,,44307898,161233,94,77,40,-19
+1920,Polynesia,Storms,,48240412,365735,30,35,31,-45
+1920,South America,Droughts,,83085764,420678,53,51,17,8
+1920,South America,Floods,,14254340,26084,16,26,66,47
+1920,South America,Storms,,19286624,698238,64,77,0,-39
+1920,South-Eastern Asia,Droughts,,63145206,759568,41,12,52,-37
+1920,South-Eastern Asia,Floods,,75050949,600261,58,33,46,34
+1920,South-Eastern Asia,Storms,,28838717,86287,74,57,63,24
+1920,Southern Africa,Droughts,,56017002,311552,28,76,70,-43
+1920,Southern Africa,Floods,,25127610,775301,8,62,82,4
+1920,Southern Africa,Storms,,91721758,480430,7,23,14,-44
+1920,Southern Asia,Droughts,,44451357,594916,10,11,4,40
+1920,Southern Asia,Floods,,14947004,378764,67,1,29,-28
+1920,Southern Asia,Storms,,77616323,841565,27,15,30,2
+1920,Southern Europe,Droughts,,61271587,870318,47,9,6,30
+1920,Southern Europe,Floods,,73228260,387161,92,32,70,30
+1920,Southern Europe,Storms,,66569113,556764,6,32,87,46
+1920,Western Africa,Droughts,,93566607,173884,45,15,82,39
+1920,Western Africa,Floods,,68940947,552862,2,96,48,-5
+1920,Western Africa,Storms,,1927672,311955,65,52,6,-7
+1920,Western Asia,Droughts,,67416371,606780,74,40,80,-25
+1920,Western Asia,Floods,,86165100,7111,21,21,28,-57
+1920,Western Asia,Storms,,7617301,299404,36,92,18,-52
+1920,Western Europe,Droughts,,87698339,509290,7,13,85,34
+1920,Western Europe,Floods,,18904748,212209,35,43,97,32
+1920,Western Europe,Storms,,35041520,238555,48,50,17,-12
+1930,Australia and New Zealand,Droughts,,59842604,128639,56,15,69,0
+1930,Australia and New Zealand,Floods,,14830377,633429,97,62,48,48
+1930,Australia and New Zealand,Storms,,82044633,363855,84,15,28,-10
+1930,Caribbean,Droughts,,57743659,876765,39,63,63,-4
+1930,Caribbean,Floods,,18518462,118323,50,44,66,18
+1930,Caribbean,Storms,,6247579,478662,20,16,29,-12
+1930,Central America,Droughts,,51093292,110489,42,20,96,-4
+1930,Central America,Floods,,43299018,763510,16,13,79,-22
+1930,Central America,Storms,,11853051,633786,58,98,3,-24
+1930,Central Asia,Droughts,,17132095,494330,91,35,55,0
+1930,Central Asia,Floods,,79663993,767248,4,14,40,-5
+1930,Central Asia,Storms,,27015217,931850,17,39,57,23
+1930,Eastern Africa,Droughts,,47165091,182730,98,75,14,26
+1930,Eastern Africa,Floods,,58276197,454515,26,40,26,26
+1930,Eastern Africa,Storms,,23663841,222181,78,84,22,31
+1930,Eastern Asia,Droughts,,79724098,295846,68,47,40,-58
+1930,Eastern Asia,Floods,,80181470,771710,3,80,58,32
+1930,Eastern Asia,Storms,,89399770,960493,87,50,51,48
+1930,Eastern Europe,Droughts,,11951313,163558,0,98,72,-15
+1930,Eastern Europe,Floods,,90630969,470150,40,8,89,37
+1930,Eastern Europe,Storms,,44589569,494582,22,62,53,-48
+1930,Melanesia,Droughts,,9910282,340098,16,98,12,-3
+1930,Melanesia,Floods,,16536539,604315,2,94,28,-9
+1930,Melanesia,Storms,,55650794,844475,52,1,63,36
+1930,Micronesia,Droughts,,12903162,161306,6,34,37,-13
+1930,Micronesia,Floods,,35348676,299876,17,29,82,-31
+1930,Micronesia,Storms,,68402455,448909,55,40,58,29
+1930,Middle Africa,Droughts,,85239447,187294,86,73,75,36
+1930,Middle Africa,Floods,,7557490,943236,69,16,90,21
+1930,Middle Africa,Storms,,79069493,307656,44,46,17,18
+1930,Northern Africa,Droughts,,27659985,485546,46,65,15,-53
+1930,Northern Africa,Floods,,71495655,339248,44,74,27,4
+1930,Northern Africa,Storms,,4429929,126464,18,62,9,38
+1930,Northern America,Droughts,,46545964,633301,60,2,95,-48
+1930,Northern America,Floods,,23886009,808781,1,84,92,-38
+1930,Northern America,Storms,,33173965,894037,80,8,30,-45
+1930,Northern Europe,Droughts,,7565634,621164,30,69,2,-12
+1930,Northern Europe,Floods,,82690664,620065,90,31,96,48
+1930,Northern Europe,Storms,,94131016,446921,76,45,80,44
+1930,Polynesia,Droughts,,52788210,144662,52,77,0,-18
+1930,Polynesia,Floods,,33021493,228405,3,14,63,44
+1930,Polynesia,Storms,,78839969,133674,56,0,45,-41
+1930,South America,Droughts,,90971648,531582,61,87,65,9
+1930,South America,Floods,,53655625,125909,48,81,18,-37
+1930,South America,Storms,,16900030,602438,87,63,20,46
+1930,South-Eastern Asia,Droughts,,60890773,503132,96,92,34,39
+1930,South-Eastern Asia,Floods,,30123639,696195,24,41,97,-10
+1930,South-Eastern Asia,Storms,,89354012,806426,67,4,35,34
+1930,Southern Africa,Droughts,,33376237,993562,36,75,42,-57
+1930,Southern Africa,Floods,,79615986,904913,3,49,11,18
+1930,Southern Africa,Storms,,2632069,438455,63,55,47,44
+1930,Southern Asia,Droughts,,29646145,811640,35,11,97,10
+1930,Southern Asia,Floods,,28462749,66115,36,4,40,-6
+1930,Southern Asia,Storms,,87566767,523235,64,73,50,48
+1930,Southern Europe,Droughts,,89367922,565088,64,64,24,-53
+1930,Southern Europe,Floods,,54771906,264484,5,75,48,-57
+1930,Southern Europe,Storms,,32343676,932432,45,88,94,-24
+1930,Western Africa,Droughts,,92868812,362613,81,3,7,44
+1930,Western Africa,Floods,,79270733,955145,47,47,49,45
+1930,Western Africa,Storms,,89749476,884956,86,5,1,3
+1930,Western Asia,Droughts,,10470204,752588,31,38,49,-51
+1930,Western Asia,Floods,,46848955,768603,47,83,56,-9
+1930,Western Asia,Storms,,1867458,357401,41,55,44,-43
+1930,Western Europe,Droughts,,46002797,671448,88,53,11,-29
+1930,Western Europe,Floods,,91018500,547616,93,90,50,-11
+1930,Western Europe,Storms,,84341939,649108,36,56,89,2
+1940,Australia and New Zealand,Droughts,,90523838,317202,98,71,14,16
+1940,Australia and New Zealand,Floods,,68563886,925612,29,99,72,2
+1940,Australia and New Zealand,Storms,,31376363,394371,36,10,81,18
+1940,Caribbean,Droughts,,57045144,777618,74,36,55,12
+1940,Caribbean,Floods,,7226330,268351,89,77,67,7
+1940,Caribbean,Storms,,496235,990370,70,28,67,44
+1940,Central America,Droughts,,62821153,191393,84,85,47,0
+1940,Central America,Floods,,64872197,399956,63,99,69,5
+1940,Central America,Storms,,91692021,967140,65,50,98,32
+1940,Central Asia,Droughts,,27733122,49308,16,91,50,-28
+1940,Central Asia,Floods,,68766998,737016,30,82,36,7
+1940,Central Asia,Storms,,34447767,272797,62,21,22,44
+1940,Eastern Africa,Droughts,,90436189,629608,56,28,67,41
+1940,Eastern Africa,Floods,,20728512,538368,61,48,92,-48
+1940,Eastern Africa,Storms,,49378405,614452,56,47,65,26
+1940,Eastern Asia,Droughts,,37113710,793922,22,85,5,42
+1940,Eastern Asia,Floods,,31279906,24155,32,13,67,8
+1940,Eastern Asia,Storms,,12923934,100795,70,58,8,-30
+1940,Eastern Europe,Droughts,,5027662,408633,91,25,63,-25
+1940,Eastern Europe,Floods,,98801740,314704,38,8,84,-33
+1940,Eastern Europe,Storms,,19176941,800582,46,76,5,32
+1940,Melanesia,Droughts,,26745594,658943,93,16,48,-23
+1940,Melanesia,Floods,,80707720,181396,23,64,98,-14
+1940,Melanesia,Storms,,986042,409013,83,39,22,-13
+1940,Micronesia,Droughts,,36089151,626894,51,66,88,30
+1940,Micronesia,Floods,,49452488,260620,80,39,54,38
+1940,Micronesia,Storms,,89118534,383496,27,38,44,16
+1940,Middle Africa,Droughts,,54340290,933965,46,36,43,-32
+1940,Middle Africa,Floods,,42642946,180466,43,55,29,-44
+1940,Middle Africa,Storms,,66744305,582532,59,7,80,-27
+1940,Northern Africa,Droughts,,21226922,821221,63,29,37,-60
+1940,Northern Africa,Floods,,44306968,459545,60,81,16,-39
+1940,Northern Africa,Storms,,72407884,76703,45,53,13,43
+1940,Northern America,Droughts,,80387491,510068,48,1,37,-26
+1940,Northern America,Floods,,51311860,96811,40,37,93,5
+1940,Northern America,Storms,,47702285,774018,98,97,57,48
+1940,Northern Europe,Droughts,,27436225,467225,76,66,39,-1
+1940,Northern Europe,Floods,,74014073,846332,48,24,6,31
+1940,Northern Europe,Storms,,5974163,829680,81,29,51,-38
+1940,Polynesia,Droughts,,35835945,470243,34,40,29,18
+1940,Polynesia,Floods,,46349558,594527,96,0,72,6
+1940,Polynesia,Storms,,30949505,154715,30,45,24,-11
+1940,South America,Droughts,,89468873,425780,15,26,76,-19
+1940,South America,Floods,,91136597,559142,1,80,6,5
+1940,South America,Storms,,17876070,531552,51,84,58,-21
+1940,South-Eastern Asia,Droughts,,25706878,402722,30,10,43,-20
+1940,South-Eastern Asia,Floods,,95417310,943963,16,6,69,-27
+1940,South-Eastern Asia,Storms,,31139429,809547,42,60,46,-1
+1940,Southern Africa,Droughts,,66245422,368794,39,24,12,-59
+1940,Southern Africa,Floods,,6571003,31306,53,14,47,0
+1940,Southern Africa,Storms,,32725224,321639,17,78,0,7
+1940,Southern Asia,Droughts,,80742113,792614,97,92,44,-22
+1940,Southern Asia,Floods,,73210776,695968,19,5,49,-2
+1940,Southern Asia,Storms,,70484213,138370,63,49,93,-1
+1940,Southern Europe,Droughts,,56702994,251101,67,25,75,-11
+1940,Southern Europe,Floods,,3927319,133754,71,60,32,-41
+1940,Southern Europe,Storms,,22807634,705890,9,43,83,-18
+1940,Western Africa,Droughts,,84020907,679155,35,23,12,-8
+1940,Western Africa,Floods,,27232143,637701,15,57,5,40
+1940,Western Africa,Storms,,8897083,27663,74,10,70,10
+1940,Western Asia,Droughts,,42693675,638710,48,40,8,-14
+1940,Western Asia,Floods,,32893213,521118,38,62,2,-30
+1940,Western Asia,Storms,,90324987,277984,36,16,47,-31
+1940,Western Europe,Droughts,,65345905,809680,3,78,13,-7
+1940,Western Europe,Floods,,73812967,566176,71,46,72,8
+1940,Western Europe,Storms,,82892501,864345,49,32,64,-19
+1950,Australia and New Zealand,Droughts,,69624898,911348,48,90,73,-48
+1950,Australia and New Zealand,Floods,,52864031,806738,6,53,1,1
+1950,Australia and New Zealand,Storms,,41814211,977064,60,75,57,40
+1950,Caribbean,Droughts,,45144389,167011,45,92,88,43
+1950,Caribbean,Floods,,62909719,676906,37,83,7,-43
+1950,Caribbean,Storms,,20816217,361730,76,25,30,-43
+1950,Central America,Droughts,,92185765,759416,65,1,99,-23
+1950,Central America,Floods,,88720168,20514,2,29,96,37
+1950,Central America,Storms,,49370036,731381,89,18,29,-2
+1950,Central Asia,Droughts,,84871736,827327,87,6,1,8
+1950,Central Asia,Floods,,86460662,773661,63,19,81,39
+1950,Central Asia,Storms,,26522535,923794,12,69,10,39
+1950,Eastern Africa,Droughts,,85545185,301148,93,89,7,13
+1950,Eastern Africa,Floods,,57663969,254521,32,12,20,33
+1950,Eastern Africa,Storms,,64368398,201976,1,34,22,-35
+1950,Eastern Asia,Droughts,,4691987,224650,38,26,94,-53
+1950,Eastern Asia,Floods,,25723667,615566,59,54,5,-53
+1950,Eastern Asia,Storms,,67698393,817370,30,14,1,-28
+1950,Eastern Europe,Droughts,,64912293,487640,28,82,28,-2
+1950,Eastern Europe,Floods,,42494352,393747,45,53,30,-3
+1950,Eastern Europe,Storms,,55838121,85339,71,87,29,39
+1950,Melanesia,Droughts,,85932383,313402,85,33,26,-18
+1950,Melanesia,Floods,,82579541,635935,62,66,78,-28
+1950,Melanesia,Storms,,9748778,13226,1,3,96,16
+1950,Micronesia,Droughts,,89107004,597833,86,55,62,3
+1950,Micronesia,Floods,,98067178,419560,2,77,15,-6
+1950,Micronesia,Storms,,90474152,214946,66,78,45,-58
+1950,Middle Africa,Droughts,,51460388,509866,41,64,76,-29
+1950,Middle Africa,Floods,,23996755,689375,81,18,18,10
+1950,Middle Africa,Storms,,36949725,992696,41,38,62,-26
+1950,Northern Africa,Droughts,,99194093,583512,50,12,73,-4
+1950,Northern Africa,Floods,,5324553,406637,96,47,12,-47
+1950,Northern Africa,Storms,,34569263,88617,53,44,52,-40
+1950,Northern America,Droughts,,22962555,691376,0,32,98,40
+1950,Northern America,Floods,,65937773,467225,16,20,7,47
+1950,Northern America,Storms,,80492612,190239,70,21,94,41
+1950,Northern Europe,Droughts,,51774541,791589,15,27,81,-1
+1950,Northern Europe,Floods,,10262004,881121,38,59,90,-42
+1950,Northern Europe,Storms,,55735129,421805,44,93,21,-18
+1950,Polynesia,Droughts,,36124483,308912,60,63,85,20
+1950,Polynesia,Floods,,44315208,904561,39,59,48,-39
+1950,Polynesia,Storms,,63817843,231714,71,20,5,47
+1950,South America,Droughts,,86014365,93860,90,62,75,30
+1950,South America,Floods,,69130393,571175,86,70,37,12
+1950,South America,Storms,,75375815,256237,29,89,51,-16
+1950,South-Eastern Asia,Droughts,,71474926,711389,23,49,91,33
+1950,South-Eastern Asia,Floods,,46253060,107668,6,30,91,-15
+1950,South-Eastern Asia,Storms,,155374,279978,58,24,34,42
+1950,Southern Africa,Droughts,,22504768,202445,91,7,13,-7
+1950,Southern Africa,Floods,,19142330,360332,84,73,84,-44
+1950,Southern Africa,Storms,,24554635,193478,21,58,77,-57
+1950,Southern Asia,Droughts,,92203629,253386,2,73,39,-45
+1950,Southern Asia,Floods,,11901288,727458,12,31,61,-58
+1950,Southern Asia,Storms,,42666327,479479,85,45,55,42
+1950,Southern Europe,Droughts,,63863715,590785,11,80,7,44
+1950,Southern Europe,Floods,,55314349,119759,30,39,13,44
+1950,Southern Europe,Storms,,62949671,886331,4,68,56,-56
+1950,Western Africa,Droughts,,4771443,833104,87,92,66,-38
+1950,Western Africa,Floods,,57902367,477517,3,87,55,-34
+1950,Western Africa,Storms,,62618954,833591,43,37,66,17
+1950,Western Asia,Droughts,,99098181,469140,4,82,74,-17
+1950,Western Asia,Floods,,75501651,660118,44,24,21,20
+1950,Western Asia,Storms,,9359027,57315,42,88,54,1
+1950,Western Europe,Droughts,,25054032,731917,3,20,44,17
+1950,Western Europe,Floods,,17638229,357344,37,92,53,16
+1950,Western Europe,Storms,,2715098,33520,60,30,47,-42
+1960,Australia and New Zealand,Droughts,,58998856,409833,99,73,54,46
+1960,Australia and New Zealand,Floods,,89847265,250719,65,88,45,32
+1960,Australia and New Zealand,Storms,,63468735,48034,76,55,80,-10
+1960,Caribbean,Droughts,,88128490,846402,67,39,78,-30
+1960,Caribbean,Floods,,75657472,819604,23,97,39,27
+1960,Caribbean,Storms,,8539764,330721,39,80,7,27
+1960,Central America,Droughts,,51885724,635619,14,43,74,-25
+1960,Central America,Floods,,82493898,904748,9,15,93,20
+1960,Central America,Storms,,63378313,161684,84,46,93,22
+1960,Central Asia,Droughts,,52851485,495483,55,86,32,10
+1960,Central Asia,Floods,,46725674,583016,35,4,39,-44
+1960,Central Asia,Storms,,4121384,44649,85,1,43,46
+1960,Eastern Africa,Droughts,,45527375,336530,61,52,7,-47
+1960,Eastern Africa,Floods,,50629602,484097,39,54,3,-13
+1960,Eastern Africa,Storms,,16127554,580889,79,17,3,-8
+1960,Eastern Asia,Droughts,,47272600,418798,56,2,64,-31
+1960,Eastern Asia,Floods,,53851036,465782,27,43,69,34
+1960,Eastern Asia,Storms,,82001315,406939,26,37,68,42
+1960,Eastern Europe,Droughts,,48640452,232132,95,84,21,45
+1960,Eastern Europe,Floods,,20975981,943001,89,78,18,-49
+1960,Eastern Europe,Storms,,76586754,515581,94,80,3,49
+1960,Melanesia,Droughts,,19961124,847681,27,14,6,-24
+1960,Melanesia,Floods,,57274532,53415,48,78,26,4
+1960,Melanesia,Storms,,88629405,315677,16,82,97,-32
+1960,Micronesia,Droughts,,33060623,60636,70,7,20,-9
+1960,Micronesia,Floods,,75494319,149860,85,18,2,-21
+1960,Micronesia,Storms,,34109164,586519,20,89,38,26
+1960,Middle Africa,Droughts,,82931198,655162,50,83,50,-40
+1960,Middle Africa,Floods,,53385767,92924,35,45,88,-44
+1960,Middle Africa,Storms,,26295760,293575,10,47,79,-2
+1960,Northern Africa,Droughts,,70482533,550222,49,56,54,-14
+1960,Northern Africa,Floods,,49890434,777745,83,17,37,29
+1960,Northern Africa,Storms,,81198183,403222,67,84,64,-51
+1960,Northern America,Droughts,,86761693,419438,35,17,1,29
+1960,Northern America,Floods,,60295579,378571,63,31,40,-2
+1960,Northern America,Storms,,46139642,217119,7,29,33,-7
+1960,Northern Europe,Droughts,,90769434,824987,83,93,11,-47
+1960,Northern Europe,Floods,,13488787,519892,16,89,85,-49
+1960,Northern Europe,Storms,,22376993,66761,17,30,10,-44
+1960,Polynesia,Droughts,,59693408,198748,9,53,67,4
+1960,Polynesia,Floods,,30764654,785776,10,9,77,-36
+1960,Polynesia,Storms,,34882143,323788,11,42,29,-7
+1960,South America,Droughts,,58866066,915082,48,76,57,27
+1960,South America,Floods,,30906860,824128,95,92,60,-54
+1960,South America,Storms,,44413628,826047,27,12,21,-23
+1960,South-Eastern Asia,Droughts,,74817235,489186,63,51,3,-58
+1960,South-Eastern Asia,Floods,,69052768,823183,33,98,84,-58
+1960,South-Eastern Asia,Storms,,2669181,390276,85,92,46,-46
+1960,Southern Africa,Droughts,,58338538,21417,21,89,81,-52
+1960,Southern Africa,Floods,,21392968,476687,60,17,69,28
+1960,Southern Africa,Storms,,18665725,185368,2,65,64,-48
+1960,Southern Asia,Droughts,,46739979,345665,81,77,3,14
+1960,Southern Asia,Floods,,96675143,126691,93,87,34,25
+1960,Southern Asia,Storms,,63369805,825085,71,21,96,-34
+1960,Southern Europe,Droughts,,81808256,29031,5,98,1,0
+1960,Southern Europe,Floods,,78319472,920003,46,53,17,35
+1960,Southern Europe,Storms,,33832102,643824,74,17,36,25
+1960,Western Africa,Droughts,,70262293,416764,81,46,93,-48
+1960,Western Africa,Floods,,71142188,312632,4,73,7,-17
+1960,Western Africa,Storms,,54675141,376840,59,26,68,30
+1960,Western Asia,Droughts,,9476530,94166,60,55,77,-56
+1960,Western Asia,Floods,,41058963,32040,61,86,18,-38
+1960,Western Asia,Storms,,43410735,249836,87,86,0,-27
+1960,Western Europe,Droughts,,16323067,599925,58,13,87,-22
+1960,Western Europe,Floods,,62012702,615240,46,14,86,-12
+1960,Western Europe,Storms,,23857293,126439,50,78,15,-8
+1970,Australia and New Zealand,Droughts,,66555340,604573,2,45,40,-13
+1970,Australia and New Zealand,Floods,,95231451,336930,89,80,49,48
+1970,Australia and New Zealand,Storms,,62545653,736337,79,60,78,39
+1970,Caribbean,Droughts,,13424271,938780,77,39,92,27
+1970,Caribbean,Floods,,30662441,341701,13,23,12,47
+1970,Caribbean,Storms,,40666700,750063,29,52,20,-1
+1970,Central America,Droughts,,57299024,234992,4,39,54,49
+1970,Central America,Floods,,50916584,198067,25,6,46,-43
+1970,Central America,Storms,,8600543,261150,67,23,25,-22
+1970,Central Asia,Droughts,,71008889,457036,28,89,23,-28
+1970,Central Asia,Floods,,3612624,434455,55,85,42,-50
+1970,Central Asia,Storms,,58111426,763848,54,50,39,20
+1970,Eastern Africa,Droughts,,7059100,64503,61,38,82,21
+1970,Eastern Africa,Floods,,60712067,678168,94,92,56,22
+1970,Eastern Africa,Storms,,66666413,527407,21,18,28,34
+1970,Eastern Asia,Droughts,,60393452,863767,75,83,82,10
+1970,Eastern Asia,Floods,,16500042,176580,55,85,93,-20
+1970,Eastern Asia,Storms,,25820280,242512,34,61,35,1
+1970,Eastern Europe,Droughts,,50738504,914618,6,24,65,5
+1970,Eastern Europe,Floods,,29180054,171690,99,68,38,-26
+1970,Eastern Europe,Storms,,57566417,473693,23,20,86,48
+1970,Melanesia,Droughts,,90051570,354321,72,62,6,-29
+1970,Melanesia,Floods,,19136994,369730,2,68,45,46
+1970,Melanesia,Storms,,74718842,168657,90,80,87,37
+1970,Micronesia,Droughts,,97802478,123762,91,36,8,-16
+1970,Micronesia,Floods,,57569780,142458,75,5,16,-21
+1970,Micronesia,Storms,,13216840,365348,89,9,18,37
+1970,Middle Africa,Droughts,,44130496,576348,67,82,29,-42
+1970,Middle Africa,Floods,,4870936,905694,95,70,69,-45
+1970,Middle Africa,Storms,,85467791,979100,6,25,30,43
+1970,Northern Africa,Droughts,,20069725,123037,31,1,18,5
+1970,Northern Africa,Floods,,10965064,846178,57,92,64,29
+1970,Northern Africa,Storms,,4650823,920332,86,36,25,-50
+1970,Northern America,Droughts,,83191311,483174,77,38,51,32
+1970,Northern America,Floods,,59546213,33385,64,43,31,33
+1970,Northern America,Storms,,37776758,496554,62,50,73,21
+1970,Northern Europe,Droughts,,72995838,416280,5,30,25,-59
+1970,Northern Europe,Floods,,20386154,792458,31,95,92,-32
+1970,Northern Europe,Storms,,25926946,752177,1,36,54,47
+1970,Polynesia,Droughts,,96804120,572063,78,17,55,-59
+1970,Polynesia,Floods,,5557962,762658,76,1,15,-40
+1970,Polynesia,Storms,,78057150,900671,14,90,92,35
+1970,South America,Droughts,,1819263,788387,74,49,85,32
+1970,South America,Floods,,40242798,877058,57,73,46,-36
+1970,South America,Storms,,3956035,3498,5,19,73,-29
+1970,South-Eastern Asia,Droughts,,80831090,196781,99,77,65,42
+1970,South-Eastern Asia,Floods,,52885287,209531,80,48,96,22
+1970,South-Eastern Asia,Storms,,42896766,910002,8,10,16,-22
+1970,Southern Africa,Droughts,,78287792,937359,74,96,96,-6
+1970,Southern Africa,Floods,,49870287,36709,40,80,74,45
+1970,Southern Africa,Storms,,15409636,778121,83,41,75,6
+1970,Southern Asia,Droughts,,58690656,944706,77,91,27,41
+1970,Southern Asia,Floods,,58155001,793650,55,0,34,-6
+1970,Southern Asia,Storms,,48200113,838368,75,67,77,37
+1970,Southern Europe,Droughts,,1601078,37994,13,47,17,19
+1970,Southern Europe,Floods,,51964864,216285,80,80,14,46
+1970,Southern Europe,Storms,,71665397,504718,10,25,8,-13
+1970,Western Africa,Droughts,,9810770,290748,73,74,75,21
+1970,Western Africa,Floods,,42998069,577840,82,18,26,-55
+1970,Western Africa,Storms,,71264856,635908,95,99,48,8
+1970,Western Asia,Droughts,,31445881,749649,87,60,92,-55
+1970,Western Asia,Floods,,13126902,913373,37,50,65,19
+1970,Western Asia,Storms,,36211756,34731,36,60,59,-11
+1970,Western Europe,Droughts,,67124069,126668,28,53,82,20
+1970,Western Europe,Floods,,74420277,528689,99,98,51,-15
+1970,Western Europe,Storms,,56419936,771487,1,98,62,-39
+1980,Australia and New Zealand,Droughts,,23345728,667823,27,31,71,43
+1980,Australia and New Zealand,Floods,,92995146,330502,56,22,27,-9
+1980,Australia and New Zealand,Storms,,17865301,84013,84,63,81,-39
+1980,Caribbean,Droughts,,38456127,228761,38,71,29,-58
+1980,Caribbean,Floods,,48664496,302093,8,92,99,-2
+1980,Caribbean,Storms,,87517206,460899,93,37,95,49
+1980,Central America,Droughts,,8327866,295659,10,20,8,-6
+1980,Central America,Floods,,4974709,186485,94,94,35,35
+1980,Central America,Storms,,68169894,192755,75,73,83,7
+1980,Central Asia,Droughts,,95608085,80920,94,21,58,6
+1980,Central Asia,Floods,,56476193,318660,45,42,46,14
+1980,Central Asia,Storms,,67807629,905117,18,16,84,-6
+1980,Eastern Africa,Droughts,,63697320,61171,8,52,55,-5
+1980,Eastern Africa,Floods,,53500732,262484,76,43,58,40
+1980,Eastern Africa,Storms,,85215712,377230,71,50,55,32
+1980,Eastern Asia,Droughts,,36730365,932825,42,75,3,-23
+1980,Eastern Asia,Floods,,88886956,737815,8,6,85,27
+1980,Eastern Asia,Storms,,5474113,271852,0,77,31,46
+1980,Eastern Europe,Droughts,,69783085,988838,35,35,1,-30
+1980,Eastern Europe,Floods,,14761188,888897,66,53,9,45
+1980,Eastern Europe,Storms,,19194223,406196,54,32,78,-38
+1980,Melanesia,Droughts,,31300167,277889,97,0,2,-28
+1980,Melanesia,Floods,,77254312,119804,83,16,65,-56
+1980,Melanesia,Storms,,81456010,604960,47,74,41,9
+1980,Micronesia,Droughts,,41677192,642397,51,69,26,-24
+1980,Micronesia,Floods,,48807318,898013,83,89,18,35
+1980,Micronesia,Storms,,30380795,30689,68,13,90,-3
+1980,Middle Africa,Droughts,,83036462,423863,94,9,42,-38
+1980,Middle Africa,Floods,,39017789,976585,10,48,50,-1
+1980,Middle Africa,Storms,,12709161,813039,85,81,24,-4
+1980,Northern Africa,Droughts,,81835002,433810,26,40,84,-31
+1980,Northern Africa,Floods,,56526349,404944,43,26,22,-3
+1980,Northern Africa,Storms,,92411572,869998,12,13,50,-51
+1980,Northern America,Droughts,,59413777,689323,20,74,91,31
+1980,Northern America,Floods,,27205543,215847,18,98,13,21
+1980,Northern America,Storms,,28642829,422089,57,39,16,-57
+1980,Northern Europe,Droughts,,64444581,157083,72,88,73,18
+1980,Northern Europe,Floods,,98901176,893442,8,18,95,-51
+1980,Northern Europe,Storms,,84048612,564075,60,11,52,35
+1980,Polynesia,Droughts,,27716173,1504,80,45,5,-53
+1980,Polynesia,Floods,,52714998,258064,39,79,47,-13
+1980,Polynesia,Storms,,76742997,841041,48,98,19,-14
+1980,South America,Droughts,,39672468,253525,64,47,92,-22
+1980,South America,Floods,,88176667,846170,33,61,69,-59
+1980,South America,Storms,,40349878,693060,26,92,9,42
+1980,South-Eastern Asia,Droughts,,10062065,411595,27,75,51,-2
+1980,South-Eastern Asia,Floods,,71974692,870057,83,23,84,-37
+1980,South-Eastern Asia,Storms,,30257814,239561,60,39,97,-17
+1980,Southern Africa,Droughts,,44412247,271317,42,51,94,34
+1980,Southern Africa,Floods,,27224834,68972,29,86,37,-45
+1980,Southern Africa,Storms,,67717690,842665,54,57,59,-15
+1980,Southern Asia,Droughts,,83864583,579588,61,66,79,12
+1980,Southern Asia,Floods,,87687421,735916,27,26,39,34
+1980,Southern Asia,Storms,,7494871,485841,95,9,24,31
+1980,Southern Europe,Droughts,,44959586,487427,22,22,83,29
+1980,Southern Europe,Floods,,39423385,130959,35,16,7,-60
+1980,Southern Europe,Storms,,66009273,731229,43,69,64,-47
+1980,Western Africa,Droughts,,93731378,659846,58,15,98,41
+1980,Western Africa,Floods,,10207073,362544,26,10,91,21
+1980,Western Africa,Storms,,80357094,897848,23,49,55,26
+1980,Western Asia,Droughts,,76197426,900451,2,16,17,-14
+1980,Western Asia,Floods,,57659592,127803,59,68,14,-56
+1980,Western Asia,Storms,,60844082,574438,17,89,10,-30
+1980,Western Europe,Droughts,,27568041,28774,29,21,57,35
+1980,Western Europe,Floods,,94695538,230878,22,60,68,-56
+1980,Western Europe,Storms,,43398119,194422,6,63,50,-44
+1990,Australia and New Zealand,Droughts,,77221117,898730,69,38,79,-57
+1990,Australia and New Zealand,Floods,,44422702,215692,45,76,51,7
+1990,Australia and New Zealand,Storms,,71893340,721926,80,10,26,44
+1990,Caribbean,Droughts,,10798662,924491,24,71,88,24
+1990,Caribbean,Floods,,28044051,450244,52,98,12,-9
+1990,Caribbean,Storms,,22887887,517906,63,59,30,41
+1990,Central America,Droughts,,70886874,467465,25,85,55,21
+1990,Central America,Floods,,54516989,610009,55,63,73,26
+1990,Central America,Storms,,85257457,609267,48,84,3,47
+1990,Central Asia,Droughts,,36235432,132539,13,70,95,-26
+1990,Central Asia,Floods,,37289823,727708,55,88,9,-33
+1990,Central Asia,Storms,,50328388,69311,54,11,43,4
+1990,Eastern Africa,Droughts,,56249344,715858,81,29,0,38
+1990,Eastern Africa,Floods,,43204373,959113,1,35,88,3
+1990,Eastern Africa,Storms,,3486046,501348,51,81,72,17
+1990,Eastern Asia,Droughts,,5371951,660372,64,1,33,-25
+1990,Eastern Asia,Floods,,97454586,824445,10,37,83,-21
+1990,Eastern Asia,Storms,,58170888,966250,47,53,50,-13
+1990,Eastern Europe,Droughts,,71423392,895250,41,69,5,-50
+1990,Eastern Europe,Floods,,51627592,207290,30,13,66,-15
+1990,Eastern Europe,Storms,,91519828,518318,73,97,20,12
+1990,Melanesia,Droughts,,99341724,946406,78,80,29,15
+1990,Melanesia,Floods,,48202771,774532,38,65,29,25
+1990,Melanesia,Storms,,57643246,862640,56,66,72,-1
+1990,Micronesia,Droughts,,85021902,670816,89,85,44,-21
+1990,Micronesia,Floods,,90136978,46926,48,91,7,-13
+1990,Micronesia,Storms,,1510534,43405,78,30,77,40
+1990,Middle Africa,Droughts,,7087136,850577,26,72,46,-8
+1990,Middle Africa,Floods,,63806173,526454,73,10,28,-34
+1990,Middle Africa,Storms,,39442042,885841,49,65,64,47
+1990,Northern Africa,Droughts,,5026242,310022,33,73,76,25
+1990,Northern Africa,Floods,,6738511,576779,90,31,12,18
+1990,Northern Africa,Storms,,84437036,124208,57,31,91,-22
+1990,Northern America,Droughts,,91317911,991151,94,57,52,-13
+1990,Northern America,Floods,,38336414,394854,92,1,68,-30
+1990,Northern America,Storms,,25800864,989119,68,66,2,-30
+1990,Northern Europe,Droughts,,92898911,40237,78,61,64,22
+1990,Northern Europe,Floods,,77828928,400554,87,49,96,14
+1990,Northern Europe,Storms,,48050563,632834,76,98,12,-46
+1990,Polynesia,Droughts,,1313520,790858,79,19,65,37
+1990,Polynesia,Floods,,63292646,749051,97,25,5,-59
+1990,Polynesia,Storms,,27899880,520117,64,35,65,20
+1990,South America,Droughts,,83491396,30178,73,90,2,34
+1990,South America,Floods,,11346820,192869,16,48,69,-26
+1990,South America,Storms,,39989514,450575,33,78,92,-7
+1990,South-Eastern Asia,Droughts,,35916165,940711,75,59,1,-7
+1990,South-Eastern Asia,Floods,,59680665,960705,65,28,80,-50
+1990,South-Eastern Asia,Storms,,78024936,331920,0,62,96,15
+1990,Southern Africa,Droughts,,63987179,691847,43,61,42,10
+1990,Southern Africa,Floods,,94198699,518405,77,67,97,-30
+1990,Southern Africa,Storms,,95505189,470147,45,65,90,-8
+1990,Southern Asia,Droughts,,70980401,572804,98,59,70,8
+1990,Southern Asia,Floods,,19994820,855355,56,84,28,-32
+1990,Southern Asia,Storms,,72608059,683062,89,58,84,-46
+1990,Southern Europe,Droughts,,21290400,866227,11,34,77,12
+1990,Southern Europe,Floods,,32209007,636388,91,61,59,-51
+1990,Southern Europe,Storms,,22236493,753411,92,24,69,-25
+1990,Western Africa,Droughts,,91612907,771550,86,4,94,41
+1990,Western Africa,Floods,,25024030,184006,29,44,59,-33
+1990,Western Africa,Storms,,60126606,777450,90,9,91,-31
+1990,Western Asia,Droughts,,18241742,221094,3,82,37,17
+1990,Western Asia,Floods,,32262807,977223,84,23,75,0
+1990,Western Asia,Storms,,43542613,906628,36,9,93,23
+1990,Western Europe,Droughts,,34816206,894130,86,59,39,-47
+1990,Western Europe,Floods,,78956599,345055,7,84,77,-9
+1990,Western Europe,Storms,,3182802,118157,31,64,30,24
+2000,Australia and New Zealand,Droughts,,61978872,750576,29,96,50,-5
+2000,Australia and New Zealand,Floods,,13796530,424715,54,71,16,-17
+2000,Australia and New Zealand,Storms,,92654155,231058,40,70,1,1
+2000,Caribbean,Droughts,,90122274,383411,72,87,16,41
+2000,Caribbean,Floods,,51706808,269516,2,19,50,-47
+2000,Caribbean,Storms,,63259565,400230,19,44,92,-58
+2000,Central America,Droughts,,16214816,126636,92,30,80,-33
+2000,Central America,Floods,,98907886,545841,75,30,45,7
+2000,Central America,Storms,,32774272,54809,67,79,76,4
+2000,Central Asia,Droughts,,5029630,600097,68,11,90,-5
+2000,Central Asia,Floods,,1028142,149097,73,13,33,-57
+2000,Central Asia,Storms,,40453032,115453,26,63,32,-36
+2000,Eastern Africa,Droughts,,51813625,718231,27,30,76,-53
+2000,Eastern Africa,Floods,,68804096,844025,1,98,23,-47
+2000,Eastern Africa,Storms,,11924564,285875,74,48,44,-52
+2000,Eastern Asia,Droughts,,76527412,229306,54,78,14,-3
+2000,Eastern Asia,Floods,,67907565,887172,60,36,62,-58
+2000,Eastern Asia,Storms,,81526593,361531,90,94,30,0
+2000,Eastern Europe,Droughts,,22757055,712661,62,67,48,-22
+2000,Eastern Europe,Floods,,25646945,857422,81,22,37,-34
+2000,Eastern Europe,Storms,,4331122,293852,19,65,63,43
+2000,Melanesia,Droughts,,49156591,432707,63,39,17,-48
+2000,Melanesia,Floods,,19638586,16160,72,24,13,-29
+2000,Melanesia,Storms,,38541813,140961,42,65,57,-20
+2000,Micronesia,Droughts,,55403862,161849,17,45,68,-31
+2000,Micronesia,Floods,,37242809,892703,37,50,21,-22
+2000,Micronesia,Storms,,50806649,958534,7,27,81,47
+2000,Middle Africa,Droughts,,99936784,978422,72,45,2,25
+2000,Middle Africa,Floods,,30694820,919335,59,23,25,46
+2000,Middle Africa,Storms,,79196889,115183,29,35,79,-16
+2000,Northern Africa,Droughts,,71221003,88957,90,29,70,10
+2000,Northern Africa,Floods,,18913520,667334,95,10,56,38
+2000,Northern Africa,Storms,,23322260,88158,5,19,99,-38
+2000,Northern America,Droughts,,20891247,573807,57,5,38,40
+2000,Northern America,Floods,,88957107,453026,71,10,33,-54
+2000,Northern America,Storms,,45830825,184304,77,73,49,-42
+2000,Northern Europe,Droughts,,85002235,916985,1,61,91,-42
+2000,Northern Europe,Floods,,66102782,944507,49,90,97,16
+2000,Northern Europe,Storms,,74147076,279119,92,23,88,-13
+2000,Polynesia,Droughts,,76450838,817802,79,72,56,-6
+2000,Polynesia,Floods,,24360471,543617,10,87,32,7
+2000,Polynesia,Storms,,76575589,250567,79,53,47,-24
+2000,South America,Droughts,,83916751,580785,28,58,86,31
+2000,South America,Floods,,17039353,51869,0,55,56,-41
+2000,South America,Storms,,57289092,940067,41,98,81,36
+2000,South-Eastern Asia,Droughts,,41333986,496135,41,90,94,-57
+2000,South-Eastern Asia,Floods,,68826988,966878,13,30,35,-7
+2000,South-Eastern Asia,Storms,,25712277,368162,31,44,85,-43
+2000,Southern Africa,Droughts,,54289548,552485,90,68,5,32
+2000,Southern Africa,Floods,,43880526,530543,62,43,74,-17
+2000,Southern Africa,Storms,,62367165,328440,19,33,7,-20
+2000,Southern Asia,Droughts,,67809516,493512,25,62,10,-32
+2000,Southern Asia,Floods,,87273861,678981,37,57,35,-15
+2000,Southern Asia,Storms,,41709186,268723,72,54,74,40
+2000,Southern Europe,Droughts,,49524007,304292,62,95,44,-56
+2000,Southern Europe,Floods,,26365902,485299,69,38,16,-32
+2000,Southern Europe,Storms,,79974187,539472,71,95,32,31
+2000,Western Africa,Droughts,,71315154,778028,8,64,5,14
+2000,Western Africa,Floods,,54559598,956742,46,91,93,-46
+2000,Western Africa,Storms,,16640458,298462,25,22,17,-50
+2000,Western Asia,Droughts,,85166130,258439,56,77,24,-16
+2000,Western Asia,Floods,,58302613,67427,7,18,82,10
+2000,Western Asia,Storms,,17706389,490711,57,77,32,-42
+2000,Western Europe,Droughts,,25589550,26365,91,66,62,35
+2000,Western Europe,Floods,,32237065,624010,33,37,57,-23
+2000,Western Europe,Storms,,70260969,150197,7,72,23,10
+2010,Australia and New Zealand,Droughts,,18616843,983102,17,81,33,-18
+2010,Australia and New Zealand,Floods,,28412721,845443,28,71,85,20
+2010,Australia and New Zealand,Storms,,53576055,504976,15,30,13,16
+2010,Caribbean,Droughts,,46083393,485462,80,17,50,-49
+2010,Caribbean,Floods,,78492542,821942,28,35,64,21
+2010,Caribbean,Storms,,13220879,102457,86,23,80,-36
+2010,Central America,Droughts,,68728455,418139,60,95,0,-38
+2010,Central America,Floods,,55637408,325422,88,25,22,36
+2010,Central America,Storms,,29307050,714755,37,26,94,-43
+2010,Central Asia,Droughts,,82855119,667193,24,86,22,0
+2010,Central Asia,Floods,,41523506,464651,15,32,6,-18
+2010,Central Asia,Storms,,70829056,702537,69,31,99,-58
+2010,Eastern Africa,Droughts,,2703071,605843,80,7,73,-33
+2010,Eastern Africa,Floods,,71898463,951554,7,64,79,-58
+2010,Eastern Africa,Storms,,14298106,69054,38,13,27,-17
+2010,Eastern Asia,Droughts,,24142178,855199,41,86,39,41
+2010,Eastern Asia,Floods,,95845953,314253,86,97,97,27
+2010,Eastern Asia,Storms,,10152777,159110,75,7,76,-50
+2010,Eastern Europe,Droughts,,18774717,915697,40,17,79,31
+2010,Eastern Europe,Floods,,35356992,373491,73,98,88,-40
+2010,Eastern Europe,Storms,,18076011,493922,48,25,42,3
+2010,Melanesia,Droughts,,60960146,247672,10,1,19,18
+2010,Melanesia,Floods,,59537702,160944,99,56,99,-60
+2010,Melanesia,Storms,,54511494,960832,65,60,99,42
+2010,Micronesia,Droughts,,9649243,104353,91,61,30,-38
+2010,Micronesia,Floods,,27057744,217700,15,27,95,31
+2010,Micronesia,Storms,,21254479,94005,7,86,6,37
+2010,Middle Africa,Droughts,,83347942,154666,63,61,98,33
+2010,Middle Africa,Floods,,15771858,429365,88,20,8,15
+2010,Middle Africa,Storms,,24644639,113162,84,18,35,-24
+2010,Northern Africa,Droughts,,9487310,788154,78,7,38,-38
+2010,Northern Africa,Floods,,70211675,23334,67,76,5,-36
+2010,Northern Africa,Storms,,47347060,863391,48,93,50,-23
+2010,Northern America,Droughts,,78630955,52559,24,80,28,16
+2010,Northern America,Floods,,21408879,847257,58,61,41,-30
+2010,Northern America,Storms,,90788891,716734,28,99,58,12
+2010,Northern Europe,Droughts,,48521935,531207,45,96,70,2
+2010,Northern Europe,Floods,,10705987,613055,79,78,89,26
+2010,Northern Europe,Storms,,80519411,347481,48,75,91,-34
+2010,Polynesia,Droughts,,14973678,66164,47,73,25,-21
+2010,Polynesia,Floods,,29569471,2414,77,18,52,-10
+2010,Polynesia,Storms,,94920348,766825,14,81,85,29
+2010,South America,Droughts,,79673867,123482,6,29,64,-30
+2010,South America,Floods,,62870479,560978,67,95,57,30
+2010,South America,Storms,,60321779,76872,74,20,1,-44
+2010,South-Eastern Asia,Droughts,,69342667,485286,49,58,7,27
+2010,South-Eastern Asia,Floods,,33967066,183390,86,9,3,-32
+2010,South-Eastern Asia,Storms,,71259945,432514,95,97,52,-41
+2010,Southern Africa,Droughts,,37797923,582642,64,40,57,-19
+2010,Southern Africa,Floods,,81234431,446602,35,47,73,-35
+2010,Southern Africa,Storms,,22366812,501384,12,47,61,22
+2010,Southern Asia,Droughts,,11755792,261688,2,54,3,-45
+2010,Southern Asia,Floods,,70762836,467118,87,66,76,-15
+2010,Southern Asia,Storms,,34054776,100552,56,83,60,28
+2010,Southern Europe,Droughts,,99339239,31252,60,51,34,-42
+2010,Southern Europe,Floods,,24011483,909277,90,53,41,24
+2010,Southern Europe,Storms,,10376484,785019,34,44,3,-10
+2010,Western Africa,Droughts,,36067531,807898,77,91,38,17
+2010,Western Africa,Floods,,8414467,817407,68,51,7,-18
+2010,Western Africa,Storms,,70910300,792359,91,26,99,42
+2010,Western Asia,Droughts,,27751027,42507,94,32,78,-45
+2010,Western Asia,Floods,,80774979,238613,49,26,28,-2
+2010,Western Asia,Storms,,76077935,546758,92,15,52,-10
+2010,Western Europe,Droughts,,85382661,973200,26,29,47,-5
+2010,Western Europe,Floods,,91900925,258935,75,18,38,-23
+2010,Western Europe,Storms,,11296707,407125,40,64,83,36
+2020,Australia and New Zealand,Droughts,,97686280,93560,8,69,61,6
+2020,Australia and New Zealand,Floods,,3792597,271343,39,27,25,-25
+2020,Australia and New Zealand,Storms,,64898150,723186,68,78,56,26
+2020,Caribbean,Droughts,,44218418,107969,29,96,48,-8
+2020,Caribbean,Floods,,61495297,25983,42,39,9,-6
+2020,Caribbean,Storms,,38236263,919099,62,68,38,-20
+2020,Central America,Droughts,,63771933,703114,35,31,95,48
+2020,Central America,Floods,,87299882,944899,58,74,14,36
+2020,Central America,Storms,,44849905,708797,46,8,68,-19
+2020,Central Asia,Droughts,,4561432,599537,4,72,10,34
+2020,Central Asia,Floods,,41749253,691100,28,36,6,40
+2020,Central Asia,Storms,,82020313,614554,40,92,68,7
+2020,Eastern Africa,Droughts,,5385078,665000,56,69,27,-10
+2020,Eastern Africa,Floods,,44448271,591716,54,75,54,18
+2020,Eastern Africa,Storms,,25995897,617036,68,68,68,29
+2020,Eastern Asia,Droughts,,65553567,427546,81,86,7,11
+2020,Eastern Asia,Floods,,19695178,340057,0,7,84,-32
+2020,Eastern Asia,Storms,,21228480,769186,70,25,10,-6
+2020,Eastern Europe,Droughts,,82135736,747435,57,81,80,44
+2020,Eastern Europe,Floods,,74393100,55785,70,81,16,-55
+2020,Eastern Europe,Storms,,37495825,336664,74,0,23,3
+2020,Melanesia,Droughts,,1371353,115421,52,11,7,47
+2020,Melanesia,Floods,,13765384,490651,42,17,59,-52
+2020,Melanesia,Storms,,72038930,217101,63,86,37,-49
+2020,Micronesia,Droughts,,91651303,767353,1,8,63,-30
+2020,Micronesia,Floods,,31289928,94880,2,72,81,40
+2020,Micronesia,Storms,,79461123,251475,40,23,92,-39
+2020,Middle Africa,Droughts,,91631834,500897,58,70,21,-37
+2020,Middle Africa,Floods,,41233212,729762,46,63,80,-52
+2020,Middle Africa,Storms,,44943038,156017,59,17,39,41
+2020,Northern Africa,Droughts,,29030901,133929,86,91,8,-29
+2020,Northern Africa,Floods,,22618731,417236,66,6,14,5
+2020,Northern Africa,Storms,,37116945,86993,81,33,90,23
+2020,Northern America,Droughts,,51871906,518415,28,47,45,40
+2020,Northern America,Floods,,94615296,47137,6,72,13,-16
+2020,Northern America,Storms,,40037667,925332,14,73,44,-20
+2020,Northern Europe,Droughts,,2466923,731105,23,84,97,-38
+2020,Northern Europe,Floods,,93426741,290426,72,21,85,-54
+2020,Northern Europe,Storms,,19875885,825497,82,7,21,18
+2020,Polynesia,Droughts,,74569105,516267,54,68,56,38
+2020,Polynesia,Floods,,57212357,249110,81,35,63,-18
+2020,Polynesia,Storms,,1070519,109443,86,90,32,32
+2020,South America,Droughts,,91424744,614330,61,42,72,-45
+2020,South America,Floods,,74101258,525422,27,31,56,-3
+2020,South America,Storms,,16773050,938784,27,14,73,-50
+2020,South-Eastern Asia,Droughts,,44111212,246577,16,7,14,-29
+2020,South-Eastern Asia,Floods,,71673949,102597,39,99,1,-3
+2020,South-Eastern Asia,Storms,,7564899,255588,8,38,14,34
+2020,Southern Africa,Droughts,,35520960,254012,49,76,77,14
+2020,Southern Africa,Floods,,98001563,941806,69,69,77,-54
+2020,Southern Africa,Storms,,34432057,690975,84,40,1,-14
+2020,Southern Asia,Droughts,,62012211,497017,11,28,11,-27
+2020,Southern Asia,Floods,,36386276,917714,62,41,72,16
+2020,Southern Asia,Storms,,36349751,158191,87,99,33,32
+2020,Southern Europe,Droughts,,63191405,796804,44,23,53,-20
+2020,Southern Europe,Floods,,15194683,393557,96,2,23,-60
+2020,Southern Europe,Storms,,76388582,13635,88,18,63,7
+2020,Western Africa,Droughts,,92967927,165202,11,24,71,37
+2020,Western Africa,Floods,,27724628,700211,50,36,82,-6
+2020,Western Africa,Storms,,75700548,382563,56,52,29,26
+2020,Western Asia,Droughts,,18399642,498901,52,99,63,22
+2020,Western Asia,Floods,,67414672,615460,77,2,53,-37
+2020,Western Asia,Storms,,25957323,202596,94,13,85,-26
+2020,Western Europe,Droughts,,80031345,284603,0,13,7,-25
+2020,Western Europe,Floods,,46296410,445218,49,90,48,-38
+2020,Western Europe,Storms,,12486528,591567,35,43,33,29
+2030,Australia and New Zealand,Droughts,2.6,15762364,327504,47,69,61,40
+2030,Australia and New Zealand,Droughts,4.5,16174844,617430,65,45,8,-35
+2030,Australia and New Zealand,Droughts,6.0,43964324,303858,98,77,52,14
+2030,Australia and New Zealand,Droughts,8.5,34098631,703125,60,68,56,-30
+2030,Australia and New Zealand,Floods,2.6,2881432,192384,15,2,42,27
+2030,Australia and New Zealand,Floods,4.5,69461301,653945,48,28,48,-16
+2030,Australia and New Zealand,Floods,6.0,7886364,840351,89,23,80,12
+2030,Australia and New Zealand,Floods,8.5,71765395,10933,49,58,46,-40
+2030,Australia and New Zealand,Storms,2.6,92101105,96229,24,71,41,25
+2030,Australia and New Zealand,Storms,4.5,92511487,488946,70,39,90,-49
+2030,Australia and New Zealand,Storms,6.0,22433668,548559,18,54,40,-57
+2030,Australia and New Zealand,Storms,8.5,80900054,147344,51,18,79,0
+2030,Caribbean,Droughts,2.6,69072323,340473,32,77,13,17
+2030,Caribbean,Droughts,4.5,37541281,290280,57,54,2,-58
+2030,Caribbean,Droughts,6.0,95738356,505284,79,29,83,0
+2030,Caribbean,Droughts,8.5,73279302,490406,55,20,19,14
+2030,Caribbean,Floods,2.6,48020689,186456,24,7,49,44
+2030,Caribbean,Floods,4.5,10724330,909340,88,78,67,18
+2030,Caribbean,Floods,6.0,1143560,326678,9,39,18,23
+2030,Caribbean,Floods,8.5,80666892,64306,5,96,43,-27
+2030,Caribbean,Storms,2.6,80867785,6750,0,99,14,27
+2030,Caribbean,Storms,4.5,10711378,500948,98,45,1,46
+2030,Caribbean,Storms,6.0,64184844,318781,83,39,3,-9
+2030,Caribbean,Storms,8.5,40803904,680697,31,73,17,-43
+2030,Central America,Droughts,2.6,71063964,156123,35,57,31,-9
+2030,Central America,Droughts,4.5,82037934,257440,86,6,32,5
+2030,Central America,Droughts,6.0,45591117,748987,50,71,21,-7
+2030,Central America,Droughts,8.5,57470245,854141,95,24,37,-26
+2030,Central America,Floods,2.6,32222690,269182,41,91,45,2
+2030,Central America,Floods,4.5,37459686,454956,34,4,15,-45
+2030,Central America,Floods,6.0,98641616,989111,72,46,9,49
+2030,Central America,Floods,8.5,72306005,865562,45,61,71,44
+2030,Central America,Storms,2.6,30419188,945256,46,28,82,-54
+2030,Central America,Storms,4.5,53688903,898002,7,45,65,24
+2030,Central America,Storms,6.0,48437905,818556,4,49,93,-17
+2030,Central America,Storms,8.5,81729622,327937,61,49,48,-13
+2030,Central Asia,Droughts,2.6,59394979,312643,90,47,59,41
+2030,Central Asia,Droughts,4.5,74709196,182575,1,32,93,-18
+2030,Central Asia,Droughts,6.0,85793863,450740,80,59,13,-18
+2030,Central Asia,Droughts,8.5,47293833,324699,78,95,78,1
+2030,Central Asia,Floods,2.6,84227532,721258,3,90,30,-24
+2030,Central Asia,Floods,4.5,76431155,193755,84,98,64,-36
+2030,Central Asia,Floods,6.0,96703151,784610,61,42,28,-1
+2030,Central Asia,Floods,8.5,66148859,926180,79,77,54,-40
+2030,Central Asia,Storms,2.6,61429801,914780,55,23,95,7
+2030,Central Asia,Storms,4.5,47945540,559842,20,16,47,-49
+2030,Central Asia,Storms,6.0,39429147,336170,96,51,53,46
+2030,Central Asia,Storms,8.5,84627152,839655,39,43,85,31
+2030,Eastern Africa,Droughts,2.6,44734309,816766,46,98,81,-4
+2030,Eastern Africa,Droughts,4.5,36196943,802541,97,71,2,-59
+2030,Eastern Africa,Droughts,6.0,27093058,253635,85,70,40,-3
+2030,Eastern Africa,Droughts,8.5,10600989,951073,23,49,59,-40
+2030,Eastern Africa,Floods,2.6,47163451,303127,3,9,90,33
+2030,Eastern Africa,Floods,4.5,80599255,140081,27,18,4,34
+2030,Eastern Africa,Floods,6.0,88748672,701305,7,69,43,-60
+2030,Eastern Africa,Floods,8.5,51301504,310919,83,56,15,16
+2030,Eastern Africa,Storms,2.6,84818153,406258,50,31,65,-1
+2030,Eastern Africa,Storms,4.5,70884001,916869,8,27,15,5
+2030,Eastern Africa,Storms,6.0,82141570,144446,91,98,55,33
+2030,Eastern Africa,Storms,8.5,12842110,28603,54,49,58,18
+2030,Eastern Asia,Droughts,2.6,70262390,833084,15,14,34,-7
+2030,Eastern Asia,Droughts,4.5,34871509,890365,3,51,73,-42
+2030,Eastern Asia,Droughts,6.0,73569770,228403,38,68,83,13
+2030,Eastern Asia,Droughts,8.5,89515561,25715,79,70,93,-15
+2030,Eastern Asia,Floods,2.6,69733672,488704,24,82,30,-34
+2030,Eastern Asia,Floods,4.5,57867144,716619,82,37,3,29
+2030,Eastern Asia,Floods,6.0,93939942,472919,26,64,60,-7
+2030,Eastern Asia,Floods,8.5,55918218,679165,54,35,48,31
+2030,Eastern Asia,Storms,2.6,21738561,819755,86,11,94,-11
+2030,Eastern Asia,Storms,4.5,14852512,893221,53,31,2,20
+2030,Eastern Asia,Storms,6.0,66359712,375449,63,13,47,-58
+2030,Eastern Asia,Storms,8.5,67676951,319105,99,88,39,7
+2030,Eastern Europe,Droughts,2.6,91857569,351888,41,92,91,33
+2030,Eastern Europe,Droughts,4.5,76076827,409993,33,36,97,-32
+2030,Eastern Europe,Droughts,6.0,19114931,489053,69,76,77,43
+2030,Eastern Europe,Droughts,8.5,10376415,526134,33,14,28,-33
+2030,Eastern Europe,Floods,2.6,20708358,989519,28,65,2,-41
+2030,Eastern Europe,Floods,4.5,48569468,110423,63,18,16,-46
+2030,Eastern Europe,Floods,6.0,59689467,829546,37,12,19,-43
+2030,Eastern Europe,Floods,8.5,55174860,948817,49,93,39,-60
+2030,Eastern Europe,Storms,2.6,53896938,591440,19,3,24,-13
+2030,Eastern Europe,Storms,4.5,12886361,320988,83,5,12,-2
+2030,Eastern Europe,Storms,6.0,82676648,889303,26,57,32,-19
+2030,Eastern Europe,Storms,8.5,42573711,785685,85,77,8,-28
+2030,Melanesia,Droughts,2.6,678569,463570,75,42,36,-2
+2030,Melanesia,Droughts,4.5,86095862,43679,27,65,88,-53
+2030,Melanesia,Droughts,6.0,75300033,732228,93,65,28,-46
+2030,Melanesia,Droughts,8.5,64936250,577678,14,35,96,13
+2030,Melanesia,Floods,2.6,35230734,819692,92,9,28,39
+2030,Melanesia,Floods,4.5,74837483,41087,13,31,4,-43
+2030,Melanesia,Floods,6.0,95313891,405749,68,35,93,25
+2030,Melanesia,Floods,8.5,85803775,849741,1,70,90,19
+2030,Melanesia,Storms,2.6,49503380,629285,25,20,9,40
+2030,Melanesia,Storms,4.5,49103962,844351,42,76,58,7
+2030,Melanesia,Storms,6.0,24070647,972559,5,70,33,-60
+2030,Melanesia,Storms,8.5,29434591,341220,7,54,15,-33
+2030,Micronesia,Droughts,2.6,77746171,614757,75,52,55,2
+2030,Micronesia,Droughts,4.5,4804826,963774,27,82,10,-2
+2030,Micronesia,Droughts,6.0,85636119,445826,70,63,63,-9
+2030,Micronesia,Droughts,8.5,15147507,615647,7,1,69,-4
+2030,Micronesia,Floods,2.6,81579077,838750,22,61,34,-28
+2030,Micronesia,Floods,4.5,37935679,895284,45,4,63,0
+2030,Micronesia,Floods,6.0,45904553,665500,51,65,93,-16
+2030,Micronesia,Floods,8.5,22540919,448946,84,79,89,2
+2030,Micronesia,Storms,2.6,1436008,176587,4,75,18,-6
+2030,Micronesia,Storms,4.5,88702201,808371,81,32,97,14
+2030,Micronesia,Storms,6.0,20098003,415630,41,31,72,33
+2030,Micronesia,Storms,8.5,22310859,334573,1,23,11,25
+2030,Middle Africa,Droughts,2.6,90363522,570716,64,70,46,-10
+2030,Middle Africa,Droughts,4.5,93725509,158250,83,55,36,-42
+2030,Middle Africa,Droughts,6.0,15702795,23998,82,99,81,47
+2030,Middle Africa,Droughts,8.5,39495930,77296,80,9,84,-53
+2030,Middle Africa,Floods,2.6,60619316,35275,21,36,17,-18
+2030,Middle Africa,Floods,4.5,24716002,888529,20,72,39,2
+2030,Middle Africa,Floods,6.0,89854778,855004,48,73,29,-22
+2030,Middle Africa,Floods,8.5,41052350,895909,74,25,10,45
+2030,Middle Africa,Storms,2.6,46813948,898868,49,61,54,-31
+2030,Middle Africa,Storms,4.5,78845068,524460,28,40,53,-50
+2030,Middle Africa,Storms,6.0,93465224,370661,66,10,94,-2
+2030,Middle Africa,Storms,8.5,8602871,525333,62,92,34,32
+2030,Northern Africa,Droughts,2.6,6625260,11009,32,31,11,24
+2030,Northern Africa,Droughts,4.5,27891164,394067,29,39,96,12
+2030,Northern Africa,Droughts,6.0,28434572,466783,82,91,55,-31
+2030,Northern Africa,Droughts,8.5,18419452,528745,1,72,85,32
+2030,Northern Africa,Floods,2.6,1418310,440890,69,46,21,-6
+2030,Northern Africa,Floods,4.5,97599369,262174,98,0,37,35
+2030,Northern Africa,Floods,6.0,82952384,837170,4,32,11,41
+2030,Northern Africa,Floods,8.5,52477478,498432,53,38,97,-26
+2030,Northern Africa,Storms,2.6,20703311,179795,93,78,93,-43
+2030,Northern Africa,Storms,4.5,56617700,601661,87,6,64,-38
+2030,Northern Africa,Storms,6.0,86034966,507310,36,22,55,26
+2030,Northern Africa,Storms,8.5,62851571,923669,43,12,34,41
+2030,Northern America,Droughts,2.6,55286131,498811,52,91,44,-35
+2030,Northern America,Droughts,4.5,61961688,669131,32,39,29,-55
+2030,Northern America,Droughts,6.0,13977532,941120,24,42,39,-50
+2030,Northern America,Droughts,8.5,66414637,784020,1,26,80,-24
+2030,Northern America,Floods,2.6,45368358,681562,87,64,91,11
+2030,Northern America,Floods,4.5,57737477,434345,56,45,3,-25
+2030,Northern America,Floods,6.0,38612222,440827,80,46,78,-30
+2030,Northern America,Floods,8.5,16104385,885390,71,18,6,-26
+2030,Northern America,Storms,2.6,12021265,743804,81,37,50,-16
+2030,Northern America,Storms,4.5,84696218,892005,68,63,92,-31
+2030,Northern America,Storms,6.0,91884674,353669,96,92,44,40
+2030,Northern America,Storms,8.5,91863603,59055,62,78,66,27
+2030,Northern Europe,Droughts,2.6,13525587,658948,10,58,1,22
+2030,Northern Europe,Droughts,4.5,70543088,443048,19,73,26,-28
+2030,Northern Europe,Droughts,6.0,80434116,533150,4,34,96,-54
+2030,Northern Europe,Droughts,8.5,24825753,842893,51,1,90,29
+2030,Northern Europe,Floods,2.6,44894594,104485,18,64,36,22
+2030,Northern Europe,Floods,4.5,31159097,472555,85,84,33,36
+2030,Northern Europe,Floods,6.0,55684085,652798,78,12,41,-34
+2030,Northern Europe,Floods,8.5,50824605,372303,85,38,21,38
+2030,Northern Europe,Storms,2.6,72297693,481702,16,43,38,0
+2030,Northern Europe,Storms,4.5,95691666,356369,34,40,64,12
+2030,Northern Europe,Storms,6.0,47561654,666513,6,20,65,-10
+2030,Northern Europe,Storms,8.5,75605358,173945,51,55,81,-37
+2030,Polynesia,Droughts,2.6,16052253,272258,96,79,88,-14
+2030,Polynesia,Droughts,4.5,78079356,994071,46,8,98,-47
+2030,Polynesia,Droughts,6.0,60249056,309331,79,14,31,-54
+2030,Polynesia,Droughts,8.5,89915106,283672,30,95,45,-29
+2030,Polynesia,Floods,2.6,16129470,9457,48,13,52,-10
+2030,Polynesia,Floods,4.5,48533113,377009,20,85,62,21
+2030,Polynesia,Floods,6.0,83673306,453678,92,64,39,-32
+2030,Polynesia,Floods,8.5,22966955,59529,32,70,69,-49
+2030,Polynesia,Storms,2.6,1630439,51764,46,78,28,-38
+2030,Polynesia,Storms,4.5,62049546,233206,13,54,76,33
+2030,Polynesia,Storms,6.0,96663567,937538,91,37,98,-5
+2030,Polynesia,Storms,8.5,37837258,129243,13,26,13,-20
+2030,South America,Droughts,2.6,40453314,828408,31,54,95,-27
+2030,South America,Droughts,4.5,28366803,948878,72,78,8,33
+2030,South America,Droughts,6.0,31201390,636834,90,33,90,32
+2030,South America,Droughts,8.5,43405979,524224,40,67,27,15
+2030,South America,Floods,2.6,62033977,520496,24,85,32,24
+2030,South America,Floods,4.5,5175610,331233,34,80,80,-33
+2030,South America,Floods,6.0,4440968,706420,35,57,86,35
+2030,South America,Floods,8.5,67453396,837870,37,11,6,-60
+2030,South America,Storms,2.6,13880321,584254,25,10,18,19
+2030,South America,Storms,4.5,97480478,224875,84,25,0,13
+2030,South America,Storms,6.0,16252342,566755,53,54,36,9
+2030,South America,Storms,8.5,17191283,562303,92,76,27,-28
+2030,South-Eastern Asia,Droughts,2.6,74750346,174331,2,17,66,36
+2030,South-Eastern Asia,Droughts,4.5,76551320,596493,38,27,52,-58
+2030,South-Eastern Asia,Droughts,6.0,16139908,635920,72,46,77,14
+2030,South-Eastern Asia,Droughts,8.5,25537168,14883,90,48,84,37
+2030,South-Eastern Asia,Floods,2.6,29112298,91819,81,64,81,14
+2030,South-Eastern Asia,Floods,4.5,56765405,622892,17,2,56,-28
+2030,South-Eastern Asia,Floods,6.0,32384026,619953,93,82,89,-38
+2030,South-Eastern Asia,Floods,8.5,8201532,39866,95,8,3,10
+2030,South-Eastern Asia,Storms,2.6,47320089,37021,94,90,33,5
+2030,South-Eastern Asia,Storms,4.5,83949055,693822,97,64,60,34
+2030,South-Eastern Asia,Storms,6.0,66495790,378129,51,93,11,15
+2030,South-Eastern Asia,Storms,8.5,66239232,712038,70,34,51,-16
+2030,Southern Africa,Droughts,2.6,91232239,492471,51,83,36,13
+2030,Southern Africa,Droughts,4.5,93139165,242051,43,61,92,-32
+2030,Southern Africa,Droughts,6.0,47713521,323211,60,89,34,-51
+2030,Southern Africa,Droughts,8.5,94011594,280451,68,25,99,30
+2030,Southern Africa,Floods,2.6,55483642,798387,7,9,74,-33
+2030,Southern Africa,Floods,4.5,32794942,518982,24,56,5,-6
+2030,Southern Africa,Floods,6.0,10798428,139343,62,73,10,11
+2030,Southern Africa,Floods,8.5,57423017,712144,76,2,68,7
+2030,Southern Africa,Storms,2.6,86714269,372199,1,91,83,-45
+2030,Southern Africa,Storms,4.5,57783137,278998,1,20,31,30
+2030,Southern Africa,Storms,6.0,41106940,984398,79,86,67,-3
+2030,Southern Africa,Storms,8.5,43200348,106883,93,17,84,-26
+2030,Southern Asia,Droughts,2.6,64607686,277400,18,30,44,-22
+2030,Southern Asia,Droughts,4.5,37695030,238400,25,12,1,-60
+2030,Southern Asia,Droughts,6.0,38072036,88358,61,46,51,-43
+2030,Southern Asia,Droughts,8.5,58115901,279153,87,34,92,-15
+2030,Southern Asia,Floods,2.6,51809254,746046,34,9,74,-15
+2030,Southern Asia,Floods,4.5,11799729,454921,60,31,71,12
+2030,Southern Asia,Floods,6.0,82597609,234335,48,20,23,-58
+2030,Southern Asia,Floods,8.5,96836997,376622,84,81,17,21
+2030,Southern Asia,Storms,2.6,82268302,984232,79,62,46,-27
+2030,Southern Asia,Storms,4.5,53388913,119349,41,79,39,6
+2030,Southern Asia,Storms,6.0,47608698,286682,93,29,38,-58
+2030,Southern Asia,Storms,8.5,96985287,315764,79,93,47,-53
+2030,Southern Europe,Droughts,2.6,83639675,782462,0,70,2,19
+2030,Southern Europe,Droughts,4.5,81845291,937486,7,86,95,20
+2030,Southern Europe,Droughts,6.0,22897932,766143,84,19,91,2
+2030,Southern Europe,Droughts,8.5,47655752,203049,48,94,79,-41
+2030,Southern Europe,Floods,2.6,67471282,258353,71,52,12,13
+2030,Southern Europe,Floods,4.5,43861257,783582,73,67,82,-1
+2030,Southern Europe,Floods,6.0,9257913,270914,2,76,56,-56
+2030,Southern Europe,Floods,8.5,25742741,65379,64,41,20,-48
+2030,Southern Europe,Storms,2.6,37357675,67729,16,28,34,-21
+2030,Southern Europe,Storms,4.5,93123334,504638,20,74,14,7
+2030,Southern Europe,Storms,6.0,7955290,529368,21,46,24,23
+2030,Southern Europe,Storms,8.5,56620271,8953,99,14,20,-14
+2030,Western Africa,Droughts,2.6,26538054,406326,79,33,89,-20
+2030,Western Africa,Droughts,4.5,31774989,225417,51,81,16,25
+2030,Western Africa,Droughts,6.0,67782940,649340,71,70,65,24
+2030,Western Africa,Droughts,8.5,81685886,273412,33,21,56,-18
+2030,Western Africa,Floods,2.6,66966905,673946,37,65,27,-45
+2030,Western Africa,Floods,4.5,16763677,787105,77,37,33,-56
+2030,Western Africa,Floods,6.0,56348912,353884,22,76,47,-18
+2030,Western Africa,Floods,8.5,78547398,470593,55,86,29,-51
+2030,Western Africa,Storms,2.6,38927613,43360,16,43,66,14
+2030,Western Africa,Storms,4.5,72166073,651904,54,4,30,33
+2030,Western Africa,Storms,6.0,81060982,83781,59,49,45,46
+2030,Western Africa,Storms,8.5,79208471,71923,38,54,47,-24
+2030,Western Asia,Droughts,2.6,22220040,306180,58,32,57,33
+2030,Western Asia,Droughts,4.5,71116827,417085,82,23,45,-60
+2030,Western Asia,Droughts,6.0,12841568,584464,66,23,82,3
+2030,Western Asia,Droughts,8.5,62936882,309781,12,13,4,-22
+2030,Western Asia,Floods,2.6,97361716,279646,14,98,28,-15
+2030,Western Asia,Floods,4.5,23959393,619393,51,8,29,14
+2030,Western Asia,Floods,6.0,26450202,598114,78,6,62,-32
+2030,Western Asia,Floods,8.5,3712574,540233,98,9,54,-2
+2030,Western Asia,Storms,2.6,22131982,350380,82,85,4,49
+2030,Western Asia,Storms,4.5,70699608,290220,94,30,24,10
+2030,Western Asia,Storms,6.0,69329658,807996,63,31,69,45
+2030,Western Asia,Storms,8.5,56217897,105835,92,30,70,30
+2030,Western Europe,Droughts,2.6,67013352,621763,46,63,24,-58
+2030,Western Europe,Droughts,4.5,93769485,779744,40,88,82,-10
+2030,Western Europe,Droughts,6.0,60007731,589232,3,20,1,28
+2030,Western Europe,Droughts,8.5,22957184,262835,88,33,33,26
+2030,Western Europe,Floods,2.6,80144371,86771,43,5,64,14
+2030,Western Europe,Floods,4.5,60417179,611470,80,49,20,41
+2030,Western Europe,Floods,6.0,71238911,713085,2,69,51,-9
+2030,Western Europe,Floods,8.5,49076367,697510,62,48,37,-6
+2030,Western Europe,Storms,2.6,35295002,107192,79,45,85,-19
+2030,Western Europe,Storms,4.5,58369233,552471,6,90,11,4
+2030,Western Europe,Storms,6.0,65967620,144571,10,92,63,25
+2030,Western Europe,Storms,8.5,37233664,999094,76,2,71,27
+2040,Australia and New Zealand,Droughts,2.6,19952881,336698,42,29,53,-5
+2040,Australia and New Zealand,Droughts,4.5,76647189,748125,91,59,45,33
+2040,Australia and New Zealand,Droughts,6.0,76633557,408212,53,51,88,-6
+2040,Australia and New Zealand,Droughts,8.5,31256716,780187,51,58,56,3
+2040,Australia and New Zealand,Floods,2.6,84556481,852836,70,29,94,30
+2040,Australia and New Zealand,Floods,4.5,86430775,536266,93,38,89,-20
+2040,Australia and New Zealand,Floods,6.0,57797816,956011,47,15,44,-32
+2040,Australia and New Zealand,Floods,8.5,89946669,129706,24,17,54,26
+2040,Australia and New Zealand,Storms,2.6,18161696,279970,3,54,68,-8
+2040,Australia and New Zealand,Storms,4.5,20437646,657578,57,77,69,43
+2040,Australia and New Zealand,Storms,6.0,36664007,698782,65,61,50,-59
+2040,Australia and New Zealand,Storms,8.5,26282263,60836,65,95,80,11
+2040,Caribbean,Droughts,2.6,58808828,188156,79,47,24,-32
+2040,Caribbean,Droughts,4.5,11037675,304071,56,8,63,39
+2040,Caribbean,Droughts,6.0,24940840,270366,3,69,24,31
+2040,Caribbean,Droughts,8.5,32082963,71538,21,55,76,42
+2040,Caribbean,Floods,2.6,28522224,713656,79,9,22,-3
+2040,Caribbean,Floods,4.5,25408970,391969,66,16,4,25
+2040,Caribbean,Floods,6.0,52339222,762061,32,74,87,11
+2040,Caribbean,Floods,8.5,89173371,862667,46,77,28,35
+2040,Caribbean,Storms,2.6,83859836,119435,93,18,70,32
+2040,Caribbean,Storms,4.5,11778031,633283,23,44,16,-36
+2040,Caribbean,Storms,6.0,23731295,193069,69,23,37,-9
+2040,Caribbean,Storms,8.5,62390949,585178,66,28,94,-48
+2040,Central America,Droughts,2.6,19913626,431502,82,51,44,33
+2040,Central America,Droughts,4.5,62637623,838233,52,6,98,-11
+2040,Central America,Droughts,6.0,15553809,170114,26,55,75,39
+2040,Central America,Droughts,8.5,63999306,710058,24,53,73,2
+2040,Central America,Floods,2.6,16842534,651027,9,91,73,0
+2040,Central America,Floods,4.5,24490567,661216,47,91,78,37
+2040,Central America,Floods,6.0,5173116,763451,82,50,52,-10
+2040,Central America,Floods,8.5,23987858,335237,4,38,79,-15
+2040,Central America,Storms,2.6,70991051,204007,15,77,32,23
+2040,Central America,Storms,4.5,69159941,537867,82,48,44,-53
+2040,Central America,Storms,6.0,93952307,96,91,71,8,5
+2040,Central America,Storms,8.5,58336375,31305,83,9,10,-28
+2040,Central Asia,Droughts,2.6,59036847,419002,9,89,27,35
+2040,Central Asia,Droughts,4.5,11099816,349358,35,39,4,-5
+2040,Central Asia,Droughts,6.0,96507588,43,49,91,84,45
+2040,Central Asia,Droughts,8.5,33578015,218888,93,83,63,0
+2040,Central Asia,Floods,2.6,34502340,502576,4,82,27,-18
+2040,Central Asia,Floods,4.5,974650,859630,35,40,22,1
+2040,Central Asia,Floods,6.0,76240934,793899,26,31,60,0
+2040,Central Asia,Floods,8.5,36576465,823720,86,51,8,22
+2040,Central Asia,Storms,2.6,49912804,131940,70,12,67,48
+2040,Central Asia,Storms,4.5,56247386,318185,54,91,61,-53
+2040,Central Asia,Storms,6.0,15000720,435016,68,93,46,9
+2040,Central Asia,Storms,8.5,20463002,109615,71,83,19,28
+2040,Eastern Africa,Droughts,2.6,88286111,402958,72,85,46,-41
+2040,Eastern Africa,Droughts,4.5,53156490,663868,58,90,79,-1
+2040,Eastern Africa,Droughts,6.0,50452166,609089,68,50,33,-24
+2040,Eastern Africa,Droughts,8.5,37540999,6210,23,99,53,35
+2040,Eastern Africa,Floods,2.6,73321935,922681,25,19,42,-60
+2040,Eastern Africa,Floods,4.5,83814728,164961,19,49,18,48
+2040,Eastern Africa,Floods,6.0,84523152,59100,17,77,69,-57
+2040,Eastern Africa,Floods,8.5,76778999,998092,56,76,94,-24
+2040,Eastern Africa,Storms,2.6,8730848,454521,76,10,57,49
+2040,Eastern Africa,Storms,4.5,18984040,893039,33,55,48,-41
+2040,Eastern Africa,Storms,6.0,3804835,886018,9,17,32,-16
+2040,Eastern Africa,Storms,8.5,61678741,4305,18,37,88,27
+2040,Eastern Asia,Droughts,2.6,44782207,970743,25,41,24,-13
+2040,Eastern Asia,Droughts,4.5,36153305,466451,68,39,16,-6
+2040,Eastern Asia,Droughts,6.0,41413956,632106,8,87,47,-16
+2040,Eastern Asia,Droughts,8.5,73252506,625899,37,19,94,-48
+2040,Eastern Asia,Floods,2.6,2342610,61606,43,68,58,0
+2040,Eastern Asia,Floods,4.5,34456251,310334,6,34,9,-52
+2040,Eastern Asia,Floods,6.0,90636405,854910,83,67,82,10
+2040,Eastern Asia,Floods,8.5,68681682,11195,69,64,81,-2
+2040,Eastern Asia,Storms,2.6,70256921,688602,66,9,50,45
+2040,Eastern Asia,Storms,4.5,78524014,497371,41,88,55,-58
+2040,Eastern Asia,Storms,6.0,2821572,433309,92,51,16,-2
+2040,Eastern Asia,Storms,8.5,22942750,286351,94,0,89,20
+2040,Eastern Europe,Droughts,2.6,18281869,727212,2,76,97,26
+2040,Eastern Europe,Droughts,4.5,86037477,998593,73,48,98,-49
+2040,Eastern Europe,Droughts,6.0,56096655,696370,1,25,26,30
+2040,Eastern Europe,Droughts,8.5,72304790,311412,88,2,57,-56
+2040,Eastern Europe,Floods,2.6,8593443,994208,77,60,45,7
+2040,Eastern Europe,Floods,4.5,21878052,892458,58,88,28,-49
+2040,Eastern Europe,Floods,6.0,99000061,278551,0,27,21,49
+2040,Eastern Europe,Floods,8.5,36573394,804152,37,84,51,-31
+2040,Eastern Europe,Storms,2.6,44589647,770296,28,53,28,-18
+2040,Eastern Europe,Storms,4.5,56109721,996000,57,65,0,-11
+2040,Eastern Europe,Storms,6.0,77833655,361608,49,67,70,-34
+2040,Eastern Europe,Storms,8.5,35950987,853028,73,92,47,-30
+2040,Melanesia,Droughts,2.6,63945827,124728,67,55,70,12
+2040,Melanesia,Droughts,4.5,21354436,604000,1,65,14,42
+2040,Melanesia,Droughts,6.0,9280934,273761,91,54,52,-25
+2040,Melanesia,Droughts,8.5,10648534,194170,9,42,56,4
+2040,Melanesia,Floods,2.6,40299732,726992,4,78,1,-10
+2040,Melanesia,Floods,4.5,61866145,187387,48,14,12,-22
+2040,Melanesia,Floods,6.0,66871322,841835,1,32,32,-54
+2040,Melanesia,Floods,8.5,28964157,231338,95,88,6,6
+2040,Melanesia,Storms,2.6,15266411,162812,5,10,34,13
+2040,Melanesia,Storms,4.5,5928902,604702,39,55,43,-13
+2040,Melanesia,Storms,6.0,83795786,151141,83,70,62,31
+2040,Melanesia,Storms,8.5,32626443,904600,41,92,33,13
+2040,Micronesia,Droughts,2.6,47013736,741186,65,36,0,-52
+2040,Micronesia,Droughts,4.5,17122979,433783,9,27,12,45
+2040,Micronesia,Droughts,6.0,52877736,265791,21,77,86,4
+2040,Micronesia,Droughts,8.5,9797354,494644,8,76,0,-21
+2040,Micronesia,Floods,2.6,76515201,74863,86,90,71,-40
+2040,Micronesia,Floods,4.5,338042,69309,5,40,12,-42
+2040,Micronesia,Floods,6.0,98251151,581073,71,48,50,16
+2040,Micronesia,Floods,8.5,23076830,18824,78,26,14,11
+2040,Micronesia,Storms,2.6,79374323,921319,33,72,20,21
+2040,Micronesia,Storms,4.5,29619253,318692,39,22,41,23
+2040,Micronesia,Storms,6.0,43467353,337779,33,36,78,3
+2040,Micronesia,Storms,8.5,52955187,519569,91,70,80,-30
+2040,Middle Africa,Droughts,2.6,22307624,87073,17,79,46,42
+2040,Middle Africa,Droughts,4.5,96337710,177288,44,41,22,3
+2040,Middle Africa,Droughts,6.0,43927503,837700,45,14,97,33
+2040,Middle Africa,Droughts,8.5,72509143,939123,98,59,59,36
+2040,Middle Africa,Floods,2.6,97546734,771784,54,41,82,17
+2040,Middle Africa,Floods,4.5,59467065,634313,30,5,13,8
+2040,Middle Africa,Floods,6.0,83790298,128411,31,35,5,-11
+2040,Middle Africa,Floods,8.5,41061453,4785,73,23,98,19
+2040,Middle Africa,Storms,2.6,54966299,76086,40,63,86,30
+2040,Middle Africa,Storms,4.5,44439201,157369,27,0,97,-14
+2040,Middle Africa,Storms,6.0,61092135,856589,70,57,57,-51
+2040,Middle Africa,Storms,8.5,18325357,148586,4,76,4,8
+2040,Northern Africa,Droughts,2.6,89471617,946375,26,39,17,16
+2040,Northern Africa,Droughts,4.5,33614387,722923,10,80,17,30
+2040,Northern Africa,Droughts,6.0,4592363,714718,73,86,16,42
+2040,Northern Africa,Droughts,8.5,1638707,119639,51,55,55,16
+2040,Northern Africa,Floods,2.6,93852426,138474,42,12,30,-17
+2040,Northern Africa,Floods,4.5,49034165,665503,38,13,88,29
+2040,Northern Africa,Floods,6.0,24180328,230798,57,81,32,-36
+2040,Northern Africa,Floods,8.5,81466534,861941,36,89,9,6
+2040,Northern Africa,Storms,2.6,88817116,341266,96,10,73,-50
+2040,Northern Africa,Storms,4.5,38377801,576395,42,85,72,-56
+2040,Northern Africa,Storms,6.0,2043735,407072,81,94,98,-45
+2040,Northern Africa,Storms,8.5,55210572,493100,27,79,42,-32
+2040,Northern America,Droughts,2.6,41636580,670438,65,8,30,-21
+2040,Northern America,Droughts,4.5,57176041,122242,41,24,16,-57
+2040,Northern America,Droughts,6.0,39188736,405334,87,45,50,41
+2040,Northern America,Droughts,8.5,43584360,307582,85,8,33,34
+2040,Northern America,Floods,2.6,66462669,423959,87,61,17,-9
+2040,Northern America,Floods,4.5,33377602,648304,99,32,53,-8
+2040,Northern America,Floods,6.0,97869,415254,40,84,81,-36
+2040,Northern America,Floods,8.5,42025978,391253,25,40,69,-10
+2040,Northern America,Storms,2.6,60371407,542843,93,55,89,-45
+2040,Northern America,Storms,4.5,61134066,461163,40,88,24,44
+2040,Northern America,Storms,6.0,29176888,218166,98,98,46,-10
+2040,Northern America,Storms,8.5,90388981,702434,56,62,79,-3
+2040,Northern Europe,Droughts,2.6,58829929,173086,67,26,95,29
+2040,Northern Europe,Droughts,4.5,27955139,783259,88,54,86,4
+2040,Northern Europe,Droughts,6.0,22230437,574803,16,67,63,20
+2040,Northern Europe,Droughts,8.5,6231122,629187,82,4,34,5
+2040,Northern Europe,Floods,2.6,86193681,757566,22,56,97,42
+2040,Northern Europe,Floods,4.5,55912373,697030,75,80,26,44
+2040,Northern Europe,Floods,6.0,25949126,450085,14,83,69,39
+2040,Northern Europe,Floods,8.5,72051409,954764,88,65,12,-27
+2040,Northern Europe,Storms,2.6,17234758,290356,67,49,23,-40
+2040,Northern Europe,Storms,4.5,77421741,255056,81,27,10,-13
+2040,Northern Europe,Storms,6.0,69910956,750428,25,83,90,-17
+2040,Northern Europe,Storms,8.5,75080687,221539,58,53,22,-58
+2040,Polynesia,Droughts,2.6,8866428,605941,15,83,88,37
+2040,Polynesia,Droughts,4.5,10473282,229108,36,11,42,17
+2040,Polynesia,Droughts,6.0,28820653,7860,36,36,81,-35
+2040,Polynesia,Droughts,8.5,62270684,709355,31,21,94,17
+2040,Polynesia,Floods,2.6,79683270,176739,29,50,71,-27
+2040,Polynesia,Floods,4.5,47059897,627043,26,2,4,-32
+2040,Polynesia,Floods,6.0,96192948,731516,29,22,43,-40
+2040,Polynesia,Floods,8.5,71272641,124273,37,98,97,2
+2040,Polynesia,Storms,2.6,3756692,689910,67,87,4,-50
+2040,Polynesia,Storms,4.5,41112903,333657,81,67,92,-11
+2040,Polynesia,Storms,6.0,5227104,583529,9,19,31,-24
+2040,Polynesia,Storms,8.5,73234630,614612,38,5,26,-49
+2040,South America,Droughts,2.6,35748359,79685,48,73,10,33
+2040,South America,Droughts,4.5,35428676,910594,21,38,4,-8
+2040,South America,Droughts,6.0,38296615,457377,51,39,8,13
+2040,South America,Droughts,8.5,13738856,879408,29,64,47,-17
+2040,South America,Floods,2.6,40293375,967218,26,22,71,-37
+2040,South America,Floods,4.5,93580384,492167,20,56,31,19
+2040,South America,Floods,6.0,41160469,588435,13,45,48,8
+2040,South America,Floods,8.5,98926179,480267,5,78,62,-32
+2040,South America,Storms,2.6,69103684,437984,72,19,24,10
+2040,South America,Storms,4.5,59894044,869607,97,77,82,-48
+2040,South America,Storms,6.0,39879719,64820,60,21,48,25
+2040,South America,Storms,8.5,44445026,465730,43,85,63,-55
+2040,South-Eastern Asia,Droughts,2.6,9600771,605267,50,79,69,19
+2040,South-Eastern Asia,Droughts,4.5,50366596,133333,92,51,82,44
+2040,South-Eastern Asia,Droughts,6.0,84757683,410598,5,75,84,34
+2040,South-Eastern Asia,Droughts,8.5,73198813,941910,37,87,36,-41
+2040,South-Eastern Asia,Floods,2.6,76968692,604766,37,91,20,-27
+2040,South-Eastern Asia,Floods,4.5,27616870,625063,43,79,43,3
+2040,South-Eastern Asia,Floods,6.0,24639034,924200,64,91,6,6
+2040,South-Eastern Asia,Floods,8.5,31422234,98609,64,47,55,-59
+2040,South-Eastern Asia,Storms,2.6,52814087,123531,51,22,74,44
+2040,South-Eastern Asia,Storms,4.5,55110650,941720,43,5,37,-32
+2040,South-Eastern Asia,Storms,6.0,95987472,791474,46,49,57,32
+2040,South-Eastern Asia,Storms,8.5,28603983,127986,8,75,4,27
+2040,Southern Africa,Droughts,2.6,75515868,612152,1,57,19,-17
+2040,Southern Africa,Droughts,4.5,45071588,222205,94,12,23,-55
+2040,Southern Africa,Droughts,6.0,49584095,527876,25,52,62,-25
+2040,Southern Africa,Droughts,8.5,87261496,973607,42,55,44,12
+2040,Southern Africa,Floods,2.6,85471124,555017,84,98,54,35
+2040,Southern Africa,Floods,4.5,59481476,965822,17,71,20,-31
+2040,Southern Africa,Floods,6.0,33724425,177624,92,18,66,-41
+2040,Southern Africa,Floods,8.5,23227333,691693,24,89,70,41
+2040,Southern Africa,Storms,2.6,99288422,510139,81,17,21,-56
+2040,Southern Africa,Storms,4.5,17345406,324356,54,49,23,17
+2040,Southern Africa,Storms,6.0,50653265,281483,47,38,83,-14
+2040,Southern Africa,Storms,8.5,68881129,581163,50,39,74,8
+2040,Southern Asia,Droughts,2.6,18998479,577498,40,27,82,13
+2040,Southern Asia,Droughts,4.5,67319131,54254,53,64,30,-52
+2040,Southern Asia,Droughts,6.0,19128153,382982,27,60,81,-14
+2040,Southern Asia,Droughts,8.5,61488117,793932,84,81,24,-31
+2040,Southern Asia,Floods,2.6,57982064,978944,10,35,5,-42
+2040,Southern Asia,Floods,4.5,862584,362203,23,80,25,-40
+2040,Southern Asia,Floods,6.0,55709097,328220,77,84,95,-22
+2040,Southern Asia,Floods,8.5,97761345,234031,84,2,44,-8
+2040,Southern Asia,Storms,2.6,70442442,253339,75,98,95,-31
+2040,Southern Asia,Storms,4.5,93030587,988948,3,99,71,-48
+2040,Southern Asia,Storms,6.0,15160840,395028,38,47,60,1
+2040,Southern Asia,Storms,8.5,28393049,234555,70,68,16,31
+2040,Southern Europe,Droughts,2.6,68379808,781114,44,75,40,14
+2040,Southern Europe,Droughts,4.5,26377207,128323,49,22,84,-24
+2040,Southern Europe,Droughts,6.0,8203892,995711,44,27,50,15
+2040,Southern Europe,Droughts,8.5,32112780,556521,51,43,6,-45
+2040,Southern Europe,Floods,2.6,56658292,670413,90,28,78,12
+2040,Southern Europe,Floods,4.5,9560354,367637,98,11,67,-20
+2040,Southern Europe,Floods,6.0,25246929,485339,5,12,70,-20
+2040,Southern Europe,Floods,8.5,46439427,46143,5,6,77,-44
+2040,Southern Europe,Storms,2.6,69108710,662047,50,32,50,6
+2040,Southern Europe,Storms,4.5,22893685,815241,65,83,25,-41
+2040,Southern Europe,Storms,6.0,14357445,399805,11,86,34,-22
+2040,Southern Europe,Storms,8.5,24532558,781471,96,88,23,13
+2040,Western Africa,Droughts,2.6,18371266,183362,12,86,86,-28
+2040,Western Africa,Droughts,4.5,67425845,706821,51,88,37,24
+2040,Western Africa,Droughts,6.0,12717758,889470,57,77,91,21
+2040,Western Africa,Droughts,8.5,40362776,465581,34,29,25,22
+2040,Western Africa,Floods,2.6,73076856,775356,56,45,63,19
+2040,Western Africa,Floods,4.5,77396185,121850,12,12,80,24
+2040,Western Africa,Floods,6.0,77617661,658460,40,69,39,-21
+2040,Western Africa,Floods,8.5,48563625,12038,29,72,20,23
+2040,Western Africa,Storms,2.6,1909927,707941,88,10,84,-26
+2040,Western Africa,Storms,4.5,10191925,948772,89,77,90,-15
+2040,Western Africa,Storms,6.0,26239180,179597,8,98,58,15
+2040,Western Africa,Storms,8.5,24258591,213190,59,67,9,40
+2040,Western Asia,Droughts,2.6,59429969,857762,91,26,36,-14
+2040,Western Asia,Droughts,4.5,24132325,42154,28,54,19,-58
+2040,Western Asia,Droughts,6.0,50026565,529298,16,17,81,-38
+2040,Western Asia,Droughts,8.5,83997369,743077,67,75,56,24
+2040,Western Asia,Floods,2.6,9263086,547990,23,3,84,-60
+2040,Western Asia,Floods,4.5,86498430,524149,40,62,1,9
+2040,Western Asia,Floods,6.0,54988738,599382,15,56,54,-2
+2040,Western Asia,Floods,8.5,79842776,300883,42,2,50,-50
+2040,Western Asia,Storms,2.6,3642032,849843,84,82,19,-45
+2040,Western Asia,Storms,4.5,47060759,663886,40,71,28,9
+2040,Western Asia,Storms,6.0,61788249,263723,21,58,76,-30
+2040,Western Asia,Storms,8.5,11831129,378189,56,67,4,-12
+2040,Western Europe,Droughts,2.6,43982378,48455,73,76,69,-27
+2040,Western Europe,Droughts,4.5,63773422,556082,48,54,22,-39
+2040,Western Europe,Droughts,6.0,25865481,929563,83,63,93,-14
+2040,Western Europe,Droughts,8.5,84236017,283970,2,45,18,-14
+2040,Western Europe,Floods,2.6,63630269,36787,8,8,66,-18
+2040,Western Europe,Floods,4.5,33361747,373112,44,75,28,18
+2040,Western Europe,Floods,6.0,89482721,987772,94,78,0,12
+2040,Western Europe,Floods,8.5,32784239,24770,71,75,29,-23
+2040,Western Europe,Storms,2.6,9987275,709999,7,33,58,-20
+2040,Western Europe,Storms,4.5,88958359,217139,32,35,13,-32
+2040,Western Europe,Storms,6.0,48681794,574606,57,1,37,26
+2040,Western Europe,Storms,8.5,50185614,457818,64,97,87,44
+2050,Australia and New Zealand,Droughts,2.6,81278980,801369,2,63,41,47
+2050,Australia and New Zealand,Droughts,4.5,8755677,279142,29,95,95,-55
+2050,Australia and New Zealand,Droughts,6.0,26981047,652384,74,86,24,48
+2050,Australia and New Zealand,Droughts,8.5,16671559,145985,4,60,67,37
+2050,Australia and New Zealand,Floods,2.6,64760541,299964,42,69,18,-23
+2050,Australia and New Zealand,Floods,4.5,50605581,70459,18,46,11,5
+2050,Australia and New Zealand,Floods,6.0,24383899,958215,27,75,75,4
+2050,Australia and New Zealand,Floods,8.5,61214060,155403,51,16,39,28
+2050,Australia and New Zealand,Storms,2.6,8139138,641712,58,82,68,34
+2050,Australia and New Zealand,Storms,4.5,52125259,842380,79,76,38,21
+2050,Australia and New Zealand,Storms,6.0,55854474,620667,79,18,11,21
+2050,Australia and New Zealand,Storms,8.5,5101489,15650,9,37,96,-41
+2050,Caribbean,Droughts,2.6,93641606,499686,83,24,60,-56
+2050,Caribbean,Droughts,4.5,43670465,443065,91,90,64,-1
+2050,Caribbean,Droughts,6.0,65825931,990318,36,94,34,15
+2050,Caribbean,Droughts,8.5,65585283,378448,35,0,51,-21
+2050,Caribbean,Floods,2.6,45976374,230851,41,76,39,27
+2050,Caribbean,Floods,4.5,7211733,439744,81,68,17,12
+2050,Caribbean,Floods,6.0,73114596,936968,55,46,32,-24
+2050,Caribbean,Floods,8.5,8210501,811607,33,69,24,26
+2050,Caribbean,Storms,2.6,49608880,596753,75,44,80,-59
+2050,Caribbean,Storms,4.5,80034293,485849,57,41,25,37
+2050,Caribbean,Storms,6.0,12411499,855716,6,50,94,-28
+2050,Caribbean,Storms,8.5,83785208,333091,52,4,5,-9
+2050,Central America,Droughts,2.6,55639658,670564,17,41,7,-38
+2050,Central America,Droughts,4.5,83044283,898010,98,38,45,15
+2050,Central America,Droughts,6.0,24700223,937754,43,80,81,13
+2050,Central America,Droughts,8.5,88929921,267519,51,65,22,49
+2050,Central America,Floods,2.6,93997457,35839,66,61,69,-23
+2050,Central America,Floods,4.5,97039724,155641,29,56,63,-2
+2050,Central America,Floods,6.0,63040249,577749,31,29,48,3
+2050,Central America,Floods,8.5,6615886,133419,31,84,69,19
+2050,Central America,Storms,2.6,23519012,363873,46,96,50,-18
+2050,Central America,Storms,4.5,99644621,766935,59,19,97,-21
+2050,Central America,Storms,6.0,60397832,898438,1,21,33,-7
+2050,Central America,Storms,8.5,77154445,288064,85,10,63,5
+2050,Central Asia,Droughts,2.6,89112581,756801,53,19,70,12
+2050,Central Asia,Droughts,4.5,32736151,292194,5,86,0,-33
+2050,Central Asia,Droughts,6.0,60332559,105054,87,89,35,27
+2050,Central Asia,Droughts,8.5,21850577,607464,93,23,14,24
+2050,Central Asia,Floods,2.6,97670007,532515,47,12,23,48
+2050,Central Asia,Floods,4.5,47321793,95126,19,37,44,-60
+2050,Central Asia,Floods,6.0,82893096,791076,1,49,18,-29
+2050,Central Asia,Floods,8.5,57918280,162200,41,47,30,-9
+2050,Central Asia,Storms,2.6,19530575,577818,96,73,15,-38
+2050,Central Asia,Storms,4.5,82446524,681801,92,58,74,-16
+2050,Central Asia,Storms,6.0,65544038,639417,77,89,67,-44
+2050,Central Asia,Storms,8.5,80390059,47303,96,0,32,42
+2050,Eastern Africa,Droughts,2.6,79210306,581127,54,24,78,-42
+2050,Eastern Africa,Droughts,4.5,98139909,245527,94,88,10,-12
+2050,Eastern Africa,Droughts,6.0,2405808,77555,57,7,43,46
+2050,Eastern Africa,Droughts,8.5,90759023,615803,57,49,86,31
+2050,Eastern Africa,Floods,2.6,68659989,570927,96,69,16,12
+2050,Eastern Africa,Floods,4.5,15679047,581225,43,14,84,-12
+2050,Eastern Africa,Floods,6.0,84643334,354674,51,19,37,25
+2050,Eastern Africa,Floods,8.5,82415209,975088,77,30,97,33
+2050,Eastern Africa,Storms,2.6,61623105,984806,69,23,11,15
+2050,Eastern Africa,Storms,4.5,66647303,248352,54,62,95,29
+2050,Eastern Africa,Storms,6.0,79936528,540059,69,96,8,20
+2050,Eastern Africa,Storms,8.5,1007154,391965,25,94,67,3
+2050,Eastern Asia,Droughts,2.6,58116505,414767,79,24,16,31
+2050,Eastern Asia,Droughts,4.5,28549528,38562,42,80,37,-45
+2050,Eastern Asia,Droughts,6.0,32048955,304471,21,78,5,13
+2050,Eastern Asia,Droughts,8.5,24259000,373745,69,39,97,-30
+2050,Eastern Asia,Floods,2.6,33031037,922424,94,23,1,-57
+2050,Eastern Asia,Floods,4.5,87592938,551710,52,65,14,-49
+2050,Eastern Asia,Floods,6.0,15775797,891221,51,91,21,-45
+2050,Eastern Asia,Floods,8.5,1494543,611016,6,55,31,-25
+2050,Eastern Asia,Storms,2.6,99899852,312864,27,90,10,18
+2050,Eastern Asia,Storms,4.5,20732192,338660,98,17,31,17
+2050,Eastern Asia,Storms,6.0,97591211,901057,64,65,26,5
+2050,Eastern Asia,Storms,8.5,94750315,222887,64,68,91,30
+2050,Eastern Europe,Droughts,2.6,79096144,420163,52,59,7,15
+2050,Eastern Europe,Droughts,4.5,24264068,71991,78,9,63,-42
+2050,Eastern Europe,Droughts,6.0,57423159,351242,83,30,47,-7
+2050,Eastern Europe,Droughts,8.5,78039110,92837,53,29,90,-4
+2050,Eastern Europe,Floods,2.6,14011431,940714,16,67,71,-37
+2050,Eastern Europe,Floods,4.5,79815635,848910,51,3,80,-55
+2050,Eastern Europe,Floods,6.0,43248370,964460,35,44,88,27
+2050,Eastern Europe,Floods,8.5,28154880,484815,81,85,80,49
+2050,Eastern Europe,Storms,2.6,55454658,583879,2,8,6,11
+2050,Eastern Europe,Storms,4.5,74502320,434807,15,28,26,26
+2050,Eastern Europe,Storms,6.0,21364179,123883,93,29,78,3
+2050,Eastern Europe,Storms,8.5,53476133,279828,80,4,4,-45
+2050,Melanesia,Droughts,2.6,4976062,192657,89,3,6,31
+2050,Melanesia,Droughts,4.5,88593711,981983,67,48,30,-41
+2050,Melanesia,Droughts,6.0,31198041,283534,67,75,6,4
+2050,Melanesia,Droughts,8.5,22571469,505652,98,40,79,-51
+2050,Melanesia,Floods,2.6,41040028,704715,94,13,4,-2
+2050,Melanesia,Floods,4.5,94043903,158248,53,64,56,-54
+2050,Melanesia,Floods,6.0,84898640,417528,93,65,97,-46
+2050,Melanesia,Floods,8.5,69269836,187285,9,17,36,36
+2050,Melanesia,Storms,2.6,40206804,267879,21,13,68,32
+2050,Melanesia,Storms,4.5,95214885,887329,49,91,87,-42
+2050,Melanesia,Storms,6.0,61227192,152109,99,88,71,39
+2050,Melanesia,Storms,8.5,38582200,459482,63,24,2,-59
+2050,Micronesia,Droughts,2.6,87369833,924584,66,42,0,-2
+2050,Micronesia,Droughts,4.5,20766660,902712,9,97,83,-7
+2050,Micronesia,Droughts,6.0,12500292,187753,66,53,53,-36
+2050,Micronesia,Droughts,8.5,53527042,540714,92,32,60,34
+2050,Micronesia,Floods,2.6,11254409,759538,13,3,83,-15
+2050,Micronesia,Floods,4.5,21144470,27866,2,91,96,-7
+2050,Micronesia,Floods,6.0,34169053,911917,9,80,5,-58
+2050,Micronesia,Floods,8.5,70172599,476834,74,82,0,-19
+2050,Micronesia,Storms,2.6,48690007,680858,24,34,82,-4
+2050,Micronesia,Storms,4.5,63197591,647425,65,68,45,39
+2050,Micronesia,Storms,6.0,83860880,381607,76,96,34,34
+2050,Micronesia,Storms,8.5,66872155,987262,41,86,7,3
+2050,Middle Africa,Droughts,2.6,37639162,708751,37,88,64,-35
+2050,Middle Africa,Droughts,4.5,7644693,518188,61,11,80,-56
+2050,Middle Africa,Droughts,6.0,64971619,182403,4,30,32,-16
+2050,Middle Africa,Droughts,8.5,88400050,901456,5,37,78,-33
+2050,Middle Africa,Floods,2.6,45712671,124867,24,12,64,30
+2050,Middle Africa,Floods,4.5,6290481,654310,30,66,3,-32
+2050,Middle Africa,Floods,6.0,76858208,282228,90,73,84,-38
+2050,Middle Africa,Floods,8.5,4790426,602002,92,33,95,24
+2050,Middle Africa,Storms,2.6,91101413,9593,45,75,25,41
+2050,Middle Africa,Storms,4.5,72002367,627427,48,28,93,-35
+2050,Middle Africa,Storms,6.0,22284482,707118,83,94,76,-17
+2050,Middle Africa,Storms,8.5,83498435,281340,31,90,49,-10
+2050,Northern Africa,Droughts,2.6,85056017,77928,30,55,70,12
+2050,Northern Africa,Droughts,4.5,30567280,738751,40,61,57,25
+2050,Northern Africa,Droughts,6.0,49319033,195245,44,15,11,12
+2050,Northern Africa,Droughts,8.5,20446570,594826,65,81,86,-12
+2050,Northern Africa,Floods,2.6,99884854,122530,52,90,20,-2
+2050,Northern Africa,Floods,4.5,26546293,269467,88,97,56,-2
+2050,Northern Africa,Floods,6.0,77948082,567954,45,41,14,-27
+2050,Northern Africa,Floods,8.5,44798194,381397,78,96,35,-34
+2050,Northern Africa,Storms,2.6,45931279,131484,41,34,92,26
+2050,Northern Africa,Storms,4.5,44048787,580516,41,83,23,-49
+2050,Northern Africa,Storms,6.0,45784325,977005,92,10,59,-31
+2050,Northern Africa,Storms,8.5,94409709,94704,93,96,48,8
+2050,Northern America,Droughts,2.6,90452904,209872,42,54,29,-59
+2050,Northern America,Droughts,4.5,38267582,463584,86,30,0,37
+2050,Northern America,Droughts,6.0,75641313,156654,35,95,48,-13
+2050,Northern America,Droughts,8.5,84295401,841618,34,62,11,-8
+2050,Northern America,Floods,2.6,87650602,355468,3,68,30,1
+2050,Northern America,Floods,4.5,67040618,210573,82,24,86,48
+2050,Northern America,Floods,6.0,55417917,849460,46,59,98,34
+2050,Northern America,Floods,8.5,64391470,159433,25,48,91,-41
+2050,Northern America,Storms,2.6,17075596,152064,87,10,76,41
+2050,Northern America,Storms,4.5,72407815,440386,50,70,89,-11
+2050,Northern America,Storms,6.0,25169089,273041,64,90,30,19
+2050,Northern America,Storms,8.5,25631865,433805,38,89,59,-27
+2050,Northern Europe,Droughts,2.6,30377637,542470,82,74,90,-43
+2050,Northern Europe,Droughts,4.5,52383287,375918,76,2,56,49
+2050,Northern Europe,Droughts,6.0,96656550,889129,46,50,88,-43
+2050,Northern Europe,Droughts,8.5,48131390,57970,1,94,85,-7
+2050,Northern Europe,Floods,2.6,60509488,333352,4,98,68,0
+2050,Northern Europe,Floods,4.5,33252576,812513,4,55,94,2
+2050,Northern Europe,Floods,6.0,67738524,906189,47,21,55,33
+2050,Northern Europe,Floods,8.5,18958959,609963,0,87,62,-45
+2050,Northern Europe,Storms,2.6,56970261,196174,15,24,46,32
+2050,Northern Europe,Storms,4.5,81096714,625567,40,31,4,-37
+2050,Northern Europe,Storms,6.0,12060492,330412,17,32,20,-38
+2050,Northern Europe,Storms,8.5,68914731,836954,87,26,54,-43
+2050,Polynesia,Droughts,2.6,75447201,775366,4,30,59,48
+2050,Polynesia,Droughts,4.5,82600305,381403,1,48,55,-44
+2050,Polynesia,Droughts,6.0,26418582,119764,23,44,26,-18
+2050,Polynesia,Droughts,8.5,57925146,798062,47,2,96,38
+2050,Polynesia,Floods,2.6,76941722,768214,43,80,26,23
+2050,Polynesia,Floods,4.5,7106399,187866,62,80,64,-9
+2050,Polynesia,Floods,6.0,13099153,791434,34,78,62,41
+2050,Polynesia,Floods,8.5,96982726,35922,55,86,72,39
+2050,Polynesia,Storms,2.6,44825668,40531,81,38,21,-25
+2050,Polynesia,Storms,4.5,96186563,847622,45,33,41,-44
+2050,Polynesia,Storms,6.0,65796740,366689,15,56,13,19
+2050,Polynesia,Storms,8.5,69876601,682663,28,40,68,-55
+2050,South America,Droughts,2.6,94514579,267702,8,37,78,-16
+2050,South America,Droughts,4.5,56900254,66422,81,29,84,-4
+2050,South America,Droughts,6.0,19449411,469293,74,5,76,-18
+2050,South America,Droughts,8.5,14538917,286465,4,51,24,-51
+2050,South America,Floods,2.6,12241447,908757,10,41,54,-11
+2050,South America,Floods,4.5,59675372,7001,84,83,82,47
+2050,South America,Floods,6.0,45600767,530180,83,19,30,-28
+2050,South America,Floods,8.5,59288145,117138,60,43,92,7
+2050,South America,Storms,2.6,13300386,614513,12,76,45,-20
+2050,South America,Storms,4.5,46810647,211695,75,5,25,29
+2050,South America,Storms,6.0,33756493,784936,37,79,68,49
+2050,South America,Storms,8.5,13336075,824147,17,94,79,19
+2050,South-Eastern Asia,Droughts,2.6,3490884,854166,48,86,88,-41
+2050,South-Eastern Asia,Droughts,4.5,40164005,267405,42,31,53,-42
+2050,South-Eastern Asia,Droughts,6.0,42333200,518779,55,37,90,-37
+2050,South-Eastern Asia,Droughts,8.5,11656218,782620,60,82,34,4
+2050,South-Eastern Asia,Floods,2.6,20261868,114632,21,94,67,-34
+2050,South-Eastern Asia,Floods,4.5,32440795,431039,72,52,9,-42
+2050,South-Eastern Asia,Floods,6.0,88650636,27383,40,3,60,-26
+2050,South-Eastern Asia,Floods,8.5,69464349,920940,17,69,46,-14
+2050,South-Eastern Asia,Storms,2.6,97777259,181488,72,49,94,-7
+2050,South-Eastern Asia,Storms,4.5,97756129,252516,64,47,36,39
+2050,South-Eastern Asia,Storms,6.0,75175064,521953,64,21,93,-28
+2050,South-Eastern Asia,Storms,8.5,7528677,993204,83,65,78,-53
+2050,Southern Africa,Droughts,2.6,55195113,527900,20,0,55,-29
+2050,Southern Africa,Droughts,4.5,4860087,165146,2,53,48,6
+2050,Southern Africa,Droughts,6.0,40549596,838813,55,25,94,-45
+2050,Southern Africa,Droughts,8.5,28741789,906746,30,75,78,-56
+2050,Southern Africa,Floods,2.6,72822282,994019,88,29,75,34
+2050,Southern Africa,Floods,4.5,17803665,185124,55,83,70,17
+2050,Southern Africa,Floods,6.0,93980094,599946,5,81,5,-25
+2050,Southern Africa,Floods,8.5,60528542,892154,54,77,22,-18
+2050,Southern Africa,Storms,2.6,56352414,939045,72,10,7,39
+2050,Southern Africa,Storms,4.5,9224804,501603,44,67,36,-11
+2050,Southern Africa,Storms,6.0,78240515,462043,23,33,85,-11
+2050,Southern Africa,Storms,8.5,93208781,957772,22,94,49,43
+2050,Southern Asia,Droughts,2.6,18447047,473376,82,94,42,23
+2050,Southern Asia,Droughts,4.5,55370326,575941,68,21,62,-25
+2050,Southern Asia,Droughts,6.0,49126379,263900,39,94,94,-24
+2050,Southern Asia,Droughts,8.5,57277537,13099,11,98,27,10
+2050,Southern Asia,Floods,2.6,30105257,732111,52,83,20,2
+2050,Southern Asia,Floods,4.5,52480793,125935,21,5,43,-55
+2050,Southern Asia,Floods,6.0,53545854,502395,26,60,15,-53
+2050,Southern Asia,Floods,8.5,29607705,110511,71,39,29,-58
+2050,Southern Asia,Storms,2.6,1459388,132299,75,60,26,2
+2050,Southern Asia,Storms,4.5,12203981,354404,72,75,2,25
+2050,Southern Asia,Storms,6.0,58199626,772523,4,58,88,23
+2050,Southern Asia,Storms,8.5,53943418,395754,89,22,85,31
+2050,Southern Europe,Droughts,2.6,17478328,263137,92,66,14,-36
+2050,Southern Europe,Droughts,4.5,39317562,630429,8,71,81,-6
+2050,Southern Europe,Droughts,6.0,61314879,629603,54,20,69,15
+2050,Southern Europe,Droughts,8.5,82529358,27114,20,58,1,39
+2050,Southern Europe,Floods,2.6,1760813,50975,57,59,17,-49
+2050,Southern Europe,Floods,4.5,33094599,646052,70,52,89,-50
+2050,Southern Europe,Floods,6.0,4422836,437901,37,3,58,-56
+2050,Southern Europe,Floods,8.5,60553674,459924,33,80,74,-2
+2050,Southern Europe,Storms,2.6,60313468,543254,67,80,92,39
+2050,Southern Europe,Storms,4.5,40621855,88224,1,1,48,-9
+2050,Southern Europe,Storms,6.0,17964438,424159,3,85,18,-45
+2050,Southern Europe,Storms,8.5,43869204,763032,8,76,14,27
+2050,Western Africa,Droughts,2.6,99103676,447555,95,25,46,-28
+2050,Western Africa,Droughts,4.5,23943392,873191,56,58,85,-21
+2050,Western Africa,Droughts,6.0,12897622,908345,2,6,97,-27
+2050,Western Africa,Droughts,8.5,20353737,949632,12,94,94,2
+2050,Western Africa,Floods,2.6,71356608,642882,85,59,62,-30
+2050,Western Africa,Floods,4.5,438761,202998,58,82,22,47
+2050,Western Africa,Floods,6.0,63119860,831723,45,32,86,-3
+2050,Western Africa,Floods,8.5,78468125,257243,14,88,84,-47
+2050,Western Africa,Storms,2.6,22459459,754436,48,31,83,15
+2050,Western Africa,Storms,4.5,3050509,454778,63,82,50,-35
+2050,Western Africa,Storms,6.0,21240571,697175,89,97,14,-14
+2050,Western Africa,Storms,8.5,51457030,814163,40,54,40,-45
+2050,Western Asia,Droughts,2.6,41880221,231048,39,59,71,-30
+2050,Western Asia,Droughts,4.5,76848501,763667,16,93,55,30
+2050,Western Asia,Droughts,6.0,33447601,683647,39,95,94,5
+2050,Western Asia,Droughts,8.5,90762774,444065,76,52,80,-30
+2050,Western Asia,Floods,2.6,95592071,87852,31,87,62,-52
+2050,Western Asia,Floods,4.5,67817141,325650,58,85,57,-24
+2050,Western Asia,Floods,6.0,66577991,579455,6,25,52,49
+2050,Western Asia,Floods,8.5,54632536,684517,15,5,64,-11
+2050,Western Asia,Storms,2.6,36997001,597617,55,30,30,-35
+2050,Western Asia,Storms,4.5,38646259,91899,29,93,66,20
+2050,Western Asia,Storms,6.0,48344806,585407,55,92,82,-50
+2050,Western Asia,Storms,8.5,82785047,486441,27,72,72,-56
+2050,Western Europe,Droughts,2.6,72705442,278257,8,17,93,44
+2050,Western Europe,Droughts,4.5,37531297,286434,46,62,25,-1
+2050,Western Europe,Droughts,6.0,79160833,527405,92,10,34,5
+2050,Western Europe,Droughts,8.5,46701856,696912,96,31,34,-59
+2050,Western Europe,Floods,2.6,17431286,82810,15,47,29,-18
+2050,Western Europe,Floods,4.5,20584750,733536,60,30,52,6
+2050,Western Europe,Floods,6.0,38694255,441494,20,16,41,20
+2050,Western Europe,Floods,8.5,64217527,355852,62,10,18,-42
+2050,Western Europe,Storms,2.6,76949891,930110,38,52,43,-28
+2050,Western Europe,Storms,4.5,62365282,797565,24,42,61,34
+2050,Western Europe,Storms,6.0,26919928,883322,43,60,70,16
+2050,Western Europe,Storms,8.5,32878257,197336,62,50,87,7
+2060,Australia and New Zealand,Droughts,2.6,21276719,509954,46,61,24,19
+2060,Australia and New Zealand,Droughts,4.5,73919899,124526,44,97,64,3
+2060,Australia and New Zealand,Droughts,6.0,40659948,121981,98,20,84,48
+2060,Australia and New Zealand,Droughts,8.5,52235841,975533,81,46,81,44
+2060,Australia and New Zealand,Floods,2.6,85093673,884655,16,27,65,35
+2060,Australia and New Zealand,Floods,4.5,5061428,176775,43,91,2,15
+2060,Australia and New Zealand,Floods,6.0,79909538,757783,24,56,36,-58
+2060,Australia and New Zealand,Floods,8.5,62326109,39028,80,71,52,16
+2060,Australia and New Zealand,Storms,2.6,98584319,327346,84,0,19,6
+2060,Australia and New Zealand,Storms,4.5,50376650,855089,71,64,19,-37
+2060,Australia and New Zealand,Storms,6.0,44763137,333482,32,74,9,49
+2060,Australia and New Zealand,Storms,8.5,91719096,485187,48,17,30,-53
+2060,Caribbean,Droughts,2.6,6591645,907626,82,58,78,-29
+2060,Caribbean,Droughts,4.5,26618235,939231,70,79,7,-57
+2060,Caribbean,Droughts,6.0,49599215,88190,55,21,18,-48
+2060,Caribbean,Droughts,8.5,68937164,849580,85,36,98,-17
+2060,Caribbean,Floods,2.6,83725037,622378,60,33,31,-42
+2060,Caribbean,Floods,4.5,60157637,474558,69,89,42,-51
+2060,Caribbean,Floods,6.0,2338051,653037,86,41,55,-6
+2060,Caribbean,Floods,8.5,92920649,362369,80,17,22,20
+2060,Caribbean,Storms,2.6,90260532,568448,41,6,41,15
+2060,Caribbean,Storms,4.5,41021361,901257,87,90,79,28
+2060,Caribbean,Storms,6.0,8433414,791645,28,79,63,-1
+2060,Caribbean,Storms,8.5,17826087,134045,38,64,90,-57
+2060,Central America,Droughts,2.6,98518177,373325,24,69,12,32
+2060,Central America,Droughts,4.5,57940911,556926,27,44,40,-38
+2060,Central America,Droughts,6.0,3368946,163019,12,16,14,-20
+2060,Central America,Droughts,8.5,95240808,398754,50,87,86,-1
+2060,Central America,Floods,2.6,40030324,268622,37,59,96,10
+2060,Central America,Floods,4.5,97401109,554977,61,87,78,20
+2060,Central America,Floods,6.0,89686339,681729,90,81,56,-18
+2060,Central America,Floods,8.5,83723588,726573,70,99,47,-20
+2060,Central America,Storms,2.6,91880019,71900,10,65,83,-31
+2060,Central America,Storms,4.5,696981,888841,53,97,96,48
+2060,Central America,Storms,6.0,93699197,349834,95,8,71,27
+2060,Central America,Storms,8.5,80424636,945684,46,34,64,44
+2060,Central Asia,Droughts,2.6,74970668,259551,87,19,72,-58
+2060,Central Asia,Droughts,4.5,52598353,687627,29,49,0,-41
+2060,Central Asia,Droughts,6.0,65789617,562231,32,95,47,-26
+2060,Central Asia,Droughts,8.5,3320093,558709,81,7,53,-43
+2060,Central Asia,Floods,2.6,65051132,584246,62,20,12,-52
+2060,Central Asia,Floods,4.5,82475354,1110,23,43,54,-32
+2060,Central Asia,Floods,6.0,89621415,665896,21,69,43,34
+2060,Central Asia,Floods,8.5,23991073,264710,69,97,32,-50
+2060,Central Asia,Storms,2.6,9106272,118844,85,59,77,39
+2060,Central Asia,Storms,4.5,5132394,383223,67,16,5,-24
+2060,Central Asia,Storms,6.0,88293017,255105,24,78,5,3
+2060,Central Asia,Storms,8.5,72158340,929756,27,49,71,47
+2060,Eastern Africa,Droughts,2.6,96107121,277349,98,26,17,-47
+2060,Eastern Africa,Droughts,4.5,47142488,782553,54,64,52,-45
+2060,Eastern Africa,Droughts,6.0,18240347,857358,77,81,65,15
+2060,Eastern Africa,Droughts,8.5,92083873,326927,87,98,81,4
+2060,Eastern Africa,Floods,2.6,7732928,285786,78,96,65,-16
+2060,Eastern Africa,Floods,4.5,99693976,513173,54,39,85,-41
+2060,Eastern Africa,Floods,6.0,31789659,136654,45,47,23,-15
+2060,Eastern Africa,Floods,8.5,54276059,594922,90,52,9,-5
+2060,Eastern Africa,Storms,2.6,75035390,339565,0,13,41,-32
+2060,Eastern Africa,Storms,4.5,30362769,825397,18,16,87,49
+2060,Eastern Africa,Storms,6.0,94838377,488268,77,94,44,-23
+2060,Eastern Africa,Storms,8.5,3052266,49271,82,77,45,-34
+2060,Eastern Asia,Droughts,2.6,19813638,932174,67,83,34,-7
+2060,Eastern Asia,Droughts,4.5,30387946,219984,98,95,26,-44
+2060,Eastern Asia,Droughts,6.0,409942,283487,8,28,35,-21
+2060,Eastern Asia,Droughts,8.5,82881371,61069,52,79,28,30
+2060,Eastern Asia,Floods,2.6,97048530,936742,51,28,35,17
+2060,Eastern Asia,Floods,4.5,30424091,65590,5,15,95,21
+2060,Eastern Asia,Floods,6.0,72502614,506811,72,63,39,6
+2060,Eastern Asia,Floods,8.5,69382023,640808,7,74,19,-8
+2060,Eastern Asia,Storms,2.6,77481397,1947,48,40,25,34
+2060,Eastern Asia,Storms,4.5,31861601,329820,47,76,50,-45
+2060,Eastern Asia,Storms,6.0,63747611,659293,21,82,57,13
+2060,Eastern Asia,Storms,8.5,65306725,532289,83,55,61,3
+2060,Eastern Europe,Droughts,2.6,53604999,12006,1,18,82,27
+2060,Eastern Europe,Droughts,4.5,59282669,235826,0,14,84,47
+2060,Eastern Europe,Droughts,6.0,4394462,860962,52,85,96,37
+2060,Eastern Europe,Droughts,8.5,49371476,443460,76,78,98,28
+2060,Eastern Europe,Floods,2.6,4894431,192171,16,31,82,-36
+2060,Eastern Europe,Floods,4.5,79421512,252740,38,33,96,-40
+2060,Eastern Europe,Floods,6.0,48461684,688126,12,34,45,40
+2060,Eastern Europe,Floods,8.5,9861933,669792,86,9,0,-22
+2060,Eastern Europe,Storms,2.6,35520511,363864,77,86,14,49
+2060,Eastern Europe,Storms,4.5,1560217,252966,93,69,29,-28
+2060,Eastern Europe,Storms,6.0,77280214,63676,67,9,26,5
+2060,Eastern Europe,Storms,8.5,32280432,827355,16,33,19,-9
+2060,Melanesia,Droughts,2.6,90593188,541487,96,72,31,28
+2060,Melanesia,Droughts,4.5,34772016,88203,43,26,56,41
+2060,Melanesia,Droughts,6.0,73804325,791404,54,64,76,-30
+2060,Melanesia,Droughts,8.5,79061906,981880,56,16,29,17
+2060,Melanesia,Floods,2.6,72299133,755195,41,8,71,37
+2060,Melanesia,Floods,4.5,77469307,86480,19,58,74,9
+2060,Melanesia,Floods,6.0,58310025,223650,74,85,72,46
+2060,Melanesia,Floods,8.5,26148,548686,79,59,77,-56
+2060,Melanesia,Storms,2.6,26073822,540871,68,16,70,46
+2060,Melanesia,Storms,4.5,56143060,733670,19,93,1,-59
+2060,Melanesia,Storms,6.0,97879602,343979,0,91,17,23
+2060,Melanesia,Storms,8.5,29849745,861165,93,61,89,5
+2060,Micronesia,Droughts,2.6,10427080,689962,18,79,65,19
+2060,Micronesia,Droughts,4.5,69519168,280554,85,21,61,47
+2060,Micronesia,Droughts,6.0,11220887,917386,63,93,20,2
+2060,Micronesia,Droughts,8.5,44122443,698151,7,49,88,-37
+2060,Micronesia,Floods,2.6,2340138,727192,32,88,83,-39
+2060,Micronesia,Floods,4.5,66528315,495110,28,82,73,7
+2060,Micronesia,Floods,6.0,72013216,154939,26,63,1,-23
+2060,Micronesia,Floods,8.5,58130829,676658,69,29,52,-21
+2060,Micronesia,Storms,2.6,17666326,339056,82,22,45,16
+2060,Micronesia,Storms,4.5,70735480,961732,9,97,32,-15
+2060,Micronesia,Storms,6.0,60206028,856026,29,5,46,-9
+2060,Micronesia,Storms,8.5,71900351,825104,25,23,39,45
+2060,Middle Africa,Droughts,2.6,52073418,928396,67,57,29,-55
+2060,Middle Africa,Droughts,4.5,22808279,141192,15,78,0,-13
+2060,Middle Africa,Droughts,6.0,17123624,15322,91,82,98,11
+2060,Middle Africa,Droughts,8.5,65003723,497875,98,65,76,32
+2060,Middle Africa,Floods,2.6,39638173,529482,7,58,70,-31
+2060,Middle Africa,Floods,4.5,13209423,908728,48,65,82,-3
+2060,Middle Africa,Floods,6.0,73817577,106422,52,26,22,1
+2060,Middle Africa,Floods,8.5,64899640,54142,67,69,50,3
+2060,Middle Africa,Storms,2.6,96214604,346627,95,98,64,-59
+2060,Middle Africa,Storms,4.5,15145534,387988,82,3,49,43
+2060,Middle Africa,Storms,6.0,1309311,771581,84,18,19,40
+2060,Middle Africa,Storms,8.5,65577263,150299,86,85,75,-33
+2060,Northern Africa,Droughts,2.6,93464969,875875,84,46,35,-9
+2060,Northern Africa,Droughts,4.5,76200578,239067,53,96,48,-30
+2060,Northern Africa,Droughts,6.0,99394037,459452,32,75,30,-25
+2060,Northern Africa,Droughts,8.5,42693985,266733,89,77,21,-23
+2060,Northern Africa,Floods,2.6,42485900,107317,67,72,34,-18
+2060,Northern Africa,Floods,4.5,50586445,475272,31,98,62,25
+2060,Northern Africa,Floods,6.0,70794241,985769,62,29,57,-39
+2060,Northern Africa,Floods,8.5,18273001,616747,70,52,94,27
+2060,Northern Africa,Storms,2.6,66583748,116813,90,15,74,40
+2060,Northern Africa,Storms,4.5,68457376,427751,24,93,71,7
+2060,Northern Africa,Storms,6.0,60907540,945774,13,27,26,40
+2060,Northern Africa,Storms,8.5,99187032,440131,94,19,39,-23
+2060,Northern America,Droughts,2.6,37322378,287575,79,52,68,-53
+2060,Northern America,Droughts,4.5,75128474,641940,0,31,35,-9
+2060,Northern America,Droughts,6.0,49736792,359076,24,97,85,39
+2060,Northern America,Droughts,8.5,38460364,196924,21,22,63,-7
+2060,Northern America,Floods,2.6,89792345,964103,41,72,16,-55
+2060,Northern America,Floods,4.5,72539495,390999,3,50,3,-7
+2060,Northern America,Floods,6.0,30326619,417631,56,11,53,29
+2060,Northern America,Floods,8.5,15837178,952864,77,82,20,-49
+2060,Northern America,Storms,2.6,47154484,668108,95,97,12,36
+2060,Northern America,Storms,4.5,61807796,239439,57,75,80,-13
+2060,Northern America,Storms,6.0,53278766,914065,0,18,35,-7
+2060,Northern America,Storms,8.5,7273130,263756,98,7,48,15
+2060,Northern Europe,Droughts,2.6,75072210,961482,49,25,5,24
+2060,Northern Europe,Droughts,4.5,62107585,136013,98,22,89,8
+2060,Northern Europe,Droughts,6.0,12618909,462775,9,12,41,-12
+2060,Northern Europe,Droughts,8.5,73453724,101099,62,91,69,38
+2060,Northern Europe,Floods,2.6,45200686,695506,30,25,42,-19
+2060,Northern Europe,Floods,4.5,86724716,432906,49,16,24,-43
+2060,Northern Europe,Floods,6.0,57670711,377857,39,71,40,-28
+2060,Northern Europe,Floods,8.5,7840663,90481,69,44,71,1
+2060,Northern Europe,Storms,2.6,63032170,607117,12,55,9,-21
+2060,Northern Europe,Storms,4.5,2182556,699777,36,56,36,-30
+2060,Northern Europe,Storms,6.0,42904136,285927,7,20,52,-45
+2060,Northern Europe,Storms,8.5,15345698,792474,10,30,18,28
+2060,Polynesia,Droughts,2.6,95681368,861818,0,23,64,-7
+2060,Polynesia,Droughts,4.5,88500672,37201,68,67,35,-28
+2060,Polynesia,Droughts,6.0,82429512,493237,72,23,1,28
+2060,Polynesia,Droughts,8.5,55489999,595405,92,20,28,8
+2060,Polynesia,Floods,2.6,97349891,587059,2,11,71,40
+2060,Polynesia,Floods,4.5,91455284,646341,64,67,14,7
+2060,Polynesia,Floods,6.0,89098243,786165,6,81,94,48
+2060,Polynesia,Floods,8.5,69940496,463348,46,90,53,-32
+2060,Polynesia,Storms,2.6,99029131,676315,11,80,94,42
+2060,Polynesia,Storms,4.5,38195833,562068,50,55,76,2
+2060,Polynesia,Storms,6.0,32455070,880247,80,95,24,-39
+2060,Polynesia,Storms,8.5,53516748,552553,16,63,77,2
+2060,South America,Droughts,2.6,83831672,628789,57,55,17,1
+2060,South America,Droughts,4.5,69702349,289414,58,71,90,-41
+2060,South America,Droughts,6.0,14696514,716473,57,47,87,-7
+2060,South America,Droughts,8.5,35019687,7156,47,24,70,-16
+2060,South America,Floods,2.6,45360893,827305,47,10,76,-42
+2060,South America,Floods,4.5,10920632,448951,15,62,94,7
+2060,South America,Floods,6.0,93239539,924049,32,96,58,37
+2060,South America,Floods,8.5,22110777,127618,43,14,65,-13
+2060,South America,Storms,2.6,58991538,389817,15,79,45,19
+2060,South America,Storms,4.5,6661096,908789,95,69,56,-34
+2060,South America,Storms,6.0,93073913,504557,70,9,78,19
+2060,South America,Storms,8.5,71427144,856495,67,66,65,9
+2060,South-Eastern Asia,Droughts,2.6,34060679,565599,56,85,23,-54
+2060,South-Eastern Asia,Droughts,4.5,35648588,570777,28,79,73,34
+2060,South-Eastern Asia,Droughts,6.0,66088933,823141,31,73,58,16
+2060,South-Eastern Asia,Droughts,8.5,68590668,39924,93,15,56,47
+2060,South-Eastern Asia,Floods,2.6,72368030,534891,72,7,93,25
+2060,South-Eastern Asia,Floods,4.5,43361192,664735,22,59,79,-27
+2060,South-Eastern Asia,Floods,6.0,59751888,776413,33,35,45,40
+2060,South-Eastern Asia,Floods,8.5,84554505,311693,40,13,79,48
+2060,South-Eastern Asia,Storms,2.6,84825916,25277,42,95,2,-6
+2060,South-Eastern Asia,Storms,4.5,78719603,834387,54,40,68,-28
+2060,South-Eastern Asia,Storms,6.0,77998292,688396,54,55,14,-28
+2060,South-Eastern Asia,Storms,8.5,22774370,751649,96,73,28,-11
+2060,Southern Africa,Droughts,2.6,31273903,453908,59,99,53,46
+2060,Southern Africa,Droughts,4.5,72258444,457800,21,97,59,-13
+2060,Southern Africa,Droughts,6.0,36294709,29244,91,43,99,-42
+2060,Southern Africa,Droughts,8.5,23479785,109379,58,33,31,-48
+2060,Southern Africa,Floods,2.6,37470243,154243,11,76,59,-9
+2060,Southern Africa,Floods,4.5,86680082,211870,51,76,74,39
+2060,Southern Africa,Floods,6.0,45888802,737423,64,41,37,-56
+2060,Southern Africa,Floods,8.5,92057092,180543,18,50,31,-29
+2060,Southern Africa,Storms,2.6,95722797,890511,39,18,4,-10
+2060,Southern Africa,Storms,4.5,42798460,6211,79,13,4,-34
+2060,Southern Africa,Storms,6.0,80405910,909938,45,56,69,43
+2060,Southern Africa,Storms,8.5,65418424,503894,88,52,15,-29
+2060,Southern Asia,Droughts,2.6,43631507,670407,53,20,43,48
+2060,Southern Asia,Droughts,4.5,88545011,977814,9,59,51,-3
+2060,Southern Asia,Droughts,6.0,13570471,306884,43,76,92,27
+2060,Southern Asia,Droughts,8.5,67971178,459817,65,29,85,13
+2060,Southern Asia,Floods,2.6,90736184,687962,37,47,43,-29
+2060,Southern Asia,Floods,4.5,76005461,997031,98,70,36,10
+2060,Southern Asia,Floods,6.0,88896104,929234,57,19,6,-11
+2060,Southern Asia,Floods,8.5,24576203,861201,81,58,7,17
+2060,Southern Asia,Storms,2.6,96069228,476073,10,54,4,12
+2060,Southern Asia,Storms,4.5,8373903,492006,60,79,27,29
+2060,Southern Asia,Storms,6.0,53923240,727800,54,55,79,-38
+2060,Southern Asia,Storms,8.5,54460192,728357,91,57,89,-18
+2060,Southern Europe,Droughts,2.6,55334608,606043,33,44,61,-33
+2060,Southern Europe,Droughts,4.5,88405119,671617,42,70,32,-48
+2060,Southern Europe,Droughts,6.0,63812300,490425,57,86,0,14
+2060,Southern Europe,Droughts,8.5,29146912,826444,84,29,65,5
+2060,Southern Europe,Floods,2.6,26811962,552060,2,33,1,-48
+2060,Southern Europe,Floods,4.5,80803128,735556,61,2,1,1
+2060,Southern Europe,Floods,6.0,64964972,587314,58,76,52,-18
+2060,Southern Europe,Floods,8.5,78256494,902415,14,41,22,0
+2060,Southern Europe,Storms,2.6,64388500,820827,28,79,49,8
+2060,Southern Europe,Storms,4.5,39223703,660122,32,27,84,-36
+2060,Southern Europe,Storms,6.0,65383099,149000,4,52,62,-32
+2060,Southern Europe,Storms,8.5,89927931,180257,15,82,89,7
+2060,Western Africa,Droughts,2.6,79679372,109754,74,27,94,-50
+2060,Western Africa,Droughts,4.5,58401486,454707,90,23,9,38
+2060,Western Africa,Droughts,6.0,36734715,521179,44,69,56,-36
+2060,Western Africa,Droughts,8.5,85620146,815172,12,9,65,-50
+2060,Western Africa,Floods,2.6,82522133,521245,12,31,50,-27
+2060,Western Africa,Floods,4.5,74044671,640600,70,43,95,-56
+2060,Western Africa,Floods,6.0,53891307,380386,56,41,38,35
+2060,Western Africa,Floods,8.5,28964146,330277,7,80,29,-13
+2060,Western Africa,Storms,2.6,75549729,782263,32,98,37,48
+2060,Western Africa,Storms,4.5,26754358,304391,54,97,79,-8
+2060,Western Africa,Storms,6.0,573928,862258,80,37,67,1
+2060,Western Africa,Storms,8.5,90624718,790143,4,39,4,11
+2060,Western Asia,Droughts,2.6,19847662,56553,13,46,92,7
+2060,Western Asia,Droughts,4.5,45739376,754195,0,46,61,-43
+2060,Western Asia,Droughts,6.0,54800820,31189,78,98,29,-4
+2060,Western Asia,Droughts,8.5,12190128,241170,46,88,69,4
+2060,Western Asia,Floods,2.6,67041561,810566,44,73,67,38
+2060,Western Asia,Floods,4.5,74495376,82786,69,28,77,-27
+2060,Western Asia,Floods,6.0,17840628,111976,12,28,32,49
+2060,Western Asia,Floods,8.5,39935139,124877,15,44,60,1
+2060,Western Asia,Storms,2.6,12240260,630163,66,22,71,30
+2060,Western Asia,Storms,4.5,48635301,214656,63,8,28,-3
+2060,Western Asia,Storms,6.0,30428256,163621,60,88,3,-40
+2060,Western Asia,Storms,8.5,57748112,550359,61,58,98,-2
+2060,Western Europe,Droughts,2.6,69666450,417723,31,75,93,31
+2060,Western Europe,Droughts,4.5,65532508,307429,98,58,49,-25
+2060,Western Europe,Droughts,6.0,85100882,187671,76,58,16,-48
+2060,Western Europe,Droughts,8.5,8908147,639244,6,97,96,-35
+2060,Western Europe,Floods,2.6,30373477,314437,26,15,65,16
+2060,Western Europe,Floods,4.5,38224909,499433,18,59,29,-39
+2060,Western Europe,Floods,6.0,61321661,281444,4,66,52,-48
+2060,Western Europe,Floods,8.5,95541486,886061,32,13,78,26
+2060,Western Europe,Storms,2.6,90631857,434742,8,41,77,-31
+2060,Western Europe,Storms,4.5,17288073,474114,5,16,71,-10
+2060,Western Europe,Storms,6.0,60598525,694715,73,47,89,-20
+2060,Western Europe,Storms,8.5,58129080,187060,46,17,6,-49
+2070,Australia and New Zealand,Droughts,2.6,43412636,558981,47,8,42,31
+2070,Australia and New Zealand,Droughts,4.5,1486628,391342,87,71,83,-43
+2070,Australia and New Zealand,Droughts,6.0,61046920,917146,5,23,60,8
+2070,Australia and New Zealand,Droughts,8.5,38182396,900152,50,81,46,22
+2070,Australia and New Zealand,Floods,2.6,16882172,30942,9,93,93,40
+2070,Australia and New Zealand,Floods,4.5,55918152,240293,0,98,30,5
+2070,Australia and New Zealand,Floods,6.0,12258473,833025,47,58,89,-46
+2070,Australia and New Zealand,Floods,8.5,32351234,187239,29,2,61,25
+2070,Australia and New Zealand,Storms,2.6,67716187,391897,19,74,48,36
+2070,Australia and New Zealand,Storms,4.5,70032673,82686,71,94,32,38
+2070,Australia and New Zealand,Storms,6.0,12026468,577572,23,10,3,-31
+2070,Australia and New Zealand,Storms,8.5,66458596,34302,51,67,67,19
+2070,Caribbean,Droughts,2.6,66268657,994010,35,18,52,39
+2070,Caribbean,Droughts,4.5,82534258,69578,97,20,72,-49
+2070,Caribbean,Droughts,6.0,3374923,844675,71,43,14,-27
+2070,Caribbean,Droughts,8.5,29933922,647933,80,95,0,10
+2070,Caribbean,Floods,2.6,96360444,203341,88,81,0,15
+2070,Caribbean,Floods,4.5,9789851,347127,58,18,45,-20
+2070,Caribbean,Floods,6.0,56502665,950452,25,57,19,-30
+2070,Caribbean,Floods,8.5,77096030,254908,34,99,72,-59
+2070,Caribbean,Storms,2.6,15719985,270213,75,5,86,18
+2070,Caribbean,Storms,4.5,68885783,944832,94,63,92,-30
+2070,Caribbean,Storms,6.0,57591399,699157,1,92,79,-7
+2070,Caribbean,Storms,8.5,88047155,776196,46,26,51,13
+2070,Central America,Droughts,2.6,93835875,179453,57,52,38,44
+2070,Central America,Droughts,4.5,75052103,126532,45,65,43,23
+2070,Central America,Droughts,6.0,55819192,471860,45,56,94,-34
+2070,Central America,Droughts,8.5,82517513,687343,66,63,52,-50
+2070,Central America,Floods,2.6,67612759,494790,20,69,3,-55
+2070,Central America,Floods,4.5,44611753,212252,86,98,48,5
+2070,Central America,Floods,6.0,86479979,356341,19,90,95,46
+2070,Central America,Floods,8.5,98400481,605353,25,24,60,-24
+2070,Central America,Storms,2.6,87809959,780929,77,42,99,1
+2070,Central America,Storms,4.5,74021519,910228,61,36,8,-9
+2070,Central America,Storms,6.0,19928219,508723,80,59,25,45
+2070,Central America,Storms,8.5,45371259,607264,66,26,60,21
+2070,Central Asia,Droughts,2.6,77319093,28710,63,76,35,-9
+2070,Central Asia,Droughts,4.5,26330494,471973,56,55,34,36
+2070,Central Asia,Droughts,6.0,59151907,196425,15,80,14,-46
+2070,Central Asia,Droughts,8.5,10039730,499749,61,25,24,-5
+2070,Central Asia,Floods,2.6,1429371,610092,30,60,41,34
+2070,Central Asia,Floods,4.5,5988428,500495,29,70,87,-31
+2070,Central Asia,Floods,6.0,96228113,355984,24,97,40,30
+2070,Central Asia,Floods,8.5,40538356,930343,47,92,24,15
+2070,Central Asia,Storms,2.6,38238588,960620,58,47,99,29
+2070,Central Asia,Storms,4.5,59929257,920906,82,98,68,-42
+2070,Central Asia,Storms,6.0,14643209,830579,35,64,46,-4
+2070,Central Asia,Storms,8.5,35233581,3055,24,41,45,4
+2070,Eastern Africa,Droughts,2.6,61421492,204575,19,81,54,-32
+2070,Eastern Africa,Droughts,4.5,26122302,711641,34,59,97,11
+2070,Eastern Africa,Droughts,6.0,63850702,596749,11,8,10,42
+2070,Eastern Africa,Droughts,8.5,37254191,120975,12,83,64,-4
+2070,Eastern Africa,Floods,2.6,19818673,829519,62,83,29,31
+2070,Eastern Africa,Floods,4.5,99783067,159991,92,5,71,-45
+2070,Eastern Africa,Floods,6.0,10749966,932299,74,20,15,32
+2070,Eastern Africa,Floods,8.5,5061656,561829,86,42,57,34
+2070,Eastern Africa,Storms,2.6,9291391,345776,60,57,62,10
+2070,Eastern Africa,Storms,4.5,15921714,351426,21,57,71,-42
+2070,Eastern Africa,Storms,6.0,56748053,667252,31,30,96,4
+2070,Eastern Africa,Storms,8.5,78966919,211957,57,12,97,-21
+2070,Eastern Asia,Droughts,2.6,76116645,906536,44,8,75,34
+2070,Eastern Asia,Droughts,4.5,6032224,805869,56,87,74,24
+2070,Eastern Asia,Droughts,6.0,35651629,292591,62,43,48,-28
+2070,Eastern Asia,Droughts,8.5,43635985,266698,12,17,80,8
+2070,Eastern Asia,Floods,2.6,38917715,618624,46,5,55,48
+2070,Eastern Asia,Floods,4.5,89682923,872271,87,28,29,-19
+2070,Eastern Asia,Floods,6.0,62362704,166086,13,13,6,-32
+2070,Eastern Asia,Floods,8.5,69210339,936407,6,80,9,18
+2070,Eastern Asia,Storms,2.6,79893789,921822,7,27,27,-23
+2070,Eastern Asia,Storms,4.5,46358896,725517,3,28,59,0
+2070,Eastern Asia,Storms,6.0,79567904,865532,66,37,59,-57
+2070,Eastern Asia,Storms,8.5,83345526,772413,11,59,34,19
+2070,Eastern Europe,Droughts,2.6,14633686,656630,54,5,44,-2
+2070,Eastern Europe,Droughts,4.5,43486543,824157,29,25,62,-59
+2070,Eastern Europe,Droughts,6.0,32441180,409584,73,16,91,-6
+2070,Eastern Europe,Droughts,8.5,84755039,181776,98,84,24,22
+2070,Eastern Europe,Floods,2.6,98104897,50310,81,44,23,-37
+2070,Eastern Europe,Floods,4.5,77051326,674480,58,65,87,19
+2070,Eastern Europe,Floods,6.0,44184926,930831,83,69,18,0
+2070,Eastern Europe,Floods,8.5,58736912,912840,9,67,18,-18
+2070,Eastern Europe,Storms,2.6,6004571,173529,2,80,79,-9
+2070,Eastern Europe,Storms,4.5,49154868,104326,92,62,42,-5
+2070,Eastern Europe,Storms,6.0,77147995,309685,89,54,78,-48
+2070,Eastern Europe,Storms,8.5,69569342,394851,89,76,54,-58
+2070,Melanesia,Droughts,2.6,39783047,205616,55,56,5,-27
+2070,Melanesia,Droughts,4.5,11202098,284096,14,60,16,-40
+2070,Melanesia,Droughts,6.0,5842797,475536,11,86,41,-10
+2070,Melanesia,Droughts,8.5,7675811,716446,99,93,43,-4
+2070,Melanesia,Floods,2.6,66481202,633982,67,24,9,25
+2070,Melanesia,Floods,4.5,47960980,59558,80,97,6,-17
+2070,Melanesia,Floods,6.0,58464811,423286,32,68,40,-22
+2070,Melanesia,Floods,8.5,54880472,243093,56,70,87,-36
+2070,Melanesia,Storms,2.6,491314,229597,77,8,28,-33
+2070,Melanesia,Storms,4.5,89741896,624978,10,66,2,26
+2070,Melanesia,Storms,6.0,40574377,121934,91,64,98,36
+2070,Melanesia,Storms,8.5,18823822,123370,80,16,96,36
+2070,Micronesia,Droughts,2.6,80973462,517694,15,1,4,25
+2070,Micronesia,Droughts,4.5,72463941,892529,78,75,8,-4
+2070,Micronesia,Droughts,6.0,66987465,563190,7,16,44,6
+2070,Micronesia,Droughts,8.5,54223279,430220,29,67,88,19
+2070,Micronesia,Floods,2.6,74957512,443585,36,62,53,-60
+2070,Micronesia,Floods,4.5,756382,192652,66,24,37,19
+2070,Micronesia,Floods,6.0,95866111,752698,87,36,8,36
+2070,Micronesia,Floods,8.5,13694353,950571,22,0,31,-37
+2070,Micronesia,Storms,2.6,28572363,202179,95,13,95,-51
+2070,Micronesia,Storms,4.5,80464334,489740,28,25,87,-13
+2070,Micronesia,Storms,6.0,3779336,5996,47,56,87,22
+2070,Micronesia,Storms,8.5,58396057,354553,92,17,89,-16
+2070,Middle Africa,Droughts,2.6,68897461,382600,27,14,11,4
+2070,Middle Africa,Droughts,4.5,60685951,499553,17,51,15,49
+2070,Middle Africa,Droughts,6.0,60457497,206693,63,25,89,-44
+2070,Middle Africa,Droughts,8.5,12338560,185583,9,33,76,-57
+2070,Middle Africa,Floods,2.6,85299631,411485,41,28,9,19
+2070,Middle Africa,Floods,4.5,69406067,845639,66,69,9,-8
+2070,Middle Africa,Floods,6.0,53106209,108275,8,23,33,3
+2070,Middle Africa,Floods,8.5,46821208,584208,51,93,9,-55
+2070,Middle Africa,Storms,2.6,70900950,710557,46,30,54,-15
+2070,Middle Africa,Storms,4.5,98654929,113959,80,27,39,-5
+2070,Middle Africa,Storms,6.0,55649045,896051,37,76,44,26
+2070,Middle Africa,Storms,8.5,33257798,970337,34,31,48,32
+2070,Northern Africa,Droughts,2.6,39882533,781313,38,30,23,-8
+2070,Northern Africa,Droughts,4.5,1609151,389769,0,70,38,10
+2070,Northern Africa,Droughts,6.0,40853787,358794,96,95,78,-42
+2070,Northern Africa,Droughts,8.5,951538,559730,85,82,15,20
+2070,Northern Africa,Floods,2.6,2719327,532347,94,55,52,-16
+2070,Northern Africa,Floods,4.5,71745753,165213,82,91,8,13
+2070,Northern Africa,Floods,6.0,5382175,77700,79,16,34,-56
+2070,Northern Africa,Floods,8.5,17954296,474351,87,63,13,10
+2070,Northern Africa,Storms,2.6,73153238,654852,42,8,34,35
+2070,Northern Africa,Storms,4.5,78657836,170393,56,30,27,-58
+2070,Northern Africa,Storms,6.0,50325737,760859,5,35,78,49
+2070,Northern Africa,Storms,8.5,68425546,815243,46,27,81,-51
+2070,Northern America,Droughts,2.6,49150293,801314,70,31,74,-58
+2070,Northern America,Droughts,4.5,66539666,662429,27,74,67,-47
+2070,Northern America,Droughts,6.0,2615638,545219,73,46,36,47
+2070,Northern America,Droughts,8.5,73500440,631786,82,7,57,14
+2070,Northern America,Floods,2.6,68167186,306969,64,54,95,-28
+2070,Northern America,Floods,4.5,54782541,943882,52,3,14,40
+2070,Northern America,Floods,6.0,43528933,58950,73,86,41,-58
+2070,Northern America,Floods,8.5,34101723,433243,88,7,72,-44
+2070,Northern America,Storms,2.6,42068846,689436,11,38,14,20
+2070,Northern America,Storms,4.5,24698163,446662,73,98,68,-11
+2070,Northern America,Storms,6.0,27033816,388835,8,20,40,-8
+2070,Northern America,Storms,8.5,3298590,80990,49,6,8,14
+2070,Northern Europe,Droughts,2.6,11829191,920721,1,13,79,-45
+2070,Northern Europe,Droughts,4.5,73243132,680350,70,3,65,32
+2070,Northern Europe,Droughts,6.0,14395299,749601,42,37,50,-38
+2070,Northern Europe,Droughts,8.5,99333182,571489,32,20,22,41
+2070,Northern Europe,Floods,2.6,80146747,541960,23,26,58,41
+2070,Northern Europe,Floods,4.5,56598047,93134,73,95,13,-49
+2070,Northern Europe,Floods,6.0,77853271,993683,30,7,81,-58
+2070,Northern Europe,Floods,8.5,41972033,248682,5,15,12,-14
+2070,Northern Europe,Storms,2.6,57921250,876031,29,97,78,39
+2070,Northern Europe,Storms,4.5,46002898,285090,29,81,74,-3
+2070,Northern Europe,Storms,6.0,46134999,910904,62,43,65,31
+2070,Northern Europe,Storms,8.5,23162059,752521,54,36,31,25
+2070,Polynesia,Droughts,2.6,79504553,247893,9,24,53,-35
+2070,Polynesia,Droughts,4.5,15124211,739959,31,63,82,-15
+2070,Polynesia,Droughts,6.0,70322477,781835,72,91,6,9
+2070,Polynesia,Droughts,8.5,10194577,279685,96,47,65,-44
+2070,Polynesia,Floods,2.6,56955388,558950,26,82,38,21
+2070,Polynesia,Floods,4.5,91083284,26814,82,30,88,-43
+2070,Polynesia,Floods,6.0,75478231,121149,63,30,79,-24
+2070,Polynesia,Floods,8.5,2008695,465318,49,46,28,8
+2070,Polynesia,Storms,2.6,56591074,258869,58,91,45,-48
+2070,Polynesia,Storms,4.5,45481511,909140,81,20,65,44
+2070,Polynesia,Storms,6.0,11725411,498200,63,21,84,-41
+2070,Polynesia,Storms,8.5,8540083,733526,53,27,67,-51
+2070,South America,Droughts,2.6,68391627,584356,10,86,62,-6
+2070,South America,Droughts,4.5,55308868,17180,48,37,81,-44
+2070,South America,Droughts,6.0,6691542,955857,88,16,97,-13
+2070,South America,Droughts,8.5,22465009,82514,81,66,35,-6
+2070,South America,Floods,2.6,18725141,621594,40,55,83,21
+2070,South America,Floods,4.5,51549827,377840,48,58,59,-5
+2070,South America,Floods,6.0,99779109,361821,6,34,65,-30
+2070,South America,Floods,8.5,44706044,139983,79,20,48,-16
+2070,South America,Storms,2.6,35987036,791338,46,62,53,-3
+2070,South America,Storms,4.5,60943386,778998,77,50,30,-13
+2070,South America,Storms,6.0,23806956,157381,66,20,61,-24
+2070,South America,Storms,8.5,45501853,671933,40,8,25,24
+2070,South-Eastern Asia,Droughts,2.6,98599651,862225,4,17,39,37
+2070,South-Eastern Asia,Droughts,4.5,56147836,815426,7,96,44,-48
+2070,South-Eastern Asia,Droughts,6.0,43747111,745221,10,54,28,-14
+2070,South-Eastern Asia,Droughts,8.5,63372343,60043,49,27,19,-2
+2070,South-Eastern Asia,Floods,2.6,62239699,296913,6,13,69,-56
+2070,South-Eastern Asia,Floods,4.5,69122927,542612,76,77,89,-31
+2070,South-Eastern Asia,Floods,6.0,64936704,296557,35,70,97,-56
+2070,South-Eastern Asia,Floods,8.5,44860119,694460,60,44,55,-21
+2070,South-Eastern Asia,Storms,2.6,55631869,695089,59,62,43,47
+2070,South-Eastern Asia,Storms,4.5,72183990,286821,10,43,80,-45
+2070,South-Eastern Asia,Storms,6.0,26611719,265331,66,55,45,-23
+2070,South-Eastern Asia,Storms,8.5,31910755,650416,50,18,91,-14
+2070,Southern Africa,Droughts,2.6,7447974,657613,54,33,55,47
+2070,Southern Africa,Droughts,4.5,17306958,412885,2,26,40,16
+2070,Southern Africa,Droughts,6.0,7405583,552796,58,97,27,-60
+2070,Southern Africa,Droughts,8.5,22414198,882394,81,68,86,18
+2070,Southern Africa,Floods,2.6,43276680,52319,21,56,46,-53
+2070,Southern Africa,Floods,4.5,88159281,778173,93,19,42,15
+2070,Southern Africa,Floods,6.0,34712513,382897,44,76,86,-37
+2070,Southern Africa,Floods,8.5,52440370,567721,11,47,47,-3
+2070,Southern Africa,Storms,2.6,6147105,540969,22,43,57,-27
+2070,Southern Africa,Storms,4.5,72059613,319399,56,4,36,45
+2070,Southern Africa,Storms,6.0,68818395,561956,28,35,96,3
+2070,Southern Africa,Storms,8.5,56004609,187554,38,27,99,-35
+2070,Southern Asia,Droughts,2.6,35032296,985640,91,53,40,26
+2070,Southern Asia,Droughts,4.5,74465257,157502,34,46,74,-52
+2070,Southern Asia,Droughts,6.0,97088414,255578,12,84,64,-39
+2070,Southern Asia,Droughts,8.5,41768348,116459,56,94,61,-47
+2070,Southern Asia,Floods,2.6,18391793,134974,32,69,90,49
+2070,Southern Asia,Floods,4.5,3869150,280324,56,96,78,45
+2070,Southern Asia,Floods,6.0,18708858,790011,37,47,41,-57
+2070,Southern Asia,Floods,8.5,46315540,295599,50,84,26,10
+2070,Southern Asia,Storms,2.6,16753322,821223,55,45,93,16
+2070,Southern Asia,Storms,4.5,13235270,580202,36,11,76,-40
+2070,Southern Asia,Storms,6.0,90991036,737810,73,28,94,45
+2070,Southern Asia,Storms,8.5,72457450,685153,14,49,0,-14
+2070,Southern Europe,Droughts,2.6,65775953,639772,66,74,86,48
+2070,Southern Europe,Droughts,4.5,69969964,915334,71,55,66,-37
+2070,Southern Europe,Droughts,6.0,15012166,910895,32,44,91,12
+2070,Southern Europe,Droughts,8.5,37633057,286549,57,51,44,-16
+2070,Southern Europe,Floods,2.6,8794380,623904,1,97,62,-52
+2070,Southern Europe,Floods,4.5,7067864,478990,31,57,31,-27
+2070,Southern Europe,Floods,6.0,30744564,575120,70,41,88,-26
+2070,Southern Europe,Floods,8.5,19533336,403642,22,3,44,-52
+2070,Southern Europe,Storms,2.6,73816576,113064,59,14,48,-32
+2070,Southern Europe,Storms,4.5,61075249,43850,76,58,62,-7
+2070,Southern Europe,Storms,6.0,31902110,927076,15,69,72,23
+2070,Southern Europe,Storms,8.5,24052736,756376,86,23,1,-44
+2070,Western Africa,Droughts,2.6,75308923,746357,92,52,90,-51
+2070,Western Africa,Droughts,4.5,55272101,289073,72,64,35,-60
+2070,Western Africa,Droughts,6.0,99085568,435814,38,59,88,-30
+2070,Western Africa,Droughts,8.5,80139476,703017,94,35,87,22
+2070,Western Africa,Floods,2.6,54121987,418963,57,33,13,49
+2070,Western Africa,Floods,4.5,34283583,273126,23,29,11,16
+2070,Western Africa,Floods,6.0,51368712,373035,77,89,5,-56
+2070,Western Africa,Floods,8.5,40308213,479724,85,78,27,44
+2070,Western Africa,Storms,2.6,11809186,676328,49,3,16,10
+2070,Western Africa,Storms,4.5,25534491,309694,39,47,95,-31
+2070,Western Africa,Storms,6.0,46246541,81356,99,53,12,49
+2070,Western Africa,Storms,8.5,46624663,833142,42,52,57,12
+2070,Western Asia,Droughts,2.6,31700149,310494,12,35,59,1
+2070,Western Asia,Droughts,4.5,25987309,670196,20,67,2,47
+2070,Western Asia,Droughts,6.0,55288948,61851,77,59,14,-19
+2070,Western Asia,Droughts,8.5,57562890,201667,29,66,7,-29
+2070,Western Asia,Floods,2.6,51420733,154233,70,88,80,0
+2070,Western Asia,Floods,4.5,25968676,70960,73,54,17,-17
+2070,Western Asia,Floods,6.0,88384017,793691,8,12,70,20
+2070,Western Asia,Floods,8.5,80804027,95703,93,10,27,40
+2070,Western Asia,Storms,2.6,16760630,144799,7,89,72,43
+2070,Western Asia,Storms,4.5,79105300,381202,85,4,50,-18
+2070,Western Asia,Storms,6.0,5569953,713960,23,82,61,-35
+2070,Western Asia,Storms,8.5,15406377,447075,62,93,55,14
+2070,Western Europe,Droughts,2.6,98482954,235359,16,47,48,-51
+2070,Western Europe,Droughts,4.5,92661621,956563,17,47,70,40
+2070,Western Europe,Droughts,6.0,5895372,877693,24,68,94,-30
+2070,Western Europe,Droughts,8.5,13552754,756678,19,70,82,-6
+2070,Western Europe,Floods,2.6,72521184,775726,96,27,42,4
+2070,Western Europe,Floods,4.5,14387860,836067,63,41,38,-40
+2070,Western Europe,Floods,6.0,38327482,556872,94,52,39,-38
+2070,Western Europe,Floods,8.5,99631252,186457,19,77,25,-56
+2070,Western Europe,Storms,2.6,16355321,514034,38,22,61,16
+2070,Western Europe,Storms,4.5,6338553,841218,69,3,12,36
+2070,Western Europe,Storms,6.0,18870077,806183,73,82,73,-46
+2070,Western Europe,Storms,8.5,36141460,749917,86,14,25,-31
+2080,Australia and New Zealand,Droughts,2.6,69030847,141758,32,11,69,-39
+2080,Australia and New Zealand,Droughts,4.5,36882065,97344,45,81,31,-11
+2080,Australia and New Zealand,Droughts,6.0,20144589,342327,0,54,71,20
+2080,Australia and New Zealand,Droughts,8.5,12830116,459555,98,67,25,-5
+2080,Australia and New Zealand,Floods,2.6,70595806,348805,15,19,12,41
+2080,Australia and New Zealand,Floods,4.5,76237018,979974,47,71,44,48
+2080,Australia and New Zealand,Floods,6.0,46020058,861808,3,45,44,12
+2080,Australia and New Zealand,Floods,8.5,7224142,437094,82,64,81,20
+2080,Australia and New Zealand,Storms,2.6,82802285,160211,4,19,78,-37
+2080,Australia and New Zealand,Storms,4.5,22588247,728056,17,29,71,-36
+2080,Australia and New Zealand,Storms,6.0,48831364,17322,72,31,45,-28
+2080,Australia and New Zealand,Storms,8.5,58693657,743352,53,67,70,27
+2080,Caribbean,Droughts,2.6,21652593,124863,28,26,70,-8
+2080,Caribbean,Droughts,4.5,12230135,694619,80,14,64,-44
+2080,Caribbean,Droughts,6.0,33630513,894857,8,45,24,33
+2080,Caribbean,Droughts,8.5,18184120,304616,82,69,78,-43
+2080,Caribbean,Floods,2.6,37259445,879660,85,1,92,27
+2080,Caribbean,Floods,4.5,17937597,100542,8,3,46,43
+2080,Caribbean,Floods,6.0,46762207,801053,48,83,41,-9
+2080,Caribbean,Floods,8.5,94090502,945180,67,38,2,-43
+2080,Caribbean,Storms,2.6,98364748,119435,48,43,73,4
+2080,Caribbean,Storms,4.5,71636162,321158,76,26,51,11
+2080,Caribbean,Storms,6.0,86795755,408418,51,55,19,-31
+2080,Caribbean,Storms,8.5,46412976,242995,93,95,87,42
+2080,Central America,Droughts,2.6,90731675,309865,28,97,62,-16
+2080,Central America,Droughts,4.5,7675458,257780,82,35,54,36
+2080,Central America,Droughts,6.0,83496359,794332,52,45,24,-27
+2080,Central America,Droughts,8.5,69841253,189692,98,65,24,-42
+2080,Central America,Floods,2.6,11712212,840146,31,15,35,-36
+2080,Central America,Floods,4.5,30776831,705668,43,64,83,38
+2080,Central America,Floods,6.0,10492088,667079,74,72,51,-51
+2080,Central America,Floods,8.5,91370416,216281,29,47,44,-18
+2080,Central America,Storms,2.6,77259265,425779,2,53,93,-7
+2080,Central America,Storms,4.5,9032949,336874,12,4,77,-28
+2080,Central America,Storms,6.0,43606172,722620,30,84,86,4
+2080,Central America,Storms,8.5,25124650,221563,60,35,85,-15
+2080,Central Asia,Droughts,2.6,42579941,999772,85,51,85,33
+2080,Central Asia,Droughts,4.5,68770785,207795,96,80,10,41
+2080,Central Asia,Droughts,6.0,75375402,157113,76,41,25,-14
+2080,Central Asia,Droughts,8.5,62152205,286138,76,3,47,-59
+2080,Central Asia,Floods,2.6,67743196,769056,66,24,79,41
+2080,Central Asia,Floods,4.5,24588710,288100,39,4,36,-44
+2080,Central Asia,Floods,6.0,6852992,710396,13,93,96,-54
+2080,Central Asia,Floods,8.5,47856741,604860,40,98,84,25
+2080,Central Asia,Storms,2.6,85315348,433664,30,46,17,10
+2080,Central Asia,Storms,4.5,34814550,771127,91,96,10,17
+2080,Central Asia,Storms,6.0,62762649,79679,40,4,97,28
+2080,Central Asia,Storms,8.5,33746530,831892,66,68,81,26
+2080,Eastern Africa,Droughts,2.6,95636278,660531,99,63,3,-28
+2080,Eastern Africa,Droughts,4.5,17789317,739573,11,35,10,-47
+2080,Eastern Africa,Droughts,6.0,40345169,766850,66,78,93,-22
+2080,Eastern Africa,Droughts,8.5,47211563,548544,81,5,36,19
+2080,Eastern Africa,Floods,2.6,76829027,981263,47,37,69,-23
+2080,Eastern Africa,Floods,4.5,9081813,37652,20,52,59,39
+2080,Eastern Africa,Floods,6.0,506225,905038,1,56,83,6
+2080,Eastern Africa,Floods,8.5,56888325,620961,22,46,63,-3
+2080,Eastern Africa,Storms,2.6,68880051,759383,97,10,48,-57
+2080,Eastern Africa,Storms,4.5,91752684,409106,63,43,96,17
+2080,Eastern Africa,Storms,6.0,38340628,424081,70,19,67,-24
+2080,Eastern Africa,Storms,8.5,87036260,132667,41,14,80,14
+2080,Eastern Asia,Droughts,2.6,18798177,673795,66,34,21,-1
+2080,Eastern Asia,Droughts,4.5,27105863,994038,81,59,80,-23
+2080,Eastern Asia,Droughts,6.0,2847451,666745,18,99,86,15
+2080,Eastern Asia,Droughts,8.5,35471852,216841,19,40,92,30
+2080,Eastern Asia,Floods,2.6,86829897,834366,87,51,32,-50
+2080,Eastern Asia,Floods,4.5,8635300,450766,43,58,75,-17
+2080,Eastern Asia,Floods,6.0,55851901,427717,60,85,7,-2
+2080,Eastern Asia,Floods,8.5,34421849,164003,68,11,44,-41
+2080,Eastern Asia,Storms,2.6,87287070,941931,39,54,19,-52
+2080,Eastern Asia,Storms,4.5,94087227,410257,38,75,9,-31
+2080,Eastern Asia,Storms,6.0,43559300,506511,58,46,25,7
+2080,Eastern Asia,Storms,8.5,53681384,461064,96,4,69,11
+2080,Eastern Europe,Droughts,2.6,36011245,253204,31,84,8,48
+2080,Eastern Europe,Droughts,4.5,39619764,140162,67,52,46,38
+2080,Eastern Europe,Droughts,6.0,43340294,429524,26,3,25,-20
+2080,Eastern Europe,Droughts,8.5,7302622,911710,36,90,59,33
+2080,Eastern Europe,Floods,2.6,69902423,916064,53,13,72,-5
+2080,Eastern Europe,Floods,4.5,34475292,502315,33,28,78,-7
+2080,Eastern Europe,Floods,6.0,89084290,13661,35,0,67,-45
+2080,Eastern Europe,Floods,8.5,92523757,892295,57,42,36,48
+2080,Eastern Europe,Storms,2.6,90282800,370281,35,10,26,-50
+2080,Eastern Europe,Storms,4.5,58863669,707594,26,53,11,-21
+2080,Eastern Europe,Storms,6.0,51816900,75776,4,73,57,-10
+2080,Eastern Europe,Storms,8.5,77637843,851992,87,79,11,2
+2080,Melanesia,Droughts,2.6,60683679,123789,2,10,96,40
+2080,Melanesia,Droughts,4.5,96991944,316418,17,43,21,-26
+2080,Melanesia,Droughts,6.0,91924529,566884,22,56,6,-34
+2080,Melanesia,Droughts,8.5,93102589,421830,0,11,70,-15
+2080,Melanesia,Floods,2.6,85327699,542354,64,94,43,16
+2080,Melanesia,Floods,4.5,42123713,255089,59,76,30,-20
+2080,Melanesia,Floods,6.0,15225546,459467,11,71,80,24
+2080,Melanesia,Floods,8.5,74220457,35256,91,60,58,34
+2080,Melanesia,Storms,2.6,99412911,611687,6,89,14,-58
+2080,Melanesia,Storms,4.5,45759099,58516,92,30,51,40
+2080,Melanesia,Storms,6.0,87747819,895977,35,5,34,-15
+2080,Melanesia,Storms,8.5,45604020,185946,18,88,53,-39
+2080,Micronesia,Droughts,2.6,28348790,695116,52,22,43,-57
+2080,Micronesia,Droughts,4.5,935916,95509,19,74,66,9
+2080,Micronesia,Droughts,6.0,85350265,341457,25,52,46,35
+2080,Micronesia,Droughts,8.5,85885056,738316,94,45,61,44
+2080,Micronesia,Floods,2.6,34152966,202876,83,16,17,11
+2080,Micronesia,Floods,4.5,40785565,610980,83,67,45,12
+2080,Micronesia,Floods,6.0,77376156,179475,26,62,54,48
+2080,Micronesia,Floods,8.5,95993086,943621,89,64,81,24
+2080,Micronesia,Storms,2.6,85602610,997128,67,68,62,-6
+2080,Micronesia,Storms,4.5,71556207,639021,31,36,99,16
+2080,Micronesia,Storms,6.0,83985444,10156,67,72,39,-23
+2080,Micronesia,Storms,8.5,54689540,239297,64,70,65,40
+2080,Middle Africa,Droughts,2.6,7150227,572143,49,76,85,45
+2080,Middle Africa,Droughts,4.5,69609684,681985,26,39,25,-44
+2080,Middle Africa,Droughts,6.0,68559841,156369,68,83,41,-40
+2080,Middle Africa,Droughts,8.5,69497026,619448,3,87,48,-31
+2080,Middle Africa,Floods,2.6,23535758,838228,68,74,60,-17
+2080,Middle Africa,Floods,4.5,8004740,878164,69,74,39,2
+2080,Middle Africa,Floods,6.0,45450942,505182,48,93,19,29
+2080,Middle Africa,Floods,8.5,35636217,324490,42,27,78,12
+2080,Middle Africa,Storms,2.6,85785690,727694,20,16,43,-13
+2080,Middle Africa,Storms,4.5,1678208,279002,51,49,97,-60
+2080,Middle Africa,Storms,6.0,73934611,208769,88,6,89,6
+2080,Middle Africa,Storms,8.5,90225373,787323,76,80,84,-42
+2080,Northern Africa,Droughts,2.6,81551901,792790,9,30,50,-59
+2080,Northern Africa,Droughts,4.5,97700207,530852,76,66,4,25
+2080,Northern Africa,Droughts,6.0,83955176,648503,74,0,69,-24
+2080,Northern Africa,Droughts,8.5,9176983,902437,71,83,3,24
+2080,Northern Africa,Floods,2.6,78577848,974007,41,19,67,42
+2080,Northern Africa,Floods,4.5,79852626,897687,56,73,46,27
+2080,Northern Africa,Floods,6.0,61268322,149916,96,90,23,-17
+2080,Northern Africa,Floods,8.5,92695843,828897,82,86,43,9
+2080,Northern Africa,Storms,2.6,3757042,532486,75,89,71,39
+2080,Northern Africa,Storms,4.5,740759,60611,97,36,37,-49
+2080,Northern Africa,Storms,6.0,87228701,223751,93,77,95,33
+2080,Northern Africa,Storms,8.5,33851949,908195,29,70,56,-21
+2080,Northern America,Droughts,2.6,34064259,346037,97,12,41,10
+2080,Northern America,Droughts,4.5,20591503,697124,60,18,48,10
+2080,Northern America,Droughts,6.0,44365476,270946,72,1,76,-10
+2080,Northern America,Droughts,8.5,96200195,381341,25,16,74,-2
+2080,Northern America,Floods,2.6,67689059,251413,55,6,94,21
+2080,Northern America,Floods,4.5,71347593,780334,84,97,70,41
+2080,Northern America,Floods,6.0,13012752,575383,50,5,21,-5
+2080,Northern America,Floods,8.5,47416658,147516,62,24,37,49
+2080,Northern America,Storms,2.6,20414297,170111,70,35,65,-7
+2080,Northern America,Storms,4.5,54069115,352412,49,56,26,31
+2080,Northern America,Storms,6.0,29595261,695131,99,30,88,25
+2080,Northern America,Storms,8.5,72827207,781750,4,40,19,-4
+2080,Northern Europe,Droughts,2.6,6328711,301838,50,22,25,4
+2080,Northern Europe,Droughts,4.5,11555532,463226,38,72,61,-43
+2080,Northern Europe,Droughts,6.0,5249445,270025,30,73,4,-20
+2080,Northern Europe,Droughts,8.5,31608078,624059,71,70,85,-37
+2080,Northern Europe,Floods,2.6,13381767,589138,87,66,54,-41
+2080,Northern Europe,Floods,4.5,4667734,329553,69,65,24,-28
+2080,Northern Europe,Floods,6.0,34210825,368173,92,60,27,-21
+2080,Northern Europe,Floods,8.5,65113919,517440,99,61,69,-13
+2080,Northern Europe,Storms,2.6,79211874,296081,12,44,38,40
+2080,Northern Europe,Storms,4.5,77149214,749548,10,46,25,-31
+2080,Northern Europe,Storms,6.0,28984066,92646,28,66,51,30
+2080,Northern Europe,Storms,8.5,8295590,243759,47,4,32,37
+2080,Polynesia,Droughts,2.6,73235234,161382,59,31,5,-8
+2080,Polynesia,Droughts,4.5,12252251,441977,91,49,79,18
+2080,Polynesia,Droughts,6.0,87691082,864551,20,46,73,33
+2080,Polynesia,Droughts,8.5,64004639,956399,40,40,46,-28
+2080,Polynesia,Floods,2.6,74028788,694094,27,45,48,-40
+2080,Polynesia,Floods,4.5,98471013,73392,37,4,62,-55
+2080,Polynesia,Floods,6.0,37763911,485639,3,25,64,-10
+2080,Polynesia,Floods,8.5,68515439,730293,6,60,59,-23
+2080,Polynesia,Storms,2.6,87062708,987183,20,96,57,-11
+2080,Polynesia,Storms,4.5,60012561,270640,30,78,66,-8
+2080,Polynesia,Storms,6.0,88832337,310271,92,70,79,27
+2080,Polynesia,Storms,8.5,39506278,844495,26,42,86,-51
+2080,South America,Droughts,2.6,90427880,479031,88,6,15,-34
+2080,South America,Droughts,4.5,12725759,210464,28,44,17,25
+2080,South America,Droughts,6.0,59908791,497158,52,4,72,36
+2080,South America,Droughts,8.5,89610371,989457,65,37,90,-42
+2080,South America,Floods,2.6,53402287,22174,20,70,5,2
+2080,South America,Floods,4.5,32548283,209231,6,20,48,31
+2080,South America,Floods,6.0,33514147,86430,33,74,66,-29
+2080,South America,Floods,8.5,89718411,773881,93,17,99,-50
+2080,South America,Storms,2.6,94273298,308527,47,80,71,-45
+2080,South America,Storms,4.5,7546810,417479,94,65,7,-15
+2080,South America,Storms,6.0,6453954,485386,77,66,50,42
+2080,South America,Storms,8.5,74202087,740398,87,50,61,-6
+2080,South-Eastern Asia,Droughts,2.6,2482855,732198,87,36,50,-49
+2080,South-Eastern Asia,Droughts,4.5,82697457,393342,49,46,41,-54
+2080,South-Eastern Asia,Droughts,6.0,16857943,684511,26,50,62,15
+2080,South-Eastern Asia,Droughts,8.5,44889470,800871,10,68,36,-36
+2080,South-Eastern Asia,Floods,2.6,27735654,463364,19,22,49,4
+2080,South-Eastern Asia,Floods,4.5,99354741,837258,97,38,1,-53
+2080,South-Eastern Asia,Floods,6.0,30967671,894401,15,42,6,-11
+2080,South-Eastern Asia,Floods,8.5,75600726,992088,21,30,89,29
+2080,South-Eastern Asia,Storms,2.6,84613209,476585,80,9,12,-28
+2080,South-Eastern Asia,Storms,4.5,76069499,945126,91,35,20,9
+2080,South-Eastern Asia,Storms,6.0,27898452,745157,61,52,70,16
+2080,South-Eastern Asia,Storms,8.5,14173868,239200,22,86,10,-54
+2080,Southern Africa,Droughts,2.6,62036347,3133,59,79,81,20
+2080,Southern Africa,Droughts,4.5,65707530,760998,43,0,16,-13
+2080,Southern Africa,Droughts,6.0,56127231,919553,12,83,30,12
+2080,Southern Africa,Droughts,8.5,16860871,809214,4,16,99,45
+2080,Southern Africa,Floods,2.6,8864592,862494,93,42,95,-18
+2080,Southern Africa,Floods,4.5,82912474,783264,84,94,2,30
+2080,Southern Africa,Floods,6.0,91212510,876745,63,11,50,-35
+2080,Southern Africa,Floods,8.5,38161131,286094,60,36,6,4
+2080,Southern Africa,Storms,2.6,2488397,666045,51,8,24,35
+2080,Southern Africa,Storms,4.5,49515641,747262,70,73,97,36
+2080,Southern Africa,Storms,6.0,18232191,838479,86,50,52,-16
+2080,Southern Africa,Storms,8.5,40855990,476698,93,42,64,39
+2080,Southern Asia,Droughts,2.6,4137930,769737,47,20,15,-33
+2080,Southern Asia,Droughts,4.5,17653685,512018,15,45,8,-50
+2080,Southern Asia,Droughts,6.0,6203030,476449,9,95,42,20
+2080,Southern Asia,Droughts,8.5,85078288,534038,81,75,13,45
+2080,Southern Asia,Floods,2.6,7890789,937405,42,84,20,-23
+2080,Southern Asia,Floods,4.5,2054702,246113,75,50,88,-48
+2080,Southern Asia,Floods,6.0,70160073,74160,51,95,62,33
+2080,Southern Asia,Floods,8.5,71503803,655526,1,62,75,22
+2080,Southern Asia,Storms,2.6,50407712,693579,38,57,28,44
+2080,Southern Asia,Storms,4.5,83733589,326135,77,23,8,-10
+2080,Southern Asia,Storms,6.0,58596340,372716,4,5,68,-22
+2080,Southern Asia,Storms,8.5,59442008,911405,62,13,13,2
+2080,Southern Europe,Droughts,2.6,14636297,932928,86,0,57,7
+2080,Southern Europe,Droughts,4.5,47075566,948818,40,44,80,-16
+2080,Southern Europe,Droughts,6.0,72471539,174527,17,12,45,-41
+2080,Southern Europe,Droughts,8.5,3110736,709184,93,6,58,-60
+2080,Southern Europe,Floods,2.6,78325742,700666,79,96,76,5
+2080,Southern Europe,Floods,4.5,55063806,522255,16,20,52,-2
+2080,Southern Europe,Floods,6.0,64352684,399542,30,1,75,-42
+2080,Southern Europe,Floods,8.5,60990802,588890,17,89,63,8
+2080,Southern Europe,Storms,2.6,24572402,495686,28,58,92,-3
+2080,Southern Europe,Storms,4.5,8568675,211404,33,42,33,-26
+2080,Southern Europe,Storms,6.0,65032686,615660,87,1,93,-3
+2080,Southern Europe,Storms,8.5,55960899,740551,78,20,39,22
+2080,Western Africa,Droughts,2.6,3357952,568816,37,85,86,17
+2080,Western Africa,Droughts,4.5,1438221,118693,42,53,40,43
+2080,Western Africa,Droughts,6.0,53603039,826396,50,2,72,-25
+2080,Western Africa,Droughts,8.5,54247342,524430,89,62,67,35
+2080,Western Africa,Floods,2.6,18838521,565270,76,46,51,-15
+2080,Western Africa,Floods,4.5,17046941,656059,84,99,3,32
+2080,Western Africa,Floods,6.0,81440030,287478,28,18,7,45
+2080,Western Africa,Floods,8.5,2081870,209485,57,21,90,-6
+2080,Western Africa,Storms,2.6,40562550,769720,68,86,83,-49
+2080,Western Africa,Storms,4.5,74663157,526993,81,15,96,21
+2080,Western Africa,Storms,6.0,43534940,954455,50,83,50,43
+2080,Western Africa,Storms,8.5,27659394,308638,0,93,27,24
+2080,Western Asia,Droughts,2.6,22028601,637636,76,33,75,-19
+2080,Western Asia,Droughts,4.5,84121324,47555,65,15,69,-20
+2080,Western Asia,Droughts,6.0,77656675,61050,35,19,75,-23
+2080,Western Asia,Droughts,8.5,19876698,547533,87,62,52,-2
+2080,Western Asia,Floods,2.6,27383822,897712,94,79,34,-45
+2080,Western Asia,Floods,4.5,97121003,652486,86,75,11,9
+2080,Western Asia,Floods,6.0,97186291,216708,6,83,37,31
+2080,Western Asia,Floods,8.5,61837038,143127,73,65,79,-5
+2080,Western Asia,Storms,2.6,52163818,449723,62,93,94,28
+2080,Western Asia,Storms,4.5,99555909,66754,86,19,52,-47
+2080,Western Asia,Storms,6.0,30271060,196957,10,46,50,17
+2080,Western Asia,Storms,8.5,35863626,656235,80,52,91,3
+2080,Western Europe,Droughts,2.6,58848122,695108,3,21,10,34
+2080,Western Europe,Droughts,4.5,96978699,959419,34,81,64,-6
+2080,Western Europe,Droughts,6.0,37687501,802227,22,81,57,-15
+2080,Western Europe,Droughts,8.5,6811305,857556,38,39,22,-55
+2080,Western Europe,Floods,2.6,10265882,250108,65,64,96,-57
+2080,Western Europe,Floods,4.5,19764373,760291,42,86,18,14
+2080,Western Europe,Floods,6.0,37419479,182265,54,79,0,39
+2080,Western Europe,Floods,8.5,73814031,10985,56,43,43,-35
+2080,Western Europe,Storms,2.6,2214597,139622,20,29,24,44
+2080,Western Europe,Storms,4.5,99450472,31874,62,93,12,38
+2080,Western Europe,Storms,6.0,20230322,523081,61,77,42,1
+2080,Western Europe,Storms,8.5,23048272,56523,85,77,52,-55
+2090,Australia and New Zealand,Droughts,2.6,35447131,910667,35,84,29,48
+2090,Australia and New Zealand,Droughts,4.5,51265421,960480,9,67,65,-46
+2090,Australia and New Zealand,Droughts,6.0,46047972,63725,50,12,19,35
+2090,Australia and New Zealand,Droughts,8.5,60962803,307997,97,66,41,-1
+2090,Australia and New Zealand,Floods,2.6,59872269,340886,74,95,94,-16
+2090,Australia and New Zealand,Floods,4.5,42236866,439772,25,18,38,41
+2090,Australia and New Zealand,Floods,6.0,76045362,621361,63,97,2,41
+2090,Australia and New Zealand,Floods,8.5,10271906,870577,53,94,28,1
+2090,Australia and New Zealand,Storms,2.6,83606183,798561,33,83,79,-2
+2090,Australia and New Zealand,Storms,4.5,68359749,21255,57,58,37,-50
+2090,Australia and New Zealand,Storms,6.0,47330406,415655,95,94,99,23
+2090,Australia and New Zealand,Storms,8.5,39686964,295063,51,50,32,-23
+2090,Caribbean,Droughts,2.6,87188192,878550,15,40,3,-24
+2090,Caribbean,Droughts,4.5,82257264,913162,89,75,9,22
+2090,Caribbean,Droughts,6.0,84212839,317791,35,90,25,25
+2090,Caribbean,Droughts,8.5,15456650,811396,80,89,0,-39
+2090,Caribbean,Floods,2.6,14733951,516096,47,82,39,30
+2090,Caribbean,Floods,4.5,18673132,781763,42,50,10,48
+2090,Caribbean,Floods,6.0,9817775,785144,41,30,74,27
+2090,Caribbean,Floods,8.5,30142078,604568,5,38,91,-52
+2090,Caribbean,Storms,2.6,1759997,623069,34,88,8,27
+2090,Caribbean,Storms,4.5,90344415,153020,90,90,22,-34
+2090,Caribbean,Storms,6.0,88642311,843406,78,70,51,-47
+2090,Caribbean,Storms,8.5,28789364,957797,87,69,14,7
+2090,Central America,Droughts,2.6,68523749,543455,1,32,14,31
+2090,Central America,Droughts,4.5,34596118,748932,29,74,56,37
+2090,Central America,Droughts,6.0,15570495,874771,14,43,36,-16
+2090,Central America,Droughts,8.5,41564235,735968,87,57,1,-17
+2090,Central America,Floods,2.6,56933919,149553,95,87,19,38
+2090,Central America,Floods,4.5,98593170,648045,42,78,92,-51
+2090,Central America,Floods,6.0,99492109,89393,2,36,55,-46
+2090,Central America,Floods,8.5,59630880,562503,92,19,81,43
+2090,Central America,Storms,2.6,42357882,413073,38,19,2,-39
+2090,Central America,Storms,4.5,84071591,320241,16,50,17,31
+2090,Central America,Storms,6.0,15884144,778812,57,47,38,-32
+2090,Central America,Storms,8.5,10136026,866236,26,98,32,-8
+2090,Central Asia,Droughts,2.6,28140983,127217,1,80,34,30
+2090,Central Asia,Droughts,4.5,27709282,565539,71,92,69,42
+2090,Central Asia,Droughts,6.0,45317481,133492,22,86,96,6
+2090,Central Asia,Droughts,8.5,94919366,991330,26,54,54,-24
+2090,Central Asia,Floods,2.6,86403195,906689,21,98,10,7
+2090,Central Asia,Floods,4.5,45947359,177559,3,72,93,24
+2090,Central Asia,Floods,6.0,50489825,439472,48,19,37,-56
+2090,Central Asia,Floods,8.5,49421167,960175,97,16,4,-1
+2090,Central Asia,Storms,2.6,95534690,965835,92,66,98,0
+2090,Central Asia,Storms,4.5,36804323,649616,49,82,22,27
+2090,Central Asia,Storms,6.0,8280509,129951,81,68,37,32
+2090,Central Asia,Storms,8.5,81487661,569269,82,17,40,25
+2090,Eastern Africa,Droughts,2.6,87013037,519445,63,37,95,34
+2090,Eastern Africa,Droughts,4.5,57891284,679883,36,57,14,7
+2090,Eastern Africa,Droughts,6.0,38194970,459636,6,28,38,3
+2090,Eastern Africa,Droughts,8.5,63495343,581559,40,70,19,44
+2090,Eastern Africa,Floods,2.6,20287189,913249,53,60,19,-9
+2090,Eastern Africa,Floods,4.5,8696857,343111,4,76,19,-14
+2090,Eastern Africa,Floods,6.0,36062994,292408,29,83,26,-43
+2090,Eastern Africa,Floods,8.5,62550225,827539,88,95,20,34
+2090,Eastern Africa,Storms,2.6,67478052,707267,44,84,95,21
+2090,Eastern Africa,Storms,4.5,3016324,799954,56,41,57,-34
+2090,Eastern Africa,Storms,6.0,37566165,820720,96,2,66,49
+2090,Eastern Africa,Storms,8.5,19939674,634499,76,42,4,22
+2090,Eastern Asia,Droughts,2.6,96681898,773195,66,96,10,23
+2090,Eastern Asia,Droughts,4.5,79490710,510697,79,37,32,-19
+2090,Eastern Asia,Droughts,6.0,41210684,670664,96,33,71,-20
+2090,Eastern Asia,Droughts,8.5,2641399,455840,86,54,19,44
+2090,Eastern Asia,Floods,2.6,56583449,657354,25,8,99,1
+2090,Eastern Asia,Floods,4.5,78570426,25680,50,99,7,-42
+2090,Eastern Asia,Floods,6.0,69063696,458721,56,16,80,6
+2090,Eastern Asia,Floods,8.5,12633069,114305,86,93,3,-30
+2090,Eastern Asia,Storms,2.6,17226140,788717,36,43,87,49
+2090,Eastern Asia,Storms,4.5,17039321,739858,21,95,80,38
+2090,Eastern Asia,Storms,6.0,49414929,954381,6,38,14,-57
+2090,Eastern Asia,Storms,8.5,34837036,874131,12,70,31,-4
+2090,Eastern Europe,Droughts,2.6,20836349,706632,8,82,89,-29
+2090,Eastern Europe,Droughts,4.5,74641413,42545,39,64,60,12
+2090,Eastern Europe,Droughts,6.0,25959711,386214,97,27,51,28
+2090,Eastern Europe,Droughts,8.5,85046989,438108,87,14,42,-25
+2090,Eastern Europe,Floods,2.6,35224250,262013,97,91,62,29
+2090,Eastern Europe,Floods,4.5,18715179,148042,74,9,8,17
+2090,Eastern Europe,Floods,6.0,98653501,891567,50,27,66,-46
+2090,Eastern Europe,Floods,8.5,9414358,853635,29,55,23,-59
+2090,Eastern Europe,Storms,2.6,19387860,866880,47,80,50,-32
+2090,Eastern Europe,Storms,4.5,71920496,874890,93,36,82,-54
+2090,Eastern Europe,Storms,6.0,14024076,125771,24,44,74,-24
+2090,Eastern Europe,Storms,8.5,85113033,983398,28,47,73,-37
+2090,Melanesia,Droughts,2.6,44920807,337546,76,77,23,-41
+2090,Melanesia,Droughts,4.5,74034626,863175,97,42,64,-2
+2090,Melanesia,Droughts,6.0,83027708,308422,36,50,4,5
+2090,Melanesia,Droughts,8.5,20682207,694974,4,90,85,-17
+2090,Melanesia,Floods,2.6,42469988,957081,96,50,75,-34
+2090,Melanesia,Floods,4.5,82473210,134445,45,91,81,-60
+2090,Melanesia,Floods,6.0,15336144,424583,54,90,60,-31
+2090,Melanesia,Floods,8.5,96172827,207137,91,92,59,-43
+2090,Melanesia,Storms,2.6,48140845,343224,8,56,18,28
+2090,Melanesia,Storms,4.5,1276987,516468,43,60,93,-28
+2090,Melanesia,Storms,6.0,48331966,30397,49,75,0,-40
+2090,Melanesia,Storms,8.5,46633090,352233,60,92,12,0
+2090,Micronesia,Droughts,2.6,62938397,560391,90,70,24,-19
+2090,Micronesia,Droughts,4.5,97827856,921283,63,58,54,10
+2090,Micronesia,Droughts,6.0,14806184,590849,52,34,26,22
+2090,Micronesia,Droughts,8.5,34083003,159766,24,26,94,34
+2090,Micronesia,Floods,2.6,70469425,355876,14,1,8,16
+2090,Micronesia,Floods,4.5,3931314,506818,4,1,15,-30
+2090,Micronesia,Floods,6.0,96771725,320908,68,46,48,37
+2090,Micronesia,Floods,8.5,8100182,197695,87,14,86,-11
+2090,Micronesia,Storms,2.6,20945539,901122,5,96,3,-53
+2090,Micronesia,Storms,4.5,94815242,650563,83,83,48,-56
+2090,Micronesia,Storms,6.0,52698496,704416,88,96,48,22
+2090,Micronesia,Storms,8.5,28654592,815243,60,12,66,-4
+2090,Middle Africa,Droughts,2.6,58458805,930079,94,49,23,46
+2090,Middle Africa,Droughts,4.5,74758940,447046,37,3,22,-22
+2090,Middle Africa,Droughts,6.0,38302649,951059,3,4,6,8
+2090,Middle Africa,Droughts,8.5,1070411,64649,61,73,90,-17
+2090,Middle Africa,Floods,2.6,39690956,124478,60,39,6,-39
+2090,Middle Africa,Floods,4.5,68925010,658949,15,21,53,43
+2090,Middle Africa,Floods,6.0,33992134,42175,32,66,68,21
+2090,Middle Africa,Floods,8.5,82933873,180542,25,79,34,41
+2090,Middle Africa,Storms,2.6,69897929,505402,10,42,27,-24
+2090,Middle Africa,Storms,4.5,52232656,759370,88,4,40,8
+2090,Middle Africa,Storms,6.0,82829284,852084,70,58,3,46
+2090,Middle Africa,Storms,8.5,17725310,414488,74,25,67,-58
+2090,Northern Africa,Droughts,2.6,57178477,346171,91,94,47,-57
+2090,Northern Africa,Droughts,4.5,98758843,433913,23,86,21,-45
+2090,Northern Africa,Droughts,6.0,25656291,62592,97,50,43,-3
+2090,Northern Africa,Droughts,8.5,1123308,742895,59,18,36,-11
+2090,Northern Africa,Floods,2.6,54538187,102704,92,72,86,-38
+2090,Northern Africa,Floods,4.5,33664370,627922,61,30,19,24
+2090,Northern Africa,Floods,6.0,80490689,89445,0,83,84,-59
+2090,Northern Africa,Floods,8.5,70969852,784404,76,57,55,36
+2090,Northern Africa,Storms,2.6,67350120,601562,23,47,97,21
+2090,Northern Africa,Storms,4.5,70920150,717986,74,19,35,-45
+2090,Northern Africa,Storms,6.0,85125882,882349,25,81,23,14
+2090,Northern Africa,Storms,8.5,7130892,118849,66,30,14,-30
+2090,Northern America,Droughts,2.6,14956338,153827,43,95,99,-22
+2090,Northern America,Droughts,4.5,16168174,423130,18,42,43,8
+2090,Northern America,Droughts,6.0,42115721,94498,40,5,20,5
+2090,Northern America,Droughts,8.5,75652932,631742,52,16,51,2
+2090,Northern America,Floods,2.6,42077995,67037,0,96,88,-50
+2090,Northern America,Floods,4.5,11979387,228531,62,80,17,31
+2090,Northern America,Floods,6.0,88420684,351228,56,2,58,-13
+2090,Northern America,Floods,8.5,96116389,268282,1,87,88,-60
+2090,Northern America,Storms,2.6,8110409,767653,75,50,77,28
+2090,Northern America,Storms,4.5,40702731,532653,98,99,58,20
+2090,Northern America,Storms,6.0,54085009,540061,49,64,47,4
+2090,Northern America,Storms,8.5,37488310,412466,61,62,20,11
+2090,Northern Europe,Droughts,2.6,80111053,205980,44,9,35,-18
+2090,Northern Europe,Droughts,4.5,92353667,758097,16,83,14,-21
+2090,Northern Europe,Droughts,6.0,93161847,848682,24,58,49,24
+2090,Northern Europe,Droughts,8.5,64688127,228001,80,97,1,35
+2090,Northern Europe,Floods,2.6,22935312,478274,77,17,40,-38
+2090,Northern Europe,Floods,4.5,95017260,363917,35,3,44,28
+2090,Northern Europe,Floods,6.0,16514005,505028,11,5,22,35
+2090,Northern Europe,Floods,8.5,71753701,688113,60,81,49,-14
+2090,Northern Europe,Storms,2.6,68250881,701833,32,54,85,-23
+2090,Northern Europe,Storms,4.5,72330706,877044,47,86,76,-4
+2090,Northern Europe,Storms,6.0,87220006,542689,21,84,23,-52
+2090,Northern Europe,Storms,8.5,3701541,149599,73,2,60,-46
+2090,Polynesia,Droughts,2.6,7101707,24993,67,20,41,-7
+2090,Polynesia,Droughts,4.5,2816923,857475,6,84,92,-3
+2090,Polynesia,Droughts,6.0,1002583,782171,74,8,18,28
+2090,Polynesia,Droughts,8.5,67916270,985285,52,21,38,8
+2090,Polynesia,Floods,2.6,35763469,592508,61,30,25,46
+2090,Polynesia,Floods,4.5,92440133,883797,7,23,74,-41
+2090,Polynesia,Floods,6.0,10549324,425677,36,17,8,22
+2090,Polynesia,Floods,8.5,47256532,753239,85,4,18,-45
+2090,Polynesia,Storms,2.6,87008775,394527,60,54,8,23
+2090,Polynesia,Storms,4.5,43863993,283476,80,52,17,26
+2090,Polynesia,Storms,6.0,97699155,34078,88,17,0,11
+2090,Polynesia,Storms,8.5,97902067,318613,8,11,33,41
+2090,South America,Droughts,2.6,65363290,482647,41,60,28,24
+2090,South America,Droughts,4.5,90182681,27108,78,33,51,32
+2090,South America,Droughts,6.0,46652642,430523,19,64,43,42
+2090,South America,Droughts,8.5,17191167,534912,18,63,88,-26
+2090,South America,Floods,2.6,91538777,998563,27,94,31,46
+2090,South America,Floods,4.5,62156375,937557,83,10,25,15
+2090,South America,Floods,6.0,59495377,210426,0,20,4,-10
+2090,South America,Floods,8.5,14275801,988144,27,86,32,42
+2090,South America,Storms,2.6,92246379,185317,51,43,69,2
+2090,South America,Storms,4.5,56987258,29177,37,70,15,-14
+2090,South America,Storms,6.0,21059770,785823,37,61,49,42
+2090,South America,Storms,8.5,23384578,150335,53,64,24,-29
+2090,South-Eastern Asia,Droughts,2.6,82301610,410426,68,92,71,39
+2090,South-Eastern Asia,Droughts,4.5,14137177,291570,23,50,8,-39
+2090,South-Eastern Asia,Droughts,6.0,11938633,399317,39,54,38,-3
+2090,South-Eastern Asia,Droughts,8.5,51058668,385660,83,18,48,16
+2090,South-Eastern Asia,Floods,2.6,6663594,990018,53,48,12,-33
+2090,South-Eastern Asia,Floods,4.5,50141954,773604,10,46,36,47
+2090,South-Eastern Asia,Floods,6.0,74302354,995574,3,72,86,-26
+2090,South-Eastern Asia,Floods,8.5,39310698,611093,59,24,55,7
+2090,South-Eastern Asia,Storms,2.6,67571973,76146,95,65,5,-15
+2090,South-Eastern Asia,Storms,4.5,3660255,889777,94,63,20,-27
+2090,South-Eastern Asia,Storms,6.0,13028309,693045,52,85,57,-21
+2090,South-Eastern Asia,Storms,8.5,79046339,950818,49,79,81,-4
+2090,Southern Africa,Droughts,2.6,89666562,230073,51,71,85,24
+2090,Southern Africa,Droughts,4.5,23467732,425614,75,87,62,13
+2090,Southern Africa,Droughts,6.0,79627504,26354,19,55,39,38
+2090,Southern Africa,Droughts,8.5,36832650,236432,40,99,37,-10
+2090,Southern Africa,Floods,2.6,17124107,686515,57,42,63,-26
+2090,Southern Africa,Floods,4.5,72152750,420922,42,69,72,-29
+2090,Southern Africa,Floods,6.0,48150196,685892,66,55,3,39
+2090,Southern Africa,Floods,8.5,86524690,601604,4,79,7,-35
+2090,Southern Africa,Storms,2.6,85673256,132692,55,70,53,30
+2090,Southern Africa,Storms,4.5,90123159,93804,6,60,77,-1
+2090,Southern Africa,Storms,6.0,52400487,141586,89,58,81,35
+2090,Southern Africa,Storms,8.5,53936541,901294,52,99,74,-52
+2090,Southern Asia,Droughts,2.6,62021431,86396,15,34,98,-58
+2090,Southern Asia,Droughts,4.5,55620173,222725,85,0,88,24
+2090,Southern Asia,Droughts,6.0,18544043,774025,24,49,11,11
+2090,Southern Asia,Droughts,8.5,23087656,445445,12,4,9,-19
+2090,Southern Asia,Floods,2.6,66741231,340055,36,36,36,30
+2090,Southern Asia,Floods,4.5,77321593,305144,67,29,89,21
+2090,Southern Asia,Floods,6.0,51589406,348491,69,52,37,-2
+2090,Southern Asia,Floods,8.5,29510244,173400,1,35,33,7
+2090,Southern Asia,Storms,2.6,19653563,147420,54,93,14,2
+2090,Southern Asia,Storms,4.5,83238395,323522,90,8,80,-19
+2090,Southern Asia,Storms,6.0,13478761,262605,35,31,28,-36
+2090,Southern Asia,Storms,8.5,68877199,235999,71,66,1,-38
+2090,Southern Europe,Droughts,2.6,88901760,433571,50,31,3,11
+2090,Southern Europe,Droughts,4.5,42189817,621032,61,43,75,-13
+2090,Southern Europe,Droughts,6.0,7219989,643780,99,15,49,5
+2090,Southern Europe,Droughts,8.5,11205326,328247,7,88,27,25
+2090,Southern Europe,Floods,2.6,17194279,348356,41,44,67,-6
+2090,Southern Europe,Floods,4.5,93839783,578269,21,67,55,-45
+2090,Southern Europe,Floods,6.0,45465967,696281,17,71,53,-21
+2090,Southern Europe,Floods,8.5,16118623,939865,15,3,33,38
+2090,Southern Europe,Storms,2.6,2913093,214412,36,33,19,-2
+2090,Southern Europe,Storms,4.5,91469810,784062,30,61,24,35
+2090,Southern Europe,Storms,6.0,25835733,366737,93,84,76,-3
+2090,Southern Europe,Storms,8.5,7225761,70984,24,49,32,-9
+2090,Western Africa,Droughts,2.6,93085702,191961,86,61,89,-12
+2090,Western Africa,Droughts,4.5,50871290,9148,15,83,65,-17
+2090,Western Africa,Droughts,6.0,61635389,482401,80,67,53,-44
+2090,Western Africa,Droughts,8.5,23200302,403808,85,64,89,-55
+2090,Western Africa,Floods,2.6,68864745,405801,85,6,49,-35
+2090,Western Africa,Floods,4.5,31439352,443690,81,69,75,21
+2090,Western Africa,Floods,6.0,41839113,775747,49,33,76,-48
+2090,Western Africa,Floods,8.5,17061706,591677,23,5,29,30
+2090,Western Africa,Storms,2.6,85690989,964386,42,30,41,-3
+2090,Western Africa,Storms,4.5,59040903,553735,94,66,16,-32
+2090,Western Africa,Storms,6.0,24624535,352526,66,64,54,-45
+2090,Western Africa,Storms,8.5,93976153,961245,80,27,21,-40
+2090,Western Asia,Droughts,2.6,30439819,394705,14,96,47,-51
+2090,Western Asia,Droughts,4.5,17691278,152835,62,42,26,-48
+2090,Western Asia,Droughts,6.0,35810990,125482,29,95,31,-58
+2090,Western Asia,Droughts,8.5,4068671,761204,16,76,45,11
+2090,Western Asia,Floods,2.6,63689928,976318,93,13,76,-2
+2090,Western Asia,Floods,4.5,40622575,832776,1,53,3,10
+2090,Western Asia,Floods,6.0,17443106,816732,89,7,23,-58
+2090,Western Asia,Floods,8.5,8316876,36760,45,30,18,-51
+2090,Western Asia,Storms,2.6,96899089,360047,49,46,4,-5
+2090,Western Asia,Storms,4.5,97861557,741044,80,60,21,-59
+2090,Western Asia,Storms,6.0,30222230,607992,74,20,59,14
+2090,Western Asia,Storms,8.5,4847815,488074,34,4,45,24
+2090,Western Europe,Droughts,2.6,66616420,425400,50,51,16,-34
+2090,Western Europe,Droughts,4.5,39115285,22180,32,85,21,-51
+2090,Western Europe,Droughts,6.0,15669140,453833,39,56,25,44
+2090,Western Europe,Droughts,8.5,13457175,33742,27,48,10,-48
+2090,Western Europe,Floods,2.6,8586531,987735,64,52,26,-32
+2090,Western Europe,Floods,4.5,52766759,507911,85,49,13,9
+2090,Western Europe,Floods,6.0,55391077,497703,26,24,71,-41
+2090,Western Europe,Floods,8.5,73289692,641215,28,81,66,12
+2090,Western Europe,Storms,2.6,89984235,798509,38,48,51,-29
+2090,Western Europe,Storms,4.5,78281588,962390,46,79,23,-2
+2090,Western Europe,Storms,6.0,21292237,637501,73,37,24,-20
+2090,Western Europe,Storms,8.5,88991956,755706,80,60,95,19
