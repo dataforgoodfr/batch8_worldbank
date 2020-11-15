@@ -202,8 +202,8 @@ app.layout = html.Div(
                     id="graph-container",
                     children=[
                         html.Div(
-                            children=[
-                                html.Img(id="logo", src=app.get_asset_url("WB_logo.jpg")),
+                                children=[
+                                html.Img(id="logo",src=app.get_asset_url("WorldBank_Logo@2x.png")),
                                 html.Span(
 
                                     html.H3(dcc.Markdown("**Disaster Economics Map Explorer**")),
@@ -302,4 +302,5 @@ def update_map_title(year):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+
+    app.run_server(debug=True, host="0.0.0.0", port=80)
