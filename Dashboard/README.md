@@ -1,94 +1,95 @@
+
 # Table of Contents
 
-1.  [<code>[0/2]</code> Prototyping](#org382e4a0)
-    1.  [Features](#org655d540)
-        1.  [World map](#org9413854)
-        2.  [Pop-up](#orgbe5ed3b)
-        3.  [World figures](#org8b27f94)
-    2.  [Wireframe](#org9af7a14)
-        1.  [Worldmap](#orgae6ec5b)
-        2.  [Pop-up](#org2cf1f20)
-        3.  [World figure](#org250bde9)
-2.  [<code>[1/2]</code> Dataset](#org836de83)
-    1.  [Variables](#orgaef1154)
-    2.  [Data sources](#org38c57b5)
-        1.  [`Decade`](#orgacd6764)
-        2.  [`UN_Geosheme_Subregion`](#org450b6cc)
-        3.  [`Disaster_Type`](#orgff0948c)
-        4.  [`RCP`](#orgd441ad5)
-        5.  [`#LoDO`](#org7c5d079)
-        6.  [`#MeDO`](#orgc681b4f)
-        7.  [`#HiDO`](#org95a07a2)
-        8.  [`Human_Impact`](#orgbdc5180)
-        9.  [`Financial_Impact`](#org2bfa9a3)
-        10. [`°C`](#org70beaff)
-        11. [`Geo`](#orgef742d0)
-3.  [<code>[0/3]</code> Development](#org44ddc54)
-    1.  [Why did we pick Dash?](#org9f545a5)
-    2.  [Visual identity](#orgbfc3cd7)
-    3.  [Architecture](#org30c23e7)
-        1.  [`app.py`](#org9489d9c)
-        2.  [`assets/style.css`](#orgbe6a2eb)
-        3.  [`assets/WB_logo.jpg`](#orgc8e48fc)
-4.  [<code>[0/3]</code> Project Management](#org4d03a17)
-    1.  [Methodology](#orged634e9)
-    2.  [tools](#orgadc9e1d)
-    3.  [How to contribute](#orge30e571)
+1.  [<code>[0/2]</code> Prototyping](#org437d0ba)
+    1.  [Features](#org75e1e27)
+        1.  [World map](#org13195a6)
+        2.  [Pop-up](#org62a95fb)
+        3.  [World figures](#org6e15473)
+    2.  [Wireframe](#org5ce8abd)
+        1.  [Worldmap](#org7781a55)
+        2.  [Pop-up](#orgefc2af9)
+        3.  [World figure](#orgae6f189)
+2.  [<code>[1/2]</code> Dataset](#org1403ee7)
+    1.  [Variables](#orgec5bd02)
+    2.  [<code>[1/11]</code> Data sources](#org51eba77)
+        1.  [`Decade`](#orgfffbee5)
+        2.  [`UN_Geosheme_Subregion`](#org77e4903)
+        3.  [`Disaster_Type`](#org220a3ee)
+        4.  [`RCP`](#org8547d42)
+        5.  [`#LoDO`](#org69955b4)
+        6.  [`#MeDO`](#org565701f)
+        7.  [`#HiDO`](#orge898c17)
+        8.  [`Human_Impact`](#org553ba0e)
+        9.  [`Financial_Impact`](#org0f33613)
+        10. [`°C`](#org277b474)
+        11. [`Geo`](#orga03b360)
+3.  [<code>[0/3]</code> Development](#org3e8c973)
+    1.  [Why did we pick Dash?](#orgf8343c4)
+    2.  [Visual identity](#orgedfc6dd)
+    3.  [Architecture](#org8d07af0)
+        1.  [`app.py`](#org0e31102)
+        2.  [`assets/style.css`](#org8127db9)
+        3.  [`assets/WB_logo.jpg`](#orgf4ea0ec)
+4.  [<code>[0/3]</code> Project Management](#org34b22ae)
+    1.  [Methodology](#org0194659)
+    2.  [tools](#org4b2cec3)
+    3.  [How to contribute](#orgf9f24b1)
 
 Todo : upload a screenshot of the delivered dashboard
 
 
-<a id="org382e4a0"></a>
+<a id="org437d0ba"></a>
 
 # BACKLOG <code>[0/2]</code> Prototyping
 
 
-<a id="org655d540"></a>
+<a id="org75e1e27"></a>
 
 ## BACKLOG Features
 
 
-<a id="org9413854"></a>
+<a id="org13195a6"></a>
 
 ### BACKLOG World map
 
 
-<a id="orgbe5ed3b"></a>
+<a id="org62a95fb"></a>
 
 ### BACKLOG Pop-up
 
 
-<a id="org8b27f94"></a>
+<a id="org6e15473"></a>
 
 ### BACKLOG World figures
 
 
-<a id="org9af7a14"></a>
+<a id="org5ce8abd"></a>
 
 ## BACKLOG Wireframe
 
 
-<a id="orgae6ec5b"></a>
+<a id="org7781a55"></a>
 
 ### BACKLOG Worldmap
 
 
-<a id="org2cf1f20"></a>
+<a id="orgefc2af9"></a>
 
 ### BACKLOG Pop-up
 
 
-<a id="org250bde9"></a>
+<a id="orgae6f189"></a>
 
 ### BACKLOG World figure
 
 
-<a id="org836de83"></a>
+<a id="org1403ee7"></a>
 
 # STARTED <code>[1/2]</code> Dataset
 
 
-<a id="orgaef1154"></a>
+<a id="orgec5bd02"></a>
 
 ## DONE Variables
 
@@ -190,23 +191,23 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="org38c57b5"></a>
+<a id="org51eba77"></a>
 
-## STARTED Data sources
+## STARTED <code>[1/11]</code> Data sources
 
 
-<a id="orgacd6764"></a>
+<a id="orgfffbee5"></a>
 
-### `Decade`
+### DONE `Decade`
 
     Decade = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010,2020,2030,2040,2050,2060,2070,2080,2090]
 
 For example `2020` starts in 2020 and ends in 2029
 
 
-<a id="org450b6cc"></a>
+<a id="org77e4903"></a>
 
-### `UN_Geosheme_Subregion`
+### STARTED `UN_Geosheme_Subregion`
 
     UN_Geosheme_Subregion = ['Australia and New Zealand','Caribbean','Central America','Central Asia','Eastern Africa','Eastern Asia','Eastern Europe','Melanesia','Micronesia','Middle Africa','Northern Africa','Northern America','Northern Europe','Polynesia','South America','South-Eastern Asia','Southern Africa','Southern Asia','Southern Europe','Western Africa','Western Asia','Western Europe']
 
@@ -219,79 +220,79 @@ Todo : sum up
 and provide links as sources  
 
 
-<a id="orgff0948c"></a>
+<a id="org220a3ee"></a>
 
-### `Disaster_Type`
+### STARTED `Disaster_Type`
 
     Disaster_Type = ['Droughts', 'Floods', 'Storms']
 
 Todo : link to github respective workstream pages
 
 
-<a id="orgd441ad5"></a>
+<a id="org8547d42"></a>
 
-### `RCP`
+### STARTED `RCP`
 
     RCP = [2.6,4.5,6.0,8.5]
 
 TODO : sum up <https://en.wikipedia.org/wiki/Representative_Concentration_Pathway> and provide link as source
 
 
-<a id="org7c5d079"></a>
+<a id="org69955b4"></a>
 
-### `#LoDO`
-
-Todo : link to github respective workstream pages
-
-
-<a id="orgc681b4f"></a>
-
-### `#MeDO`
+### BACKLOG `#LoDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org95a07a2"></a>
+<a id="org565701f"></a>
 
-### `#HiDO`
-
-Todo : link to github respective workstream pages
-
-
-<a id="orgbdc5180"></a>
-
-### `Human_Impact`
+### BACKLOG `#MeDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org2bfa9a3"></a>
+<a id="orge898c17"></a>
 
-### `Financial_Impact`
+### BACKLOG `#HiDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org70beaff"></a>
+<a id="org553ba0e"></a>
 
-### `°C`
+### BACKLOG `Human_Impact`
+
+Todo : link to github respective workstream pages
+
+
+<a id="org0f33613"></a>
+
+### BACKLOG `Financial_Impact`
+
+Todo : link to github respective workstream pages
+
+
+<a id="org277b474"></a>
+
+### BACKLOG `°C`
 
 Todo : provide link and explain : <https://climateknowledgeportal.worldbank.org/download-data>
 
 
-<a id="orgef742d0"></a>
+<a id="orga03b360"></a>
 
-### `Geo`
+### BACKLOG `Geo`
 
 Todo : explain
 
 
-<a id="org44ddc54"></a>
+<a id="org3e8c973"></a>
 
 # STARTED <code>[0/3]</code> Development
 
 
-<a id="org9f545a5"></a>
+<a id="orgf8343c4"></a>
 
 ## STARTED Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -363,46 +364,46 @@ According to following benchmarck team decided to develop the PoC with ****Dash*
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="orgbfc3cd7"></a>
+<a id="orgedfc6dd"></a>
 
 ## BACKLOG Visual identity
 
 Todo mention World Bank Visual Identity Guidelines
 
 
-<a id="org30c23e7"></a>
+<a id="org8d07af0"></a>
 
 ## BACKLOG Architecture
 
 Todo : describe files
 
 
-<a id="org9489d9c"></a>
+<a id="org0e31102"></a>
 
 ### `app.py`
 
 
-<a id="orgbe6a2eb"></a>
+<a id="org8127db9"></a>
 
 ### `assets/style.css`
 
 
-<a id="orgc8e48fc"></a>
+<a id="orgf4ea0ec"></a>
 
 ### `assets/WB_logo.jpg`
 
 
-<a id="org4d03a17"></a>
+<a id="org34b22ae"></a>
 
 # STARTED <code>[0/3]</code> Project Management
 
 
-<a id="orged634e9"></a>
+<a id="org0194659"></a>
 
 ## BACKLOG Methodology
 
 
-<a id="orgadc9e1d"></a>
+<a id="org4b2cec3"></a>
 
 ## BACKLOG tools
 
@@ -411,7 +412,7 @@ Todo : describe files
 -   Zoom
 
 
-<a id="orge30e571"></a>
+<a id="orgf9f24b1"></a>
 
 ## STARTED How to contribute
 
