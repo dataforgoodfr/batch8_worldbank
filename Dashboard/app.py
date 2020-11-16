@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
+import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 
 # Initialize app
@@ -39,6 +40,9 @@ df_map_data = df_map_data.sort_values(by=['UN_Geosheme_Subregion'])
 #                      'name': 'count'})
 #                .reset_index())
 YEARS = [1900, 1920, 1940, 1960, 1980, 2000, 2020, 2040, 2060, 2080, 2100]
+DESASTER_TYPE = ["Drought", "Flood", "Storm"]
+SCENARIO_SELECTOR = ["0°C","2°C","4°C"]
+
 
 DEFAULT_OPACITY = 0.8
 
@@ -61,20 +65,25 @@ chloropleth_map = px.choropleth_mapbox(
 
 def disaster_type_card():
     """
-
-    :return: A Div containing dashboard title & descriptions.
+     :return: A Div containing dashboard title & descriptions.
     """
     return html.Div(
         children=[
-            html.H6("Disaster Type"),
-            dcc.Dropdown(
+            
+            html.H5(dcc.Markdown("**Disaster Selector**")),
+            dcc.RadioItems(
 
                 options=[
                     {'label': 'Drought', 'value': 'Drought'},
                     {'label': 'Flood', 'value': 'Flood'},
                     {'label': 'Storm', 'value': 'Storm'}
                 ],
-                value='Drought'
+                value='Drought',
+                labelStyle={"display": "inline-block",
+                            "margin-top": "20px",
+                            "font-size": "16px",
+                            "padding": "12px 12px 12px 0px",
+                },
             )
         ]
 
@@ -127,7 +136,7 @@ def damage_type():
     return html.Div(
         className="padding-top-bot",
         children=[
-            html.H6("Damage Type"),
+            html.H5(dcc.Markdown("**Disaster Selector**")),
             dcc.RadioItems(
                 id="chart-type",
                 options=[
@@ -150,27 +159,16 @@ def damage_type():
 def climate_scenario():
     return html.Div(
         children=[
-            html.H6("Climate scenario"),
-            dcc.RadioItems(
-                id="cluster-ctl",
-                options=[
-                    {"label": " 4", "value": "4"},
-                    {
-                        "label": " 3",
-                        "value": "3",
-                    },
-                    {
-                        "label": " 2",
-                        "value": "2",
-                    },
-                    {
-                        "label": " 1",
-                        "value": "1",
-                    },
+            html.H6(dcc.Markdown("**Scenario Selector**")),
+            html.Br(),
+            dcc.RangeSlider(   min=0,
+                               max=4,
+                               step=1,
+                               value=[0, 5],
+                               marks={1: "2°C", 2: "3°C", 3: "4°C",},
+                                          
+                            ),
 
-                ],
-                value="no-cluster",
-            ),
         ]
     )
 
@@ -199,35 +197,33 @@ app.layout = html.Div(
             id="app-container",
             children=[
                 html.Div(
-                    id="graph-container",
+                    id="Rectangle_Menu",
                     children=[
                         html.Div(
                             children=[
-                                html.Img(id="logo", src=app.get_asset_url("WB_logo.jpg")),
-                                html.Span(
-
-                                    html.H3(dcc.Markdown("**Disaster Economics Map Explorer**")),
-
-                                ),
+                                html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
                             ]
                         ),
+                        html.Div(
+                            children=[
+                                html.H3(dcc.Markdown("**Disaster Economics Map Explorer**")),
+                            ]
+                        ),                                
                         html.Div(
                             className="pretty_container",
                             children=[disaster_type_card()]
                         ),
                         html.Br(),
-                        html.Br(),
                         html.Div(
                             className="pretty_container",
-                            children=[region_card()]
-                        ),
+                            children=[
+                                html.H6(dcc.Markdown("**Damage Selector**")),
+                                html.Img( className="icon" , src=app.get_asset_url("IconHuman.svg")),
+                                html.Img( className="icon",  src=app.get_asset_url("IconFinancial.svg")),
+                                html.Img( className="icon",  src=app.get_asset_url("IconDisaster.svg")),
+                            ]
 
-                        html.Br(),
-                        html.Div(
-                            className="pretty_container",
-                            children=[damage_type()]
                         ),
-
                         html.Br(),
                         html.Div(
                             className="pretty_container",
