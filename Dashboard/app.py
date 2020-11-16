@@ -39,7 +39,9 @@ df_map_data = df_map_data.sort_values(by=['UN_Geosheme_Subregion'])
 #                      'Total Affected': 'sum',
 #                      'name': 'count'})
 #                .reset_index())
-YEARS = [1900, 1920, 1940, 1960, 1980, 2000, 2020, 2040, 2060, 2080, 2100]
+YEARS = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990,
+         2000, 2010, 2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100]
+
 DESASTER_TYPE = ["Drought", "Flood", "Storm"]
 SCENARIO_SELECTOR = ["0°C","2°C","4°C"]
 
@@ -202,13 +204,13 @@ app.layout = html.Div(
                         html.Div(
                             children=[
                                 html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
+                                html.Span(
+
+                                    html.H3(dcc.Markdown("**Disaster Economics Map Explorer**")),
+
+                                ),
                             ]
-                        ),
-                        html.Div(
-                            children=[
-                                html.H3(dcc.Markdown("**Disaster Economics Map Explorer**")),
-                            ]
-                        ),                                
+                        ),                              
                         html.Div(
                             className="pretty_container",
                             children=[disaster_type_card()]
