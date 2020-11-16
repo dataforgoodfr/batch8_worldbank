@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import json
 import plotly.express as px
 import plotly.graph_objects as go
@@ -38,26 +37,28 @@ df_map_data = df_map_data.sort_values(by=['UN_Geosheme_Subregion'])
 #                      'Total Affected': 'sum',
 #                      'name': 'count'})
 #                .reset_index())
-YEARS = [1900, 1920, 1940, 1960, 1980, 2000, 2020, 2040, 2060, 2080, 2100]
-
-DEFAULT_OPACITY = 0.8
+YEARS = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990,
+         2000, 2010, 2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100]
 
 # Mapbox parameters
 mapbox_access_token = "pk.eyJ1IjoibWFoZGlrYXJhYmliZW4iLCJhIjoiY2tmeWlnZzJqMXhyMzJ0czgzcWc3ejViNyJ9.MsvguTk0F7cxDBaV1Zlm_g"
 mapbox_style = "mapbox://styles/mahdikarabiben/ckgzi4dac1jez19qlanqcpp5l"
 
-# create map
-chloropleth_map = px.choropleth_mapbox(
-    geojson=regions_data,
-    locations=df_map_data['UN_Geosheme_Subregion'].tolist(),
-    featureidkey="properties.subregion",
-    color=df_map_data['Human_Impact'].tolist(),
-    color_continuous_scale="Viridis",
-    mapbox_style=mapbox_style,
-    opacity=0.8,
-    zoom=1,
-    hover_name=df_map_data['UN_Geosheme_Subregion'].tolist())
-#    hover_data=df_map_data['Human_Impact'].tolist())
+
+def choropleth_map(df):
+    return go.Figure(
+        px.choropleth_mapbox(
+            geojson=regions_data,
+            locations=df['UN_Geosheme_Subregion'].tolist(),
+            featureidkey="properties.subregion",
+            color=df['Human_Impact'].tolist(),
+            color_continuous_scale="Viridis",
+            mapbox_style=mapbox_style,
+            opacity=0.8,
+            zoom=1,
+            hover_name=df['UN_Geosheme_Subregion'].tolist())
+    )
+
 
 def disaster_type_card():
     """
@@ -182,12 +183,13 @@ def climate_scenario():
 )'''
 
 
-def display_map():
-    fig = go.Figure(
-        chloropleth_map
-    )
+def display_map(df):
+    fig = choropleth_map(df)
     # Specify layout information
-    fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0}, mapbox_accesstoken=mapbox_access_token)
+    fig.update_layout(
+        margin={"r": 0, "t": 0, "l": 0, "b": 0},
+        mapbox_accesstoken=mapbox_access_token
+    )
     return fig
 
 
@@ -257,12 +259,12 @@ app.layout = html.Div(
                                     id="slider-text",
                                     children="Drag the slider to change the year:",
                                 ),
-                                dcc.RangeSlider(
+                                dcc.Slider(
                                     id="years-slider",
                                     min=1900,
                                     max=2100,
                                     step=10,
-                                    value=[1900, 1920],
+                                    value=1900,
                                     marks={
                                         str(year): {
                                             "label": str(year),
@@ -277,14 +279,14 @@ app.layout = html.Div(
                             id="heatmap-container",
                             children=[
                                 html.P(
-                                    "Heatmap of disaster damages in year {0}".format(
+                                    "Choropleth map of disaster damages in year {0}".format(
                                         min(YEARS)
                                     ),
                                     id="heatmap-title",
                                 ),
                                 dcc.Graph(
                                     id="county-choropleth",
-                                    figure=display_map()
+                                    figure=display_map(df_map_data[df_map_data['Decade'] == 1900])
                                 ),
                             ],
                         ),
@@ -299,6 +301,12 @@ app.layout = html.Div(
 @app.callback(Output("heatmap-title", "children"), [Input("years-slider", "value")])
 def update_map_title(year):
     return "Heatmap of disaster damages in year {0}".format(year)
+
+
+@app.callback(Output("county-choropleth", "figure"), [Input("years-slider", "value")])
+def update_map(year):
+    df_decade = df_map_data[df_map_data['Decade'] == year]
+    return display_map(df_decade)
 
 
 if __name__ == '__main__':
