@@ -543,7 +543,8 @@ Todo : describe files
 </table>
 
 -   reviewees have to do
-    by Github interface to submit a review:
+
+    - by Github interface to submit a review:
         1. On the pull request, click Files changed.
         2. Above the changed code, click Review changes.
         3. Type a comment summarizing your feedback on the proposed changes.
