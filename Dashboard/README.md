@@ -543,8 +543,14 @@ Todo : describe files
 </table>
 
 -   reviewees have to do
-    
-        add git command
+
+    - by Github interface to submit a review:
+        1. On the pull request, click Files changed.
+        2. Above the changed code, click Review changes.
+        3. Type a comment summarizing your feedback on the proposed changes.
+        4. Select the type of review you'd like to leave: ...
+        5. Click Submit review.
+
 -   Reviewers have to do 
     
         add git command

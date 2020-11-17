@@ -5,7 +5,6 @@ import plotly.graph_objects as go
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
-import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 
 # Initialize app
@@ -228,7 +227,7 @@ app.layout = html.Div(
                             children=[
                                 html.H6(dcc.Markdown("**Damage Selector**")),
                                 html.Img( className="icon" , src=app.get_asset_url("IconHuman.svg")),
-                                html.Img( className="icon",  src=app.get_asset_url("IconFinancial.svg")),
+                                html.Img( className="icon",  src=app.get_asset_url("IconFinancialBlack.svg")),
                                 html.Img( className="icon",  src=app.get_asset_url("IconDisaster.svg")),
                             ]
 
@@ -314,4 +313,4 @@ def update_map(year):
 
 if __name__ == '__main__':
 
-    app.run_server(debug=True, host="0.0.0.0", port=80)
+    app.run_server(debug=True, host="127.0.0.1", port=8050)
