@@ -1,47 +1,51 @@
 
 # Table of Contents
 
-1.  [<code>[1/2]</code> Prototyping](#org327b1a2)
-    1.  [Features](#orgdab6759)
-    2.  [<code>[1/3]</code> Wireframe](#orgad15512)
-        1.  [World map](#orge7ba55a)
-        2.  [Sub region pop-up](#orgd327e99)
-        3.  [World figures](#org4e37bad)
-2.  [<code>[1/2]</code> Dataset](#org6e780bc)
-    1.  [Variables](#org3fa7b9d)
-    2.  [<code>[1/11]</code> Data sources](#org1765aa1)
-        1.  [`Decade`](#org02d678f)
-        2.  [`UN_Geosheme_Subregion`](#org1b32acc)
-        3.  [`Disaster_Type`](#orgb2ad901)
-        4.  [`RCP`](#org9928003)
-        5.  [`#LoDO`](#org9ffb017)
-        6.  [`#MeDO`](#org347b08e)
-        7.  [`#HiDO`](#orgb95a7f9)
-        8.  [`Human_Impact`](#org136c670)
-        9.  [`Financial_Impact`](#orgf121c93)
-        10. [`°C`](#orgbd12210)
-        11. [`Geo`](#org75f7e90)
-3.  [<code>[0/3]</code> Development](#org5e561fb)
-    1.  [Why did we pick Dash?](#org0a68c13)
-    2.  [Visual identity](#org39380cc)
-    3.  [Architecture](#org7301307)
-        1.  [`app.py`](#org4df560a)
-        2.  [`assets/style.css`](#org5e1d4c7)
-        3.  [`assets/WB_logo.jpg`](#orga237f10)
-4.  [<code>[0/3]</code> Project Management](#orgdff2f41)
-    1.  [Methodology](#org45fa989)
-    2.  [tools](#org65e8cb8)
-    3.  [How to contribute](#org6a617c3)
+1.  [<code>[1/2]</code> Prototyping](#org4c2ebe8)
+    1.  [Features](#org3c2aba8)
+    2.  [<code>[1/3]</code> Wireframe](#org8ce2162)
+        1.  [World map](#orgfbe7ea8)
+        2.  [Sub region pop-up](#org6ea920a)
+        3.  [World figures](#orgf7934b0)
+2.  [<code>[1/2]</code> Dataset](#org548b7da)
+    1.  [Variables](#org477b9c5)
+    2.  [<code>[1/11]</code> Data sources](#org728bc59)
+        1.  [`Decade`](#org5d45020)
+        2.  [`UN_Geosheme_Subregion`](#orgf7fe115)
+        3.  [`Disaster_Type`](#org51227d3)
+        4.  [`RCP`](#org7c36f97)
+        5.  [`#LoDO`](#org28b2c28)
+        6.  [`#MeDO`](#orgac1a876)
+        7.  [`#HiDO`](#org70c0461)
+        8.  [`Human_Impact`](#org076eb3d)
+        9.  [`Financial_Impact`](#org93bed7b)
+        10. [`°C`](#org8486bb5)
+        11. [`Geo`](#org15bb36a)
+3.  [<code>[0/3]</code> Development](#orgb7aea04)
+    1.  [Why did we pick Dash?](#org02aca51)
+    2.  [Visual identity](#org943ca59)
+    3.  [Architecture](#orgcc73462)
+        1.  [`app.py`](#orgfe21c61)
+        2.  [`assets/style.css`](#org2c499b6)
+        3.  [`assets/WB_logo.jpg`](#org1ab1876)
+4.  [<code>[1/3]</code> Project Management](#org94e50c9)
+    1.  [Methodology](#org8e4efe8)
+    2.  [tools](#org371579a)
+    3.  [How to contribute](#org193b56b)
+        1.  [Setting up a new Git repository](#orga24c1a2)
+        2.  [Adding or modifying owned files (`push`)](#org4897ab0)
+        3.  [Submit proposed changes to review](#org31e7aac)
+        4.  [Adding reviewed files (`merge`)](#org7efb1ee)
 
 Todo : upload a screenshot of the delivered dashboard
 
 
-<a id="org327b1a2"></a>
+<a id="org4c2ebe8"></a>
 
 # BACKLOG <code>[1/2]</code> Prototyping
 
 
-<a id="orgdab6759"></a>
+<a id="org3c2aba8"></a>
 
 ## DONE Features
 
@@ -141,34 +145,34 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="orgad15512"></a>
+<a id="org8ce2162"></a>
 
 ## BACKLOG <code>[1/3]</code> Wireframe
 
 
-<a id="orge7ba55a"></a>
+<a id="orgfbe7ea8"></a>
 
 ### DONE World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="orgd327e99"></a>
+<a id="org6ea920a"></a>
 
 ### BACKLOG Sub region pop-up
 
 
-<a id="org4e37bad"></a>
+<a id="orgf7934b0"></a>
 
 ### BACKLOG World figures
 
 
-<a id="org6e780bc"></a>
+<a id="org548b7da"></a>
 
 # STARTED <code>[1/2]</code> Dataset
 
 
-<a id="org3fa7b9d"></a>
+<a id="org477b9c5"></a>
 
 ## DONE Variables
 
@@ -270,12 +274,12 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="org1765aa1"></a>
+<a id="org728bc59"></a>
 
 ## STARTED <code>[1/11]</code> Data sources
 
 
-<a id="org02d678f"></a>
+<a id="org5d45020"></a>
 
 ### DONE `Decade`
 
@@ -284,7 +288,7 @@ Todo : upload a screenshot of the delivered dashboard
 For example `2020` starts in 2020 and ends in 2029
 
 
-<a id="org1b32acc"></a>
+<a id="orgf7fe115"></a>
 
 ### STARTED `UN_Geosheme_Subregion`
 
@@ -299,7 +303,7 @@ Todo : sum up
 and provide links as sources  
 
 
-<a id="orgb2ad901"></a>
+<a id="org51227d3"></a>
 
 ### STARTED `Disaster_Type`
 
@@ -308,7 +312,7 @@ and provide links as sources
 Todo : link to github respective workstream pages
 
 
-<a id="org9928003"></a>
+<a id="org7c36f97"></a>
 
 ### STARTED `RCP`
 
@@ -317,61 +321,61 @@ Todo : link to github respective workstream pages
 TODO : sum up <https://en.wikipedia.org/wiki/Representative_Concentration_Pathway> and provide link as source
 
 
-<a id="org9ffb017"></a>
+<a id="org28b2c28"></a>
 
 ### BACKLOG `#LoDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org347b08e"></a>
+<a id="orgac1a876"></a>
 
 ### BACKLOG `#MeDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="orgb95a7f9"></a>
+<a id="org70c0461"></a>
 
 ### BACKLOG `#HiDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org136c670"></a>
+<a id="org076eb3d"></a>
 
 ### BACKLOG `Human_Impact`
 
 Todo : link to github respective workstream pages
 
 
-<a id="orgf121c93"></a>
+<a id="org93bed7b"></a>
 
 ### BACKLOG `Financial_Impact`
 
 Todo : link to github respective workstream pages
 
 
-<a id="orgbd12210"></a>
+<a id="org8486bb5"></a>
 
 ### BACKLOG `°C`
 
 Todo : provide link and explain : <https://climateknowledgeportal.worldbank.org/download-data>
 
 
-<a id="org75f7e90"></a>
+<a id="org15bb36a"></a>
 
 ### BACKLOG `Geo`
 
 Todo : explain
 
 
-<a id="org5e561fb"></a>
+<a id="orgb7aea04"></a>
 
 # STARTED <code>[0/3]</code> Development
 
 
-<a id="org0a68c13"></a>
+<a id="org02aca51"></a>
 
 ## STARTED Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -443,46 +447,46 @@ According to following benchmarck team decided to develop the PoC with ****Dash*
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="org39380cc"></a>
+<a id="org943ca59"></a>
 
 ## BACKLOG Visual identity
 
 Todo mention World Bank Visual Identity Guidelines
 
 
-<a id="org7301307"></a>
+<a id="orgcc73462"></a>
 
 ## BACKLOG Architecture
 
 Todo : describe files
 
 
-<a id="org4df560a"></a>
+<a id="orgfe21c61"></a>
 
 ### `app.py`
 
 
-<a id="org5e1d4c7"></a>
+<a id="org2c499b6"></a>
 
 ### `assets/style.css`
 
 
-<a id="orga237f10"></a>
+<a id="org1ab1876"></a>
 
 ### `assets/WB_logo.jpg`
 
 
-<a id="orgdff2f41"></a>
+<a id="org94e50c9"></a>
 
-# STARTED <code>[0/3]</code> Project Management
+# STARTED <code>[1/3]</code> Project Management
 
 
-<a id="org45fa989"></a>
+<a id="org8e4efe8"></a>
 
 ## BACKLOG Methodology
 
 
-<a id="org65e8cb8"></a>
+<a id="org371579a"></a>
 
 ## BACKLOG tools
 
@@ -491,21 +495,40 @@ Todo : describe files
 -   Zoom
 
 
-<a id="org6a617c3"></a>
+<a id="org193b56b"></a>
 
-## STARTED How to contribute
+## DONE How to contribute
 
--   Clone our project locally
+
+<a id="orga24c1a2"></a>
+
+### Setting up a new Git repository
+
+-   Clone project locally
     
         $ git init
         $ git clone https://github.com/dataforgoodfr/batch8_worldbank/tree/master/plateforme
 -   Ask to join our GitHub
--   When adding a new file do
-    
-        $ git add newfilename
-        $ git commit
-        $ git push
--   When modifying an existing file, you have to submit modifications to its reviewer (i.e. owner). Ownership is distributed as follow :
+
+
+<a id="org4897ab0"></a>
+
+### Adding or modifying owned files (`push`)
+
+When adding a new file or modifying a file that you own, do:
+
+    $ git add filename
+    $ git commit
+    $ git push
+
+Where `filename` is the name of the file
+
+
+<a id="org31e7aac"></a>
+
+### Submit proposed changes to review
+
+When modifying an existing file, if you're not its owner, you have to submit the modifications to its owner (i.e. reviewer). Ownership is distributed as follow :
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -517,8 +540,8 @@ Todo : describe files
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">owner</th>
-<th scope="col" class="org-left">file</th>
+<th scope="col" class="org-left">Owner GitHub name</th>
+<th scope="col" class="org-left">File</th>
 </tr>
 </thead>
 
@@ -542,16 +565,24 @@ Todo : describe files
 </tbody>
 </table>
 
--   reviewees have to do
-    
-        hub pull-request -h revieweename:master -b dataforgoodfr:master -m -r reviewername -f
-    
-    Where `revieweename` and `reviewername` are the names of the reviewee and the reviewer on GitHub
--   Reviewers have to do 
-    
-        hub merge PRurl 
-    
-    Where `PRurl` is the url of the pull request
+To submit changes reviewees have to do: 
+
+    $ git add filename
+    $ git commit
+    $ hub pull-request -h revieweename:master -b dataforgoodfr:master -m -r reviewername -f
+
+Where `revieweename` and `reviewername` are the GitHub names of the reviewee and the reviewer/owner.
+
+
+<a id="org7efb1ee"></a>
+
+### Adding reviewed files (`merge`)
+
+-Reviewers have to do 
+
+    hub merge PRurl 
+
+Where `PRurl` is the url of the pull request.
 
 
 # Footnotes
