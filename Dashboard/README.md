@@ -1,58 +1,58 @@
 
 # Table of Contents
 
-1.  [<code>[1/2]</code> Dataset](#org0a7a348)
-    1.  [Variables](#org7540897)
-    2.  [<code>[1/11]</code> Data sources](#org205fa0e)
-        1.  [`Decade`](#org527d5b3)
-        2.  [`UN_Geosheme_Subregion`](#org8d3dfd0)
-        3.  [`Disaster_Type`](#orga0b76db)
-        4.  [`RCP`](#org87e9551)
-        5.  [`#LoDO`](#org31340ce)
-        6.  [`#MeDO`](#org2347970)
-        7.  [`#HiDO`](#org8801426)
-        8.  [`Human_Impact`](#org3af5fc1)
-        9.  [`Financial_Impact`](#org31921a5)
-        10. [`°C`](#org0906d5a)
-        11. [`Geo`](#org5238a32)
-2.  [<code>[1/2]</code> Prototyping](#org96e59bb)
-    1.  [Features](#org54c6f53)
-    2.  [<code>[1/3]</code> Wireframe](#orgd23d1ea)
-        1.  [World map](#org497ed86)
-        2.  [Sub region pop-up](#orgf913952)
-        3.  [World figures](#org77fc9e6)
-3.  [<code>[1/3]</code> Development](#orge0be9f5)
-    1.  [Why did we pick Dash?](#org0dce521)
-    2.  [<code>[2/3]</code> Visual identity](#org8612753)
-        1.  [Colors](#org2aed813)
-            -   [Primary colors](#org37ec0cb)
-            -   [Secondary colors](#org8001b3e)
-        2.  [Fonts](#org0816b6f)
-            -   [Primary fonts](#org93fa5fa)
-            -   [Secondary fonts](#org44d4bd3)
-        3.  [Logo](#org5633a5e)
-    3.  [Architecture](#orga9cefc0)
-        1.  [`app.py`](#orgbd4fc88)
-        2.  [`assets/style.css`](#org1f98acb)
-        3.  [`assets/WB_logo.jpg`](#org69c8cdd)
-4.  [<code>[1/3]</code> Project Management](#org69c7fb7)
-    1.  [Methodology](#org36b57b7)
-    2.  [tools](#orgbe6b96d)
-    3.  [How to contribute](#org3ef1047)
-        1.  [Setting up a new Git repository](#org37bb979)
-        2.  [Adding or modifying owned files (`push`)](#org386e301)
-        3.  [Submit proposed changes to review](#org591059d)
-        4.  [Adding reviewed files (`merge`)](#org0229fbd)
+1.  [<code>[1/2]</code> Dataset](#orgc57ac0d)
+    1.  [Variables](#orgc4b8d07)
+    2.  [<code>[1/11]</code> Data sources](#orgcfeb720)
+        1.  [`Decade`](#org05bbc3a)
+        2.  [`UN_Geosheme_Subregion`](#org948afed)
+        3.  [`Disaster_Type`](#org1caae5a)
+        4.  [`RCP`](#org10a36bb)
+        5.  [`#LoDO`](#org8ccf788)
+        6.  [`#MeDO`](#orgec93b57)
+        7.  [`#HiDO`](#org563fcad)
+        8.  [`Human_Impact`](#orgd707a5e)
+        9.  [`Financial_Impact`](#org73d87fe)
+        10. [`°C`](#orge301e96)
+        11. [`Geo`](#org27dcf53)
+2.  [<code>[1/2]</code> Prototyping](#org130dfd1)
+    1.  [Features](#org7a5ba48)
+    2.  [<code>[1/3]</code> Wireframe](#org015fc2b)
+        1.  [World map](#org6047992)
+        2.  [Sub region pop-up](#org4aff31f)
+        3.  [World figures](#org18ebfa4)
+3.  [<code>[1/3]</code> Development](#org5ab5f78)
+    1.  [Why did we pick Dash?](#org493713d)
+    2.  [<code>[2/3]</code> Visual identity guidelines](#org1eb8d83)
+        1.  [Colors](#orgd985f25)
+            -   [Primary colors](#org89c765e)
+            -   [Secondary colors](#org0c221b4)
+        2.  [Fonts](#orgbdb83cb)
+            -   [Primary fonts](#org8880a69)
+            -   [Secondary fonts](#org535af71)
+        3.  [Logo](#orgf0f17e0)
+    3.  [Architecture](#org4884aa7)
+        1.  [`app.py`](#org1c6f7c2)
+        2.  [`assets/style.css`](#org2fc3046)
+        3.  [`assets/WB_logo.jpg`](#orgee80377)
+4.  [<code>[1/3]</code> Project Management](#orgda23a98)
+    1.  [Methodology](#org93ad86c)
+    2.  [tools](#org4af4931)
+    3.  [How to contribute](#orge0dfc63)
+        1.  [Setting up a new Git repository](#orgab9d706)
+        2.  [Adding or modifying owned files (`push`)](#org463a138)
+        3.  [Submit proposed changes to review](#org1e67848)
+        4.  [Adding reviewed files (`merge`)](#org1cd9624)
 
 Todo : upload a screenshot of the delivered dashboard
 
 
-<a id="org0a7a348"></a>
+<a id="orgc57ac0d"></a>
 
 # STARTED <code>[1/2]</code> Dataset
 
 
-<a id="org7540897"></a>
+<a id="orgc4b8d07"></a>
 
 ## DONE Variables
 
@@ -154,12 +154,12 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="org205fa0e"></a>
+<a id="orgcfeb720"></a>
 
 ## STARTED <code>[1/11]</code> Data sources
 
 
-<a id="org527d5b3"></a>
+<a id="org05bbc3a"></a>
 
 ### DONE `Decade`
 
@@ -168,7 +168,7 @@ Todo : upload a screenshot of the delivered dashboard
 For example `2020` starts in 2020 and ends in 2029
 
 
-<a id="org8d3dfd0"></a>
+<a id="org948afed"></a>
 
 ### STARTED `UN_Geosheme_Subregion`
 
@@ -183,7 +183,7 @@ Todo : sum up
 and provide links as sources  
 
 
-<a id="orga0b76db"></a>
+<a id="org1caae5a"></a>
 
 ### STARTED `Disaster_Type`
 
@@ -192,7 +192,7 @@ and provide links as sources
 Todo : link to github respective workstream pages
 
 
-<a id="org87e9551"></a>
+<a id="org10a36bb"></a>
 
 ### STARTED `RCP`
 
@@ -201,61 +201,61 @@ Todo : link to github respective workstream pages
 TODO : sum up <https://en.wikipedia.org/wiki/Representative_Concentration_Pathway> and provide link as source
 
 
-<a id="org31340ce"></a>
+<a id="org8ccf788"></a>
 
 ### BACKLOG `#LoDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org2347970"></a>
+<a id="orgec93b57"></a>
 
 ### BACKLOG `#MeDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org8801426"></a>
+<a id="org563fcad"></a>
 
 ### BACKLOG `#HiDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org3af5fc1"></a>
+<a id="orgd707a5e"></a>
 
 ### BACKLOG `Human_Impact`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org31921a5"></a>
+<a id="org73d87fe"></a>
 
 ### BACKLOG `Financial_Impact`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org0906d5a"></a>
+<a id="orge301e96"></a>
 
 ### BACKLOG `°C`
 
 Todo : provide link and explain : <https://climateknowledgeportal.worldbank.org/download-data>
 
 
-<a id="org5238a32"></a>
+<a id="org27dcf53"></a>
 
 ### BACKLOG `Geo`
 
 Todo : explain
 
 
-<a id="org96e59bb"></a>
+<a id="org130dfd1"></a>
 
 # BACKLOG <code>[1/2]</code> Prototyping
 
 
-<a id="org54c6f53"></a>
+<a id="org7a5ba48"></a>
 
 ## DONE Features
 
@@ -355,34 +355,34 @@ Todo : explain
 </table>
 
 
-<a id="orgd23d1ea"></a>
+<a id="org015fc2b"></a>
 
 ## BACKLOG <code>[1/3]</code> Wireframe
 
 
-<a id="org497ed86"></a>
+<a id="org6047992"></a>
 
 ### DONE World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="orgf913952"></a>
+<a id="org4aff31f"></a>
 
 ### BACKLOG Sub region pop-up
 
 
-<a id="org77fc9e6"></a>
+<a id="org18ebfa4"></a>
 
 ### BACKLOG World figures
 
 
-<a id="orge0be9f5"></a>
+<a id="org5ab5f78"></a>
 
 # STARTED <code>[1/3]</code> Development
 
 
-<a id="org0dce521"></a>
+<a id="org493713d"></a>
 
 ## DONE Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -454,19 +454,19 @@ According to following benchmarck the team decided to develop the PoC with ****D
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="org8612753"></a>
+<a id="org1eb8d83"></a>
 
-## STARTED <code>[2/3]</code> Visual identity
+## STARTED <code>[2/3]</code> Visual identity guidelines
 
 We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="org2aed813"></a>
+<a id="orgd985f25"></a>
 
 ### DONE Colors
 
 
-<a id="org37ec0cb"></a>
+<a id="org89c765e"></a>
 
 #### Primary colors
 
@@ -514,7 +514,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org8001b3e"></a>
+<a id="org0c221b4"></a>
 
 #### Secondary colors
 
@@ -622,63 +622,63 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org0816b6f"></a>
+<a id="orgbdb83cb"></a>
 
 ### DONE Fonts
 
 
-<a id="org93fa5fa"></a>
+<a id="org8880a69"></a>
 
 #### Primary fonts
 
 ![img](./Pics/primaryfonts.png "Primary fonts")
 
 
-<a id="org44d4bd3"></a>
+<a id="org535af71"></a>
 
 #### Secondary fonts
 
 ![img](./Pics/secondaryfonts.png "Secondary fonts")
 
 
-<a id="org5633a5e"></a>
+<a id="orgf0f17e0"></a>
 
 ### BACKLOG Logo
 
 
-<a id="orga9cefc0"></a>
+<a id="org4884aa7"></a>
 
 ## BACKLOG Architecture
 
 Todo : describe files
 
 
-<a id="orgbd4fc88"></a>
+<a id="org1c6f7c2"></a>
 
 ### `app.py`
 
 
-<a id="org1f98acb"></a>
+<a id="org2fc3046"></a>
 
 ### `assets/style.css`
 
 
-<a id="org69c8cdd"></a>
+<a id="orgee80377"></a>
 
 ### `assets/WB_logo.jpg`
 
 
-<a id="org69c7fb7"></a>
+<a id="orgda23a98"></a>
 
 # STARTED <code>[1/3]</code> Project Management
 
 
-<a id="org36b57b7"></a>
+<a id="org93ad86c"></a>
 
 ## BACKLOG Methodology
 
 
-<a id="orgbe6b96d"></a>
+<a id="org4af4931"></a>
 
 ## BACKLOG tools
 
@@ -687,12 +687,12 @@ Todo : describe files
 -   Zoom
 
 
-<a id="org3ef1047"></a>
+<a id="orge0dfc63"></a>
 
 ## DONE How to contribute
 
 
-<a id="org37bb979"></a>
+<a id="orgab9d706"></a>
 
 ### Setting up a new Git repository
 
@@ -703,7 +703,7 @@ Todo : describe files
 -   Ask to join our GitHub
 
 
-<a id="org386e301"></a>
+<a id="org463a138"></a>
 
 ### Adding or modifying owned files (`push`)
 
@@ -716,7 +716,7 @@ When adding a new file or modifying a file that you own, do:
 Where `filename` is the name of the file
 
 
-<a id="org591059d"></a>
+<a id="org1e67848"></a>
 
 ### Submit proposed changes to review
 
@@ -766,7 +766,7 @@ To submit changes reviewees have to do:
 Where `revieweename` and `reviewername` are the GitHub names of the reviewee and the reviewer/owner.
 
 
-<a id="org0229fbd"></a>
+<a id="org1cd9624"></a>
 
 ### Adding reviewed files (`merge`)
 
