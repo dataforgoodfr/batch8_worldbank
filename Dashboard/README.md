@@ -1,174 +1,58 @@
 
 # Table of Contents
 
-1.  [<code>[1/2]</code> Prototyping](#org2020a7d)
-    1.  [Features](#org64f3683)
-    2.  [<code>[1/3]</code> Wireframe](#orgbbc646a)
-        1.  [World map](#org536a0e3)
-        2.  [Sub region pop-up](#orgaf31d87)
-        3.  [World figures](#org0506c27)
-2.  [<code>[1/2]</code> Dataset](#org3d2db46)
-    1.  [Variables](#org1e0a479)
-    2.  [<code>[1/11]</code> Data sources](#org615a78c)
-        1.  [`Decade`](#org106892d)
-        2.  [`UN_Geosheme_Subregion`](#org3a95cec)
-        3.  [`Disaster_Type`](#orgbc6a982)
-        4.  [`RCP`](#org9ad2c8e)
-        5.  [`#LoDO`](#orgb5d5cdc)
-        6.  [`#MeDO`](#org16bf690)
-        7.  [`#HiDO`](#org08dbba5)
-        8.  [`Human_Impact`](#org3d4fb29)
-        9.  [`Financial_Impact`](#org4b3a6ee)
-        10. [`°C`](#org6ad2d8f)
-        11. [`Geo`](#orgda52597)
-3.  [<code>[0/3]</code> Development](#org46e5558)
-    1.  [Why did we pick Dash?](#orgcf30294)
-    2.  [Visual identity](#org31ae74e)
-    3.  [Architecture](#orgbc60f2f)
-        1.  [`app.py`](#org21eb98f)
-        2.  [`assets/style.css`](#org11a6926)
-        3.  [`assets/WB_logo.jpg`](#org7fbf4b1)
-4.  [<code>[0/3]</code> Project Management](#orgf81dc70)
-    1.  [Methodology](#org74a6b55)
-    2.  [tools](#orgca716f2)
-    3.  [How to contribute](#orgf8411a7)
+1.  [<code>[1/2]</code> Dataset](#org0dccd4f)
+    1.  [Variables](#org38da7bc)
+    2.  [<code>[1/11]</code> Data sources](#org265fc12)
+        1.  [`Decade`](#orgebca35a)
+        2.  [`UN_Geosheme_Subregion`](#org0e14724)
+        3.  [`Disaster_Type`](#org0089950)
+        4.  [`RCP`](#org111b7ee)
+        5.  [`#LoDO`](#orge52ba0e)
+        6.  [`#MeDO`](#org60fe6f0)
+        7.  [`#HiDO`](#org8cbb5ef)
+        8.  [`Human_Impact`](#org4dc7fcd)
+        9.  [`Financial_Impact`](#orgbe07512)
+        10. [`°C`](#orge5f1fd2)
+        11. [`Geo`](#org83bca43)
+2.  [<code>[1/2]</code> Prototyping](#org4305fed)
+    1.  [Features](#org57af06e)
+    2.  [<code>[1/3]</code> Wireframe](#org1ed4e3d)
+        1.  [World map](#org1a9e58f)
+        2.  [Sub region pop-up](#orgb2979d7)
+        3.  [World figures](#org09a23d0)
+3.  [<code>[1/3]</code> Development](#org8a9ada9)
+    1.  [Why did we pick Dash?](#org3345ea9)
+    2.  [<code>[2/3]</code> Visual identity guidelines](#org49173f9)
+        1.  [Colors](#org8f18b87)
+            -   [Primary colors](#org938b6c9)
+            -   [Secondary colors](#org448939d)
+        2.  [Fonts](#orga7777ca)
+            -   [Primary fonts](#orgb855dc1)
+            -   [Secondary fonts](#org8620f4b)
+        3.  [Logo](#orgd3bfe2e)
+    3.  [Architecture](#org55dc0c9)
+        1.  [`app.py`](#org332bd28)
+        2.  [`assets/style.css`](#org35a0d21)
+        3.  [`assets/WB_logo.jpg`](#orgdc15293)
+4.  [<code>[1/3]</code> Project Management](#org56ff47f)
+    1.  [Methodology](#org4fd8a63)
+    2.  [tools](#orgf958018)
+    3.  [How to contribute](#orgc7f850a)
+        1.  [Setting up a new Git repository](#orge3ba74b)
+        2.  [Adding or modifying owned files (`push`)](#orgb9a81e3)
+        3.  [Submit proposed changes to review](#org39a5926)
+        4.  [Adding reviewed files (`merge`)](#org8c6fffe)
 
 Todo : upload a screenshot of the delivered dashboard
 
 
-<a id="org2020a7d"></a>
-
-# BACKLOG <code>[1/2]</code> Prototyping
-
-
-<a id="org64f3683"></a>
-
-## DONE Features
-
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">Feature name</th>
-<th scope="col" class="org-left">Description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td class="org-left">Main layout</td>
-<td class="org-left">Organise features and widgets on the main page</td>
-</tr>
-
-
-<tr>
-<td class="org-left">World map</td>
-<td class="org-left">Displays the world map, with UN sub regions</td>
-</tr>
-
-
-<tr>
-<td class="org-left">World map dataviz</td>
-<td class="org-left">Displays data on the worldmap, with a legend</td>
-</tr>
-
-
-<tr>
-<td class="org-left">RCP thermometer</td>
-<td class="org-left">To choose among the 4 RCP</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Disaster toggle</td>
-<td class="org-left">To choose among 1 over 3 disaster type</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Impact toggle</td>
-<td class="org-left">To choose between human or financial impact</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Selectable timeframe</td>
-<td class="org-left">To choose from 1 to 20 decades</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Sub region mouseover</td>
-<td class="org-left">Mouseover on a sub region triggers a popup</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Sub region popup</td>
-<td class="org-left">Shows region's figures</td>
-</tr>
-
-
-<tr>
-<td class="org-left">World figures</td>
-<td class="org-left">Shows world figures</td>
-</tr>
-
-
-<tr>
-<td class="org-left">World figures expand</td>
-<td class="org-left">Button that triggers world figures popup</td>
-</tr>
-
-
-<tr>
-<td class="org-left">World figures popup</td>
-<td class="org-left">Expends world figures additional figures</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Play/Pause toggle</td>
-<td class="org-left">launch a per decade animation on the world map</td>
-</tr>
-</tbody>
-</table>
-
-
-<a id="orgbbc646a"></a>
-
-## BACKLOG <code>[1/3]</code> Wireframe
-
-
-<a id="org536a0e3"></a>
-
-### DONE World map
-
-![img](./Pics/worldmapwireframe.png "World map wireframe")
-
-
-<a id="orgaf31d87"></a>
-
-### BACKLOG Sub region pop-up
-
-
-<a id="org0506c27"></a>
-
-### BACKLOG World figures
-
-
-<a id="org3d2db46"></a>
+<a id="org0dccd4f"></a>
 
 # STARTED <code>[1/2]</code> Dataset
 
 
-<a id="org1e0a479"></a>
+<a id="org38da7bc"></a>
 
 ## DONE Variables
 
@@ -270,12 +154,12 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="org615a78c"></a>
+<a id="org265fc12"></a>
 
 ## STARTED <code>[1/11]</code> Data sources
 
 
-<a id="org106892d"></a>
+<a id="orgebca35a"></a>
 
 ### DONE `Decade`
 
@@ -284,7 +168,7 @@ Todo : upload a screenshot of the delivered dashboard
 For example `2020` starts in 2020 and ends in 2029
 
 
-<a id="org3a95cec"></a>
+<a id="org0e14724"></a>
 
 ### STARTED `UN_Geosheme_Subregion`
 
@@ -299,7 +183,7 @@ Todo : sum up
 and provide links as sources  
 
 
-<a id="orgbc6a982"></a>
+<a id="org0089950"></a>
 
 ### STARTED `Disaster_Type`
 
@@ -308,7 +192,7 @@ and provide links as sources
 Todo : link to github respective workstream pages
 
 
-<a id="org9ad2c8e"></a>
+<a id="org111b7ee"></a>
 
 ### STARTED `RCP`
 
@@ -317,69 +201,196 @@ Todo : link to github respective workstream pages
 TODO : sum up <https://en.wikipedia.org/wiki/Representative_Concentration_Pathway> and provide link as source
 
 
-<a id="orgb5d5cdc"></a>
+<a id="orge52ba0e"></a>
 
 ### BACKLOG `#LoDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org16bf690"></a>
+<a id="org60fe6f0"></a>
 
 ### BACKLOG `#MeDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org08dbba5"></a>
+<a id="org8cbb5ef"></a>
 
 ### BACKLOG `#HiDO`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org3d4fb29"></a>
+<a id="org4dc7fcd"></a>
 
 ### BACKLOG `Human_Impact`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org4b3a6ee"></a>
+<a id="orgbe07512"></a>
 
 ### BACKLOG `Financial_Impact`
 
 Todo : link to github respective workstream pages
 
 
-<a id="org6ad2d8f"></a>
+<a id="orge5f1fd2"></a>
 
 ### BACKLOG `°C`
 
 Todo : provide link and explain : <https://climateknowledgeportal.worldbank.org/download-data>
 
 
-<a id="orgda52597"></a>
+<a id="org83bca43"></a>
 
 ### BACKLOG `Geo`
 
 Todo : explain
 
 
-<a id="org46e5558"></a>
+<a id="org4305fed"></a>
 
-# STARTED <code>[0/3]</code> Development
+# BACKLOG <code>[1/2]</code> Prototyping
 
 
-<a id="orgcf30294"></a>
+<a id="org57af06e"></a>
 
-## STARTED Why did we pick [Dash](https://plotly.com/dash/)?
+## DONE Features
 
-[List of Python dashboard libraries](https://pyviz.org/tools.html) :
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Feature name</th>
+<th scope="col" class="org-left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Main layout</td>
+<td class="org-left">Organise features and widgets on the main page</td>
+</tr>
+
+
+<tr>
+<td class="org-left">World map</td>
+<td class="org-left">Displays the world map, with UN sub regions</td>
+</tr>
+
+
+<tr>
+<td class="org-left">World map dataviz</td>
+<td class="org-left">Displays data on the worldmap, with a legend</td>
+</tr>
+
+
+<tr>
+<td class="org-left">RCP thermometer</td>
+<td class="org-left">To choose among the 4 RCP</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Disaster toggle</td>
+<td class="org-left">To choose among 1 over 3 disaster type</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Impact toggle</td>
+<td class="org-left">To choose between human or financial impact</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Selectable timeframe</td>
+<td class="org-left">To choose from 1 to 20 decades</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Sub region mouseover</td>
+<td class="org-left">Mouseover on a sub region triggers a popup</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Sub region popup</td>
+<td class="org-left">Shows region's figures</td>
+</tr>
+
+
+<tr>
+<td class="org-left">World figures</td>
+<td class="org-left">Shows world figures</td>
+</tr>
+
+
+<tr>
+<td class="org-left">World figures expand</td>
+<td class="org-left">Button that triggers world figures popup</td>
+</tr>
+
+
+<tr>
+<td class="org-left">World figures popup</td>
+<td class="org-left">Expends world figures additional figures</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Play/Pause toggle</td>
+<td class="org-left">launch a per decade animation on the world map</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="org1ed4e3d"></a>
+
+## BACKLOG <code>[1/3]</code> Wireframe
+
+
+<a id="org1a9e58f"></a>
+
+### DONE World map
+
+![img](./Pics/worldmapwireframe.png "World map wireframe")
+
+
+<a id="orgb2979d7"></a>
+
+### BACKLOG Sub region pop-up
+
+
+<a id="org09a23d0"></a>
+
+### BACKLOG World figures
+
+
+<a id="org8a9ada9"></a>
+
+# STARTED <code>[1/3]</code> Development
+
+
+<a id="org3345ea9"></a>
+
+## DONE Why did we pick [Dash](https://plotly.com/dash/)?
+
+As we wanted to use Python to build the Dashboard we had to pick among [Python dashboard libraries](https://pyviz.org/tools.html) :
 
 ![img](./Pics/dashboardlibraries.png "Python dashboarding libraries")
 
-According to following benchmarck team decided to develop the PoC with ****Dash****
+According to following benchmarck the team decided to develop the PoC with ****Dash****
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -443,69 +454,23 @@ According to following benchmarck team decided to develop the PoC with ****Dash*
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="org31ae74e"></a>
+<a id="org49173f9"></a>
 
-## BACKLOG Visual identity
+## STARTED <code>[2/3]</code> Visual identity guidelines
 
-Todo mention World Bank Visual Identity Guidelines
-
-
-<a id="orgbc60f2f"></a>
-
-## BACKLOG Architecture
-
-Todo : describe files
+We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="org21eb98f"></a>
+<a id="org8f18b87"></a>
 
-### `app.py`
-
-
-<a id="org11a6926"></a>
-
-### `assets/style.css`
+### DONE Colors
 
 
-<a id="org7fbf4b1"></a>
+<a id="org938b6c9"></a>
 
-### `assets/WB_logo.jpg`
+#### Primary colors
 
-
-<a id="orgf81dc70"></a>
-
-# STARTED <code>[0/3]</code> Project Management
-
-
-<a id="org74a6b55"></a>
-
-## BACKLOG Methodology
-
-
-<a id="orgca716f2"></a>
-
-## BACKLOG tools
-
--   Notion
--   Slack
--   Zoom
-
-
-<a id="orgf8411a7"></a>
-
-## STARTED How to contribute
-
--   Clone our project locally
-    
-        $ git init
-        $ git clone https://github.com/dataforgoodfr/batch8_worldbank/tree/master/plateforme
--   Ask to join our GitHub
--   When adding a new file do
-    
-        $ git add newfilename
-        $ git commit
-        $ git push
--   When modifying an existing file, you have to submit modifications to its reviewer (i.e. owner). Ownership is distributed as follow :
+<img src="./Pics/primarycolors.png" width="700px">
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -517,8 +482,258 @@ Todo : describe files
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">owner</th>
-<th scope="col" class="org-left">file</th>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Hex code</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Sapphire blue</td>
+<td class="org-left">#002244</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Sky blue</td>
+<td class="org-left">#009FDA</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Black</td>
+<td class="org-left">#000000</td>
+</tr>
+
+
+<tr>
+<td class="org-left">White</td>
+<td class="org-left">#FFFFFF</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="org448939d"></a>
+
+#### Secondary colors
+
+<img src="./Pics/secondarycolors.png" width="700px">
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Family</th>
+<th scope="col" class="org-left">Hex code</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Brighter Warm</td>
+<td class="org-left">F05023</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Brighter Warm</td>
+<td class="org-left">FDB714</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Brighter Warm</td>
+<td class="org-left">2EB1C2D</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Brighter Warm</td>
+<td class="org-left">F78D28</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Brighter Cool</td>
+<td class="org-left">009CA7</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Brighter Cool</td>
+<td class="org-left">00AB51</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Brighter Cool</td>
+<td class="org-left">872B90</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Brighter Cool</td>
+<td class="org-left">00A996</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Muted Warm</td>
+<td class="org-left">98252B</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Muted Warm</td>
+<td class="org-left">E16A2D</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Muted Warm</td>
+<td class="org-left">B88C1D</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Muted Cool</td>
+<td class="org-left">614776</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Muted Cool</td>
+<td class="org-left">006068</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Muted Cool</td>
+<td class="org-left">006450</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orga7777ca"></a>
+
+### DONE Fonts
+
+
+<a id="orgb855dc1"></a>
+
+#### Primary fonts
+
+<img src="./Pics/primaryfonts.png" width="400px">
+
+
+<a id="org8620f4b"></a>
+
+#### Secondary fonts
+
+<img src="./Pics/secondaryfonts.png" width="400px">
+
+
+<a id="orgd3bfe2e"></a>
+
+### BACKLOG Logo
+
+
+<a id="org55dc0c9"></a>
+
+## BACKLOG Architecture
+
+Todo : describe files
+
+
+<a id="org332bd28"></a>
+
+### `app.py`
+
+
+<a id="org35a0d21"></a>
+
+### `assets/style.css`
+
+
+<a id="orgdc15293"></a>
+
+### `assets/WB_logo.jpg`
+
+
+<a id="org56ff47f"></a>
+
+# STARTED <code>[1/3]</code> Project Management
+
+
+<a id="org4fd8a63"></a>
+
+## BACKLOG Methodology
+
+
+<a id="orgf958018"></a>
+
+## BACKLOG tools
+
+-   Notion
+-   Slack
+-   Zoom
+
+
+<a id="orgc7f850a"></a>
+
+## DONE How to contribute
+
+
+<a id="orge3ba74b"></a>
+
+### Setting up a new Git repository
+
+-   Clone project locally
+    
+        $ git init
+        $ git clone https://github.com/dataforgoodfr/batch8_worldbank/tree/master/plateforme
+-   Ask to join our GitHub
+
+
+<a id="orgb9a81e3"></a>
+
+### Adding or modifying owned files (`push`)
+
+When adding a new file or modifying a file that you own, do:
+
+    $ git add filename
+    $ git commit
+    $ git push
+
+Where `filename` is the name of the file
+
+
+<a id="org39a5926"></a>
+
+### Submit proposed changes to review
+
+When modifying an existing file, if you're not its owner, you have to submit the modifications to its owner (i.e. reviewer). Ownership is distributed as follow :
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Owner GitHub name</th>
+<th scope="col" class="org-left">File</th>
 </tr>
 </thead>
 
@@ -542,12 +757,24 @@ Todo : describe files
 </tbody>
 </table>
 
--   reviewees have to do
-    
-        add git command
--   Reviewers have to do 
-    
-        add git command
+To submit changes reviewees have to do: 
+
+    $ git add filename
+    $ git commit
+    $ hub pull-request -h revieweename:master -b dataforgoodfr:master -m -r reviewername -f
+
+Where `revieweename` and `reviewername` are the GitHub names of the reviewee and the reviewer/owner.
+
+
+<a id="org8c6fffe"></a>
+
+### Adding reviewed files (`merge`)
+
+-Reviewers have to do 
+
+    $ hub merge PRurl 
+
+Where `PRurl` is the url of the pull request.
 
 
 # Footnotes
