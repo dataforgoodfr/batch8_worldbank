@@ -107,35 +107,21 @@ def climate_scenario():
         children=[
             html.H5(dcc.Markdown("**Scenario Selector**")),
             html.Br(),
-            dcc.Slider(
-                id="temp-slider",
-                min=0,
-                max=10,
-                step=None,
-                marks={
-                    0: '0°C',
-                    2.6: '2.6 °C',
-                    4.5: '4.5 °C',
-                    6: '6 °C',
-                    8.5: '8.5 °C',
-                    },
-                value= 0
-                )
-            # daq.Thermometer(
-            #         id='my-daq-thermometer',
-            #         min= 0,
-            #         max=8.5,
-            #         scale = {
-            #             'start' : 0,
-            #             'interval' : 8.5,
-            #             'labelInterval' : 2,
-            #             'custom' : {2 : 2.6,
-            #                         4 : 4.5,
-            #                         6 : 6.0 }
-            #             },
-            #         units="°C",
-            #         value= 0
-            #         )
+            daq.Thermometer(
+                    id='my-daq-thermometer',
+                    min= 0,
+                    max=8.5,
+                    scale = {
+                        'start' : 0,
+                        'interval' : 8.5,
+                        'labelInterval' : 2,
+                        'custom' : {2 : 2.6,
+                                    4 : 4.5,
+                                    6 : 6.0 }
+                        },
+                    units="°C",
+                    value= 0
+                    )
         ]
     )
 
