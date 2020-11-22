@@ -41,8 +41,13 @@ YEARS = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990,
          2000, 2010, 2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100]
 
 
-DESASTER_TYPE = ["Drought", "Flood", "Storm"]
+
+
+
+
+DESASTER_TYPE = df_input['Disaster_Type'].unique()
 SCENARIO_SELECTOR = ["0°C","2°C","4°C"]
+
 
 
 DEFAULT_OPACITY = 0.8
@@ -77,13 +82,9 @@ def disaster_type_card():
             
             html.H5(dcc.Markdown("**Disaster Selector**")),
             dcc.RadioItems(
-
-                options=[
-                    {'label': 'Drought', 'value': 'Drought'},
-                    {'label': 'Flood', 'value': 'Flood'},
-                    {'label': 'Storm', 'value': 'Storm'}
-                ],
-                value='Drought',
+                id='xaxis-type',
+                options=[ {'label': i, 'value': i} for i in DESASTER_TYPE],
+                value='Droughts',
                 labelStyle={"display": "inline-block",
                             "margin-top": "20px",
                             "font-size": "16px",
@@ -221,14 +222,15 @@ app.layout = html.Div(
                             className="pretty_container",
                             children=[disaster_type_card()]
                         ),
+
                         html.Br(),
                         html.Div(
                             className="pretty_container",
                             children=[
                                 html.H6(dcc.Markdown("**Damage Selector**")),
-                                html.Img( className="icon" , src=app.get_asset_url("IconHuman.svg")),
-                                html.Img( className="icon",  src=app.get_asset_url("IconFinancialBlack.svg")),
-                                html.Img( className="icon",  src=app.get_asset_url("IconDisaster.svg")),
+                                html.A([ html.Img(id="image1",className="icon" , src=app.get_asset_url("IconHuman.svg") )]),
+                                html.A([ html.Img(id="image2",className="icon",  src=app.get_asset_url("IconFinancialBlack.svg"))]),
+                                #html.A([html.Img(id="image3",className="icon",  src=app.get_asset_url("IconDisaster.svg"))])
                             ]
 
                         ),
@@ -300,15 +302,25 @@ app.layout = html.Div(
 )
 
 
-@app.callback(Output("heatmap-title", "children"), [Input("years-slider", "value")])
-def update_map_title(year):
-    return "Heatmap of disaster damages in year {0}".format(year)
+@app.callback(Output("heatmap-title", "children"), 
+             [Input("years-slider", "value"),
+              Input('xaxis-type', 'value'),
+              Input('image1', 'n_clicks'),
+              Input('image2', 'n_clicks')
+              
+             ])
+def update_map_title(year, xaxis_type,image1,image2):
+    return "Heatmap of disaster damages in year {0} {1} {2} {3}".format(year,xaxis_type,image1,image2)
 
-
-@app.callback(Output("county-choropleth", "figure"), [Input("years-slider", "value")])
-def update_map(year):
+@app.callback(Output("county-choropleth", "figure"), [Input("years-slider", "value"),
+                                                      Input('xaxis-type', 'value') 
+                                                    ])
+def update_map(year,xaxis_type):
     df_decade = df_map_data[df_map_data['Decade'] == year]
+    df_decade = df_map_data[df_map_data['Disaster_Type'] == xaxis_type]
     return display_map(df_decade)
+
+
 
 
 if __name__ == '__main__':
