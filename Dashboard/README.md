@@ -1,58 +1,58 @@
 
 # Table of Contents
 
-1.  [<code>[2/2]</code> Dataset](#orgc10c95d)
-    1.  [Variables](#orgba1e623)
-    2.  [<code>[11/11]</code> Data sources](#orgf58b619)
-        1.  [`Decade`](#org6d45e78)
-        2.  [`UN_Geosheme_Subregion`](#org37ac1a1)
-        3.  [`Disaster_Type`](#org1d0183b)
-        4.  [`RCP`](#orga38f92b)
-        5.  [`#LoDO`](#orga024853)
-        6.  [`#MeDO`](#org63cfb7e)
-        7.  [`#HiDO`](#orgba7cf89)
-        8.  [`Human_Impact`](#org5a10639)
-        9.  [`Financial_Impact`](#org19ba58b)
-        10. [`°C`](#org9566d96)
-        11. [`Geo`](#orgdd1dc09)
-2.  [<code>[1/2]</code> Prototyping](#orgb835418)
-    1.  [Features](#org2eb0cf9)
-    2.  [<code>[1/3]</code> Wireframe](#orgf84b241)
-        1.  [World map](#orgaa04513)
-        2.  [Sub region pop-up](#org5ae9291)
-        3.  [World figures](#org3beec8f)
-3.  [<code>[1/3]</code> Development](#orgc8897b3)
-    1.  [Why did we pick Dash?](#org09025e9)
-    2.  [<code>[2/3]</code> Visual identity guidelines](#org6708ea7)
-        1.  [Colors](#org02af4c5)
-            -   [Primary colors](#org968bb30)
-            -   [Secondary colors](#org1b44327)
-        2.  [Fonts](#org1f63bb9)
-            -   [Primary fonts](#org7c1b34f)
-            -   [Secondary fonts](#orgf986d94)
-        3.  [Logo](#org82e3470)
-    3.  [Architecture](#orgc187a4e)
-        1.  [`app.py`](#orge0d0605)
-        2.  [`assets/style.css`](#org1de9fef)
-        3.  [`assets/WB_logo.jpg`](#org6c88d7c)
-4.  [<code>[1/3]</code> Project Management](#orge496dd2)
-    1.  [Methodology](#org8653450)
-    2.  [tools](#org978c2e4)
-    3.  [How to contribute](#org1a634bb)
-        1.  [Setting up a new Git repository](#orgf8b4711)
-        2.  [Adding or modifying owned files (`push`)](#org7e265a8)
-        3.  [Submit proposed changes to review](#org0027592)
-        4.  [Adding reviewed files (`merge`)](#org947c75b)
+1.  [<code>[2/2]</code> Dataset](#orgf3318a2)
+    1.  [Variables](#org4b87d7c)
+    2.  [<code>[11/11]</code> Data sources](#org17ca803)
+        1.  [`Decade`](#org86c8d9e)
+        2.  [`UN_Geosheme_Subregion`](#orga532de0)
+        3.  [`Disaster_Type`](#org8423764)
+        4.  [`RCP`](#org4f95b20)
+        5.  [`#LoDO`](#org6b4cbef)
+        6.  [`#MeDO`](#org2760493)
+        7.  [`#HiDO`](#org3ff19e9)
+        8.  [`Human_Impact`](#org0ce8fa1)
+        9.  [`Financial_Impact`](#org3e22228)
+        10. [`°C`](#org7a3cd06)
+        11. [`Geo`](#orgacbbfd1)
+2.  [<code>[1/2]</code> Prototyping](#org2253b79)
+    1.  [Features](#org5bb0c01)
+    2.  [<code>[1/3]</code> Wireframe](#org04bd5ab)
+        1.  [World map](#orgf393ab7)
+        2.  [Sub region pop-up](#org338e25b)
+        3.  [World figures](#orgc3adaeb)
+3.  [<code>[1/3]</code> Development](#orgf8691ea)
+    1.  [Why did we pick Dash?](#org3a4bd9c)
+    2.  [<code>[2/3]</code> Visual identity guidelines](#orga5304b8)
+        1.  [Colors](#orga0f2d79)
+            -   [Primary colors](#org98d56f0)
+            -   [Secondary colors](#org1f1c695)
+        2.  [Fonts](#orgd93b712)
+            -   [Primary fonts](#org84d5fac)
+            -   [Secondary fonts](#org5d8b6da)
+        3.  [Logo](#orgc56b014)
+    3.  [Architecture](#orge1a4d1d)
+        1.  [`app.py`](#org85c65f4)
+        2.  [`assets/style.css`](#org56ae0be)
+        3.  [`assets/WB_logo.jpg`](#org0e31745)
+4.  [<code>[1/3]</code> Project Management](#orgaea8020)
+    1.  [Methodology](#org3db95b9)
+    2.  [tools](#org27b21c0)
+    3.  [How to contribute](#org152e789)
+        1.  [Setting up a new Git repository](#org3b44116)
+        2.  [Adding or modifying owned files (`push`)](#org69ae561)
+        3.  [Submit proposed changes to review](#orga56ce0a)
+        4.  [Adding reviewed files (`merge`)](#org477439c)
 
 Todo : upload a screenshot of the delivered dashboard
 
 
-<a id="orgc10c95d"></a>
+<a id="orgf3318a2"></a>
 
 # DONE <code>[2/2]</code> Dataset
 
 
-<a id="orgba1e623"></a>
+<a id="org4b87d7c"></a>
 
 ## DONE Variables
 
@@ -154,12 +154,12 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="orgf58b619"></a>
+<a id="org17ca803"></a>
 
 ## DONE <code>[11/11]</code> Data sources
 
 
-<a id="org6d45e78"></a>
+<a id="org86c8d9e"></a>
 
 ### DONE `Decade`
 
@@ -170,7 +170,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: each value represents a decade. For example, `2020` starts with the year 2020 and ends with the year 2029.
 
 
-<a id="org37ac1a1"></a>
+<a id="orga532de0"></a>
 
 ### DONE `UN_Geosheme_Subregion`
 
@@ -181,7 +181,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: This classification is also referred as [United Nations geoscheme](https://en.wikipedia.org/wiki/United_Nations_geoscheme) and [UN M49](https://en.wikipedia.org/wiki/UN_M49).
 
 
-<a id="org1d0183b"></a>
+<a id="org8423764"></a>
 
 ### DONE `Disaster_Type`
 
@@ -193,7 +193,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: These disasters will be respectively described in the following pages : [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)
 
 
-<a id="orga38f92b"></a>
+<a id="org4f95b20"></a>
 
 ### DONE `RCP`
 
@@ -204,10 +204,12 @@ Todo : upload a screenshot of the delivered dashboard
 
 -   Notes: Representative Concentration Pathways (RCP) are greenhouse gas concentration (not emissions) trajectories adopted by the IPCC. Four pathways were used for climate modeling and research for the IPCC fifth Assessment Report (AR5) in 2014. The pathways describe different climate futures, all of which are considered possible depending on the volume of greenhouse gases (GHG) emitted in the years to come. The RCPs are labelled after a possible range of radiative forcing values in the year 2100.
 
-![img](./Pics/rcp.png "World map wireframe")      
+<img src="./Pics/rcp.png" width="300px">
+
+![img](./Pics/rcp.png)      
 
 
-<a id="orga024853"></a>
+<a id="org6b4cbef"></a>
 
 ### DONE `#LoDO`
 
@@ -216,7 +218,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: For explanation on past and future (based on in house statistical models) **Number of Low Disaster Occurrences** (#LoDO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org63cfb7e"></a>
+<a id="org2760493"></a>
 
 ### DONE `#MeDO`
 
@@ -225,7 +227,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: For explanation on past and future (based on in house statistical models) **Number of Medium Disaster Occurrences** (#MeDO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="orgba7cf89"></a>
+<a id="org3ff19e9"></a>
 
 ### DONE `#HiDO`
 
@@ -234,7 +236,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: For explanation on past and future (based on in house statistical models) **Number of High Disaster Occurrences** (#HiDO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org5a10639"></a>
+<a id="org0ce8fa1"></a>
 
 ### DONE `Human_Impact`
 
@@ -243,7 +245,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: For explanation on past and future (based on in house statistical models) Human Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org19ba58b"></a>
+<a id="org3e22228"></a>
 
 ### DONE `Financial_Impact`
 
@@ -252,7 +254,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: For explanation on past and future (based on in house statistical models) Financial Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org9566d96"></a>
+<a id="org7a3cd06"></a>
 
 ### DONE `°C`
 
@@ -260,19 +262,19 @@ Todo : upload a screenshot of the delivered dashboard
 -   Values: Temperatures
 
 
-<a id="orgdd1dc09"></a>
+<a id="orgacbbfd1"></a>
 
 ### DONE `Geo`
 
 -   Source: In-house (generated by [this script](https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb))
 
 
-<a id="orgb835418"></a>
+<a id="org2253b79"></a>
 
 # BACKLOG <code>[1/2]</code> Prototyping
 
 
-<a id="org2eb0cf9"></a>
+<a id="org5bb0c01"></a>
 
 ## DONE Features
 
@@ -372,34 +374,34 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="orgf84b241"></a>
+<a id="org04bd5ab"></a>
 
 ## BACKLOG <code>[1/3]</code> Wireframe
 
 
-<a id="orgaa04513"></a>
+<a id="orgf393ab7"></a>
 
 ### DONE World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="org5ae9291"></a>
+<a id="org338e25b"></a>
 
 ### BACKLOG Sub region pop-up
 
 
-<a id="org3beec8f"></a>
+<a id="orgc3adaeb"></a>
 
 ### BACKLOG World figures
 
 
-<a id="orgc8897b3"></a>
+<a id="orgf8691ea"></a>
 
 # STARTED <code>[1/3]</code> Development
 
 
-<a id="org09025e9"></a>
+<a id="org3a4bd9c"></a>
 
 ## DONE Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -471,19 +473,19 @@ According to following benchmarck the team decided to develop the PoC with ****D
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="org6708ea7"></a>
+<a id="orga5304b8"></a>
 
 ## STARTED <code>[2/3]</code> Visual identity guidelines
 
 We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="org02af4c5"></a>
+<a id="orga0f2d79"></a>
 
 ### DONE Colors
 
 
-<a id="org968bb30"></a>
+<a id="org98d56f0"></a>
 
 #### Primary colors
 
@@ -531,7 +533,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org1b44327"></a>
+<a id="org1f1c695"></a>
 
 #### Secondary colors
 
@@ -639,63 +641,63 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org1f63bb9"></a>
+<a id="orgd93b712"></a>
 
 ### DONE Fonts
 
 
-<a id="org7c1b34f"></a>
+<a id="org84d5fac"></a>
 
 #### Primary fonts
 
 <img src="./Pics/primaryfonts.png" width="400px">
 
 
-<a id="orgf986d94"></a>
+<a id="org5d8b6da"></a>
 
 #### Secondary fonts
 
 <img src="./Pics/secondaryfonts.png" width="400px">
 
 
-<a id="org82e3470"></a>
+<a id="orgc56b014"></a>
 
 ### BACKLOG Logo
 
 
-<a id="orgc187a4e"></a>
+<a id="orge1a4d1d"></a>
 
 ## BACKLOG Architecture
 
 Todo : describe files
 
 
-<a id="orge0d0605"></a>
+<a id="org85c65f4"></a>
 
 ### `app.py`
 
 
-<a id="org1de9fef"></a>
+<a id="org56ae0be"></a>
 
 ### `assets/style.css`
 
 
-<a id="org6c88d7c"></a>
+<a id="org0e31745"></a>
 
 ### `assets/WB_logo.jpg`
 
 
-<a id="orge496dd2"></a>
+<a id="orgaea8020"></a>
 
 # STARTED <code>[1/3]</code> Project Management
 
 
-<a id="org8653450"></a>
+<a id="org3db95b9"></a>
 
 ## BACKLOG Methodology
 
 
-<a id="org978c2e4"></a>
+<a id="org27b21c0"></a>
 
 ## BACKLOG tools
 
@@ -704,12 +706,12 @@ Todo : describe files
 -   Zoom
 
 
-<a id="org1a634bb"></a>
+<a id="org152e789"></a>
 
 ## DONE How to contribute
 
 
-<a id="orgf8b4711"></a>
+<a id="org3b44116"></a>
 
 ### Setting up a new Git repository
 
@@ -720,7 +722,7 @@ Todo : describe files
 -   Ask to join our GitHub
 
 
-<a id="org7e265a8"></a>
+<a id="org69ae561"></a>
 
 ### Adding or modifying owned files (`push`)
 
@@ -733,7 +735,7 @@ When adding a new file or modifying a file that you own, do:
 Where `filename` is the name of the file
 
 
-<a id="org0027592"></a>
+<a id="orga56ce0a"></a>
 
 ### Submit proposed changes to review
 
@@ -783,7 +785,7 @@ To submit changes reviewees have to do:
 Where `revieweename` and `reviewername` are the GitHub names of the reviewee and the reviewer/owner.
 
 
-<a id="org947c75b"></a>
+<a id="org477439c"></a>
 
 ### Adding reviewed files (`merge`)
 
