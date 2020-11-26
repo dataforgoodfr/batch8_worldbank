@@ -1,56 +1,54 @@
 
 # Table of Contents
 
-1.  [<code>[2/2]</code> Dataset](#org063f169)
-    1.  [Variables](#orgc920ded)
-    2.  [<code>[11/11]</code> Data sources](#orgc9ad6bb)
-        1.  [`Decade`](#org6d283b8)
-        2.  [`UN_Geosheme_Subregion`](#org0286c4f)
-        3.  [`Disaster_Type`](#org406f25a)
-        4.  [`RCP`](#org121b847)
-        5.  [`DO`](#orgedb02f3)
-        6.  [`Human_Impact`](#orgf896186)
-        7.  [`Financial_Impact`](#org1878547)
-        8.  [`°C`](#orgbee5fd9)
-        9.  [`Geo`](#org3f88df9)
-2.  [<code>[1/2]</code> Prototyping](#orgf9f318b)
-    1.  [Features](#org8be01fe)
-    2.  [<code>[1/3]</code> Wireframe](#org999ee29)
-        1.  [World map](#orgeaee468)
-        2.  [Sub region pop-up](#org6173501)
-        3.  [World figures](#orgaf7ec06)
-3.  [<code>[1/3]</code> Development](#orgb23f1d6)
-    1.  [Why did we pick Dash?](#orgfb44b81)
-    2.  [<code>[2/3]</code> Visual identity guidelines](#orgf5c0099)
-        1.  [Colors](#org916daf1)
-            -   [Primary colors](#orgafcf747)
-            -   [Secondary colors](#orgc5441f3)
-        2.  [Fonts](#org5dfbd63)
-            -   [Primary fonts](#orge03d6aa)
-            -   [Secondary fonts](#orge37a320)
-        3.  [Logo](#orgeb19ee9)
-    3.  [Architecture](#org5fdf597)
-        1.  [`app.py`](#org53f1a9f)
-        2.  [`assets/style.css`](#org1a9a094)
-        3.  [`assets/WB_logo.jpg`](#org7c4ea47)
-4.  [<code>[1/3]</code> Project Management](#orgc01376c)
-    1.  [Methodology](#org013e366)
-    2.  [tools](#orgef2471a)
-    3.  [How to contribute](#orgb3781de)
-        1.  [Setting up a new Git repository](#org44a7c20)
-        2.  [Adding or modifying owned files (`push`)](#org89d68e3)
-        3.  [Submit proposed changes to review](#orgbee99bb)
-        4.  [Adding reviewed files (`merge`)](#org7fd8d86)
+1.  [<code>[2/2]</code> Dataset](#orgf9affbc)
+    1.  [Variables](#org7465549)
+    2.  [<code>[11/11]</code> Data sources](#org2736112)
+        1.  [`Decade`](#orgb559f2f)
+        2.  [`UN_Geosheme_Subregion`](#org5b87545)
+        3.  [`Disaster_Type`](#orgce0c810)
+        4.  [`RCP`](#orgc46cbcd)
+        5.  [`DO`](#org9599cda)
+        6.  [`Human_Impact`](#orge9a8085)
+        7.  [`Financial_Impact`](#orged8898e)
+        8.  [`°C`](#org252eeea)
+        9.  [`Geo`](#org5178666)
+2.  [<code>[1/2]</code> Prototyping](#org2a46ff4)
+    1.  [Features](#org69a9319)
+    2.  [<code>[1/3]</code> Wireframe](#orgbf9256e)
+        1.  [World map](#org676c3df)
+        2.  [Sub region pop-up](#org26a9d0c)
+        3.  [World figures](#org6e22954)
+3.  [<code>[1/3]</code> Development](#org22b3cf9)
+    1.  [Why did we pick Dash?](#orgc17e503)
+    2.  [Architecture](#orgefc0482)
+        1.  [`app.py`](#org57c0d81)
+        2.  [`assets/style.css`](#orgb3f8f6d)
+        3.  [`assets/WB_logo.jpg`](#orgd8a7ab7)
+    3.  [<code>[2/3]</code> Visual identity guidelines](#orgd420115)
+        1.  [Colors](#org4ef5d5d)
+            -   [Primary colors](#org4e3fa80)
+            -   [Secondary colors](#orga202f7b)
+        2.  [Fonts](#org1b1196a)
+            -   [Primary fonts](#orgc7c028f)
+            -   [Secondary fonts](#org5601dbc)
+        3.  [Logo](#orgaa61c76)
+    4.  [How to contribute](#orgd0fddf5)
+        1.  [Setting up a new Git repository](#org765c0aa)
+        2.  [Adding or modifying owned files (`push`)](#org8d6dfe6)
+        3.  [Submit proposed changes to review](#org339be8c)
+        4.  [Adding reviewed files (`merge`)](#org89451f0)
+4.  [Tools that we used](#org3366d3a)
 
 Todo : upload a screenshot of the delivered dashboard
 
 
-<a id="org063f169"></a>
+<a id="orgf9affbc"></a>
 
 # DONE <code>[2/2]</code> Dataset
 
 
-<a id="orgc920ded"></a>
+<a id="org7465549"></a>
 
 ## DONE Variables
 
@@ -138,12 +136,12 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="orgc9ad6bb"></a>
+<a id="org2736112"></a>
 
 ## DONE <code>[11/11]</code> Data sources
 
 
-<a id="org6d283b8"></a>
+<a id="orgb559f2f"></a>
 
 ### DONE `Decade`
 
@@ -154,7 +152,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: each value represents a decade. For example, `2020` starts with the year 2020 and ends with the year 2029.
 
 
-<a id="org0286c4f"></a>
+<a id="org5b87545"></a>
 
 ### DONE `UN_Geosheme_Subregion`
 
@@ -165,7 +163,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: This classification is also referred as [United Nations geoscheme](https://en.wikipedia.org/wiki/United_Nations_geoscheme) and [UN M49](https://en.wikipedia.org/wiki/UN_M49).
 
 
-<a id="org406f25a"></a>
+<a id="orgce0c810"></a>
 
 ### DONE `Disaster_Type`
 
@@ -177,7 +175,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: These disasters will be respectively described in the following pages : [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)
 
 
-<a id="org121b847"></a>
+<a id="orgc46cbcd"></a>
 
 ### DONE `RCP`
 
@@ -191,7 +189,7 @@ Todo : upload a screenshot of the delivered dashboard
     <img src="./Pics/rcp.png" width="300px">
 
 
-<a id="orgedb02f3"></a>
+<a id="org9599cda"></a>
 
 ### DONE `DO`
 
@@ -200,7 +198,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: For explanation on past and future (based on in house statistical models) **Disaster Occurrences** (DO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="orgf896186"></a>
+<a id="orge9a8085"></a>
 
 ### DONE `Human_Impact`
 
@@ -209,7 +207,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: For explanation on past and future (based on in house statistical models) Human Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org1878547"></a>
+<a id="orged8898e"></a>
 
 ### DONE `Financial_Impact`
 
@@ -218,7 +216,7 @@ Todo : upload a screenshot of the delivered dashboard
 -   Notes: For explanation on past and future (based on in house statistical models) Financial Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="orgbee5fd9"></a>
+<a id="org252eeea"></a>
 
 ### DONE `°C`
 
@@ -226,19 +224,19 @@ Todo : upload a screenshot of the delivered dashboard
 -   Values: Temperatures
 
 
-<a id="org3f88df9"></a>
+<a id="org5178666"></a>
 
 ### DONE `Geo`
 
 -   Source: In-house (generated by [this script](https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb))
 
 
-<a id="orgf9f318b"></a>
+<a id="org2a46ff4"></a>
 
 # BACKLOG <code>[1/2]</code> Prototyping
 
 
-<a id="org8be01fe"></a>
+<a id="org69a9319"></a>
 
 ## DONE Features
 
@@ -338,34 +336,34 @@ Todo : upload a screenshot of the delivered dashboard
 </table>
 
 
-<a id="org999ee29"></a>
+<a id="orgbf9256e"></a>
 
 ## BACKLOG <code>[1/3]</code> Wireframe
 
 
-<a id="orgeaee468"></a>
+<a id="org676c3df"></a>
 
 ### DONE World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="org6173501"></a>
+<a id="org26a9d0c"></a>
 
 ### BACKLOG Sub region pop-up
 
 
-<a id="orgaf7ec06"></a>
+<a id="org6e22954"></a>
 
 ### BACKLOG World figures
 
 
-<a id="orgb23f1d6"></a>
+<a id="org22b3cf9"></a>
 
 # STARTED <code>[1/3]</code> Development
 
 
-<a id="orgfb44b81"></a>
+<a id="orgc17e503"></a>
 
 ## DONE Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -437,19 +435,41 @@ According to following benchmarck the team decided to develop the PoC with ****D
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="orgf5c0099"></a>
+<a id="orgefc0482"></a>
+
+## BACKLOG Architecture
+
+Todo : describe files
+
+
+<a id="org57c0d81"></a>
+
+### `app.py`
+
+
+<a id="orgb3f8f6d"></a>
+
+### `assets/style.css`
+
+
+<a id="orgd8a7ab7"></a>
+
+### `assets/WB_logo.jpg`
+
+
+<a id="orgd420115"></a>
 
 ## STARTED <code>[2/3]</code> Visual identity guidelines
 
 We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="org916daf1"></a>
+<a id="org4ef5d5d"></a>
 
 ### DONE Colors
 
 
-<a id="orgafcf747"></a>
+<a id="org4e3fa80"></a>
 
 #### Primary colors
 
@@ -497,7 +517,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="orgc5441f3"></a>
+<a id="orga202f7b"></a>
 
 #### Secondary colors
 
@@ -605,77 +625,36 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org5dfbd63"></a>
+<a id="org1b1196a"></a>
 
 ### DONE Fonts
 
 
-<a id="orge03d6aa"></a>
+<a id="orgc7c028f"></a>
 
 #### Primary fonts
 
 <img src="./Pics/primaryfonts.png" width="400px">
 
 
-<a id="orge37a320"></a>
+<a id="org5601dbc"></a>
 
 #### Secondary fonts
 
 <img src="./Pics/secondaryfonts.png" width="400px">
 
 
-<a id="orgeb19ee9"></a>
+<a id="orgaa61c76"></a>
 
 ### BACKLOG Logo
 
 
-<a id="org5fdf597"></a>
-
-## BACKLOG Architecture
-
-Todo : describe files
-
-
-<a id="org53f1a9f"></a>
-
-### `app.py`
-
-
-<a id="org1a9a094"></a>
-
-### `assets/style.css`
-
-
-<a id="org7c4ea47"></a>
-
-### `assets/WB_logo.jpg`
-
-
-<a id="orgc01376c"></a>
-
-# STARTED <code>[1/3]</code> Project Management
-
-
-<a id="org013e366"></a>
-
-## BACKLOG Methodology
-
-
-<a id="orgef2471a"></a>
-
-## BACKLOG tools
-
--   Notion
--   Slack
--   Zoom
-
-
-<a id="orgb3781de"></a>
+<a id="orgd0fddf5"></a>
 
 ## DONE How to contribute
 
 
-<a id="org44a7c20"></a>
+<a id="org765c0aa"></a>
 
 ### Setting up a new Git repository
 
@@ -686,7 +665,7 @@ Todo : describe files
 -   Ask to join our GitHub
 
 
-<a id="org89d68e3"></a>
+<a id="org8d6dfe6"></a>
 
 ### Adding or modifying owned files (`push`)
 
@@ -699,7 +678,7 @@ When adding a new file or modifying a file that you own, do:
 Where `filename` is the name of the file
 
 
-<a id="orgbee99bb"></a>
+<a id="org339be8c"></a>
 
 ### Submit proposed changes to review
 
@@ -749,7 +728,7 @@ To submit changes reviewees have to do:
 Where `revieweename` and `reviewername` are the GitHub names of the reviewee and the reviewer/owner.
 
 
-<a id="org7fd8d86"></a>
+<a id="org89451f0"></a>
 
 ### Adding reviewed files (`merge`)
 
@@ -758,6 +737,76 @@ Where `revieweename` and `reviewername` are the GitHub names of the reviewee and
     $ hub merge PRurl 
 
 Where `PRurl` is the url of the pull request.
+
+
+<a id="org3366d3a"></a>
+
+# DONE Tools that we used
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Function</th>
+<th scope="col" class="org-left">Tools</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Wireframing</td>
+<td class="org-left">Krita, Figma</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Documentation</td>
+<td class="org-left">Org-mode, Github, Notion</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Code storage/versioning</td>
+<td class="org-left">Git, GitHub</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Chat</td>
+<td class="org-left">Slack</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Meetings</td>
+<td class="org-left">Zoom</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Code editing</td>
+<td class="org-left">Pycharm, Jupyter</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Coding languages</td>
+<td class="org-left">Python, CSS</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Python librairies</td>
+<td class="org-left">dash, dash-daq pandas, gunicorn</td>
+</tr>
+</tbody>
+</table>
 
 
 # Footnotes
