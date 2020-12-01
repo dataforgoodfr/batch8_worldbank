@@ -32,7 +32,7 @@ rx5dayreturnlevel25"Expected 5-day Cumulative Rainfall Maximum in 25 Years (25-y
 rxmonthreturnlevel10" "Maximum Monthly Rainfall (10-yr RL)" varunit="mm">Expected Largest Monthly Rainfall Amount in 10 Years (10-yr Return Level)</option>
 rxmonthreturnlevel25" class="mapRadioAR5" isannual="Yes" value="rxmonthreturnlevel25" variableid="37" optionname="Maximum Monthly Rainfall (25-yr RL)" varunit
 """
-metrics = ['mavg', 'r20mm', 'r50mm', 'r95ptot', 'rx1day', 'rx5day', 'rx1dayreturnlevel10', 'rx5dayreturnlevel10', 'rx1dayreturnlevel25', 'rx5dayreturnlevel25', 'rxmonthreturnlevel10', 'rxmonthreturnlevel25']
+all_metrics = ['mavg', 'r20mm', 'r50mm', 'r95ptot', 'rx1day', 'rx5day', 'rx1dayreturnlevel10', 'rx5dayreturnlevel10', 'rx1dayreturnlevel25', 'rx5dayreturnlevel25', 'rxmonthreturnlevel10', 'rxmonthreturnlevel25']
 
 past_time_series = ["1901-2016"]
 futu_time_series = ["2020_2039", "2040_2059", "2060_2079", "2080_2099"]
@@ -42,10 +42,10 @@ futu_time_series = ["2020_2039", "2040_2059", "2060_2079", "2080_2099"]
 debug = False
 
 if debug :
-    countries_code = ['FRA', 'TUV']
-    countries_name = ['France', 'Tuvalu']
+    countries_code = ['FRA', 'TUV', 'AFG']
+    countries_name = ['France', 'Tuvalu', 'Afganisthan']
     futu_time_series = ["2020_2039", "2060_2079"]
-    metrics = ['mavg', 'r20mm']
+    all_metrics = ['mavg', 'r20mm', 'rx5dayreturnlevel10']
     rcp_projection = ['rcp26', 'rcp85']
 else:
     # Read countries list
@@ -128,7 +128,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
         for nature in nature_of_data:
             time_series=past_time_series if nature == 'historical' else futu_time_series
             #data_type = '' if nature == 'historical' else  '/mavg'
-            metrics = ['mavg'] if nature == 'historical' else metrics
+            metrics = ['mavg'] if nature == 'historical' else all_metrics
             rcp = [''] if nature == 'historical' else rcp_projection
             for period in time_series:
                 for metric in metrics:
@@ -164,6 +164,7 @@ logger.info(f'Done after {nb_iter} iterations.')
 #https://climateknowledgeportal.worldbank.org/api/data/get-download-data/historical/pr/1931-1960/AND/Andorra (OK)
 # Future
 # PRCP
+# https://climateknowledgeportal.worldbank.org/api/data/get-download-data/projection/manom/r50mm/rcp45/2040_2059/SSD/South%20Sudan
 # https://climateknowledgeportal.worldbank.org/api/data/get-download-data/projection/mavg/pr/rcp26/2020_2039/ALB/Albania  (OK)
 # https://climateknowledgeportal.worldbank.org/api/data/get-download-data/projection/mavg/pr/rcp85/2060_2079/BDI/Burundi  (OK)
 # 
