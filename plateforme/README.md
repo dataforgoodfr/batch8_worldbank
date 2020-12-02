@@ -1,1 +1,0 @@
-# Design de la plateforme

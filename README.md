@@ -1,3 +1,6 @@
 # batch8_worldbank
 
-For the 8th batch of Data For Good France we are working with the World Bank to predict cost of future disaster due to global warming.
+The goal of this projet is to 
+
+-   predict future disasters ([droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)) and their impact,
+-   represent these predictions on a [dashboard](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/Dashboard).
