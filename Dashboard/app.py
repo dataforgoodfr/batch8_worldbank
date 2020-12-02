@@ -66,6 +66,7 @@ def choropleth_map(df, impact, colorimpact):
             opacity=0.8,
             zoom=1,
             hover_name=df['UN_Geosheme_Subregion'].tolist(),
+            labels={"color": "damages"}
         )
     )
 
