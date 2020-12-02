@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Data for Good #8 World Bank Dashboard</title>
+<meta name="author" content="(Morgan Davidson)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
+
+<link rel="stylesheet" href="./local.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="Org-Reveal Introduction.">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Data for Good #8 World Bank Dashboard</h1><h2 class="author">Morgan Davidson</h2><p class="date">Created: 2020-12-02 mer. 19:46</p>
+</section>
+
+<section>
+<section id="slide-org7fa2550">
+<h2 id="org7fa2550"><span class="section-number-2">1</span> Agenda</h2>
+<ol>
+<li>Agenda</li>
+<li>UI design &amp; wireframing</li>
+<li>Definition and preparation of data input</li>
+<li>Geodata generation</li>
+<li>Implementing functionalities with Dash</li>
+<li>Implementing design with Dash &amp; CSS</li>
+<li>Data service management</li>
+<li>Project documentation</li>
+<li>Demo</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-org13164b7">
+<h2 id="org13164b7"><span class="section-number-2">2</span> UI design &amp; wireframing</h2>
+<p>
+We have divided dashboard design into 4 components :
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">#</th>
+<th scope="col" class="org-left">Component</th>
+<th scope="col" class="org-left">Location</th>
+<th scope="col" class="org-left">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">World Map</td>
+<td class="org-left">Landing page</td>
+<td class="org-left">Done</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">World figures</td>
+<td class="org-left">Botton left of 1</td>
+<td class="org-left">In progress</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">World figures focus</td>
+<td class="org-left">Clic on a 1 Region</td>
+<td class="org-left">In progress</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">Regional focus</td>
+<td class="org-left">clic on 2</td>
+<td class="org-left">In progress</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="slide-org4cc08cd">
+<h3 id="org4cc08cd"><span class="section-number-3">2.1</span> World Map</h3>
+
+<div class="figure">
+<p><img src="./Pics/worldmapwireframe.png" alt="worldmapwireframe.png" width="1200px" />
+</p>
+</div>
+</section>
+<section id="slide-org8fc65cd">
+<h3 id="org8fc65cd"><span class="section-number-3">2.2</span> World Figures</h3>
+
+<div class="figure">
+<p><img src="./Pics/WF.png" alt="WF.png" width="1200px" />
+</p>
+</div>
+</section>
+<section id="slide-orgccf6e4f">
+<h3 id="orgccf6e4f"><span class="section-number-3">2.3</span> World Figures focus</h3>
+
+<div class="figure">
+<p><img src="./Pics/FocusonWF.png" alt="FocusonWF.png" width="1200px" />
+</p>
+</div>
+</section>
+<section id="slide-orgd3c14d0">
+<h3 id="orgd3c14d0"><span class="section-number-3">2.4</span> Regional focus</h3>
+
+<div class="figure">
+<p><img src="./Pics/FocusonR.png" alt="FocusonR.png" width="1200px" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgf37a1ad">
+<h2 id="orgf37a1ad"><span class="section-number-2">3</span> Definition and preparation of data input</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+</section>
+<section id="slide-org6308310">
+<h3 id="org6308310"><span class="section-number-3">3.1</span> What our current data set looks like</h3>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">#</th>
+<th scope="col" class="org-right"><code>Decade</code></th>
+<th scope="col" class="org-left"><code>UN_Geosheme_Subregion</code></th>
+<th scope="col" class="org-left"><code>DT</code></th>
+<th scope="col" class="org-left"><code>RCP</code></th>
+<th scope="col" class="org-right"><code>FI</code></th>
+<th scope="col" class="org-right"><code>HI</code></th>
+<th scope="col" class="org-right"><code>DO</code></th>
+<th scope="col" class="org-right"><code>°C</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1900</td>
+<td class="org-left">Australia and New Zealand</td>
+<td class="org-left">Droughts</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">97929068</td>
+<td class="org-right">538777</td>
+<td class="org-right">27</td>
+<td class="org-right">21</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-right">1900</td>
+<td class="org-left">Australia and New Zealand</td>
+<td class="org-left">Floods</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">45575723</td>
+<td class="org-right">86978</td>
+<td class="org-right">84</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-right">1900</td>
+<td class="org-left">Australia and New Zealand</td>
+<td class="org-left">Storms</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">15848786</td>
+<td class="org-right">683556</td>
+<td class="org-right">5</td>
+<td class="org-right">-53</td>
+</tr>
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+<td class="org-left">&#x2026;</td>
+<td class="org-right">&#x2026;</td>
+<td class="org-right">&#x2026;</td>
+<td class="org-right">&#x2026;</td>
+<td class="org-right">&#x2026;</td>
+</tr>
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">2705</td>
+<td class="org-right">2090</td>
+<td class="org-left">Western Europe</td>
+<td class="org-left">Storms</td>
+<td class="org-left">4.5</td>
+<td class="org-right">14359989</td>
+<td class="org-right">805245</td>
+<td class="org-right">40</td>
+<td class="org-right">24</td>
+</tr>
+
+<tr>
+<td class="org-right">2706</td>
+<td class="org-right">2090</td>
+<td class="org-left">Western Europe</td>
+<td class="org-left">Storms</td>
+<td class="org-left">6.0</td>
+<td class="org-right">43512633</td>
+<td class="org-right">236083</td>
+<td class="org-right">94</td>
+<td class="org-right">-59</td>
+</tr>
+
+<tr>
+<td class="org-right">2707</td>
+<td class="org-right">2090</td>
+<td class="org-left">Western Europe</td>
+<td class="org-left">Storms</td>
+<td class="org-left">8.5</td>
+<td class="org-right">26957660</td>
+<td class="org-right">449505</td>
+<td class="org-right">36</td>
+<td class="org-right">-8</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="slide-org4ed196f">
+<h3 id="org4ed196f"><span class="section-number-3">3.2</span> Variables data type and description</h3>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Variable name</th>
+<th scope="col" class="org-left">Data type</th>
+<th scope="col" class="org-left">Description/Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><code>Decade</code></td>
+<td class="org-left">int64</td>
+<td class="org-left">1900, 1910, &#x2026;, 2080, 2090</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>UN_Geosheme_Subregion</code></td>
+<td class="org-left">str</td>
+<td class="org-left">'Australia and New Zealand', 'Caribbean', etc.</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>Disaster_Type</code></td>
+<td class="org-left">str</td>
+<td class="org-left">Either 'Floods', 'Droughts' or 'Storms'</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>RCP</code></td>
+<td class="org-left">float64</td>
+<td class="org-left">NaN for the past, either 2.6, 4.5, 6.0 or 8.5 for the future</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>DO</code></td>
+<td class="org-left">int64</td>
+<td class="org-left">Provides the number of disasters<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>Human_Impact</code></td>
+<td class="org-left">int64</td>
+<td class="org-left">Provides the number of impacted people<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>Financial_Impact</code></td>
+<td class="org-left">int64</td>
+<td class="org-left">Provides the financial impact<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>°C</code></td>
+<td class="org-left">int64</td>
+<td class="org-left">Provides the temperature in Celsius degrees<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></td>
+</tr>
+
+<tr>
+<td class="org-left"><code>Geo</code></td>
+<td class="org-left">GeoPandas</td>
+<td class="org-left">Geospatial data delimitating geoscheme sub regions on the map</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="slide-org5ddc97c">
+<h3 id="org5ddc97c"><span class="section-number-3">3.3</span> What we currently need from you</h3>
+<ul>
+<li>Our current data input has been randomly generated the following script:
+<a href="https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/DataGeneration.ipynb">https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/DataGeneration.ipynb</a></li>
+<li>We do now need the actual data to work more efficiently on the graph that will include in the dashboard.</li>
+<li>Got receive Floods hictoric data from Benoît</li>
+<li>We hope we can quicly have Tempest and Droughts historic data plus RCP temperatures</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgb30c461">
+<h2 id="orgb30c461"><span class="section-number-2">4</span> Geodata generation</h2>
+<p>
+<b>NICOLAS</b> will talk about 
+</p>
+<ul>
+<li>his work on geodata and</li>
+<li>how he agregated countries into regions, so <b>you</b> can <b>do the same</b> to generate the input we need</li>
+<li>Link to Nicola's script:
+<a href="https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb">https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orga13cc0c">
+<h2 id="orga13cc0c"><span class="section-number-2">5</span> Implementing functionalities with Dash</h2>
+<p>
+<b>MAHDI</b> will talk about what we've done on implementing dashboard functionalities. 
+<a href="https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/app.py">https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/app.py</a>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org4e2bab6">
+<h2 id="org4e2bab6"><span class="section-number-2">6</span> Implementing design with Dash &amp; CSS</h2>
+<p>
+<b>MARC</b> will talk about what we've done on dashboard design implementation 
+<a href="https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/assets/style.css">https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/assets/style.css</a>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgb4044bd">
+<h2 id="orgb4044bd"><span class="section-number-2">7</span> Data service management</h2>
+<p>
+<b>MAHDI</b> will share his work on <code>heroku</code>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgb5deca1">
+<h2 id="orgb5deca1"><span class="section-number-2">8</span> Project documentation</h2>
+<p>
+Everthing we documented is here (documentation is still on going):
+<a href="https://github.com/dataforgoodfr/batch8_worldbank/tree/master/Dashboard">https://github.com/dataforgoodfr/batch8_worldbank/tree/master/Dashboard</a>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org20e9bc4">
+<h2 id="org20e9bc4"><span class="section-number-2">9</span> Demo</h2>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+width:1800, height:1000, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'cube',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
