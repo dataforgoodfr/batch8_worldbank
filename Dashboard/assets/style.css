@@ -823,7 +823,7 @@ hr {
 @media (min-width: 1251px) {
     /*For desktop*/
     #right-column {
-        margin-right: 1.5%;
+        margin-right: 0%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;

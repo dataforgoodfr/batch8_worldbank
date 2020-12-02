@@ -32,6 +32,8 @@ YEARS = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990,
          2000, 2010, 2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090]
 
 DisasterTypes = df_input['Disaster_Type'].unique()
+df_map_data["RCP"].fillna(value=0,inplace=True)
+Degree = df_input['RCP'].unique()
 DEFAULT_OPACITY = 0.8
 
 # Mapbox parameters
@@ -54,18 +56,19 @@ def Title_App():
     )
 
 
-def choropleth_map(df, impact, colorimpact):
+def choropleth_map(df, impact, colordisaster):
     return go.Figure(
         px.choropleth_mapbox(
             geojson=regions_data,
             locations=df['UN_Geosheme_Subregion'].tolist(),
             featureidkey="properties.subregion",
             color=df[str(impact)].tolist(),
-            color_continuous_scale=colorimpact,
+            color_continuous_scale=colordisaster,
             mapbox_style=mapbox_style,
             opacity=0.8,
             zoom=1,
             hover_name=df['UN_Geosheme_Subregion'].tolist(),
+            labels={"color": "damages"}
         )
     )
 
@@ -99,27 +102,29 @@ def climate_scenario():
         children=[
             html.H5(dcc.Markdown("**Scenario Selector**")),
             html.Br(),
-            daq.Thermometer(
-                id='my-daq-thermometer',
-                min=0,
-                max=8.5,
-                scale={
-                    'start': 0,
-                    'interval': 8.5,
-                    'labelInterval': 2,
-                    'custom': {2: 2.6,
-                               4: 4.5,
-                               6: 6.0}
-                },
-                units="°C",
-                value=0
-            )
-        ]
-    )
+            dcc.Slider(
+                        id="scenario-slider",
+                        min=0,
+                        max=10,
+                        value=0,
+                        step=None,
+                       # marks={2.6: "2.6°C", 4.5: "4.5°C", 6.0: "6.0°C",8.5:"8.5°C"},
+                        marks={
+                                0: {'label': '0', 'style': {'color': '#77b0b1'}},
+                                2.6: {'label': '2.6', 'style': {'color': '#77b0b1'}},
+                                4.5: {'label': '4.5'},
+                                6: {'label': '6.0'},
+                                8.5: {'label': '8.5', 'style': {'color': '#f50'}}
+                        },
+                        disabled=False                        
+
+                       )
+        ]               
+)
 
 
-def display_map(df, impact, colorimpact):
-    fig = choropleth_map(df, impact, colorimpact)
+def display_map(df, impact, colordisaster):
+    fig = choropleth_map(df, impact, colordisaster)
 
     # Specify layout information
     fig.update_layout(
@@ -243,7 +248,7 @@ app.layout = html.Div(
                                         df_map_data[(df_map_data['Decade'] >= 1900)
                                                     & (df_map_data['Decade'] <= 1920)
                                                     & (df_map_data['Disaster_Type'] == 'Droughts')
-                                                    & (df_map_data['RCP'] == 0)],
+                                                    & (df_map_data['RCP'] == 2.6)],
                                         'Human_Impact', 'reds')
                                 ),
                             ],
@@ -269,23 +274,47 @@ def update_map_title(year):
     # Input("temp-slider","value"),
     # for callback : & (df_map_data['RCP'] == temp
     # def update_map(year,DisasterType,temp,ImpactType):
-    Input("Impact-Selector", "value"))
-def update_map(year, DisasterType, ImpactType):
+    Input("Impact-Selector", "value"),
+    Input("scenario-slider","value")
+    )
+def update_map(year, DisasterType, ImpactType,RcpType):
     df_decade_disaster_temp = (df_map_data[
         ((df_map_data['Decade'] >= year[0]) & (df_map_data['Decade'] <= year[1]) & (
-                df_map_data['Disaster_Type'] == DisasterType))]
+                df_map_data['Disaster_Type'] == DisasterType)& (df_map_data['RCP']== RcpType))]
     )
+
+    if DisasterType == "Droughts":
+        color= "YlOrRd"
+        DisasterType ='Droughts'
+       
+    elif DisasterType == "Storms":
+        color = "RdPu"
+        DisasterType = 'Storms'
+       
+    elif DisasterType == "Floods":
+        color = "Blues"
+        DisasterType = 'Floods'
+
+
+
     if not ImpactType:
-        color = "reds"
+        #color = "reds"
         impact_type = 'Human_Impact'
     else:
-        color = "purples"
+        #color = "purples"
         impact_type = 'Financial_Impact'
     df_decade_disaster_temp = (df_decade_disaster_temp
                                .groupby(['UN_Geosheme_Subregion'])[impact_type]
                                .sum()
                                .reset_index())
+    
     return display_map(df_decade_disaster_temp, impact_type, color)
+
+
+def hide_slider(year):
+    if year[0] >= 2020:
+
+        return "Choropleth map of disaster damages from {0} to {1}".format(year[0], year[1])
 
 
 if __name__ == '__main__':
