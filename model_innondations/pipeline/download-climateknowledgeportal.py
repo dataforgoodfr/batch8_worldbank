@@ -38,8 +38,8 @@ past_time_series = ["1901-2016"]
 futu_time_series = ["2020_2039", "2040_2059", "2060_2079", "2080_2099"]
 
 
-#debug = True
-debug = False
+debug = True
+#debug = False
 
 if debug :
     countries_code = ['FRA', 'TUV', 'AFG']
@@ -52,6 +52,8 @@ else:
     df = pd.read_csv('../../datasets/worldbank_countries.csv')
     countries_code = df.code.to_list()
     countries_name = df.name.to_list()
+
+
 
 logger = logging.getLogger("download")
 formatter = logging.Formatter("%(asctime)s -  %(name)-12s %(levelname)-8s %(message)s")
@@ -87,7 +89,7 @@ https://climateknowledgeportal.worldbank.org/api/data/get-download-data
 '''
 
 
-def get_url(url, destination):
+def get_url(url, destination, country_code):
     if Path(destination).is_file():
         logger.info(f'{destination} already exist ! No download.')
         return False
@@ -103,6 +105,9 @@ def get_url(url, destination):
             logger.error(f'ERROR HTTP content too small : {content} for {url}')
             return False
         
+        if country_code == 'PRK':
+            to_replace = bytes('Korea, Democratic People’s Republic of', 'utf-8') #
+            content = content.replace(to_replace, b'Korea')
         with open(destination, 'wb') as f:
             f.write(content)
         return True
@@ -147,7 +152,6 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
                         destination = os.path.join(PATH, filename)
                         #tasks.append(asyncloop.create_task(get_url(url, destination)))
                         futures.append(executor.submit(get_url, url=url, destination=destination, country_code=country_code))
-
     for future in concurrent.futures.as_completed(futures):
         #print(future.result())
         logger.debug(f'Done {future.result()}')
