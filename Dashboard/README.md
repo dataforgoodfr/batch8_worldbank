@@ -1,58 +1,58 @@
 
 # Table of Contents
 
-1.  [Prototyping](#org55194f1)
-    1.  [Features](#orgc9a58e0)
-    2.  [Wireframe](#org7ed8cd2)
-        1.  [World map](#orgcbb482c)
-        2.  [Sub region pop-up](#orgffb6dd9)
-        3.  [World figures](#orgb158d9d)
-2.  [Development](#org1f4595c)
-    1.  [Why did we pick Dash?](#org512b17b)
-    2.  [Architecture](#orgdd771d9)
-        1.  [Structure of `app.py`](#org7d6c91d)
-            -   [Globals](#org682f714)
-            -   [Layout](#orgbf44b7b)
-            -   [Callbacks](#org66d8d1e)
-        2.  [Required files in `assets` folder](#org8a83b10)
-    3.  [Visual identity guidelines](#org2e71d0d)
-        1.  [Colors](#org147604b)
-            -   [Primary colors](#org857be37)
-            -   [Secondary colors](#orgc396888)
-        2.  [Fonts](#org1c0cfc9)
-            -   [Primary fonts](#orge0edd8f)
-            -   [Secondary fonts](#orgc4ba64f)
-        3.  [Logo](#orgb58720b)
-            -   [Symbol](#orga0ceb8b)
-            -   [Logotype](#org983abd5)
-    4.  [How to contribute](#orgaeb84f7)
-        1.  [Setting up a new Git repository](#org0376a2d)
-        2.  [Adding or modifying owned files (`push`)](#org3dc95e7)
-        3.  [Submit proposed changes to review](#org169c399)
-        4.  [Adding reviewed files (`merge`)](#orgf5c4547)
-3.  [Dataset](#org4981acc)
-    1.  [Variables](#orgda1ee8d)
-    2.  [Data sources](#org96820f0)
-        1.  [`Decade`](#org69c49d8)
-        2.  [`UN_Geosheme_Subregion`](#org248d2ef)
-        3.  [`Disaster_Type`](#org3806f1d)
-        4.  [`RCP`](#org2f23f1f)
-        5.  [`DO`](#orgcf0a22e)
-        6.  [`Human_Impact`](#org65c5d19)
-        7.  [`Financial_Impact`](#org37a73aa)
-        8.  [`°C`](#org7c0c205)
-        9.  [`Geo`](#org6026c75)
-4.  [Tools that we used](#org1664126)
+1.  [Prototyping](#orgf5f7097)
+    1.  [Features](#orga7f5d7f)
+    2.  [Wireframe](#org1cbfc3a)
+        1.  [World map](#org91525d6)
+        2.  [Regional focus](#orgbcc3a30)
+        3.  [World figures](#orgdd37e8a)
+2.  [Dataset](#org669f6ac)
+    1.  [Variables](#org3a20e47)
+    2.  [Data sources](#org52bfe91)
+        1.  [`Decade`](#org6bc6b86)
+        2.  [`UN_Geosheme_Subregion`](#orgfbaad0d)
+        3.  [`Disaster_Type`](#orgb20ca8d)
+        4.  [`RCP`](#org132a9f7)
+        5.  [`DO`](#org2313b3b)
+        6.  [`Human_Impact`](#org82761d9)
+        7.  [`Financial_Impact`](#org9a0ac02)
+        8.  [`°C`](#org1b38515)
+        9.  [`Geo`](#orgf759fa2)
+3.  [Development](#org9de4e2f)
+    1.  [Why did we pick Dash?](#org0e0bd66)
+    2.  [Architecture](#orga84e84e)
+        1.  [Structure of `app.py`](#org97ade31)
+            -   [Globals](#org1fbe834)
+            -   [Layout](#orgca0988f)
+            -   [Callbacks](#orged0c1ea)
+        2.  [Required files in `assets` folder](#org8e5cc9f)
+    3.  [Visual identity guidelines](#org985121d)
+        1.  [Colors](#org9addadd)
+            -   [Primary colors](#org650c23b)
+            -   [Secondary colors](#org606ff95)
+        2.  [Fonts](#org2197ad3)
+            -   [Primary fonts](#org4dac9cb)
+            -   [Secondary fonts](#org1f4869a)
+        3.  [Logo](#orgd628bc3)
+            -   [Symbol](#org8220c46)
+            -   [Logotype](#org673de88)
+    4.  [How to contribute](#org1f0910e)
+        1.  [Setting up a new Git repository](#orgf991d0d)
+        2.  [Adding or modifying owned files (`push`)](#org4b59ee9)
+        3.  [Submit proposed changes to review](#org7e01743)
+        4.  [Adding reviewed files (`merge`)](#org73e60ef)
+4.  [Tools that we used](#org322a9c3)
 
 ![img](./Pics/screenshot.png "Screenshot of the dashboard as of Dec. 12 2020")
 
 
-<a id="org55194f1"></a>
+<a id="orgf5f7097"></a>
 
 # Prototyping
 
 
-<a id="orgc9a58e0"></a>
+<a id="orga7f5d7f"></a>
 
 ## Features
 
@@ -152,34 +152,222 @@
 </table>
 
 
-<a id="org7ed8cd2"></a>
+<a id="org1cbfc3a"></a>
 
 ## Wireframe
 
 
-<a id="orgcbb482c"></a>
+<a id="org91525d6"></a>
 
 ### World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="orgffb6dd9"></a>
+<a id="orgbcc3a30"></a>
 
-### Sub region pop-up
+### Regional focus
 
 
-<a id="orgb158d9d"></a>
+<a id="orgdd37e8a"></a>
 
 ### World figures
 
 
-<a id="org1f4595c"></a>
+<a id="org669f6ac"></a>
+
+# Dataset
+
+
+<a id="org3a20e47"></a>
+
+## Variables
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Variable name</th>
+<th scope="col" class="org-left">Data type</th>
+<th scope="col" class="org-left">Description/Example</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">`Decade`</td>
+<td class="org-left">int64</td>
+<td class="org-left">1900, 1910, &#x2026;, 2080, 2090</td>
+</tr>
+
+
+<tr>
+<td class="org-left">`UN_Geosheme_Subregion`</td>
+<td class="org-left">str</td>
+<td class="org-left">'Australia and New Zealand', 'Caribbean', etc.</td>
+</tr>
+
+
+<tr>
+<td class="org-left">`Disaster_Type`</td>
+<td class="org-left">str</td>
+<td class="org-left">Either 'Floods', 'Droughts' or 'Storms'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">`RCP`</td>
+<td class="org-left">float64</td>
+<td class="org-left">NaN for the past, either 2.6, 4.5, 6.0 or 8.5 for the future</td>
+</tr>
+
+
+<tr>
+<td class="org-left">`DO`</td>
+<td class="org-left">int64</td>
+<td class="org-left">Provides the number of disasters<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.</td>
+</tr>
+
+
+<tr>
+<td class="org-left">`Human_Impact`</td>
+<td class="org-left">int64</td>
+<td class="org-left">Provides the number of impacted people<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
+</tr>
+
+
+<tr>
+<td class="org-left">`Financial_Impact`</td>
+<td class="org-left">int64</td>
+<td class="org-left">Provides the financial impact<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
+</tr>
+
+
+<tr>
+<td class="org-left">`°C`</td>
+<td class="org-left">int64</td>
+<td class="org-left">Provides the temperature in Celsius degrees<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></td>
+</tr>
+
+
+<tr>
+<td class="org-left">`Geo`</td>
+<td class="org-left">GeoPandas</td>
+<td class="org-left">Geospatial data delimitating geoscheme sub regions on the map</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="org52bfe91"></a>
+
+## Data sources
+
+
+<a id="org6bc6b86"></a>
+
+### `Decade`
+
+-   Source: in-house
+-   Values: 
+    
+        Decade = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090]
+-   Notes: each value represents a decade. For example, `2020` starts with the year 2020 and ends with the year 2029.
+
+
+<a id="orgfbaad0d"></a>
+
+### `UN_Geosheme_Subregion`
+
+-   Source: [UN Geographic Intermediary Regions](https://unstats.un.org/unsd/methodology/m49/) used by the UN Statistics Division in its publications and databases.
+-   Values:
+    
+        UN_Geosheme_Subregion = ['Australia and New Zealand','Caribbean','Central America','Central Asia','Eastern Africa','Eastern Asia','Eastern Europe','Melanesia','Micronesia','Middle Africa','Northern Africa','Northern America','Northern Europe','Polynesia','South America','South-Eastern Asia','Southern Africa','Southern Asia','Southern Europe','Western Africa','Western Asia','Western Europe']
+-   Notes: This classification is also referred as [United Nations geoscheme](https://en.wikipedia.org/wiki/United_Nations_geoscheme) and [UN M49](https://en.wikipedia.org/wiki/UN_M49).
+
+
+<a id="orgb20ca8d"></a>
+
+### `Disaster_Type`
+
+-   Source: in-house
+-   Values:
+
+    Disaster_Type = ['Droughts', 'Floods', 'Storms']
+
+-   Notes: These disasters will be respectively described in the following pages : [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)
+
+
+<a id="org132a9f7"></a>
+
+### `RCP`
+
+-   Source: [IPCC](https://www.iiasa.ac.at/web-apps/tnt/RcpDb/dsd?Action=htmlpage&page=welcome)
+-   Values:
+
+    RCP = [2.6, 4.5, 6.0, 8.5]
+
+-   Notes: Representative Concentration Pathways (RCP) are greenhouse gas concentration (not emissions) trajectories adopted by the IPCC. Four pathways were used for climate modeling and research for the IPCC fifth Assessment Report (AR5) in 2014. The pathways describe different climate futures, all of which are considered possible depending on the volume of greenhouse gases (GHG) emitted in the years to come. The RCPs are labelled after a possible range of radiative forcing values in the year 2100.
+    
+    <img src="./Pics/rcp.png" width="300px">
+
+
+<a id="org2313b3b"></a>
+
+### `DO`
+
+-   Source: In-house (for prediction)
+-   Values: Natural number (non-negative integers)
+-   Notes: For explanation on past and future (based on in house statistical models) **Disaster Occurrences** (DO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
+
+
+<a id="org82761d9"></a>
+
+### `Human_Impact`
+
+-   Source: In-house (for prediction)
+-   Values: Natural number (non-negative integers)
+-   Notes: For explanation on past and future (based on in house statistical models) Human Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
+
+
+<a id="org9a0ac02"></a>
+
+### `Financial_Impact`
+
+-   Source: In-house (for prediction)
+-   Values: Natural number (non-negative integers)
+-   Notes: For explanation on past and future (based on in house statistical models) Financial Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
+
+
+<a id="org1b38515"></a>
+
+### `°C`
+
+-   Source: [World Bank](https://climateknowledgeportal.worldbank.org/download-data)
+-   Values: Temperatures
+
+
+<a id="orgf759fa2"></a>
+
+### `Geo`
+
+-   Source: In-house (generated by [this script](https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb))
+
+
+<a id="org9de4e2f"></a>
 
 # Development
 
 
-<a id="org512b17b"></a>
+<a id="org0e0bd66"></a>
 
 ## Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -251,17 +439,17 @@ According to following benchmarck the team decided to develop the PoC with ****D
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="orgdd771d9"></a>
+<a id="orga84e84e"></a>
 
 ## Architecture
 
 
-<a id="org7d6c91d"></a>
+<a id="org97ade31"></a>
 
 ### Structure of `app.py`
 
 
-<a id="org682f714"></a>
+<a id="org1fbe834"></a>
 
 #### Globals
 
@@ -440,7 +628,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
         )
 
 
-<a id="orgbf44b7b"></a>
+<a id="orgca0988f"></a>
 
 #### Layout
 
@@ -546,7 +734,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
     )
 
 
-<a id="org66d8d1e"></a>
+<a id="orged0c1ea"></a>
 
 #### Callbacks
 
@@ -615,27 +803,27 @@ According to following benchmarck the team decided to develop the PoC with ****D
         app.run_server(debug=True, host="127.0.0.1", port=8050)
 
 
-<a id="org8a83b10"></a>
+<a id="org8e5cc9f"></a>
 
 ### Required files in `assets` folder
 
--   style.css
--   WorldBank<sub>Logo</sub>@2x.png
+-   `style.css`
+-   `WorldBank_Logo@2x.png`
 
 
-<a id="org2e71d0d"></a>
+<a id="org985121d"></a>
 
 ## Visual identity guidelines
 
 We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="org147604b"></a>
+<a id="org9addadd"></a>
 
 ### Colors
 
 
-<a id="org857be37"></a>
+<a id="org650c23b"></a>
 
 #### Primary colors
 
@@ -683,7 +871,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="orgc396888"></a>
+<a id="org606ff95"></a>
 
 #### Secondary colors
 
@@ -791,50 +979,50 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org1c0cfc9"></a>
+<a id="org2197ad3"></a>
 
 ### Fonts
 
 
-<a id="orge0edd8f"></a>
+<a id="org4dac9cb"></a>
 
 #### Primary fonts
 
 <img src="./Pics/primaryfonts.png" width="400px">
 
 
-<a id="orgc4ba64f"></a>
+<a id="org1f4869a"></a>
 
 #### Secondary fonts
 
 <img src="./Pics/secondaryfonts.png" width="400px">
 
 
-<a id="orgb58720b"></a>
+<a id="orgd628bc3"></a>
 
 ### Logo
 
 
-<a id="orga0ceb8b"></a>
+<a id="org8220c46"></a>
 
 #### Symbol
 
 <img src="./Pics/symbol.png" width="300px">
 
 
-<a id="org983abd5"></a>
+<a id="org673de88"></a>
 
 #### Logotype
 
 <img src="./Pics/logotype.png" width="300px">
 
 
-<a id="orgaeb84f7"></a>
+<a id="org1f0910e"></a>
 
 ## How to contribute
 
 
-<a id="org0376a2d"></a>
+<a id="orgf991d0d"></a>
 
 ### Setting up a new Git repository
 
@@ -845,7 +1033,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 -   Ask to join our GitHub
 
 
-<a id="org3dc95e7"></a>
+<a id="org4b59ee9"></a>
 
 ### Adding or modifying owned files (`push`)
 
@@ -858,7 +1046,7 @@ When adding a new file or modifying a file that you own, do:
 Where `filename` is the name of the file
 
 
-<a id="org169c399"></a>
+<a id="org7e01743"></a>
 
 ### Submit proposed changes to review
 
@@ -908,7 +1096,7 @@ To submit changes reviewees have to do:
 Where `revieweename` and `reviewername` are the GitHub names of the reviewee and the reviewer/owner.
 
 
-<a id="orgf5c4547"></a>
+<a id="org73e60ef"></a>
 
 ### Adding reviewed files (`merge`)
 
@@ -919,195 +1107,7 @@ Where `revieweename` and `reviewername` are the GitHub names of the reviewee and
 Where `PRurl` is the url of the pull request.
 
 
-<a id="org4981acc"></a>
-
-# Dataset
-
-
-<a id="orgda1ee8d"></a>
-
-## Variables
-
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">Variable name</th>
-<th scope="col" class="org-left">Data type</th>
-<th scope="col" class="org-left">Description/Example</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td class="org-left">`Decade`</td>
-<td class="org-left">int64</td>
-<td class="org-left">1900, 1910, &#x2026;, 2080, 2090</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`UN_Geosheme_Subregion`</td>
-<td class="org-left">str</td>
-<td class="org-left">'Australia and New Zealand', 'Caribbean', etc.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`Disaster_Type`</td>
-<td class="org-left">str</td>
-<td class="org-left">Either 'Floods', 'Droughts' or 'Storms'</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`RCP`</td>
-<td class="org-left">float64</td>
-<td class="org-left">NaN for the past, either 2.6, 4.5, 6.0 or 8.5 for the future</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`DO`</td>
-<td class="org-left">int64</td>
-<td class="org-left">Provides the number of disasters<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`Human_Impact`</td>
-<td class="org-left">int64</td>
-<td class="org-left">Provides the number of impacted people<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`Financial_Impact`</td>
-<td class="org-left">int64</td>
-<td class="org-left">Provides the financial impact<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`°C`</td>
-<td class="org-left">int64</td>
-<td class="org-left">Provides the temperature in Celsius degrees<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></td>
-</tr>
-
-
-<tr>
-<td class="org-left">`Geo`</td>
-<td class="org-left">GeoPandas</td>
-<td class="org-left">Geospatial data delimitating geoscheme sub regions on the map</td>
-</tr>
-</tbody>
-</table>
-
-
-<a id="org96820f0"></a>
-
-## Data sources
-
-
-<a id="org69c49d8"></a>
-
-### `Decade`
-
--   Source: in-house
--   Values: 
-    
-        Decade = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090]
--   Notes: each value represents a decade. For example, `2020` starts with the year 2020 and ends with the year 2029.
-
-
-<a id="org248d2ef"></a>
-
-### `UN_Geosheme_Subregion`
-
--   Source: [UN Geographic Intermediary Regions](https://unstats.un.org/unsd/methodology/m49/) used by the UN Statistics Division in its publications and databases.
--   Values:
-    
-        UN_Geosheme_Subregion = ['Australia and New Zealand','Caribbean','Central America','Central Asia','Eastern Africa','Eastern Asia','Eastern Europe','Melanesia','Micronesia','Middle Africa','Northern Africa','Northern America','Northern Europe','Polynesia','South America','South-Eastern Asia','Southern Africa','Southern Asia','Southern Europe','Western Africa','Western Asia','Western Europe']
--   Notes: This classification is also referred as [United Nations geoscheme](https://en.wikipedia.org/wiki/United_Nations_geoscheme) and [UN M49](https://en.wikipedia.org/wiki/UN_M49).
-
-
-<a id="org3806f1d"></a>
-
-### `Disaster_Type`
-
--   Source: in-house
--   Values:
-
-    Disaster_Type = ['Droughts', 'Floods', 'Storms']
-
--   Notes: These disasters will be respectively described in the following pages : [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)
-
-
-<a id="org2f23f1f"></a>
-
-### `RCP`
-
--   Source: [IPCC](https://www.iiasa.ac.at/web-apps/tnt/RcpDb/dsd?Action=htmlpage&page=welcome)
--   Values:
-
-    RCP = [2.6, 4.5, 6.0, 8.5]
-
--   Notes: Representative Concentration Pathways (RCP) are greenhouse gas concentration (not emissions) trajectories adopted by the IPCC. Four pathways were used for climate modeling and research for the IPCC fifth Assessment Report (AR5) in 2014. The pathways describe different climate futures, all of which are considered possible depending on the volume of greenhouse gases (GHG) emitted in the years to come. The RCPs are labelled after a possible range of radiative forcing values in the year 2100.
-    
-    <img src="./Pics/rcp.png" width="300px">
-
-
-<a id="orgcf0a22e"></a>
-
-### `DO`
-
--   Source: In-house (for prediction)
--   Values: Natural number (non-negative integers)
--   Notes: For explanation on past and future (based on in house statistical models) **Disaster Occurrences** (DO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
-
-
-<a id="org65c5d19"></a>
-
-### `Human_Impact`
-
--   Source: In-house (for prediction)
--   Values: Natural number (non-negative integers)
--   Notes: For explanation on past and future (based on in house statistical models) Human Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
-
-
-<a id="org37a73aa"></a>
-
-### `Financial_Impact`
-
--   Source: In-house (for prediction)
--   Values: Natural number (non-negative integers)
--   Notes: For explanation on past and future (based on in house statistical models) Financial Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
-
-
-<a id="org7c0c205"></a>
-
-### `°C`
-
--   Source: [World Bank](https://climateknowledgeportal.worldbank.org/download-data)
--   Values: Temperatures
-
-
-<a id="org6026c75"></a>
-
-### `Geo`
-
--   Source: In-house (generated by [this script](https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb))
-
-
-<a id="org1664126"></a>
+<a id="org322a9c3"></a>
 
 # Tools that we used
 
