@@ -97,6 +97,17 @@
     position: relative;
     border: none;
   }
+  
+  .pretty_container-3 {
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    padding: 1rem;
+    position: relative;
+    text-align: left;
+    align-content: center;
+    border: none;
+  }
 
   .app-title {
     color: #333333;
