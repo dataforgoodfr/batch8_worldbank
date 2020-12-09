@@ -1,57 +1,57 @@
 
 # Table of Contents
 
-1.  [Dataset](#org1a378f3)
-    1.  [Variables](#orga563d0d)
-    2.  [Data sources](#orgf10a371)
-        1.  [`Decade`](#org27a3437)
-        2.  [`UN_Geosheme_Subregion`](#orgd40853e)
-        3.  [`Disaster_Type`](#orge5db433)
-        4.  [`RCP`](#orgb7f5b07)
-        5.  [`DO`](#org456d548)
-        6.  [`Human_Impact`](#org57e60cc)
-        7.  [`Financial_Impact`](#orgc45909c)
-        8.  [`°C`](#org8a759e2)
-        9.  [`Geo`](#orgb0bc9dc)
-2.  [Prototyping](#orgcb1e51c)
-    1.  [Features](#org022bd72)
-    2.  [Wireframe](#orgd86e1fe)
-        1.  [World map](#orgbae6fad)
-        2.  [Regional focus](#orgcaa40c6)
-        3.  [World figures](#orgec62216)
-3.  [Development](#org764eaab)
-    1.  [Why did we pick Dash?](#org5275ab0)
-    2.  [Architecture](#org0c299f6)
-        1.  [Structure of `app.py`](#org68e5e7d)
-            -   [Globals](#org3f138e7)
-            -   [Layout](#orgc1204f4)
-            -   [Callbacks functions](#org557ef03)
-        2.  [Required files in `assets` folder](#org9f7f79c)
-    3.  [Visual identity guidelines](#orgbaa721f)
-        1.  [Colors](#orgd730b94)
-            -   [Primary colors](#org3c8aaba)
-            -   [Secondary colors](#orga007e21)
-        2.  [Fonts](#orgc84ea20)
-            -   [Primary fonts](#org600f855)
-            -   [Secondary fonts](#orga9cd7aa)
-        3.  [Logo](#orgb481ae1)
-            -   [Symbol](#org3027446)
-            -   [Logotype](#orgc19a7ad)
-    4.  [How to contribute](#org2e228e2)
-        1.  [Setting up a new Git repository](#org3c84e54)
-        2.  [Adding or modifying owned files (`push`)](#org89173a2)
-        3.  [Submit proposed changes to review](#org5e99fda)
-4.  [Tools that we used](#org8cd25b5)
+1.  [Dataset](#orgb984ac9)
+    1.  [Variables](#org55c335a)
+    2.  [Data sources](#org4ca414b)
+        1.  [`Decade`](#org3d33234)
+        2.  [`UN_Geosheme_Subregion`](#org368705b)
+        3.  [`Disaster_Type`](#orge5fd52e)
+        4.  [`RCP`](#orgf3afc46)
+        5.  [`DO`](#org090450d)
+        6.  [`Human_Impact`](#org94fd470)
+        7.  [`Financial_Impact`](#orga312d63)
+        8.  [`°C`](#orgc0f6ac2)
+        9.  [`Geo`](#orgf4ae676)
+2.  [Prototyping](#org74c1ca5)
+    1.  [Features](#org64777ec)
+    2.  [Wireframe](#org3b29a3a)
+        1.  [World map](#orge052122)
+        2.  [Regional focus](#org68b5b3b)
+        3.  [World figures](#orged544cc)
+3.  [Development](#orgefae5bb)
+    1.  [Why did we pick Dash?](#orgb0198a5)
+    2.  [Architecture](#orgb74341c)
+        1.  [Structure of `app.py`](#orgaed6448)
+            -   [Globals](#orgf793d6e)
+            -   [Layout](#org1f4121d)
+            -   [Callbacks functions](#org28d7a63)
+        2.  [Required files in `assets` folder](#org9dec803)
+    3.  [Visual identity guidelines](#org9b92ca7)
+        1.  [Colors](#org883ae2e)
+            -   [Primary colors](#org9d86b25)
+            -   [Secondary colors](#org3cd8acf)
+        2.  [Fonts](#org38aa078)
+            -   [Primary fonts](#org5011715)
+            -   [Secondary fonts](#orgad41dfc)
+        3.  [Logo](#orgec48406)
+            -   [Symbol](#org7659388)
+            -   [Logotype](#org555fb10)
+    4.  [How to contribute](#org5dc92b8)
+        1.  [Setting up a new Git repository](#orgc144988)
+        2.  [Adding or modifying owned files (`push`)](#orge8505ce)
+        3.  [Submit proposed changes to review](#org31e7c8b)
+4.  [Tools that we used](#orgfd879cd)
 
 ![img](./Pics/screenshot.png "Screenshot of the dashboard as of Dec. 12 2020")
 
 
-<a id="org1a378f3"></a>
+<a id="orgb984ac9"></a>
 
 # Dataset
 
 
-<a id="orga563d0d"></a>
+<a id="org55c335a"></a>
 
 ## Variables
 
@@ -139,12 +139,12 @@
 </table>
 
 
-<a id="orgf10a371"></a>
+<a id="org4ca414b"></a>
 
 ## Data sources
 
 
-<a id="org27a3437"></a>
+<a id="org3d33234"></a>
 
 ### `Decade`
 
@@ -155,7 +155,7 @@
 -   Notes: each value represents a decade. For example, `2020` starts with the year 2020 and ends with the year 2029.
 
 
-<a id="orgd40853e"></a>
+<a id="org368705b"></a>
 
 ### `UN_Geosheme_Subregion`
 
@@ -166,7 +166,7 @@
 -   Notes: This classification is also referred as [United Nations geoscheme](https://en.wikipedia.org/wiki/United_Nations_geoscheme) and [UN M49](https://en.wikipedia.org/wiki/UN_M49).
 
 
-<a id="orge5db433"></a>
+<a id="orge5fd52e"></a>
 
 ### `Disaster_Type`
 
@@ -178,7 +178,7 @@
 -   Notes: These disasters will be respectively described in the following pages : [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)
 
 
-<a id="orgb7f5b07"></a>
+<a id="orgf3afc46"></a>
 
 ### `RCP`
 
@@ -192,7 +192,7 @@
     <img src="./Pics/rcp.png" width="300px">
 
 
-<a id="org456d548"></a>
+<a id="org090450d"></a>
 
 ### `DO`
 
@@ -201,7 +201,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) **Disaster Occurrences** (DO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org57e60cc"></a>
+<a id="org94fd470"></a>
 
 ### `Human_Impact`
 
@@ -210,7 +210,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) Human Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="orgc45909c"></a>
+<a id="orga312d63"></a>
 
 ### `Financial_Impact`
 
@@ -219,7 +219,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) Financial Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org8a759e2"></a>
+<a id="orgc0f6ac2"></a>
 
 ### `°C`
 
@@ -227,19 +227,19 @@
 -   Values: Temperatures
 
 
-<a id="orgb0bc9dc"></a>
+<a id="orgf4ae676"></a>
 
 ### `Geo`
 
 -   Source: In-house (generated by [this script](https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb))
 
 
-<a id="orgcb1e51c"></a>
+<a id="org74c1ca5"></a>
 
 # Prototyping
 
 
-<a id="org022bd72"></a>
+<a id="org64777ec"></a>
 
 ## Features
 
@@ -339,34 +339,34 @@
 </table>
 
 
-<a id="orgd86e1fe"></a>
+<a id="org3b29a3a"></a>
 
 ## Wireframe
 
 
-<a id="orgbae6fad"></a>
+<a id="orge052122"></a>
 
 ### World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="orgcaa40c6"></a>
+<a id="org68b5b3b"></a>
 
 ### Regional focus
 
 
-<a id="orgec62216"></a>
+<a id="orged544cc"></a>
 
 ### World figures
 
 
-<a id="org764eaab"></a>
+<a id="orgefae5bb"></a>
 
 # Development
 
 
-<a id="org5275ab0"></a>
+<a id="orgb0198a5"></a>
 
 ## Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -438,17 +438,17 @@ According to following benchmarck the team decided to develop the PoC with ****D
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="org0c299f6"></a>
+<a id="orgb74341c"></a>
 
 ## Architecture
 
 
-<a id="org68e5e7d"></a>
+<a id="orgaed6448"></a>
 
 ### Structure of `app.py`
 
 
-<a id="org3f138e7"></a>
+<a id="orgf793d6e"></a>
 
 #### Globals
 
@@ -627,7 +627,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
         )
 
 
-<a id="orgc1204f4"></a>
+<a id="org1f4121d"></a>
 
 #### Layout
 
@@ -733,7 +733,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
     )
 
 
-<a id="org557ef03"></a>
+<a id="org28d7a63"></a>
 
 #### Callbacks functions
 
@@ -802,7 +802,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
         app.run_server(debug=True, host="127.0.0.1", port=8050)
 
 
-<a id="org9f7f79c"></a>
+<a id="org9dec803"></a>
 
 ### Required files in `assets` folder
 
@@ -810,19 +810,19 @@ According to following benchmarck the team decided to develop the PoC with ****D
 -   `WorldBank_Logo@2x.png`
 
 
-<a id="orgbaa721f"></a>
+<a id="org9b92ca7"></a>
 
 ## Visual identity guidelines
 
 We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="orgd730b94"></a>
+<a id="org883ae2e"></a>
 
 ### Colors
 
 
-<a id="org3c8aaba"></a>
+<a id="org9d86b25"></a>
 
 #### Primary colors
 
@@ -870,7 +870,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="orga007e21"></a>
+<a id="org3cd8acf"></a>
 
 #### Secondary colors
 
@@ -978,50 +978,50 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="orgc84ea20"></a>
+<a id="org38aa078"></a>
 
 ### Fonts
 
 
-<a id="org600f855"></a>
+<a id="org5011715"></a>
 
 #### Primary fonts
 
 <img src="./Pics/primaryfonts.png" width="400px">
 
 
-<a id="orga9cd7aa"></a>
+<a id="orgad41dfc"></a>
 
 #### Secondary fonts
 
 <img src="./Pics/secondaryfonts.png" width="400px">
 
 
-<a id="orgb481ae1"></a>
+<a id="orgec48406"></a>
 
 ### Logo
 
 
-<a id="org3027446"></a>
+<a id="org7659388"></a>
 
 #### Symbol
 
 <img src="./Pics/symbol.png" width="300px">
 
 
-<a id="orgc19a7ad"></a>
+<a id="org555fb10"></a>
 
 #### Logotype
 
 <img src="./Pics/logotype.png" width="300px">
 
 
-<a id="org2e228e2"></a>
+<a id="org5dc92b8"></a>
 
 ## How to contribute
 
 
-<a id="org3c84e54"></a>
+<a id="orgc144988"></a>
 
 ### Setting up a new Git repository
 
@@ -1032,7 +1032,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 -   Ask to join our GitHub
 
 
-<a id="org89173a2"></a>
+<a id="orge8505ce"></a>
 
 ### Adding or modifying owned files (`push`)
 
@@ -1045,7 +1045,7 @@ When adding a new file or modifying a file that you own, do:
 Where `filename` is the name of the file
 
 
-<a id="org5e99fda"></a>
+<a id="org31e7c8b"></a>
 
 ### Submit proposed changes to review
 
@@ -1092,25 +1092,28 @@ When modifying an existing file, if you're not its owner, you have to submit the
 </tbody>
 </table>
 
-To submit changes reviewees have to do: 
+To submit changes reviewees have to do : 
 
+    $ git branch new-branch        #Creates a new branch nammed "new-branch"
+    $ git checkout new-branch   #Switch to "new-branch"
+    # alternatively these two commands can be condensed to "git checkout -b new-branch"
     $ git add filename
     $ git commit
-    $ git push https://github.com/revieweename/batch8_worldbank
+    $ git push origin new-branch
+    $ git checkout master          #Switch back to master
 
-Where `revieweename` is the GitHub name of the reviewee.
-Then go on our [GitHub](https://github.com/dataforgoodfr/batch8_worldbank), 
+Then go on our [GitHub](https://github.com/dataforgoodfr/batch8_worldbank), and simply click on `compare & pull request` and pick a reviewer. Or do
 
 -   cilck on `Pull requests`,
 -   then on `New Pull Request`,
 -   click on `compare across forks`,
--   select : `dataforgoodfr/batch8_worldbank` | `base: master` <- `revieweename/batch8_worldbank` | `master`,
+-   select : `dataforgoodfr/batch8_carbon4 | =base: master` <- `revieweename/batch8_carbon4` | `new-branch`,
 -   click on `create pull request`
 -   enter GitHub reviewer name in `reviewers`, add title and comment,
 -   click on `create pull request`
 
 
-<a id="org8cd25b5"></a>
+<a id="orgfd879cd"></a>
 
 # Tools that we used
 
@@ -1185,3 +1188,4 @@ Then go on our [GitHub](https://github.com/dataforgoodfr/batch8_worldbank),
 <sup><a id="fn.1" href="#fnr.1">1</a></sup> Given a disaster, a decade, a region, and a climate scenario
 
 <sup><a id="fn.2" href="#fnr.2">2</a></sup> Given a decade, a region, and a climate scenario.
+
