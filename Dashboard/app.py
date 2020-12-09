@@ -97,8 +97,8 @@ def Title_App():
     return html.Div(
         className="pretty_container",
         children=[
-            html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
-            html.Br(),
+#            html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
+#            html.Br(),
             dcc.Markdown("""
         ### Natural Disasters Map
         """),
