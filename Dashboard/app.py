@@ -32,7 +32,8 @@ import dash
 import dash_html_components as html
 # import dash_daq as daq
 import dash_core_components as dcc
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
+import dash_bootstrap_components as dbc
 
 # ~~~~~ INITIALISATION
 
@@ -217,6 +218,69 @@ def climate_scenario():
     )
 
 
+
+
+###################################################
+# Stacked Bar graph 
+
+colors = {
+    'background': '#111111',
+    'text': '#7FDBFF'
+}
+ 
+fig = px.bar(df_map_data, x="Disaster_Type", y="Human_Impact", color="Disaster_Type", barmode="group")
+
+fig.update_layout(
+    plot_bgcolor=colors['background'],
+    paper_bgcolor=colors['background'],
+    font_color=colors['text']
+)
+
+# Add sidebar 
+SIDEBAR_STYLE = {
+   # "position": "fixed",
+    "top": 0,
+    "left": 0,
+    "width": "25rem",
+
+}
+
+
+# the styles for the main content position it to the right of the sidebar and
+# add some padding.
+CONTENT_STYLE = {
+    "margin-left": "30rem",
+    "margin-right": "2rem",
+    "padding": "2rem 1rem",
+}
+
+sidebar = html.Div(
+    [
+        #html.H2("Sidebar", className="display-4"),
+        #html.Hr(),
+        dcc.Graph(
+        id='example-graph-2',
+        figure=fig
+    )
+    ],
+    style=SIDEBAR_STYLE,
+)
+
+content = html.Div(id="page-content", style=CONTENT_STYLE)
+
+# Add collapses 
+collapses = html.Div(
+    [
+
+        dbc.Collapse(
+            sidebar,
+            id="collapse",
+        ),
+        
+    ]
+)
+###################################################
+
 def display_graph():
     fig = px.bar(df_map_data, x="UN_Geosheme_Subregion", y="Financial_Impact",
                  color="Disaster_Type", barmode="group")
@@ -259,20 +323,19 @@ app.layout = html.Div(
                         html.Br(),
                         html.Div(
                             className="pretty_container-2",
-                            children=[html.Button('Expand World Figures', id='button.button-primary')]
+                            children=[html.Button('Expand World Figures', id='collapse-button')]
                         ),
                     ],
                 ),
 
                 html.Div(
                     className="pretty_container-2",
-                    #     children=[
-                    #         html.P(id="world", children="WORLD"),
-                    #         html.Br(),
-                    #         html.Br(),
-                    #         repartition_cart(),
-                    # damage_type()
-                    #     ],
+                    children=[
+                        collapses 
+                     
+                       
+
+                        ],
                 ),
                 html.Div(
                     id="right-column",
@@ -412,6 +475,19 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
                                    .reset_index())
 
     return display_map(df_decade_disaster_temp, magnitude_type, color)
+
+
+@app.callback(Output('collapse', 'style'),
+            [Input('collapse-button', 'n_clicks')],
+            [State('collapse', 'style')],
+              )                                                                                                                                                 
+def callback(n_clicks,style):
+    if style is None or 'display' not in style:
+        style = {'display': 'none'}
+    else:
+        style['display'] = 'block' if style['display'] == 'none' else 'none'
+    return style
+
 
 
 # Not in used anymore
