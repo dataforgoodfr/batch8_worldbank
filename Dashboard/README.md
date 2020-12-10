@@ -1,57 +1,54 @@
 
 # Table of Contents
 
-1.  [Dataset](#orgb984ac9)
-    1.  [Variables](#org55c335a)
-    2.  [Data sources](#org4ca414b)
-        1.  [`Decade`](#org3d33234)
-        2.  [`UN_Geosheme_Subregion`](#org368705b)
-        3.  [`Disaster_Type`](#orge5fd52e)
-        4.  [`RCP`](#orgf3afc46)
-        5.  [`DO`](#org090450d)
-        6.  [`Human_Impact`](#org94fd470)
-        7.  [`Financial_Impact`](#orga312d63)
-        8.  [`°C`](#orgc0f6ac2)
-        9.  [`Geo`](#orgf4ae676)
-2.  [Prototyping](#org74c1ca5)
-    1.  [Features](#org64777ec)
-    2.  [Wireframe](#org3b29a3a)
-        1.  [World map](#orge052122)
-        2.  [Regional focus](#org68b5b3b)
-        3.  [World figures](#orged544cc)
-3.  [Development](#orgefae5bb)
-    1.  [Why did we pick Dash?](#orgb0198a5)
-    2.  [Architecture](#orgb74341c)
-        1.  [Structure of `app.py`](#orgaed6448)
-            -   [Globals](#orgf793d6e)
-            -   [Layout](#org1f4121d)
-            -   [Callbacks functions](#org28d7a63)
-        2.  [Required files in `assets` folder](#org9dec803)
-    3.  [Visual identity guidelines](#org9b92ca7)
-        1.  [Colors](#org883ae2e)
-            -   [Primary colors](#org9d86b25)
-            -   [Secondary colors](#org3cd8acf)
-        2.  [Fonts](#org38aa078)
-            -   [Primary fonts](#org5011715)
-            -   [Secondary fonts](#orgad41dfc)
-        3.  [Logo](#orgec48406)
-            -   [Symbol](#org7659388)
-            -   [Logotype](#org555fb10)
-    4.  [How to contribute](#org5dc92b8)
-        1.  [Setting up a new Git repository](#orgc144988)
-        2.  [Adding or modifying owned files (`push`)](#orge8505ce)
-        3.  [Submit proposed changes to review](#org31e7c8b)
-4.  [Tools that we used](#orgfd879cd)
+1.  [Dataset](#org2c5225e)
+    1.  [Variables](#org5f4a37b)
+    2.  [Data sources](#org9405f68)
+        1.  [`Decade`](#orga4ef861)
+        2.  [`UN_Geosheme_Subregion`](#org06060f5)
+        3.  [`Disaster_Type`](#org45b2833)
+        4.  [`RCP`](#org34f1f70)
+        5.  [`DO`](#org34c2ecd)
+        6.  [`Human_Impact`](#org49f1d1a)
+        7.  [`Financial_Impact`](#orgab5ee98)
+        8.  [`°C`](#orgdebdbe0)
+        9.  [`Geo`](#orgefa20d2)
+2.  [Prototyping](#orgf2a7696)
+    1.  [Features](#org07bbf6d)
+    2.  [Wireframe](#orge99c5d5)
+        1.  [World map](#org8590f11)
+        2.  [Regional focus](#orgcf0317c)
+        3.  [World figures](#org3ec52a4)
+3.  [Development](#org89eae19)
+    1.  [Why did we pick Dash?](#org2129913)
+    2.  [Architecture](#org529f053)
+        1.  [Structure of `app.py`](#orgb4d1a0a)
+        2.  [Required files in `assets` folder](#org7c047af)
+    3.  [Visual identity guidelines](#org732fa6d)
+        1.  [Colors](#org783f25f)
+            -   [Primary colors](#org1a5ea7b)
+            -   [Secondary colors](#org79b19fb)
+        2.  [Fonts](#org422ba45)
+            -   [Primary fonts](#org5bbe80e)
+            -   [Secondary fonts](#org3dc6815)
+        3.  [Logo](#org21bb646)
+            -   [Symbol](#orgb0f2bec)
+            -   [Logotype](#org35c64e4)
+    4.  [How to contribute](#org5ac896e)
+        1.  [Setting up a new Git repository](#org5b7d294)
+        2.  [Adding or modifying owned files (`push`)](#org548ac56)
+        3.  [Submit proposed changes to review (`pull-request`)](#orgfb08c9a)
+4.  [Tools that we used](#org6421869)
 
 ![img](./Pics/screenshot.png "Screenshot of the dashboard as of Dec. 12 2020")
 
 
-<a id="orgb984ac9"></a>
+<a id="org2c5225e"></a>
 
 # Dataset
 
 
-<a id="org55c335a"></a>
+<a id="org5f4a37b"></a>
 
 ## Variables
 
@@ -139,12 +136,12 @@
 </table>
 
 
-<a id="org4ca414b"></a>
+<a id="org9405f68"></a>
 
 ## Data sources
 
 
-<a id="org3d33234"></a>
+<a id="orga4ef861"></a>
 
 ### `Decade`
 
@@ -155,7 +152,7 @@
 -   Notes: each value represents a decade. For example, `2020` starts with the year 2020 and ends with the year 2029.
 
 
-<a id="org368705b"></a>
+<a id="org06060f5"></a>
 
 ### `UN_Geosheme_Subregion`
 
@@ -166,7 +163,7 @@
 -   Notes: This classification is also referred as [United Nations geoscheme](https://en.wikipedia.org/wiki/United_Nations_geoscheme) and [UN M49](https://en.wikipedia.org/wiki/UN_M49).
 
 
-<a id="orge5fd52e"></a>
+<a id="org45b2833"></a>
 
 ### `Disaster_Type`
 
@@ -178,7 +175,7 @@
 -   Notes: These disasters will be respectively described in the following pages : [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)
 
 
-<a id="orgf3afc46"></a>
+<a id="org34f1f70"></a>
 
 ### `RCP`
 
@@ -192,7 +189,7 @@
     <img src="./Pics/rcp.png" width="300px">
 
 
-<a id="org090450d"></a>
+<a id="org34c2ecd"></a>
 
 ### `DO`
 
@@ -201,7 +198,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) **Disaster Occurrences** (DO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org94fd470"></a>
+<a id="org49f1d1a"></a>
 
 ### `Human_Impact`
 
@@ -210,7 +207,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) Human Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="orga312d63"></a>
+<a id="orgab5ee98"></a>
 
 ### `Financial_Impact`
 
@@ -219,7 +216,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) Financial Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="orgc0f6ac2"></a>
+<a id="orgdebdbe0"></a>
 
 ### `°C`
 
@@ -227,19 +224,19 @@
 -   Values: Temperatures
 
 
-<a id="orgf4ae676"></a>
+<a id="orgefa20d2"></a>
 
 ### `Geo`
 
 -   Source: In-house (generated by [this script](https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb))
 
 
-<a id="org74c1ca5"></a>
+<a id="orgf2a7696"></a>
 
 # Prototyping
 
 
-<a id="org64777ec"></a>
+<a id="org07bbf6d"></a>
 
 ## Features
 
@@ -339,34 +336,34 @@
 </table>
 
 
-<a id="org3b29a3a"></a>
+<a id="orge99c5d5"></a>
 
 ## Wireframe
 
 
-<a id="orge052122"></a>
+<a id="org8590f11"></a>
 
 ### World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="org68b5b3b"></a>
+<a id="orgcf0317c"></a>
 
 ### Regional focus
 
 
-<a id="orged544cc"></a>
+<a id="org3ec52a4"></a>
 
 ### World figures
 
 
-<a id="orgefae5bb"></a>
+<a id="org89eae19"></a>
 
 # Development
 
 
-<a id="orgb0198a5"></a>
+<a id="org2129913"></a>
 
 ## Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -438,371 +435,40 @@ According to following benchmarck the team decided to develop the PoC with ****D
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="orgb74341c"></a>
+<a id="org529f053"></a>
 
 ## Architecture
 
 
-<a id="orgaed6448"></a>
+<a id="orgb4d1a0a"></a>
 
 ### Structure of `app.py`
 
-
-<a id="orgf793d6e"></a>
-
-#### Globals
-
-
-##### Loading libraries, style, and data
-
--   Libraries
-
-        import pandas as pd
-        import json
-        import plotly.express as px
-        import plotly.graph_objects as go
-        import dash
-        import dash_html_components as html
-        import dash_daq as daq
-        import dash_core_components as dcc
-        from dash.dependencies import Input, Output
-
--   Style
-
-        external_stylesheets = ['assets/style.css']
-        app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
--   Geo data
-
-        with open('data/un_subregion_contours.geojson') as json_data:
-            regions_data = json.load(json_data)
-
--   Pandas DataFrame
-
-        df = pd.read_csv("data/input.csv", decimal=".")
+-   Globals
+    -   Modules
+        -   Graph libraries
+        -   Dashboard
+    -   Initialisation
+        -   Style
+        -   Import Geodata
+        -   Import dataset to display
+        -   Data preparation
+        -   Mapbox credentials
+    -   Function
+        -   Title & Logo
+        -   Build the choropleth map from data in dataframe and regional contours in geojson
+        -   Display the map
+            -   Specify layout information
+        -   Disaster selector
+        -   Magnitude selector
+        -   RCP selector
+-   HTML layout
+-   Callbacks
+    -   Update map title according to selected decades
+    -   Update the data selection sent to the map - period, magnitude, impact
 
 
-##### Data prep
-
-    df_map_data = df.sort_values(by=['UN_Geosheme_Subregion'])
-    YEARS = list(df.Decade.drop_duplicates())
-    df_map_data["RCP"].fillna(value=0,inplace=True)
-    DisasterTypes = df['Disaster_Type'].unique()
-    MagnitudeTypes = ['Number of Occurrences', 'Financial impact', 'Human impact']
-    Degree = df['RCP'].unique()
-    DEFAULT_OPACITY = 0.8
-
-
-##### Mapbox parameters
-
-    mapbox_access_token = "pk.eyJ1IjoibWFoZGlrYXJhYmliZW4iLCJhIjoiY2tmeWlnZzJqMXhyMzJ0czgzcWc3ejViNyJ9.MsvguTk0F7cxDBaV1Zlm_g"
-    mapbox_style = "mapbox://styles/mahdikarabiben/ckgzi4dac1jez19qlanqcpp5l"
-
-
-##### Global functions
-
--   Title & Logo
-
-        def Title_App():
-            return html.Div(
-        	className="pretty_container",
-        	children=[
-        	    html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
-        	    html.Br(),
-        	    dcc.Markdown("""
-        	    ### Natural Disasters Map
-        	    """),
-        	],
-            )
-
--   World map
-
-    -   Regional contours
-    
-            def choropleth_map(df, impact, colordisaster):
-                return go.Figure(
-            	px.choropleth_mapbox(
-            	    geojson=regions_data,
-            	    locations=df['UN_Geosheme_Subregion'].tolist(),
-            	    featureidkey="properties.subregion",
-            	    color=df[str(impact)].tolist(),
-            	    color_continuous_scale=colordisaster,
-            	    mapbox_style=mapbox_style,
-            	    opacity=0.8,
-            	    zoom=1,
-            	    hover_name=df['UN_Geosheme_Subregion'].tolist(),
-            	    labels={"color": "Magnitude"}
-            	)
-                )
-    
-    -   Display
-    
-            def display_map(df, impact, colordisaster):
-                fig = choropleth_map(df, impact, colordisaster)
-            
-                # Specify layout information
-                fig.update_layout(
-            	margin={"r": 0, "t": 0, "l": 0, "b": 0},
-            	mapbox_accesstoken=mapbox_access_token
-                )
-                return fig
-
--   Disaster selector
-
-        def disaster_type_card():
-            """
-             :return: A Div containing the 3 disaster options
-            """
-            return html.Div(
-        	children=[
-        	    html.H5(dcc.Markdown("**Select a Disaster**")),
-        	    dcc.RadioItems(
-        		id="Disaster-Selector",
-        		options=[
-        		    {'label': i, 'value': i} for i in DisasterTypes
-        		],
-        		value='Droughts',
-        		labelStyle={"display": "inline-block",
-        			    "margin-top": "0px",
-        			    "font-size": "16px",
-        			    "padding": "12px 12px 12px 0px",
-        			    },
-        		labelClassName="data-group-labels", )
-        	]
-        
-            )
-
--   Magnitude selector
-
-        def magnitude_type_card():
-            """
-             :return: A Div containing the 3 magnitude options
-            """
-            return html.Div(
-        	children=[
-        	    html.H5(dcc.Markdown("**Select a Magnitude**")),
-        	    dcc.RadioItems(
-        		id="Magnitude-Selector",
-        		options=[
-        		    {'label': i, 'value': i} for i in MagnitudeTypes
-        		],
-        		value='Number of Occurrences',
-        
-        		labelStyle={#"display": "inline-block",
-        			    "margin-top": "0px",
-        			    "font-size": "16px",
-        			    "padding": "12px 12px 12px 0px",
-        			    },
-        		labelClassName="data-group-labels", 
-        	    )
-        	]
-        
-            )
-
--   RCP selector
-
-        def climate_scenario():
-            return html.Div(
-        	children=[
-        	    html.H5(dcc.Markdown("**Select a RCP**")),
-        	    html.Br(),
-        	    dcc.Slider(
-        			id="scenario-slider",
-        			min=0,
-        			max=10,
-        			value=0,
-        			step=None,
-        		       # marks={2.6: "2.6°C", 4.5: "4.5°C", 6.0: "6.0°C",8.5:"8.5°C"},
-        			marks={
-        				0: {'label': '0', 'style': {'color': '#77b0b1'}},
-        				2.6: {'label': '2.6', 'style': {'color': '#77b0b1'}},
-        				4.5: {'label': '4.5'},
-        				6: {'label': '6.0'},
-        				8.5: {'label': '8.5', 'style': {'color': '#f50'}}
-        			},
-        			disabled=False                        
-        
-        		       )
-        	]               
-        )
-
-
-<a id="org1f4121d"></a>
-
-#### Layout
-
-    app.layout = html.Div(
-        id="root",
-        children=[
-    	html.Div(
-    	    id="app-container",
-    	    children=[
-    		html.Div(
-    		    id="Rectangle_Menu",
-    		    children=[
-    			html.Div(
-    			    className="pretty-container",
-    			    children=[Title_App()]
-    			),
-    			html.Div(
-    			    className="pretty_container",
-    			    children=[disaster_type_card()]
-    			),
-    			html.Br(),
-    			html.Div(
-    			    className="pretty_container-3",
-    			    children=[magnitude_type_card()]
-    			),
-    			html.Br(),
-    			html.Div(
-    			    className="pretty_container",
-    			    children=[climate_scenario()]
-    			),
-    			html.Br(),
-    			html.Div(
-    			    className="pretty_container-2",
-    			    children=[
-    				html.Button('Expand World Figures', id='button.button-primary'),
-    			    ]
-    			),
-    
-    		    ],
-    		),
-    
-    		html.Div(
-    		    className="pretty_container-2",
-    		    #     children=[
-    		    #         html.P(id="world", children="WORLD"),
-    		    #         html.Br(),
-    		    #         html.Br(),
-    		    #         repartition_cart(),
-    		    # damage_type()
-    		    #     ],
-    		),
-    		html.Div(
-    		    id="right-column",
-    		    children=[
-    			html.Div(
-    			    id="slider-container",
-    			    children=[
-    				html.P(
-    				    id="slider-text",
-    				    children="Drag the slider to choose the decade(s)",
-    				),
-    				dcc.RangeSlider(
-    				    id="years-slider",
-    				    min=1900,
-    				    max=2090,
-    				    step=10,
-    				    value=[1900, 1920],
-    				    marks={
-    					str(year): {
-    					    "label": str(year),
-    					    "style": {"color": "#7fafdf"},
-    					}
-    					for year in YEARS
-    				    },
-    				),
-    			    ],
-    			),
-    			html.Div(
-    			    id="heatmap-container",
-    			    children=[
-    				html.P(
-    				    "Choropleth map of disaster damages from {0} to {1}".format(
-    					min(YEARS), min(YEARS) + 20
-    				    ),
-    				    id="heatmap-title",
-    				),
-    				dcc.Graph(
-    				    id="county-choropleth",
-    				    figure=display_map(
-    					df_map_data[(df_map_data['Decade'] >= 1900)
-    						    & (df_map_data['Decade'] <= 1920)
-    						    & (df_map_data['Disaster_Type'] == 'Droughts')
-    						    & (df_map_data['RCP'] == 2.6)],
-    					'Human_Impact', 'reds')
-    				),
-    			    ],
-    			),
-    		    ],
-    		),
-    	    ],
-    	),
-        ],
-    )
-
-
-<a id="org28d7a63"></a>
-
-#### Callbacks functions
-
-
-##### Map title
-
-    @app.callback(Output("heatmap-title", "children"), [Input("years-slider", "value")])
-    def update_map_title(year):
-        return "Choropleth map from the beginning of the {0}s to the end of the {1}s".format(year[0], year[1])
-
-
-##### Magnitude
-
-    # YEAR INPUT & IMPACT TYPE
-    @app.callback(
-        Output("county-choropleth", "figure"),
-        Input("years-slider", "value"),
-        Input("Disaster-Selector", "value"),
-        # Input("temp-slider","value"),
-        # for callback : & (df_map_data['RCP'] == temp
-        # def update_map(year,DisasterType,temp,MagnitudeType):
-        Input("Magnitude-Selector", "value"),
-        Input("scenario-slider","value")
-        )
-    def update_map(year, DisasterType, MagnitudeType,RcpType):
-        df_decade_disaster_temp = (df_map_data[
-    	((df_map_data['Decade'] >= year[0]) & (df_map_data['Decade'] <= year[1]) & (
-    		df_map_data['Disaster_Type'] == DisasterType)& (df_map_data['RCP']== RcpType))]
-        )
-    
-        if DisasterType == "Droughts":
-    	color= "YlOrRd"
-    	DisasterType ='Droughts'
-    
-        elif DisasterType == "Storms":
-    	color = "RdPu"
-    	DisasterType = 'Storms'
-    
-        elif DisasterType == "Floods":
-    	color = "Blues"
-    	DisasterType = 'Floods'
-    
-        if MagnitudeType == "Number of Occurrences":
-    	magnitude_type = 'DO'   
-    
-        elif MagnitudeType == "Financial impact":
-    	magnitude_type = 'Financial_Impact'
-        elif MagnitudeType == 'Human impact':
-    	magnitude_type = 'Human_Impact'
-    
-        df_decade_disaster_temp = (df_decade_disaster_temp
-    			       .groupby(['UN_Geosheme_Subregion'])[magnitude_type]
-    			       .sum()
-    			       .reset_index())
-    
-        return display_map(df_decade_disaster_temp, magnitude_type, color)
-    
-    
-    def hide_slider(year):
-        if year[0] >= 2020:
-    
-    	return "Choropleth map of disaster damages from {0} to {1}".format(year[0], year[1])
-    
-    
-    if __name__ == '__main__':
-        app.run_server(debug=True, host="127.0.0.1", port=8050)
-
-
-<a id="org9dec803"></a>
+<a id="org7c047af"></a>
 
 ### Required files in `assets` folder
 
@@ -810,19 +476,19 @@ According to following benchmarck the team decided to develop the PoC with ****D
 -   `WorldBank_Logo@2x.png`
 
 
-<a id="org9b92ca7"></a>
+<a id="org732fa6d"></a>
 
 ## Visual identity guidelines
 
 We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="org883ae2e"></a>
+<a id="org783f25f"></a>
 
 ### Colors
 
 
-<a id="org9d86b25"></a>
+<a id="org1a5ea7b"></a>
 
 #### Primary colors
 
@@ -870,7 +536,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org3cd8acf"></a>
+<a id="org79b19fb"></a>
 
 #### Secondary colors
 
@@ -978,50 +644,50 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org38aa078"></a>
+<a id="org422ba45"></a>
 
 ### Fonts
 
 
-<a id="org5011715"></a>
+<a id="org5bbe80e"></a>
 
 #### Primary fonts
 
 <img src="./Pics/primaryfonts.png" width="400px">
 
 
-<a id="orgad41dfc"></a>
+<a id="org3dc6815"></a>
 
 #### Secondary fonts
 
 <img src="./Pics/secondaryfonts.png" width="400px">
 
 
-<a id="orgec48406"></a>
+<a id="org21bb646"></a>
 
 ### Logo
 
 
-<a id="org7659388"></a>
+<a id="orgb0f2bec"></a>
 
 #### Symbol
 
 <img src="./Pics/symbol.png" width="300px">
 
 
-<a id="org555fb10"></a>
+<a id="org35c64e4"></a>
 
 #### Logotype
 
 <img src="./Pics/logotype.png" width="300px">
 
 
-<a id="org5dc92b8"></a>
+<a id="org5ac896e"></a>
 
 ## How to contribute
 
 
-<a id="orgc144988"></a>
+<a id="org5b7d294"></a>
 
 ### Setting up a new Git repository
 
@@ -1032,7 +698,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 -   Ask to join our GitHub
 
 
-<a id="orge8505ce"></a>
+<a id="org548ac56"></a>
 
 ### Adding or modifying owned files (`push`)
 
@@ -1045,9 +711,9 @@ When adding a new file or modifying a file that you own, do:
 Where `filename` is the name of the file
 
 
-<a id="org31e7c8b"></a>
+<a id="orgfb08c9a"></a>
 
-### Submit proposed changes to review
+### Submit proposed changes to review (`pull-request`)
 
 When modifying an existing file, if you're not its owner, you have to submit the modifications to its owner (i.e. reviewer). Ownership is distributed as follow :
 
@@ -1095,7 +761,7 @@ When modifying an existing file, if you're not its owner, you have to submit the
 To submit changes reviewees have to do : 
 
     $ git branch new-branch        #Creates a new branch nammed "new-branch"
-    $ git checkout new-branch   #Switch to "new-branch"
+    $ git checkout new-branch      #Switch to "new-branch"
     # alternatively these two commands can be condensed to "git checkout -b new-branch"
     $ git add filename
     $ git commit
@@ -1113,7 +779,7 @@ Then go on our [GitHub](https://github.com/dataforgoodfr/batch8_worldbank), and 
 -   click on `create pull request`
 
 
-<a id="orgfd879cd"></a>
+<a id="org6421869"></a>
 
 # Tools that we used
 
