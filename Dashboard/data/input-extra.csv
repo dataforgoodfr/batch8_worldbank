@@ -1,0 +1,910 @@
+Decade,UN_Geosheme_Subregion,RCP,°C,Rain
+1900,Caribbean,,23.0,0.0
+1900,Eastern Asia,,22.0,
+1900,Northern America,,6.0,0.0
+1900,South-Eastern Asia,,23.0,
+1900,Southern Asia,,24.0,
+1900,Western Europe,,,0.0
+1910,Caribbean,,24.0,
+1910,Eastern Asia,,10.0,0.0
+1910,Northern America,,4.0,
+1910,Polynesia,,26.0,
+1910,South-Eastern Asia,,25.0,
+1910,Southern Asia,,24.0,
+1920,Caribbean,,24.0,
+1920,Eastern Asia,,12.0,
+1920,Eastern Europe,,8.0,
+1920,Northern Africa,,,0.0
+1920,Northern America,,6.0,0.0
+1920,Polynesia,,26.0,
+1920,South-Eastern Asia,,23.0,
+1920,Southern Asia,,23.0,0.0
+1920,Western Europe,,9.0,0.0
+1930,Australia and New Zealand,,,0.0
+1930,Caribbean,,24.0,0.0
+1930,Central America,,23.0,
+1930,Eastern Asia,,14.0,0.0
+1930,Melanesia,,23.0,
+1930,Northern America,,6.0,0.0
+1930,South-Eastern Asia,,25.0,
+1930,Southern Asia,,23.0,
+1930,Southern Europe,,14.0,
+1930,Western Europe,,10.0,0.0
+1940,Caribbean,,25.0,0.0
+1940,Central America,,,0.0
+1940,Eastern Africa,,23.0,
+1940,Eastern Asia,,10.0,0.0
+1940,Melanesia,,24.0,
+1940,Northern America,,5.0,0.0
+1940,Polynesia,,26.0,
+1940,South America,,24.0,0.0
+1940,South-Eastern Asia,,25.0,
+1940,Southern Asia,,23.0,
+1940,Southern Europe,,12.0,
+1940,Western Asia,,,0.0
+1950,Australia and New Zealand,,,0.0
+1950,Caribbean,,24.0,0.0
+1950,Central America,,21.0,0.0
+1950,Eastern Africa,,24.0,
+1950,Eastern Asia,,11.0,0.0
+1950,Melanesia,,24.0,
+1950,Northern Africa,,,0.0
+1950,Northern America,,5.0,0.0
+1950,Northern Europe,,,0.0
+1950,Polynesia,,24.0,
+1950,South America,,25.0,0.0
+1950,South-Eastern Asia,,25.0,0.0
+1950,Southern Africa,,17.0,0.0
+1950,Southern Asia,,24.0,0.0
+1950,Southern Europe,,13.0,0.0
+1950,Western Asia,,,0.0
+1950,Western Europe,,9.0,0.0
+1960,Australia and New Zealand,,9.0,
+1960,Caribbean,,24.0,0.0
+1960,Central America,,22.0,0.0
+1960,Eastern Africa,,22.0,0.0
+1960,Eastern Asia,,15.0,0.0
+1960,Melanesia,,24.0,0.0
+1960,Micronesia,,27.0,
+1960,Northern Africa,,,0.0
+1960,Northern America,,5.0,0.0
+1960,Northern Europe,,8.0,
+1960,Polynesia,,26.0,
+1960,South America,,17.0,0.0
+1960,South-Eastern Asia,,24.0,0.0
+1960,Southern Africa,,,0.0
+1960,Southern Asia,,24.0,0.0
+1960,Southern Europe,,12.0,0.0
+1960,Western Africa,,27.0,0.0
+1960,Western Asia,,10.0,0.0
+1960,Western Europe,,10.0,
+1970,Australia and New Zealand,,21.0,0.0
+1970,Caribbean,,24.0,0.0
+1970,Central America,,22.0,0.0
+1970,Eastern Africa,,22.0,0.0
+1970,Eastern Asia,,16.0,0.0
+1970,Eastern Europe,,,0.0
+1970,Melanesia,,24.0,
+1970,Micronesia,,27.0,
+1970,Middle Africa,,26.0,0.0
+1970,Northern Africa,,22.0,0.0
+1970,Northern America,,4.0,0.0
+1970,Northern Europe,,6.0,0.0
+1970,Polynesia,,26.0,
+1970,South America,,13.0,0.0
+1970,South-Eastern Asia,,25.0,0.0
+1970,Southern Africa,,,0.0
+1970,Southern Asia,,24.0,0.0
+1970,Southern Europe,,12.0,0.0
+1970,Western Africa,,26.0,0.0
+1970,Western Asia,,20.0,0.0
+1970,Western Europe,,8.0,0.0
+1980,Australia and New Zealand,,21.0,0.0
+1980,Caribbean,,25.0,0.0
+1980,Central America,,22.0,0.0
+1980,Eastern Africa,,23.0,0.0
+1980,Eastern Asia,,11.0,0.0
+1980,Eastern Europe,,9.0,0.0
+1980,Melanesia,,24.0,0.0
+1980,Micronesia,,27.0,
+1980,Middle Africa,,25.0,0.0
+1980,Northern Africa,,22.0,0.0
+1980,Northern America,,6.0,0.0
+1980,Northern Europe,,8.0,0.0
+1980,Polynesia,,26.0,
+1980,Russian Federation,,,0.0
+1980,South America,,19.0,0.0
+1980,South-Eastern Asia,,25.0,0.0
+1980,Southern Africa,,17.0,0.0
+1980,Southern Asia,,23.0,0.0
+1980,Southern Europe,,13.0,0.0
+1980,Western Africa,,24.0,0.0
+1980,Western Asia,,24.0,0.0
+1980,Western Europe,,8.0,0.0
+1990,Australia and New Zealand,,20.0,0.0
+1990,Caribbean,,25.0,0.0
+1990,Central America,,22.0,0.0
+1990,Central Asia,,5.0,0.0
+1990,Eastern Africa,,23.0,0.0
+1990,Eastern Asia,,10.0,0.0
+1990,Eastern Europe,,4.0,0.0
+1990,Melanesia,,24.0,0.0
+1990,Micronesia,,27.0,
+1990,Middle Africa,,,0.0
+1990,Northern Africa,,20.0,0.0
+1990,Northern America,,6.0,0.0
+1990,Northern Europe,,7.0,0.0
+1990,Polynesia,,27.0,
+1990,Russian Federation,,,0.0
+1990,South America,,17.0,0.0
+1990,South-Eastern Asia,,25.0,0.0
+1990,Southern Africa,,16.0,0.0
+1990,Southern Asia,,23.0,0.0
+1990,Southern Europe,,13.0,0.0
+1990,Western Africa,,27.0,0.0
+1990,Western Asia,,15.0,0.0
+1990,Western Europe,,9.0,0.0
+2000,Australia and New Zealand,,20.0,0.0
+2000,Caribbean,,25.0,0.0
+2000,Central America,,23.0,0.0
+2000,Central Asia,,4.0,0.0
+2000,Eastern Africa,,23.0,0.0
+2000,Eastern Asia,,10.0,0.0
+2000,Eastern Europe,,5.0,0.0
+2000,Melanesia,,24.0,0.0
+2000,Micronesia,,27.0,0.0
+2000,Middle Africa,,25.0,0.0
+2000,Northern Africa,,23.0,0.0
+2000,Northern America,,6.0,0.0
+2000,Northern Europe,,7.0,0.0
+2000,Polynesia,,27.0,0.0
+2000,South America,,19.0,0.0
+2000,South-Eastern Asia,,25.0,0.0
+2000,Southern Africa,,17.0,0.0
+2000,Southern Asia,,23.0,0.0
+2000,Southern Europe,,12.0,0.0
+2000,Western Africa,,27.0,0.0
+2000,Western Asia,,17.0,0.0
+2000,Western Europe,,9.0,0.0
+2010,Australia and New Zealand,,20.0,0.0
+2010,Caribbean,,25.0,0.0
+2010,Central America,,22.0,0.0
+2010,Central Asia,,2.0,0.0
+2010,Eastern Africa,,23.0,0.0
+2010,Eastern Asia,,9.0,0.0
+2010,Eastern Europe,,7.0,0.0
+2010,Melanesia,,24.0,0.0
+2010,Micronesia,,27.0,0.0
+2010,Middle Africa,,25.0,0.0
+2010,Northern Africa,,22.0,0.0
+2010,Northern America,,7.0,0.0
+2010,Northern Europe,,7.0,0.0
+2010,Polynesia,,26.0,0.0
+2010,South America,,20.0,0.0
+2010,South-Eastern Asia,,25.0,0.0
+2010,Southern Africa,,17.0,0.0
+2010,Southern Asia,,24.0,0.0
+2010,Southern Europe,,14.0,0.0
+2010,Western Africa,,26.0,0.0
+2010,Western Asia,,19.0,0.0
+2010,Western Europe,,9.0,0.0
+2020,Australia and New Zealand,,18.0,0.0
+2020,Australia and New Zealand,2.6,18.0,0.0
+2020,Australia and New Zealand,4.5,18.0,0.0
+2020,Australia and New Zealand,6.0,18.0,0.0
+2020,Australia and New Zealand,8.5,18.0,0.0
+2020,Caribbean,,24.0,
+2020,Caribbean,2.6,26.0,
+2020,Caribbean,4.5,26.0,
+2020,Caribbean,6.0,26.0,
+2020,Caribbean,8.5,26.0,
+2020,Central America,,22.0,0.0
+2020,Central America,2.6,25.0,0.0
+2020,Central America,4.5,25.0,0.0
+2020,Central America,6.0,25.0,0.0
+2020,Central America,8.5,26.0,0.0
+2020,Central Asia,2.6,10.0,0.0
+2020,Central Asia,4.5,10.0,0.0
+2020,Central Asia,6.0,10.0,0.0
+2020,Central Asia,8.5,10.0,0.0
+2020,Eastern Africa,,23.0,0.0
+2020,Eastern Africa,2.6,24.0,0.0
+2020,Eastern Africa,4.5,24.0,0.0
+2020,Eastern Africa,6.0,24.0,0.0
+2020,Eastern Africa,8.5,24.0,0.0
+2020,Eastern Asia,,12.0,0.0
+2020,Eastern Asia,2.6,14.0,0.0
+2020,Eastern Asia,4.5,13.0,0.0
+2020,Eastern Asia,6.0,13.0,0.0
+2020,Eastern Asia,8.5,13.0,0.0
+2020,Eastern Europe,,7.0,0.0
+2020,Eastern Europe,2.6,9.0,0.0
+2020,Eastern Europe,4.5,9.0,0.0
+2020,Eastern Europe,6.0,9.0,0.0
+2020,Eastern Europe,8.5,9.0,0.0
+2020,Melanesia,,24.0,0.0
+2020,Melanesia,2.6,26.0,0.0
+2020,Melanesia,4.5,26.0,0.0
+2020,Melanesia,6.0,26.0,0.0
+2020,Melanesia,8.5,26.0,0.0
+2020,Micronesia,2.6,27.0,
+2020,Micronesia,4.5,27.0,
+2020,Micronesia,6.0,27.0,
+2020,Micronesia,8.5,27.0,
+2020,Middle Africa,2.6,25.0,0.0
+2020,Middle Africa,4.5,25.0,0.0
+2020,Middle Africa,6.0,25.0,0.0
+2020,Middle Africa,8.5,25.0,0.0
+2020,Northern Africa,2.6,23.0,0.0
+2020,Northern Africa,4.5,23.0,0.0
+2020,Northern Africa,6.0,22.0,0.0
+2020,Northern Africa,8.5,23.0,0.0
+2020,Northern America,,6.0,
+2020,Northern America,2.6,2.0,
+2020,Northern America,4.5,2.0,
+2020,Northern America,6.0,2.0,
+2020,Northern America,8.5,3.0,
+2020,Northern Europe,,7.0,
+2020,Northern Europe,2.6,5.0,
+2020,Northern Europe,4.5,6.0,
+2020,Northern Europe,6.0,5.0,
+2020,Northern Europe,8.5,6.0,
+2020,Polynesia,,26.0,
+2020,Polynesia,2.6,27.0,
+2020,Polynesia,4.5,27.0,
+2020,Polynesia,6.0,27.0,
+2020,Polynesia,8.5,27.0,
+2020,South America,,19.0,0.0
+2020,South America,2.6,22.0,0.0
+2020,South America,4.5,22.0,0.0
+2020,South America,6.0,22.0,0.0
+2020,South America,8.5,23.0,0.0
+2020,South-Eastern Asia,,24.0,0.0
+2020,South-Eastern Asia,2.6,25.0,0.0
+2020,South-Eastern Asia,4.5,25.0,0.0
+2020,South-Eastern Asia,6.0,25.0,0.0
+2020,South-Eastern Asia,8.5,25.0,0.0
+2020,Southern Africa,2.6,19.0,
+2020,Southern Africa,4.5,19.0,
+2020,Southern Africa,6.0,19.0,
+2020,Southern Africa,8.5,19.0,
+2020,Southern Asia,,24.0,0.0
+2020,Southern Asia,2.6,22.0,0.0
+2020,Southern Asia,4.5,22.0,0.0
+2020,Southern Asia,6.0,21.0,0.0
+2020,Southern Asia,8.5,22.0,0.0
+2020,Southern Europe,,13.0,0.0
+2020,Southern Europe,2.6,15.0,0.0
+2020,Southern Europe,4.5,15.0,0.0
+2020,Southern Europe,6.0,14.0,0.0
+2020,Southern Europe,8.5,15.0,0.0
+2020,Western Africa,2.6,27.0,0.0
+2020,Western Africa,4.5,27.0,0.0
+2020,Western Africa,6.0,27.0,0.0
+2020,Western Africa,8.5,27.0,0.0
+2020,Western Asia,,18.0,0.0
+2020,Western Asia,2.6,20.0,0.0
+2020,Western Asia,4.5,21.0,0.0
+2020,Western Asia,6.0,20.0,0.0
+2020,Western Asia,8.5,21.0,0.0
+2020,Western Europe,,9.0,0.0
+2020,Western Europe,2.6,10.0,0.0
+2020,Western Europe,4.5,10.0,0.0
+2020,Western Europe,6.0,10.0,0.0
+2020,Western Europe,8.5,11.0,0.0
+2030,Australia and New Zealand,2.6,18.0,
+2030,Australia and New Zealand,4.5,18.0,
+2030,Australia and New Zealand,6.0,18.0,
+2030,Australia and New Zealand,8.5,18.0,
+2030,Caribbean,2.6,26.0,
+2030,Caribbean,4.5,26.0,
+2030,Caribbean,6.0,26.0,
+2030,Caribbean,8.5,26.0,
+2030,Central America,2.6,26.0,
+2030,Central America,4.5,26.0,
+2030,Central America,6.0,26.0,
+2030,Central America,8.5,26.0,
+2030,Central Asia,2.6,10.0,
+2030,Central Asia,4.5,10.0,
+2030,Central Asia,6.0,10.0,
+2030,Central Asia,8.5,11.0,
+2030,Eastern Africa,2.6,24.0,
+2030,Eastern Africa,4.5,24.0,
+2030,Eastern Africa,6.0,24.0,
+2030,Eastern Africa,8.5,24.0,
+2030,Eastern Asia,2.6,14.0,
+2030,Eastern Asia,4.5,13.0,
+2030,Eastern Asia,6.0,13.0,
+2030,Eastern Asia,8.5,14.0,
+2030,Eastern Europe,2.6,9.0,
+2030,Eastern Europe,4.5,10.0,
+2030,Eastern Europe,6.0,9.0,
+2030,Eastern Europe,8.5,10.0,
+2030,Melanesia,2.6,26.0,
+2030,Melanesia,4.5,26.0,
+2030,Melanesia,6.0,26.0,
+2030,Melanesia,8.5,26.0,
+2030,Micronesia,2.6,27.0,
+2030,Micronesia,4.5,27.0,
+2030,Micronesia,6.0,27.0,
+2030,Micronesia,8.5,28.0,
+2030,Middle Africa,2.6,25.0,
+2030,Middle Africa,4.5,25.0,
+2030,Middle Africa,6.0,25.0,
+2030,Middle Africa,8.5,26.0,
+2030,Northern Africa,2.6,23.0,
+2030,Northern Africa,4.5,23.0,
+2030,Northern Africa,6.0,23.0,
+2030,Northern Africa,8.5,23.0,
+2030,Northern America,2.6,2.0,
+2030,Northern America,4.5,3.0,
+2030,Northern America,6.0,2.0,
+2030,Northern America,8.5,3.0,
+2030,Northern Europe,2.6,6.0,
+2030,Northern Europe,4.5,6.0,
+2030,Northern Europe,6.0,6.0,
+2030,Northern Europe,8.5,6.0,
+2030,Polynesia,2.6,27.0,
+2030,Polynesia,4.5,27.0,
+2030,Polynesia,6.0,27.0,
+2030,Polynesia,8.5,27.0,
+2030,South America,2.6,22.0,
+2030,South America,4.5,23.0,
+2030,South America,6.0,23.0,
+2030,South America,8.5,23.0,
+2030,South-Eastern Asia,2.6,25.0,
+2030,South-Eastern Asia,4.5,25.0,
+2030,South-Eastern Asia,6.0,25.0,
+2030,South-Eastern Asia,8.5,26.0,
+2030,Southern Africa,2.6,19.0,
+2030,Southern Africa,4.5,19.0,
+2030,Southern Africa,6.0,19.0,
+2030,Southern Africa,8.5,20.0,
+2030,Southern Asia,2.6,22.0,
+2030,Southern Asia,4.5,22.0,
+2030,Southern Asia,6.0,22.0,
+2030,Southern Asia,8.5,22.0,
+2030,Southern Europe,2.6,15.0,
+2030,Southern Europe,4.5,15.0,
+2030,Southern Europe,6.0,15.0,
+2030,Southern Europe,8.5,15.0,
+2030,Western Africa,2.6,27.0,
+2030,Western Africa,4.5,27.0,
+2030,Western Africa,6.0,27.0,
+2030,Western Africa,8.5,28.0,
+2030,Western Asia,2.6,21.0,
+2030,Western Asia,4.5,21.0,
+2030,Western Asia,6.0,21.0,
+2030,Western Asia,8.5,21.0,
+2030,Western Europe,2.6,10.0,
+2030,Western Europe,4.5,11.0,
+2030,Western Europe,6.0,10.0,
+2030,Western Europe,8.5,11.0,
+2040,Australia and New Zealand,2.6,18.0,
+2040,Australia and New Zealand,4.5,18.0,
+2040,Australia and New Zealand,6.0,18.0,
+2040,Australia and New Zealand,8.5,18.0,
+2040,Caribbean,2.6,26.0,
+2040,Caribbean,4.5,26.0,
+2040,Caribbean,6.0,26.0,
+2040,Caribbean,8.5,26.0,
+2040,Central America,2.6,26.0,
+2040,Central America,4.5,26.0,
+2040,Central America,6.0,26.0,
+2040,Central America,8.5,26.0,
+2040,Central Asia,2.6,10.0,
+2040,Central Asia,4.5,11.0,
+2040,Central Asia,6.0,10.0,
+2040,Central Asia,8.5,11.0,
+2040,Eastern Africa,2.6,24.0,
+2040,Eastern Africa,4.5,24.0,
+2040,Eastern Africa,6.0,24.0,
+2040,Eastern Africa,8.5,25.0,
+2040,Eastern Asia,2.6,13.0,
+2040,Eastern Asia,4.5,14.0,
+2040,Eastern Asia,6.0,13.0,
+2040,Eastern Asia,8.5,14.0,
+2040,Eastern Europe,2.6,9.0,
+2040,Eastern Europe,4.5,10.0,
+2040,Eastern Europe,6.0,10.0,
+2040,Eastern Europe,8.5,10.0,
+2040,Melanesia,2.6,26.0,
+2040,Melanesia,4.5,26.0,
+2040,Melanesia,6.0,26.0,
+2040,Melanesia,8.5,27.0,
+2040,Micronesia,2.6,27.0,
+2040,Micronesia,4.5,28.0,
+2040,Micronesia,6.0,28.0,
+2040,Micronesia,8.5,28.0,
+2040,Middle Africa,2.6,25.0,
+2040,Middle Africa,4.5,26.0,
+2040,Middle Africa,6.0,25.0,
+2040,Middle Africa,8.5,26.0,
+2040,Northern Africa,2.6,23.0,
+2040,Northern Africa,4.5,23.0,
+2040,Northern Africa,6.0,23.0,
+2040,Northern Africa,8.5,24.0,
+2040,Northern America,2.6,3.0,
+2040,Northern America,4.5,3.0,
+2040,Northern America,6.0,3.0,
+2040,Northern America,8.5,4.0,
+2040,Northern Europe,2.6,6.0,
+2040,Northern Europe,4.5,6.0,
+2040,Northern Europe,6.0,6.0,
+2040,Northern Europe,8.5,6.0,
+2040,Polynesia,2.6,27.0,
+2040,Polynesia,4.5,27.0,
+2040,Polynesia,6.0,27.0,
+2040,Polynesia,8.5,27.0,
+2040,South America,2.6,22.0,
+2040,South America,4.5,23.0,
+2040,South America,6.0,23.0,
+2040,South America,8.5,23.0,
+2040,South-Eastern Asia,2.6,25.0,
+2040,South-Eastern Asia,4.5,26.0,
+2040,South-Eastern Asia,6.0,26.0,
+2040,South-Eastern Asia,8.5,26.0,
+2040,Southern Africa,2.6,19.0,
+2040,Southern Africa,4.5,20.0,
+2040,Southern Africa,6.0,20.0,
+2040,Southern Africa,8.5,20.0,
+2040,Southern Asia,2.6,22.0,
+2040,Southern Asia,4.5,22.0,
+2040,Southern Asia,6.0,22.0,
+2040,Southern Asia,8.5,23.0,
+2040,Southern Europe,2.6,15.0,
+2040,Southern Europe,4.5,15.0,
+2040,Southern Europe,6.0,15.0,
+2040,Southern Europe,8.5,16.0,
+2040,Western Africa,2.6,27.0,
+2040,Western Africa,4.5,28.0,
+2040,Western Africa,6.0,28.0,
+2040,Western Africa,8.5,28.0,
+2040,Western Asia,2.6,21.0,
+2040,Western Asia,4.5,21.0,
+2040,Western Asia,6.0,21.0,
+2040,Western Asia,8.5,22.0,
+2040,Western Europe,2.6,10.0,
+2040,Western Europe,4.5,11.0,
+2040,Western Europe,6.0,11.0,
+2040,Western Europe,8.5,11.0,
+2050,Australia and New Zealand,2.6,18.0,
+2050,Australia and New Zealand,4.5,18.0,
+2050,Australia and New Zealand,6.0,18.0,
+2050,Australia and New Zealand,8.5,19.0,
+2050,Caribbean,2.6,26.0,
+2050,Caribbean,4.5,26.0,
+2050,Caribbean,6.0,26.0,
+2050,Caribbean,8.5,27.0,
+2050,Central America,2.6,26.0,
+2050,Central America,4.5,26.0,
+2050,Central America,6.0,26.0,
+2050,Central America,8.5,27.0,
+2050,Central Asia,2.6,10.0,
+2050,Central Asia,4.5,11.0,
+2050,Central Asia,6.0,11.0,
+2050,Central Asia,8.5,12.0,
+2050,Eastern Africa,2.6,24.0,
+2050,Eastern Africa,4.5,25.0,
+2050,Eastern Africa,6.0,25.0,
+2050,Eastern Africa,8.5,25.0,
+2050,Eastern Asia,2.6,13.0,
+2050,Eastern Asia,4.5,14.0,
+2050,Eastern Asia,6.0,14.0,
+2050,Eastern Asia,8.5,15.0,
+2050,Eastern Europe,2.6,9.0,
+2050,Eastern Europe,4.5,10.0,
+2050,Eastern Europe,6.0,10.0,
+2050,Eastern Europe,8.5,11.0,
+2050,Melanesia,2.6,26.0,
+2050,Melanesia,4.5,26.0,
+2050,Melanesia,6.0,26.0,
+2050,Melanesia,8.5,27.0,
+2050,Micronesia,2.6,27.0,
+2050,Micronesia,4.5,28.0,
+2050,Micronesia,6.0,28.0,
+2050,Micronesia,8.5,28.0,
+2050,Middle Africa,2.6,25.0,
+2050,Middle Africa,4.5,26.0,
+2050,Middle Africa,6.0,26.0,
+2050,Middle Africa,8.5,27.0,
+2050,Northern Africa,2.6,23.0,
+2050,Northern Africa,4.5,23.0,
+2050,Northern Africa,6.0,23.0,
+2050,Northern Africa,8.5,25.0,
+2050,Northern America,2.6,3.0,
+2050,Northern America,4.5,3.0,
+2050,Northern America,6.0,3.0,
+2050,Northern America,8.5,4.0,
+2050,Northern Europe,2.6,6.0,
+2050,Northern Europe,4.5,6.0,
+2050,Northern Europe,6.0,6.0,
+2050,Northern Europe,8.5,7.0,
+2050,Polynesia,2.6,27.0,
+2050,Polynesia,4.5,27.0,
+2050,Polynesia,6.0,27.0,
+2050,Polynesia,8.5,28.0,
+2050,South America,2.6,22.0,
+2050,South America,4.5,23.0,
+2050,South America,6.0,23.0,
+2050,South America,8.5,24.0,
+2050,South-Eastern Asia,2.6,25.0,
+2050,South-Eastern Asia,4.5,26.0,
+2050,South-Eastern Asia,6.0,26.0,
+2050,South-Eastern Asia,8.5,27.0,
+2050,Southern Africa,2.6,19.0,
+2050,Southern Africa,4.5,20.0,
+2050,Southern Africa,6.0,20.0,
+2050,Southern Africa,8.5,21.0,
+2050,Southern Asia,2.6,22.0,
+2050,Southern Asia,4.5,22.0,
+2050,Southern Asia,6.0,22.0,
+2050,Southern Asia,8.5,23.0,
+2050,Southern Europe,2.6,15.0,
+2050,Southern Europe,4.5,15.0,
+2050,Southern Europe,6.0,15.0,
+2050,Southern Europe,8.5,16.0,
+2050,Western Africa,2.6,27.0,
+2050,Western Africa,4.5,28.0,
+2050,Western Africa,6.0,28.0,
+2050,Western Africa,8.5,29.0,
+2050,Western Asia,2.6,21.0,
+2050,Western Asia,4.5,21.0,
+2050,Western Asia,6.0,21.0,
+2050,Western Asia,8.5,22.0,
+2050,Western Europe,2.6,10.0,
+2050,Western Europe,4.5,11.0,
+2050,Western Europe,6.0,11.0,
+2050,Western Europe,8.5,12.0,
+2060,Australia and New Zealand,2.6,18.0,
+2060,Australia and New Zealand,4.5,18.0,
+2060,Australia and New Zealand,6.0,18.0,
+2060,Australia and New Zealand,8.5,19.0,
+2060,Caribbean,2.6,26.0,
+2060,Caribbean,4.5,26.0,
+2060,Caribbean,6.0,26.0,
+2060,Caribbean,8.5,27.0,
+2060,Central America,2.6,26.0,
+2060,Central America,4.5,26.0,
+2060,Central America,6.0,26.0,
+2060,Central America,8.5,27.0,
+2060,Central Asia,2.6,10.0,
+2060,Central Asia,4.5,11.0,
+2060,Central Asia,6.0,11.0,
+2060,Central Asia,8.5,12.0,
+2060,Eastern Africa,2.6,24.0,
+2060,Eastern Africa,4.5,25.0,
+2060,Eastern Africa,6.0,25.0,
+2060,Eastern Africa,8.5,26.0,
+2060,Eastern Asia,2.6,13.0,
+2060,Eastern Asia,4.5,14.0,
+2060,Eastern Asia,6.0,14.0,
+2060,Eastern Asia,8.5,15.0,
+2060,Eastern Europe,2.6,9.0,
+2060,Eastern Europe,4.5,10.0,
+2060,Eastern Europe,6.0,10.0,
+2060,Eastern Europe,8.5,12.0,
+2060,Melanesia,2.6,26.0,
+2060,Melanesia,4.5,27.0,
+2060,Melanesia,6.0,27.0,
+2060,Melanesia,8.5,27.0,
+2060,Micronesia,2.6,27.0,
+2060,Micronesia,4.5,28.0,
+2060,Micronesia,6.0,28.0,
+2060,Micronesia,8.5,29.0,
+2060,Middle Africa,2.6,25.0,
+2060,Middle Africa,4.5,26.0,
+2060,Middle Africa,6.0,26.0,
+2060,Middle Africa,8.5,27.0,
+2060,Northern Africa,2.6,23.0,
+2060,Northern Africa,4.5,24.0,
+2060,Northern Africa,6.0,24.0,
+2060,Northern Africa,8.5,25.0,
+2060,Northern America,2.6,3.0,
+2060,Northern America,4.5,4.0,
+2060,Northern America,6.0,4.0,
+2060,Northern America,8.5,6.0,
+2060,Northern Europe,2.6,5.0,
+2060,Northern Europe,4.5,6.0,
+2060,Northern Europe,6.0,6.0,
+2060,Northern Europe,8.5,7.0,
+2060,Polynesia,2.6,27.0,
+2060,Polynesia,4.5,27.0,
+2060,Polynesia,6.0,27.0,
+2060,Polynesia,8.5,28.0,
+2060,South America,2.6,23.0,
+2060,South America,4.5,23.0,
+2060,South America,6.0,23.0,
+2060,South America,8.5,24.0,
+2060,South-Eastern Asia,2.6,25.0,
+2060,South-Eastern Asia,4.5,26.0,
+2060,South-Eastern Asia,6.0,26.0,
+2060,South-Eastern Asia,8.5,27.0,
+2060,Southern Africa,2.6,19.0,
+2060,Southern Africa,4.5,20.0,
+2060,Southern Africa,6.0,20.0,
+2060,Southern Africa,8.5,21.0,
+2060,Southern Asia,2.6,22.0,
+2060,Southern Asia,4.5,22.0,
+2060,Southern Asia,6.0,22.0,
+2060,Southern Asia,8.5,24.0,
+2060,Southern Europe,2.6,15.0,
+2060,Southern Europe,4.5,16.0,
+2060,Southern Europe,6.0,16.0,
+2060,Southern Europe,8.5,17.0,
+2060,Western Africa,2.6,27.0,
+2060,Western Africa,4.5,28.0,
+2060,Western Africa,6.0,28.0,
+2060,Western Africa,8.5,29.0,
+2060,Western Asia,2.6,21.0,
+2060,Western Asia,4.5,22.0,
+2060,Western Asia,6.0,22.0,
+2060,Western Asia,8.5,23.0,
+2060,Western Europe,2.6,11.0,
+2060,Western Europe,4.5,11.0,
+2060,Western Europe,6.0,11.0,
+2060,Western Europe,8.5,12.0,
+2070,Australia and New Zealand,2.6,18.0,
+2070,Australia and New Zealand,4.5,18.0,
+2070,Australia and New Zealand,6.0,19.0,
+2070,Australia and New Zealand,8.5,20.0,
+2070,Caribbean,2.6,26.0,
+2070,Caribbean,4.5,26.0,
+2070,Caribbean,6.0,27.0,
+2070,Caribbean,8.5,28.0,
+2070,Central America,2.6,26.0,
+2070,Central America,4.5,26.0,
+2070,Central America,6.0,27.0,
+2070,Central America,8.5,28.0,
+2070,Central Asia,2.6,10.0,
+2070,Central Asia,4.5,11.0,
+2070,Central Asia,6.0,11.0,
+2070,Central Asia,8.5,13.0,
+2070,Eastern Africa,2.6,24.0,
+2070,Eastern Africa,4.5,25.0,
+2070,Eastern Africa,6.0,25.0,
+2070,Eastern Africa,8.5,26.0,
+2070,Eastern Asia,2.6,13.0,
+2070,Eastern Asia,4.5,14.0,
+2070,Eastern Asia,6.0,14.0,
+2070,Eastern Asia,8.5,16.0,
+2070,Eastern Europe,2.6,9.0,
+2070,Eastern Europe,4.5,10.0,
+2070,Eastern Europe,6.0,11.0,
+2070,Eastern Europe,8.5,12.0,
+2070,Melanesia,2.6,26.0,
+2070,Melanesia,4.5,27.0,
+2070,Melanesia,6.0,27.0,
+2070,Melanesia,8.5,28.0,
+2070,Micronesia,2.6,27.0,
+2070,Micronesia,4.5,28.0,
+2070,Micronesia,6.0,28.0,
+2070,Micronesia,8.5,29.0,
+2070,Middle Africa,2.6,25.0,
+2070,Middle Africa,4.5,26.0,
+2070,Middle Africa,6.0,26.0,
+2070,Middle Africa,8.5,28.0,
+2070,Northern Africa,2.6,23.0,
+2070,Northern Africa,4.5,24.0,
+2070,Northern Africa,6.0,24.0,
+2070,Northern Africa,8.5,26.0,
+2070,Northern America,2.6,3.0,
+2070,Northern America,4.5,4.0,
+2070,Northern America,6.0,4.0,
+2070,Northern America,8.5,6.0,
+2070,Northern Europe,2.6,5.0,
+2070,Northern Europe,4.5,6.0,
+2070,Northern Europe,6.0,7.0,
+2070,Northern Europe,8.5,8.0,
+2070,Polynesia,2.6,27.0,
+2070,Polynesia,4.5,27.0,
+2070,Polynesia,6.0,28.0,
+2070,Polynesia,8.5,28.0,
+2070,South America,2.6,23.0,
+2070,South America,4.5,23.0,
+2070,South America,6.0,23.0,
+2070,South America,8.5,25.0,
+2070,South-Eastern Asia,2.6,25.0,
+2070,South-Eastern Asia,4.5,26.0,
+2070,South-Eastern Asia,6.0,26.0,
+2070,South-Eastern Asia,8.5,27.0,
+2070,Southern Africa,2.6,19.0,
+2070,Southern Africa,4.5,20.0,
+2070,Southern Africa,6.0,21.0,
+2070,Southern Africa,8.5,22.0,
+2070,Southern Asia,2.6,22.0,
+2070,Southern Asia,4.5,23.0,
+2070,Southern Asia,6.0,23.0,
+2070,Southern Asia,8.5,24.0,
+2070,Southern Europe,2.6,15.0,
+2070,Southern Europe,4.5,16.0,
+2070,Southern Europe,6.0,16.0,
+2070,Southern Europe,8.5,17.0,
+2070,Western Africa,2.6,27.0,
+2070,Western Africa,4.5,28.0,
+2070,Western Africa,6.0,28.0,
+2070,Western Africa,8.5,30.0,
+2070,Western Asia,2.6,21.0,
+2070,Western Asia,4.5,22.0,
+2070,Western Asia,6.0,22.0,
+2070,Western Asia,8.5,24.0,
+2070,Western Europe,2.6,11.0,
+2070,Western Europe,4.5,11.0,
+2070,Western Europe,6.0,12.0,
+2070,Western Europe,8.5,13.0,
+2080,Australia and New Zealand,2.6,18.0,
+2080,Australia and New Zealand,4.5,18.0,
+2080,Australia and New Zealand,6.0,19.0,
+2080,Australia and New Zealand,8.5,20.0,
+2080,Caribbean,2.6,26.0,
+2080,Caribbean,4.5,27.0,
+2080,Caribbean,6.0,27.0,
+2080,Caribbean,8.5,28.0,
+2080,Central America,2.6,26.0,
+2080,Central America,4.5,26.0,
+2080,Central America,6.0,27.0,
+2080,Central America,8.5,28.0,
+2080,Central Asia,2.6,10.0,
+2080,Central Asia,4.5,11.0,
+2080,Central Asia,6.0,12.0,
+2080,Central Asia,8.5,14.0,
+2080,Eastern Africa,2.6,24.0,
+2080,Eastern Africa,4.5,25.0,
+2080,Eastern Africa,6.0,25.0,
+2080,Eastern Africa,8.5,27.0,
+2080,Eastern Asia,2.6,14.0,
+2080,Eastern Asia,4.5,14.0,
+2080,Eastern Asia,6.0,15.0,
+2080,Eastern Asia,8.5,16.0,
+2080,Eastern Europe,2.6,9.0,
+2080,Eastern Europe,4.5,10.0,
+2080,Eastern Europe,6.0,11.0,
+2080,Eastern Europe,8.5,13.0,
+2080,Melanesia,2.6,26.0,
+2080,Melanesia,4.5,27.0,
+2080,Melanesia,6.0,27.0,
+2080,Melanesia,8.5,28.0,
+2080,Micronesia,2.6,27.0,
+2080,Micronesia,4.5,28.0,
+2080,Micronesia,6.0,28.0,
+2080,Micronesia,8.5,30.0,
+2080,Middle Africa,2.6,25.0,
+2080,Middle Africa,4.5,26.0,
+2080,Middle Africa,6.0,27.0,
+2080,Middle Africa,8.5,28.0,
+2080,Northern Africa,2.6,23.0,
+2080,Northern Africa,4.5,24.0,
+2080,Northern Africa,6.0,24.0,
+2080,Northern Africa,8.5,26.0,
+2080,Northern America,2.6,3.0,
+2080,Northern America,4.5,4.0,
+2080,Northern America,6.0,5.0,
+2080,Northern America,8.5,7.0,
+2080,Northern Europe,2.6,5.0,
+2080,Northern Europe,4.5,6.0,
+2080,Northern Europe,6.0,7.0,
+2080,Northern Europe,8.5,8.0,
+2080,Polynesia,2.6,27.0,
+2080,Polynesia,4.5,28.0,
+2080,Polynesia,6.0,28.0,
+2080,Polynesia,8.5,29.0,
+2080,South America,2.6,23.0,
+2080,South America,4.5,23.0,
+2080,South America,6.0,24.0,
+2080,South America,8.5,25.0,
+2080,South-Eastern Asia,2.6,25.0,
+2080,South-Eastern Asia,4.5,26.0,
+2080,South-Eastern Asia,6.0,27.0,
+2080,South-Eastern Asia,8.5,28.0,
+2080,Southern Africa,2.6,19.0,
+2080,Southern Africa,4.5,20.0,
+2080,Southern Africa,6.0,21.0,
+2080,Southern Africa,8.5,23.0,
+2080,Southern Asia,2.6,23.0,
+2080,Southern Asia,4.5,23.0,
+2080,Southern Asia,6.0,23.0,
+2080,Southern Asia,8.5,25.0,
+2080,Southern Europe,2.6,15.0,
+2080,Southern Europe,4.5,16.0,
+2080,Southern Europe,6.0,16.0,
+2080,Southern Europe,8.5,18.0,
+2080,Western Africa,2.6,27.0,
+2080,Western Africa,4.5,28.0,
+2080,Western Africa,6.0,29.0,
+2080,Western Africa,8.5,30.0,
+2080,Western Asia,2.6,21.0,
+2080,Western Asia,4.5,22.0,
+2080,Western Asia,6.0,22.0,
+2080,Western Asia,8.5,24.0,
+2080,Western Europe,2.6,10.0,
+2080,Western Europe,4.5,11.0,
+2080,Western Europe,6.0,12.0,
+2080,Western Europe,8.5,13.0,
+2090,Australia and New Zealand,2.6,18.0,
+2090,Australia and New Zealand,4.5,18.0,
+2090,Australia and New Zealand,6.0,19.0,
+2090,Australia and New Zealand,8.5,20.0,
+2090,Caribbean,2.6,26.0,
+2090,Caribbean,4.5,27.0,
+2090,Caribbean,6.0,27.0,
+2090,Caribbean,8.5,28.0,
+2090,Central America,2.6,26.0,
+2090,Central America,4.5,26.0,
+2090,Central America,6.0,27.0,
+2090,Central America,8.5,28.0,
+2090,Central Asia,2.6,10.0,
+2090,Central Asia,4.5,11.0,
+2090,Central Asia,6.0,12.0,
+2090,Central Asia,8.5,14.0,
+2090,Eastern Africa,2.6,24.0,
+2090,Eastern Africa,4.5,25.0,
+2090,Eastern Africa,6.0,25.0,
+2090,Eastern Africa,8.5,27.0,
+2090,Eastern Asia,2.6,14.0,
+2090,Eastern Asia,4.5,14.0,
+2090,Eastern Asia,6.0,15.0,
+2090,Eastern Asia,8.5,16.0,
+2090,Eastern Europe,2.6,9.0,
+2090,Eastern Europe,4.5,10.0,
+2090,Eastern Europe,6.0,11.0,
+2090,Eastern Europe,8.5,13.0,
+2090,Melanesia,2.6,26.0,
+2090,Melanesia,4.5,27.0,
+2090,Melanesia,6.0,27.0,
+2090,Melanesia,8.5,28.0,
+2090,Micronesia,2.6,27.0,
+2090,Micronesia,4.5,28.0,
+2090,Micronesia,6.0,28.0,
+2090,Micronesia,8.5,30.0,
+2090,Middle Africa,2.6,25.0,
+2090,Middle Africa,4.5,26.0,
+2090,Middle Africa,6.0,27.0,
+2090,Middle Africa,8.5,28.0,
+2090,Northern Africa,2.6,23.0,
+2090,Northern Africa,4.5,24.0,
+2090,Northern Africa,6.0,24.0,
+2090,Northern Africa,8.5,26.0,
+2090,Northern America,2.6,3.0,
+2090,Northern America,4.5,4.0,
+2090,Northern America,6.0,5.0,
+2090,Northern America,8.5,7.0,
+2090,Northern Europe,2.6,5.0,
+2090,Northern Europe,4.5,6.0,
+2090,Northern Europe,6.0,7.0,
+2090,Northern Europe,8.5,8.0,
+2090,Polynesia,2.6,27.0,
+2090,Polynesia,4.5,28.0,
+2090,Polynesia,6.0,28.0,
+2090,Polynesia,8.5,29.0,
+2090,South America,2.6,23.0,
+2090,South America,4.5,23.0,
+2090,South America,6.0,24.0,
+2090,South America,8.5,25.0,
+2090,South-Eastern Asia,2.6,25.0,
+2090,South-Eastern Asia,4.5,26.0,
+2090,South-Eastern Asia,6.0,27.0,
+2090,South-Eastern Asia,8.5,28.0,
+2090,Southern Africa,2.6,19.0,
+2090,Southern Africa,4.5,20.0,
+2090,Southern Africa,6.0,21.0,
+2090,Southern Africa,8.5,23.0,
+2090,Southern Asia,2.6,23.0,
+2090,Southern Asia,4.5,23.0,
+2090,Southern Asia,6.0,23.0,
+2090,Southern Asia,8.5,25.0,
+2090,Southern Europe,2.6,15.0,
+2090,Southern Europe,4.5,16.0,
+2090,Southern Europe,6.0,16.0,
+2090,Southern Europe,8.5,18.0,
+2090,Western Africa,2.6,27.0,
+2090,Western Africa,4.5,28.0,
+2090,Western Africa,6.0,29.0,
+2090,Western Africa,8.5,30.0,
+2090,Western Asia,2.6,21.0,
+2090,Western Asia,4.5,22.0,
+2090,Western Asia,6.0,22.0,
+2090,Western Asia,8.5,24.0,
+2090,Western Europe,2.6,10.0,
+2090,Western Europe,4.5,11.0,
+2090,Western Europe,6.0,12.0,
+2090,Western Europe,8.5,13.0,
