@@ -1,0 +1,190 @@
+,UN_Geosheme_Subregion,Decade,DO,Human_Impact,Financial_Impact,°C,RCP,Disaster_Type
+0,Australia and New Zealand,1960,1,1000,0,9,,Storms
+1,Australia and New Zealand,1970,20,45100,2624815000,21,,Storms
+2,Australia and New Zealand,1980,23,0,603142000,21,,Storms
+3,Australia and New Zealand,1990,30,3937650,4077893000,20,,Storms
+4,Australia and New Zealand,2000,30,36065,2156954000,20,,Storms
+5,Australia and New Zealand,2010,16,120938,13940100000,20,,Storms
+6,Australia and New Zealand,2020,1,0,430000000,18,,Storms
+7,Caribbean,1900,2,0,0,23,,Storms
+8,Caribbean,1910,3,0,0,24,,Storms
+9,Caribbean,1920,8,0,50000000,24,,Storms
+10,Caribbean,1930,10,6000,75000000,24,,Storms
+11,Caribbean,1940,5,0,18000000,25,,Storms
+12,Caribbean,1950,9,270000,57000000,24,,Storms
+13,Caribbean,1960,32,332200,1011790000,24,,Storms
+14,Caribbean,1970,15,1353210,382350000,24,,Storms
+15,Caribbean,1980,41,2799871,2516446000,25,,Storms
+16,Caribbean,1990,67,3473395,12484985000,25,,Storms
+17,Caribbean,2000,94,11133253,16949725000,25,,Storms
+18,Caribbean,2010,69,14161987,94626452000,25,,Storms
+19,Caribbean,2020,2,9425,0,24,,Storms
+20,Central America,1930,3,0,7500000,23,,Storms
+21,Central America,1950,5,0,65000000,21,,Storms
+22,Central America,1960,11,374300,303900000,22,,Storms
+23,Central America,1970,12,1203800,651380000,22,,Storms
+24,Central America,1980,14,908732,1425400000,22,,Storms
+25,Central America,1990,46,4965886,10876710000,22,,Storms
+26,Central America,2000,63,5538653,12945286000,23,,Storms
+27,Central America,2010,63,2330935,17845005000,22,,Storms
+28,Central America,2020,4,427678,220000000,22,,Storms
+29,Central Asia,1990,2,0,3200000,5,,Storms
+30,Central Asia,2000,2,9905,234000,4,,Storms
+31,Central Asia,2010,1,0,0,2,,Storms
+32,Eastern Africa,1940,1,0,0,23,,Storms
+33,Eastern Africa,1950,2,0,0,24,,Storms
+34,Eastern Africa,1960,4,125000,13100000,22,,Storms
+35,Eastern Africa,1970,13,4099199,794820000,22,,Storms
+36,Eastern Africa,1980,24,843841,1222777000,23,,Storms
+37,Eastern Africa,1990,20,3483385,215315000,23,,Storms
+38,Eastern Africa,2000,50,3553016,689381000,23,,Storms
+39,Eastern Africa,2010,49,7289581,2749800000,23,,Storms
+40,Eastern Africa,2020,1,3200,0,23,,Storms
+41,Eastern Asia,1900,1,0,20000000,22,,Storms
+42,Eastern Asia,1910,4,0,90000000,10,,Storms
+43,Eastern Asia,1920,5,0,10000000,12,,Storms
+44,Eastern Asia,1930,3,0,50000000,14,,Storms
+45,Eastern Asia,1940,10,2489871,400000000,10,,Storms
+46,Eastern Asia,1950,32,3189166,650000000,11,,Storms
+47,Eastern Asia,1960,41,274923,117222000,15,,Storms
+48,Eastern Asia,1970,35,405789,2029100000,16,,Storms
+49,Eastern Asia,1980,83,44325258,6338973000,11,,Storms
+50,Eastern Asia,1990,143,90551884,42613863000,10,,Storms
+51,Eastern Asia,2000,177,285652756,72965989000,10,,Storms
+52,Eastern Asia,2010,191,76541176,130030384000,9,,Storms
+53,Eastern Asia,2020,5,638100,1100000000,12,,Storms
+54,Eastern Europe,1920,3,0,0,8,,Storms
+55,Eastern Europe,1980,9,11500,17000000,9,,Storms
+56,Eastern Europe,1990,21,28457,423400000,4,,Storms
+57,Eastern Europe,2000,45,2685508,1051300000,5,,Storms
+58,Eastern Europe,2010,16,173197,841100000,7,,Storms
+59,Eastern Europe,2020,2,0,0,7,,Storms
+60,Melanesia,1930,2,0,0,23,,Storms
+61,Melanesia,1940,3,0,0,24,,Storms
+62,Melanesia,1950,8,0,2950000,24,,Storms
+63,Melanesia,1960,6,11000,3000000,24,,Storms
+64,Melanesia,1970,17,175750,23500000,24,,Storms
+65,Melanesia,1980,22,663451,393307000,24,,Storms
+66,Melanesia,1990,15,280550,149600000,24,,Storms
+67,Melanesia,2000,16,256002,117952000,24,,Storms
+68,Melanesia,2010,20,1089100,1161227000,24,,Storms
+69,Melanesia,2020,4,4952,13000000,24,,Storms
+70,Micronesia,1960,1,0,250000000,27,,Storms
+71,Micronesia,1970,2,700,120000000,27,,Storms
+72,Micronesia,1980,2,0,6145000,27,,Storms
+73,Micronesia,1990,3,1400,500000000,27,,Storms
+74,Micronesia,2000,10,17844,131500000,27,,Storms
+75,Micronesia,2010,8,46850,11000000,27,,Storms
+76,Middle Africa,1970,1,0,0,26,,Storms
+77,Middle Africa,1980,2,2100,282000,25,,Storms
+78,Middle Africa,2000,10,84137,0,25,,Storms
+79,Middle Africa,2010,8,18869,0,25,,Storms
+80,Northern Africa,1970,1,15000,0,22,,Storms
+81,Northern Africa,1980,2,10107,0,22,,Storms
+82,Northern Africa,1990,2,0,1000000,20,,Storms
+83,Northern Africa,2000,6,0,50000,23,,Storms
+84,Northern Africa,2010,7,149600,425000000,22,,Storms
+85,Northern America,1900,6,0,30000000,6,,Storms
+86,Northern America,1910,6,0,290000000,4,,Storms
+87,Northern America,1920,6,0,138000000,6,,Storms
+88,Northern America,1930,6,0,333000000,6,,Storms
+89,Northern America,1940,15,0,200500000,5,,Storms
+90,Northern America,1950,31,0,1965000000,5,,Storms
+91,Northern America,1960,33,458,4733000000,5,,Storms
+92,Northern America,1970,29,2446,7262500000,4,,Storms
+93,Northern America,1980,97,1055600,24833700000,6,,Storms
+94,Northern America,1990,175,3381336,87724150000,6,,Storms
+95,Northern America,2000,139,8598737,310793430000,6,,Storms
+96,Northern America,2010,155,87934658,415132000000,7,,Storms
+97,Northern America,2020,4,12000,3625000000,6,,Storms
+98,Northern Europe,1960,1,700,2500000,8,,Storms
+99,Northern Europe,1970,4,0,0,6,,Storms
+100,Northern Europe,1980,12,0,1896500000,8,,Storms
+101,Northern Europe,1990,39,1045200,11434989000,7,,Storms
+102,Northern Europe,2000,24,23580,8715050000,7,,Storms
+103,Northern Europe,2010,15,38300,1300500000,7,,Storms
+104,Northern Europe,2020,2,0,0,7,,Storms
+105,Polynesia,1910,1,0,0,26,,Storms
+106,Polynesia,1920,1,0,0,26,,Storms
+107,Polynesia,1940,3,0,0,26,,Storms
+108,Polynesia,1950,2,1600,1500000,24,,Storms
+109,Polynesia,1960,11,107000,1379000,26,,Storms
+110,Polynesia,1970,3,11400,1600000,26,,Storms
+111,Polynesia,1980,13,114200,136900000,26,,Storms
+112,Polynesia,1990,12,262371,482900000,27,,Storms
+113,Polynesia,2000,10,38044,241300000,27,,Storms
+114,Polynesia,2010,12,115552,178000000,26,,Storms
+115,Polynesia,2020,2,1289,111000000,26,,Storms
+116,South America,1940,1,0,0,24,,Storms
+117,South America,1950,1,0,0,25,,Storms
+118,South America,1960,5,1020,50000,17,,Storms
+119,South America,1970,7,190000,9300000,13,,Storms
+120,South America,1980,14,413054,62500000,19,,Storms
+121,South America,1990,17,598850,158000000,17,,Storms
+122,South America,2000,27,320158,390000000,19,,Storms
+123,South America,2010,16,123874,150200000,20,,Storms
+124,South America,2020,1,1119,0,19,,Storms
+125,South-Eastern Asia,1900,2,0,0,23,,Storms
+126,South-Eastern Asia,1910,1,0,10000000,25,,Storms
+127,South-Eastern Asia,1920,2,0,0,23,,Storms
+128,South-Eastern Asia,1930,8,0,0,25,,Storms
+129,South-Eastern Asia,1940,3,0,0,25,,Storms
+130,South-Eastern Asia,1950,14,60000,50000000,25,,Storms
+131,South-Eastern Asia,1960,25,3596774,192800000,24,,Storms
+132,South-Eastern Asia,1970,59,11196947,771535000,25,,Storms
+133,South-Eastern Asia,1980,82,46659722,2091484000,25,,Storms
+134,South-Eastern Asia,1990,104,32727004,3882897000,25,,Storms
+135,South-Eastern Asia,2000,137,53391742,9136911000,25,,Storms
+136,South-Eastern Asia,2010,132,88066955,22331107000,25,,Storms
+137,South-Eastern Asia,2020,4,335135,32500000,24,,Storms
+138,Southern Africa,1950,1,0,0,17,,Storms
+139,Southern Africa,1980,5,1132000,196152000,17,,Storms
+140,Southern Africa,1990,8,13230,583000000,16,,Storms
+141,Southern Africa,2000,17,114475,29041000,17,,Storms
+142,Southern Africa,2010,9,19744,613000000,17,,Storms
+143,Southern Asia,1900,3,0,0,24,,Storms
+144,Southern Asia,1910,3,0,0,24,,Storms
+145,Southern Asia,1920,8,1040000,0,23,,Storms
+146,Southern Asia,1930,5,0,0,23,,Storms
+147,Southern Asia,1940,10,30000,0,23,,Storms
+148,Southern Asia,1950,12,2270000,0,24,,Storms
+149,Southern Asia,1960,30,19100985,206009000,24,,Storms
+150,Southern Asia,1970,50,25408457,1244692000,24,,Storms
+151,Southern Asia,1980,64,31799560,1727163000,23,,Storms
+152,Southern Asia,1990,87,53579349,10806236000,23,,Storms
+153,Southern Asia,2000,86,20865718,4564656000,23,,Storms
+154,Southern Asia,2010,91,44853044,15446881000,24,,Storms
+155,Southern Asia,2020,7,16116041,15665000000,24,,Storms
+156,Southern Europe,1930,1,0,0,14,,Storms
+157,Southern Europe,1940,2,0,0,12,,Storms
+158,Southern Europe,1950,1,0,0,13,,Storms
+159,Southern Europe,1960,2,0,0,12,,Storms
+160,Southern Europe,1970,8,5200,539200000,12,,Storms
+161,Southern Europe,1980,10,60000,2562700000,13,,Storms
+162,Southern Europe,1990,15,2410,1257000000,13,,Storms
+163,Southern Europe,2000,23,534550,3254000000,12,,Storms
+164,Southern Europe,2010,25,11242,4197000000,14,,Storms
+165,Southern Europe,2020,3,0,0,13,,Storms
+166,Western Africa,1960,1,0,200000,27,,Storms
+167,Western Africa,1970,2,10000,3600000,26,,Storms
+168,Western Africa,1980,4,7600,3000000,24,,Storms
+169,Western Africa,1990,8,67575,0,27,,Storms
+170,Western Africa,2000,11,19025,0,27,,Storms
+171,Western Africa,2010,8,44541,2100000,26,,Storms
+172,Western Asia,1960,2,15000,2300000,10,,Storms
+173,Western Asia,1970,3,5000,0,20,,Storms
+174,Western Asia,1980,3,0,0,24,,Storms
+175,Western Asia,1990,5,100000,155000000,15,,Storms
+176,Western Asia,2000,19,23360,3963750000,17,,Storms
+177,Western Asia,2010,28,3327453,2223822000,19,,Storms
+178,Western Asia,2020,2,45300,580000000,18,,Storms
+179,Western Europe,1920,1,0,55000000,9,,Storms
+180,Western Europe,1930,1,0,0,10,,Storms
+181,Western Europe,1950,1,0,25000000,9,,Storms
+182,Western Europe,1960,6,0,651000000,10,,Storms
+183,Western Europe,1970,10,0,1742000000,8,,Storms
+184,Western Europe,1980,32,140,3257500000,8,,Storms
+185,Western Europe,1990,80,3791150,30994156000,9,,Storms
+186,Western Europe,2000,52,4450,18666050000,9,,Storms
+187,Western Europe,2010,56,503825,14361686000,9,,Storms
+188,Western Europe,2020,4,0,0,9,,Storms

@@ -1,0 +1,167 @@
+Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO,Rain
+1900,Caribbean,Flood,past,0.0,300.0,1,0
+1900,Northern America,Flood,past,0.0,72.0,1,0
+1900,Western Europe,Flood,past,0.0,6.0,2,0
+1910,Eastern Asia,Flood,past,0.0,1379.0,1,0
+1920,Northern Africa,Flood,past,0.0,3000.0,1,0
+1920,Northern America,Flood,past,230.0,246.0,1,0
+1920,Southern Asia,Flood,past,0.0,36.0,2,0
+1920,Western Europe,Flood,past,70000.0,0.0,3,0
+1930,Australia and New Zealand,Flood,past,0.0,21.0,1,0
+1930,Caribbean,Flood,past,0.0,111.0,1,0
+1930,Eastern Asia,Flood,past,1400000.0,4200933.0,3,0
+1930,Northern America,Flood,past,438000.0,337.0,2,0
+1930,Western Europe,Flood,past,0.0,0.0,1,0
+1940,Caribbean,Flood,past,0.0,125.0,1,0
+1940,Central America,Flood,past,15000.0,40000.0,1,0
+1940,Eastern Asia,Flood,past,0.0,58320.0,3,0
+1940,Northern America,Flood,past,0.0,55.0,1,0
+1940,South America,Flood,past,0.0,200.0,1,0
+1940,Western Asia,Flood,past,0.0,332.0,2,0
+1950,Australia and New Zealand,Flood,past,0.0,70.0,1,0
+1950,Caribbean,Flood,past,0.0,50.0,1,0
+1950,Central America,Flood,past,0.0,140.0,2,0
+1950,Eastern Asia,Flood,past,0.0,2043789.0,17,0
+1950,Northern Africa,Flood,past,0.0,186.0,4,0
+1950,Northern America,Flood,past,1129000.0,149.0,4,0
+1950,Northern Europe,Flood,past,0.0,34.0,1,0
+1950,South America,Flood,past,0.0,877.0,6,0
+1950,South-Eastern Asia,Flood,past,0.0,114.0,1,0
+1950,Southern Africa,Flood,past,0.0,51.0,1,0
+1950,Southern Asia,Flood,past,0.0,6221.0,27,0
+1950,Southern Europe,Flood,past,300000.0,390.0,5,0
+1950,Western Asia,Flood,past,50000.0,677.0,4,0
+1950,Western Europe,Flood,past,300000.0,2050.0,4,0
+1960,Caribbean,Flood,past,0.0,526.0,2,0
+1960,Central America,Flood,past,15500.0,379.0,7,0
+1960,Eastern Africa,Flood,past,182670.0,241.0,9,0
+1960,Eastern Asia,Flood,past,203800.0,2697.0,18,0
+1960,Melanesia,Flood,past,1100.0,1.0,1,0
+1960,Northern Africa,Flood,past,131000.0,1102.0,13,0
+1960,Northern America,Flood,past,1220000.0,224.0,3,0
+1960,South America,Flood,past,172978.0,2840.0,30,0
+1960,South-Eastern Asia,Flood,past,95011.0,1206.0,16,0
+1960,Southern Africa,Flood,past,30000.0,0.0,1,0
+1960,Southern Asia,Flood,past,321600.0,11604.0,35,0
+1960,Southern Europe,Flood,past,2492600.0,1107.0,7,0
+1960,Western Africa,Flood,past,74750.0,0.0,2,0
+1960,Western Asia,Flood,past,15400.0,459.0,9,0
+1970,Australia and New Zealand,Flood,past,190052.0,60.0,13,0
+1970,Caribbean,Flood,past,6159.0,224.0,9,0
+1970,Central America,Flood,past,184850.0,348.0,18,0
+1970,Eastern Africa,Flood,past,134200.0,993.0,17,0
+1970,Eastern Asia,Flood,past,159834.0,21797.0,24,0
+1970,Eastern Europe,Flood,past,635000.0,575.0,4,0
+1970,Middle Africa,Flood,past,0.0,0.0,1,0
+1970,Northern Africa,Flood,past,114000.0,279.0,13,0
+1970,Northern America,Flood,past,894500.0,599.0,10,0
+1970,Northern Europe,Flood,past,171000.0,6.0,2,0
+1970,South America,Flood,past,647070.0,2167.0,41,0
+1970,South-Eastern Asia,Flood,past,734142.0,2191.0,39,0
+1970,Southern Africa,Flood,past,50.0,56.0,4,0
+1970,Southern Asia,Flood,past,3434672.0,40622.0,36,0
+1970,Southern Europe,Flood,past,967400.0,669.0,12,0
+1970,Western Africa,Flood,past,3200.0,0.0,4,0
+1970,Western Asia,Flood,past,51700.0,145.0,5,0
+1970,Western Europe,Flood,past,330000.0,31.0,5,0
+1980,Australia and New Zealand,Flood,past,380348.0,67.0,24,0
+1980,Caribbean,Flood,past,172940.0,841.0,30,0
+1980,Central America,Flood,past,590950.0,1472.0,24,0
+1980,Eastern Africa,Flood,past,1600.0,296.0,23,0
+1980,Eastern Asia,Flood,past,9635168.0,14831.0,50,0
+1980,Eastern Europe,Flood,past,554000.0,0.0,5,0
+1980,Melanesia,Flood,past,27300.0,75.0,3,0
+1980,Middle Africa,Flood,past,0.0,45.0,5,0
+1980,Northern Africa,Flood,past,90000.0,396.0,9,0
+1980,Northern America,Flood,past,1149400.0,92.0,23,0
+1980,Northern Europe,Flood,past,5800.0,11.0,3,0
+1980,Russian Federation,Flood,past,1196000.0,127.0,11,0
+1980,South America,Flood,past,8495900.0,3674.0,73,0
+1980,South-Eastern Asia,Flood,past,773672.0,3173.0,61,0
+1980,Southern Africa,Flood,past,766305.0,661.0,6,0
+1980,Southern Asia,Flood,past,9534224.0,23373.0,91,0
+1980,Southern Europe,Flood,past,6688000.0,589.0,12,0
+1980,Western Africa,Flood,past,24406.0,252.0,19,0
+1980,Western Asia,Flood,past,1515200.0,684.0,12,0
+1980,Western Europe,Flood,past,1109500.0,75.0,18,0
+1990,Australia and New Zealand,Flood,past,1073600.0,38.0,19,0
+1990,Caribbean,Flood,past,383660.0,202.0,24,0
+1990,Central America,Flood,past,1712900.0,1969.0,39,0
+1990,Central Asia,Flood,past,510956.0,1435.0,10,0
+1990,Eastern Africa,Flood,past,84298.0,4293.0,51,0
+1990,Eastern Asia,Flood,past,113389594.0,19202.0,73,0
+1990,Eastern Europe,Flood,past,7903839.0,650.0,48,0
+1990,Melanesia,Flood,past,45728.0,2.0,3,0
+1990,Middle Africa,Flood,past,59.0,146.0,19,0
+1990,Northern Africa,Flood,past,531100.0,1970.0,30,0
+1990,Northern America,Flood,past,29188700.0,407.0,57,0
+1990,Northern Europe,Flood,past,1542080.0,21.0,10,0
+1990,Russian Federation,Flood,past,2199900.0,21.0,5,0
+1990,South America,Flood,past,6735890.0,31578.0,83,0
+1990,South-Eastern Asia,Flood,past,5104482.0,5337.0,105,0
+1990,Southern Africa,Flood,past,36460.0,322.0,10,0
+1990,Southern Asia,Flood,past,21890422.0,26275.0,152,0
+1990,Southern Europe,Flood,past,12234700.0,166.0,22,0
+1990,Western Africa,Flood,past,103315.0,564.0,41,0
+1990,Western Asia,Flood,past,2582020.0,767.0,30,0
+1990,Western Europe,Flood,past,4415900.0,97.0,32,0
+2000,Australia and New Zealand,Flood,past,4514000.0,38.0,27,0
+2000,Caribbean,Flood,past,264623.0,3651.0,40,0
+2000,Central America,Flood,past,3266147.0,748.0,86,0
+2000,Central Asia,Flood,past,227858.0,93.0,19,0
+2000,Eastern Africa,Flood,past,1070438.0,3947.0,170,0
+2000,Eastern Asia,Flood,past,48589310.0,7381.0,135,0
+2000,Eastern Europe,Flood,past,8212684.0,713.0,102,0
+2000,Melanesia,Flood,past,80747.0,49.0,16,0
+2000,Micronesia,Flood,past,0.0,0.0,3,0
+2000,Middle Africa,Flood,past,11000.0,705.0,54,0
+2000,Northern Africa,Flood,past,1389217.0,1838.0,57,0
+2000,Northern America,Flood,past,16157330.0,308.0,74,0
+2000,Northern Europe,Flood,past,14996150.0,26.0,21,0
+2000,Polynesia,Flood,past,51500.0,6.0,2,0
+2000,South America,Flood,past,7173200.0,3087.0,153,0
+2000,South-Eastern Asia,Flood,past,5440685.0,6954.0,219,0
+2000,Southern Africa,Flood,past,390804.0,303.0,29,0
+2000,Southern Asia,Flood,past,20655972.0,21882.0,245,0
+2000,Southern Europe,Flood,past,11187140.0,187.0,75,0
+2000,Western Africa,Flood,past,203401.0,1155.0,105,0
+2000,Western Asia,Flood,past,2290456.0,838.0,54,0
+2000,Western Europe,Flood,past,20412350.0,96.0,39,0
+2010,Australia and New Zealand,Flood,past,10825400.0,50.0,17,0
+2010,Caribbean,Flood,past,165302.0,299.0,45,0
+2010,Central America,Flood,past,1106313.0,714.0,70,0
+2010,Central Asia,Flood,past,313636.0,162.0,21,0
+2010,Eastern Africa,Flood,past,1065100.0,2833.0,130,0
+2010,Eastern Asia,Flood,past,141815435.0,7640.0,127,0
+2010,Eastern Europe,Flood,past,8483655.0,424.0,59,0
+2010,Melanesia,Flood,past,142000.0,71.0,11,0
+2010,Micronesia,Flood,past,0.0,0.0,2,0
+2010,Middle Africa,Flood,past,29000.0,966.0,54,0
+2010,Northern Africa,Flood,past,858100.0,909.0,39,0
+2010,Northern America,Flood,past,49431000.0,283.0,47,0
+2010,Northern Europe,Flood,past,6595000.0,17.0,13,0
+2010,Polynesia,Flood,past,2000.0,0.0,1,0
+2010,South America,Flood,past,13999100.0,3889.0,165,0
+2010,South-Eastern Asia,Flood,past,54354901.0,5514.0,231,0
+2010,Southern Africa,Flood,past,838000.0,364.0,22,0
+2010,Southern Asia,Flood,past,67240180.0,23305.0,209,0
+2010,Southern Europe,Flood,past,10399742.0,327.0,82,0
+2010,Western Africa,Flood,past,1150515.0,2114.0,102,0
+2010,Western Asia,Flood,past,338000.0,607.0,58,0
+2010,Western Europe,Flood,past,22632146.0,121.0,23,0
+2020,Australia and New Zealand,Flood,past,0.0,0.0,1,0
+2020,Central America,Flood,past,0.0,14.0,2,0
+2020,Central Asia,Flood,past,0.0,0.0,2,0
+2020,Eastern Africa,Flood,past,0.0,518.0,17,0
+2020,Eastern Asia,Flood,past,6100000.0,256.0,5,0
+2020,Eastern Europe,Flood,past,0.0,3.0,2,0
+2020,Melanesia,Flood,past,0.0,0.0,1,0
+2020,Middle Africa,Flood,past,0.0,143.0,4,0
+2020,Northern Africa,Flood,past,76000.0,130.0,2,0
+2020,South America,Flood,past,157000.0,195.0,8,0
+2020,South-Eastern Asia,Flood,past,28900.0,87.0,16,0
+2020,Southern Asia,Flood,past,1300000.0,1870.0,20,0
+2020,Southern Europe,Flood,past,28000.0,0.0,2,0
+2020,Western Africa,Flood,past,0.0,63.0,3,0
+2020,Western Asia,Flood,past,0.0,201.0,5,0
+2020,Western Europe,Flood,past,0.0,0.0,1,0
