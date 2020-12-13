@@ -1,0 +1,705 @@
+,UN_Geosheme_Subregion,Decade,RCP,DO,°C,Disaster_Type,Human_Impact,Financial_Impact
+0,Australia and New Zealand,2020,2.6,21,18,Storms,13062,43995000
+1,Australia and New Zealand,2020,4.5,21,18,Storms,13062,43995000
+2,Australia and New Zealand,2020,6.0,21,18,Storms,13062,43995000
+3,Australia and New Zealand,2020,8.5,20,18,Storms,12440,41900000
+4,Australia and New Zealand,2030,2.6,21,18,Storms,13062,43995000
+5,Australia and New Zealand,2030,4.5,21,18,Storms,13062,43995000
+6,Australia and New Zealand,2030,6.0,19,18,Storms,11818,39805000
+7,Australia and New Zealand,2030,8.5,25,18,Storms,15550,52375000
+8,Australia and New Zealand,2040,2.6,19,18,Storms,11818,39805000
+9,Australia and New Zealand,2040,4.5,25,18,Storms,15550,52375000
+10,Australia and New Zealand,2040,6.0,25,18,Storms,15550,52375000
+11,Australia and New Zealand,2040,8.5,17,18,Storms,10574,35615000
+12,Australia and New Zealand,2050,2.6,19,18,Storms,11818,39805000
+13,Australia and New Zealand,2050,4.5,23,18,Storms,14306,48185000
+14,Australia and New Zealand,2050,6.0,21,18,Storms,13062,43995000
+15,Australia and New Zealand,2050,8.5,21,19,Storms,13062,43995000
+16,Australia and New Zealand,2060,2.6,19,18,Storms,11818,39805000
+17,Australia and New Zealand,2060,4.5,16,18,Storms,9952,33520000
+18,Australia and New Zealand,2060,6.0,16,18,Storms,9952,33520000
+19,Australia and New Zealand,2060,8.5,8,19,Storms,4976,16760000
+20,Australia and New Zealand,2070,2.6,20,18,Storms,12440,41900000
+21,Australia and New Zealand,2070,4.5,17,18,Storms,10574,35615000
+22,Australia and New Zealand,2070,6.0,21,19,Storms,13062,43995000
+23,Australia and New Zealand,2070,8.5,7,20,Storms,4354,14665000
+24,Australia and New Zealand,2080,2.6,21,18,Storms,13062,43995000
+25,Australia and New Zealand,2080,4.5,17,18,Storms,10574,35615000
+26,Australia and New Zealand,2080,6.0,14,19,Storms,8708,29330000
+27,Australia and New Zealand,2080,8.5,7,20,Storms,4354,14665000
+28,Australia and New Zealand,2090,2.6,21,18,Storms,13062,43995000
+29,Australia and New Zealand,2090,4.5,17,18,Storms,10574,35615000
+30,Australia and New Zealand,2090,6.0,14,19,Storms,8708,29330000
+31,Australia and New Zealand,2090,8.5,7,20,Storms,4354,14665000
+32,Caribbean,2020,2.6,92,26,Storms,50508,176548000
+33,Caribbean,2020,4.5,91,26,Storms,49959,174629000
+34,Caribbean,2020,6.0,92,26,Storms,50508,176548000
+35,Caribbean,2020,8.5,96,26,Storms,52704,184224000
+36,Caribbean,2030,2.6,95,26,Storms,52155,182305000
+37,Caribbean,2030,4.5,89,26,Storms,48861,170791000
+38,Caribbean,2030,6.0,95,26,Storms,52155,182305000
+39,Caribbean,2030,8.5,97,26,Storms,53253,186143000
+40,Caribbean,2040,2.6,92,26,Storms,50508,176548000
+41,Caribbean,2040,4.5,93,26,Storms,51057,178467000
+42,Caribbean,2040,6.0,89,26,Storms,48861,170791000
+43,Caribbean,2040,8.5,97,26,Storms,53253,186143000
+44,Caribbean,2050,2.6,89,26,Storms,48861,170791000
+45,Caribbean,2050,4.5,98,26,Storms,53802,188062000
+46,Caribbean,2050,6.0,97,26,Storms,53253,186143000
+47,Caribbean,2050,8.5,113,27,Storms,62037,216847000
+48,Caribbean,2060,2.6,90,26,Storms,49410,172710000
+49,Caribbean,2060,4.5,95,26,Storms,52155,182305000
+50,Caribbean,2060,6.0,97,26,Storms,53253,186143000
+51,Caribbean,2060,8.5,107,27,Storms,58743,205333000
+52,Caribbean,2070,2.6,91,26,Storms,49959,174629000
+53,Caribbean,2070,4.5,96,26,Storms,52704,184224000
+54,Caribbean,2070,6.0,100,27,Storms,54900,191900000
+55,Caribbean,2070,8.5,92,28,Storms,50508,176548000
+56,Caribbean,2080,2.6,93,26,Storms,51057,178467000
+57,Caribbean,2080,4.5,97,27,Storms,53253,186143000
+58,Caribbean,2080,6.0,112,27,Storms,61488,214928000
+59,Caribbean,2080,8.5,105,28,Storms,57645,201495000
+60,Caribbean,2090,2.6,93,26,Storms,51057,178467000
+61,Caribbean,2090,4.5,97,27,Storms,53253,186143000
+62,Caribbean,2090,6.0,112,27,Storms,61488,214928000
+63,Caribbean,2090,8.5,105,28,Storms,57645,201495000
+64,Central America,2020,2.6,41,25,Storms,19188,76137000
+65,Central America,2020,4.5,50,25,Storms,23400,92850000
+66,Central America,2020,6.0,42,25,Storms,19656,77994000
+67,Central America,2020,8.5,54,26,Storms,25272,100278000
+68,Central America,2030,2.6,48,26,Storms,22464,89136000
+69,Central America,2030,4.5,55,26,Storms,25740,102135000
+70,Central America,2030,6.0,54,26,Storms,25272,100278000
+71,Central America,2030,8.5,42,26,Storms,19656,77994000
+72,Central America,2040,2.6,51,26,Storms,23868,94707000
+73,Central America,2040,4.5,46,26,Storms,21528,85422000
+74,Central America,2040,6.0,51,26,Storms,23868,94707000
+75,Central America,2040,8.5,52,26,Storms,24336,96564000
+76,Central America,2050,2.6,51,26,Storms,23868,94707000
+77,Central America,2050,4.5,46,26,Storms,21528,85422000
+78,Central America,2050,6.0,45,26,Storms,21060,83565000
+79,Central America,2050,8.5,36,27,Storms,16848,66852000
+80,Central America,2060,2.6,50,26,Storms,23400,92850000
+81,Central America,2060,4.5,46,26,Storms,21528,85422000
+82,Central America,2060,6.0,51,26,Storms,23868,94707000
+83,Central America,2060,8.5,26,27,Storms,12168,48282000
+84,Central America,2070,2.6,50,26,Storms,23400,92850000
+85,Central America,2070,4.5,49,26,Storms,22932,90993000
+86,Central America,2070,6.0,42,27,Storms,19656,77994000
+87,Central America,2070,8.5,25,28,Storms,11700,46425000
+88,Central America,2080,2.6,50,26,Storms,23400,92850000
+89,Central America,2080,4.5,50,26,Storms,23400,92850000
+90,Central America,2080,6.0,38,27,Storms,17784,70566000
+91,Central America,2080,8.5,34,28,Storms,15912,63138000
+92,Central America,2090,2.6,50,26,Storms,23400,92850000
+93,Central America,2090,4.5,50,26,Storms,23400,92850000
+94,Central America,2090,6.0,38,27,Storms,17784,70566000
+95,Central America,2090,8.5,34,28,Storms,15912,63138000
+96,Central Asia,2020,2.6,13,10,Storms,12870,2964000
+97,Central Asia,2020,4.5,13,10,Storms,12870,2964000
+98,Central Asia,2020,6.0,13,10,Storms,12870,2964000
+99,Central Asia,2020,8.5,14,10,Storms,13860,3192000
+100,Central Asia,2030,2.6,14,10,Storms,13860,3192000
+101,Central Asia,2030,4.5,14,10,Storms,13860,3192000
+102,Central Asia,2030,6.0,14,10,Storms,13860,3192000
+103,Central Asia,2030,8.5,12,11,Storms,11880,2736000
+104,Central Asia,2040,2.6,15,10,Storms,14850,3420000
+105,Central Asia,2040,4.5,11,11,Storms,10890,2508000
+106,Central Asia,2040,6.0,16,10,Storms,15840,3648000
+107,Central Asia,2040,8.5,10,11,Storms,9900,2280000
+108,Central Asia,2050,2.6,15,10,Storms,14850,3420000
+109,Central Asia,2050,4.5,11,11,Storms,10890,2508000
+110,Central Asia,2050,6.0,13,11,Storms,12870,2964000
+111,Central Asia,2050,8.5,9,12,Storms,8910,2052000
+112,Central Asia,2060,2.6,14,10,Storms,13860,3192000
+113,Central Asia,2060,4.5,10,11,Storms,9900,2280000
+114,Central Asia,2060,6.0,10,11,Storms,9900,2280000
+115,Central Asia,2060,8.5,9,12,Storms,8910,2052000
+116,Central Asia,2070,2.6,14,10,Storms,13860,3192000
+117,Central Asia,2070,4.5,10,11,Storms,9900,2280000
+118,Central Asia,2070,6.0,9,11,Storms,8910,2052000
+119,Central Asia,2070,8.5,7,13,Storms,6930,1596000
+120,Central Asia,2080,2.6,14,10,Storms,13860,3192000
+121,Central Asia,2080,4.5,10,11,Storms,9900,2280000
+122,Central Asia,2080,6.0,9,12,Storms,8910,2052000
+123,Central Asia,2080,8.5,11,14,Storms,10890,2508000
+124,Central Asia,2090,2.6,14,10,Storms,13860,3192000
+125,Central Asia,2090,4.5,10,11,Storms,9900,2280000
+126,Central Asia,2090,6.0,9,12,Storms,8910,2052000
+127,Central Asia,2090,8.5,11,14,Storms,10890,2508000
+128,Eastern Africa,2020,2.6,50,24,Storms,57950,29350000
+129,Eastern Africa,2020,4.5,60,24,Storms,69540,35220000
+130,Eastern Africa,2020,6.0,55,24,Storms,63745,32285000
+131,Eastern Africa,2020,8.5,60,24,Storms,69540,35220000
+132,Eastern Africa,2030,2.6,58,24,Storms,67222,34046000
+133,Eastern Africa,2030,4.5,62,24,Storms,71858,36394000
+134,Eastern Africa,2030,6.0,62,24,Storms,71858,36394000
+135,Eastern Africa,2030,8.5,53,24,Storms,61427,31111000
+136,Eastern Africa,2040,2.6,60,24,Storms,69540,35220000
+137,Eastern Africa,2040,4.5,55,24,Storms,63745,32285000
+138,Eastern Africa,2040,6.0,58,24,Storms,67222,34046000
+139,Eastern Africa,2040,8.5,37,25,Storms,42883,21719000
+140,Eastern Africa,2050,2.6,61,24,Storms,70699,35807000
+141,Eastern Africa,2050,4.5,40,25,Storms,46360,23480000
+142,Eastern Africa,2050,6.0,46,25,Storms,53314,27002000
+143,Eastern Africa,2050,8.5,38,25,Storms,44042,22306000
+144,Eastern Africa,2060,2.6,61,24,Storms,70699,35807000
+145,Eastern Africa,2060,4.5,31,25,Storms,35929,18197000
+146,Eastern Africa,2060,6.0,34,25,Storms,39406,19958000
+147,Eastern Africa,2060,8.5,31,26,Storms,35929,18197000
+148,Eastern Africa,2070,2.6,62,24,Storms,71858,36394000
+149,Eastern Africa,2070,4.5,39,25,Storms,45201,22893000
+150,Eastern Africa,2070,6.0,40,25,Storms,46360,23480000
+151,Eastern Africa,2070,8.5,28,26,Storms,32452,16436000
+152,Eastern Africa,2080,2.6,62,24,Storms,71858,36394000
+153,Eastern Africa,2080,4.5,36,25,Storms,41724,21132000
+154,Eastern Africa,2080,6.0,47,25,Storms,54473,27589000
+155,Eastern Africa,2080,8.5,21,27,Storms,24339,12327000
+156,Eastern Africa,2090,2.6,62,24,Storms,71858,36394000
+157,Eastern Africa,2090,4.5,36,25,Storms,41724,21132000
+158,Eastern Africa,2090,6.0,47,25,Storms,54473,27589000
+159,Eastern Africa,2090,8.5,21,27,Storms,24339,12327000
+160,Eastern Asia,2020,2.6,49,14,Storms,91924,40768000
+161,Eastern Asia,2020,4.5,74,13,Storms,138824,61568000
+162,Eastern Asia,2020,6.0,74,13,Storms,138824,61568000
+163,Eastern Asia,2020,8.5,78,13,Storms,146328,64896000
+164,Eastern Asia,2030,2.6,49,14,Storms,91924,40768000
+165,Eastern Asia,2030,4.5,77,13,Storms,144452,64064000
+166,Eastern Asia,2030,6.0,79,13,Storms,148204,65728000
+167,Eastern Asia,2030,8.5,78,14,Storms,146328,64896000
+168,Eastern Asia,2040,2.6,77,13,Storms,144452,64064000
+169,Eastern Asia,2040,4.5,79,14,Storms,148204,65728000
+170,Eastern Asia,2040,6.0,77,13,Storms,144452,64064000
+171,Eastern Asia,2040,8.5,99,14,Storms,185724,82368000
+172,Eastern Asia,2050,2.6,77,13,Storms,144452,64064000
+173,Eastern Asia,2050,4.5,104,14,Storms,195104,86528000
+174,Eastern Asia,2050,6.0,78,14,Storms,146328,64896000
+175,Eastern Asia,2050,8.5,102,15,Storms,191352,84864000
+176,Eastern Asia,2060,2.6,77,13,Storms,144452,64064000
+177,Eastern Asia,2060,4.5,98,14,Storms,183848,81536000
+178,Eastern Asia,2060,6.0,98,14,Storms,183848,81536000
+179,Eastern Asia,2060,8.5,70,15,Storms,131320,58240000
+180,Eastern Asia,2070,2.6,78,13,Storms,146328,64896000
+181,Eastern Asia,2070,4.5,99,14,Storms,185724,82368000
+182,Eastern Asia,2070,6.0,97,14,Storms,181972,80704000
+183,Eastern Asia,2070,8.5,81,16,Storms,151956,67392000
+184,Eastern Asia,2080,2.6,49,14,Storms,91924,40768000
+185,Eastern Asia,2080,4.5,97,14,Storms,181972,80704000
+186,Eastern Asia,2080,6.0,102,15,Storms,191352,84864000
+187,Eastern Asia,2080,8.5,86,16,Storms,161336,71552000
+188,Eastern Asia,2090,2.6,49,14,Storms,91924,40768000
+189,Eastern Asia,2090,4.5,97,14,Storms,181972,80704000
+190,Eastern Asia,2090,6.0,102,15,Storms,191352,84864000
+191,Eastern Asia,2090,8.5,86,16,Storms,161336,71552000
+192,Eastern Europe,2020,2.6,14,9,Storms,15862,9856000
+193,Eastern Europe,2020,4.5,12,9,Storms,13596,8448000
+194,Eastern Europe,2020,6.0,15,9,Storms,16995,10560000
+195,Eastern Europe,2020,8.5,12,9,Storms,13596,8448000
+196,Eastern Europe,2030,2.6,12,9,Storms,13596,8448000
+197,Eastern Europe,2030,4.5,11,10,Storms,12463,7744000
+198,Eastern Europe,2030,6.0,12,9,Storms,13596,8448000
+199,Eastern Europe,2030,8.5,11,10,Storms,12463,7744000
+200,Eastern Europe,2040,2.6,11,9,Storms,12463,7744000
+201,Eastern Europe,2040,4.5,11,10,Storms,12463,7744000
+202,Eastern Europe,2040,6.0,12,10,Storms,13596,8448000
+203,Eastern Europe,2040,8.5,14,10,Storms,15862,9856000
+204,Eastern Europe,2050,2.6,11,9,Storms,12463,7744000
+205,Eastern Europe,2050,4.5,9,10,Storms,10197,6336000
+206,Eastern Europe,2050,6.0,10,10,Storms,11330,7040000
+207,Eastern Europe,2050,8.5,13,11,Storms,14729,9152000
+208,Eastern Europe,2060,2.6,12,9,Storms,13596,8448000
+209,Eastern Europe,2060,4.5,8,10,Storms,9064,5632000
+210,Eastern Europe,2060,6.0,9,10,Storms,10197,6336000
+211,Eastern Europe,2060,8.5,8,12,Storms,9064,5632000
+212,Eastern Europe,2070,2.6,11,9,Storms,12463,7744000
+213,Eastern Europe,2070,4.5,11,10,Storms,12463,7744000
+214,Eastern Europe,2070,6.0,14,11,Storms,15862,9856000
+215,Eastern Europe,2070,8.5,8,12,Storms,9064,5632000
+216,Eastern Europe,2080,2.6,11,9,Storms,12463,7744000
+217,Eastern Europe,2080,4.5,13,10,Storms,14729,9152000
+218,Eastern Europe,2080,6.0,11,11,Storms,12463,7744000
+219,Eastern Europe,2080,8.5,15,13,Storms,16995,10560000
+220,Eastern Europe,2090,2.6,11,9,Storms,12463,7744000
+221,Eastern Europe,2090,4.5,13,10,Storms,14729,9152000
+222,Eastern Europe,2090,6.0,11,11,Storms,12463,7744000
+223,Eastern Europe,2090,8.5,15,13,Storms,16995,10560000
+224,Melanesia,2020,2.6,14,26,Storms,5208,5768000
+225,Melanesia,2020,4.5,12,26,Storms,4464,4944000
+226,Melanesia,2020,6.0,14,26,Storms,5208,5768000
+227,Melanesia,2020,8.5,14,26,Storms,5208,5768000
+228,Melanesia,2030,2.6,13,26,Storms,4836,5356000
+229,Melanesia,2030,4.5,14,26,Storms,5208,5768000
+230,Melanesia,2030,6.0,12,26,Storms,4464,4944000
+231,Melanesia,2030,8.5,13,26,Storms,4836,5356000
+232,Melanesia,2040,2.6,13,26,Storms,4836,5356000
+233,Melanesia,2040,4.5,13,26,Storms,4836,5356000
+234,Melanesia,2040,6.0,14,26,Storms,5208,5768000
+235,Melanesia,2040,8.5,14,27,Storms,5208,5768000
+236,Melanesia,2050,2.6,13,26,Storms,4836,5356000
+237,Melanesia,2050,4.5,16,26,Storms,5952,6592000
+238,Melanesia,2050,6.0,16,26,Storms,5952,6592000
+239,Melanesia,2050,8.5,17,27,Storms,6324,7004000
+240,Melanesia,2060,2.6,12,26,Storms,4464,4944000
+241,Melanesia,2060,4.5,15,27,Storms,5580,6180000
+242,Melanesia,2060,6.0,14,27,Storms,5208,5768000
+243,Melanesia,2060,8.5,15,27,Storms,5580,6180000
+244,Melanesia,2070,2.6,12,26,Storms,4464,4944000
+245,Melanesia,2070,4.5,15,27,Storms,5580,6180000
+246,Melanesia,2070,6.0,14,27,Storms,5208,5768000
+247,Melanesia,2070,8.5,11,28,Storms,4092,4532000
+248,Melanesia,2080,2.6,12,26,Storms,4464,4944000
+249,Melanesia,2080,4.5,13,27,Storms,4836,5356000
+250,Melanesia,2080,6.0,15,27,Storms,5580,6180000
+251,Melanesia,2080,8.5,11,28,Storms,4092,4532000
+252,Melanesia,2090,2.6,12,26,Storms,4464,4944000
+253,Melanesia,2090,4.5,13,27,Storms,4836,5356000
+254,Melanesia,2090,6.0,15,27,Storms,5580,6180000
+255,Melanesia,2090,8.5,11,28,Storms,4092,4532000
+256,Micronesia,2020,2.6,0,27,Storms,0,0
+257,Micronesia,2020,4.5,0,27,Storms,0,0
+258,Micronesia,2020,6.0,0,27,Storms,0,0
+259,Micronesia,2020,8.5,0,27,Storms,0,0
+260,Micronesia,2030,2.6,0,27,Storms,0,0
+261,Micronesia,2030,4.5,1,27,Storms,214,3561000
+262,Micronesia,2030,6.0,0,27,Storms,0,0
+263,Micronesia,2030,8.5,2,28,Storms,428,7122000
+264,Micronesia,2040,2.6,1,27,Storms,214,3561000
+265,Micronesia,2040,4.5,2,28,Storms,428,7122000
+266,Micronesia,2040,6.0,1,28,Storms,214,3561000
+267,Micronesia,2040,8.5,0,28,Storms,0,0
+268,Micronesia,2050,2.6,1,27,Storms,214,3561000
+269,Micronesia,2050,4.5,1,28,Storms,214,3561000
+270,Micronesia,2050,6.0,2,28,Storms,428,7122000
+271,Micronesia,2050,8.5,1,28,Storms,214,3561000
+272,Micronesia,2060,2.6,1,27,Storms,214,3561000
+273,Micronesia,2060,4.5,0,28,Storms,0,0
+274,Micronesia,2060,6.0,0,28,Storms,0,0
+275,Micronesia,2060,8.5,0,29,Storms,0,0
+276,Micronesia,2070,2.6,1,27,Storms,214,3561000
+277,Micronesia,2070,4.5,0,28,Storms,0,0
+278,Micronesia,2070,6.0,0,28,Storms,0,0
+279,Micronesia,2070,8.5,0,29,Storms,0,0
+280,Micronesia,2080,2.6,1,27,Storms,214,3561000
+281,Micronesia,2080,4.5,0,28,Storms,0,0
+282,Micronesia,2080,6.0,1,28,Storms,214,3561000
+283,Micronesia,2080,8.5,0,30,Storms,0,0
+284,Micronesia,2090,2.6,1,27,Storms,214,3561000
+285,Micronesia,2090,4.5,0,28,Storms,0,0
+286,Micronesia,2090,6.0,1,28,Storms,214,3561000
+287,Micronesia,2090,8.5,0,30,Storms,0,0
+288,Middle Africa,2020,2.6,6,25,Storms,2730,36000
+289,Middle Africa,2020,4.5,7,25,Storms,3185,42000
+290,Middle Africa,2020,6.0,6,25,Storms,2730,36000
+291,Middle Africa,2020,8.5,10,25,Storms,4550,60000
+292,Middle Africa,2030,2.6,10,25,Storms,4550,60000
+293,Middle Africa,2030,4.5,9,25,Storms,4095,54000
+294,Middle Africa,2030,6.0,9,25,Storms,4095,54000
+295,Middle Africa,2030,8.5,7,26,Storms,3185,42000
+296,Middle Africa,2040,2.6,9,25,Storms,4095,54000
+297,Middle Africa,2040,4.5,7,26,Storms,3185,42000
+298,Middle Africa,2040,6.0,11,25,Storms,5005,66000
+299,Middle Africa,2040,8.5,9,26,Storms,4095,54000
+300,Middle Africa,2050,2.6,9,25,Storms,4095,54000
+301,Middle Africa,2050,4.5,9,26,Storms,4095,54000
+302,Middle Africa,2050,6.0,6,26,Storms,2730,36000
+303,Middle Africa,2050,8.5,17,27,Storms,7735,102000
+304,Middle Africa,2060,2.6,9,25,Storms,4095,54000
+305,Middle Africa,2060,4.5,11,26,Storms,5005,66000
+306,Middle Africa,2060,6.0,13,26,Storms,5915,78000
+307,Middle Africa,2060,8.5,7,27,Storms,3185,42000
+308,Middle Africa,2070,2.6,9,25,Storms,4095,54000
+309,Middle Africa,2070,4.5,11,26,Storms,5005,66000
+310,Middle Africa,2070,6.0,12,26,Storms,5460,72000
+311,Middle Africa,2070,8.5,5,28,Storms,2275,30000
+312,Middle Africa,2080,2.6,9,25,Storms,4095,54000
+313,Middle Africa,2080,4.5,10,26,Storms,4550,60000
+314,Middle Africa,2080,6.0,14,27,Storms,6370,84000
+315,Middle Africa,2080,8.5,3,28,Storms,1365,18000
+316,Middle Africa,2090,2.6,9,25,Storms,4095,54000
+317,Middle Africa,2090,4.5,10,26,Storms,4550,60000
+318,Middle Africa,2090,6.0,14,27,Storms,6370,84000
+319,Middle Africa,2090,8.5,3,28,Storms,1365,18000
+320,Northern Africa,2020,2.6,8,23,Storms,15528,37864000
+321,Northern Africa,2020,4.5,7,23,Storms,13587,33131000
+322,Northern Africa,2020,6.0,8,22,Storms,15528,37864000
+323,Northern Africa,2020,8.5,12,23,Storms,23292,56796000
+324,Northern Africa,2030,2.6,11,23,Storms,21351,52063000
+325,Northern Africa,2030,4.5,12,23,Storms,23292,56796000
+326,Northern Africa,2030,6.0,10,23,Storms,19410,47330000
+327,Northern Africa,2030,8.5,9,23,Storms,17469,42597000
+328,Northern Africa,2040,2.6,11,23,Storms,21351,52063000
+329,Northern Africa,2040,4.5,10,23,Storms,19410,47330000
+330,Northern Africa,2040,6.0,11,23,Storms,21351,52063000
+331,Northern Africa,2040,8.5,10,24,Storms,19410,47330000
+332,Northern Africa,2050,2.6,11,23,Storms,21351,52063000
+333,Northern Africa,2050,4.5,7,23,Storms,13587,33131000
+334,Northern Africa,2050,6.0,8,23,Storms,15528,37864000
+335,Northern Africa,2050,8.5,14,25,Storms,27174,66262000
+336,Northern Africa,2060,2.6,10,23,Storms,19410,47330000
+337,Northern Africa,2060,4.5,5,24,Storms,9705,23665000
+338,Northern Africa,2060,6.0,5,24,Storms,9705,23665000
+339,Northern Africa,2060,8.5,6,25,Storms,11646,28398000
+340,Northern Africa,2070,2.6,11,23,Storms,21351,52063000
+341,Northern Africa,2070,4.5,9,24,Storms,17469,42597000
+342,Northern Africa,2070,6.0,14,24,Storms,27174,66262000
+343,Northern Africa,2070,8.5,6,26,Storms,11646,28398000
+344,Northern Africa,2080,2.6,12,23,Storms,23292,56796000
+345,Northern Africa,2080,4.5,10,24,Storms,19410,47330000
+346,Northern Africa,2080,6.0,13,24,Storms,25233,61529000
+347,Northern Africa,2080,8.5,9,26,Storms,17469,42597000
+348,Northern Africa,2090,2.6,12,23,Storms,23292,56796000
+349,Northern Africa,2090,4.5,10,24,Storms,19410,47330000
+350,Northern Africa,2090,6.0,13,24,Storms,25233,61529000
+351,Northern Africa,2090,8.5,9,26,Storms,17469,42597000
+352,Northern America,2020,2.6,29,2,Storms,29783,89407000
+353,Northern America,2020,4.5,27,2,Storms,27729,83241000
+354,Northern America,2020,6.0,40,2,Storms,41080,123320000
+355,Northern America,2020,8.5,28,3,Storms,28756,86324000
+356,Northern America,2030,2.6,28,2,Storms,28756,86324000
+357,Northern America,2030,4.5,28,3,Storms,28756,86324000
+358,Northern America,2030,6.0,28,2,Storms,28756,86324000
+359,Northern America,2030,8.5,26,3,Storms,26702,80158000
+360,Northern America,2040,2.6,28,3,Storms,28756,86324000
+361,Northern America,2040,4.5,28,3,Storms,28756,86324000
+362,Northern America,2040,6.0,28,3,Storms,28756,86324000
+363,Northern America,2040,8.5,27,4,Storms,27729,83241000
+364,Northern America,2050,2.6,28,3,Storms,28756,86324000
+365,Northern America,2050,4.5,28,3,Storms,28756,86324000
+366,Northern America,2050,6.0,28,3,Storms,28756,86324000
+367,Northern America,2050,8.5,26,4,Storms,26702,80158000
+368,Northern America,2060,2.6,28,3,Storms,28756,86324000
+369,Northern America,2060,4.5,27,4,Storms,27729,83241000
+370,Northern America,2060,6.0,27,4,Storms,27729,83241000
+371,Northern America,2060,8.5,27,6,Storms,27729,83241000
+372,Northern America,2070,2.6,28,3,Storms,28756,86324000
+373,Northern America,2070,4.5,27,4,Storms,27729,83241000
+374,Northern America,2070,6.0,25,4,Storms,25675,77075000
+375,Northern America,2070,8.5,27,6,Storms,27729,83241000
+376,Northern America,2080,2.6,28,3,Storms,28756,86324000
+377,Northern America,2080,4.5,26,4,Storms,26702,80158000
+378,Northern America,2080,6.0,25,5,Storms,25675,77075000
+379,Northern America,2080,8.5,28,7,Storms,28756,86324000
+380,Northern America,2090,2.6,28,3,Storms,28756,86324000
+381,Northern America,2090,4.5,26,4,Storms,26702,80158000
+382,Northern America,2090,6.0,25,5,Storms,25675,77075000
+383,Northern America,2090,8.5,28,7,Storms,28756,86324000
+384,Northern Europe,2020,2.6,19,5,Storms,13547,80237000
+385,Northern Europe,2020,4.5,19,6,Storms,13547,80237000
+386,Northern Europe,2020,6.0,18,5,Storms,12834,76014000
+387,Northern Europe,2020,8.5,19,6,Storms,13547,80237000
+388,Northern Europe,2030,2.6,19,6,Storms,13547,80237000
+389,Northern Europe,2030,4.5,20,6,Storms,14260,84460000
+390,Northern Europe,2030,6.0,20,6,Storms,14260,84460000
+391,Northern Europe,2030,8.5,23,6,Storms,16399,97129000
+392,Northern Europe,2040,2.6,18,6,Storms,12834,76014000
+393,Northern Europe,2040,4.5,23,6,Storms,16399,97129000
+394,Northern Europe,2040,6.0,23,6,Storms,16399,97129000
+395,Northern Europe,2040,8.5,20,6,Storms,14260,84460000
+396,Northern Europe,2050,2.6,20,6,Storms,14260,84460000
+397,Northern Europe,2050,4.5,22,6,Storms,15686,92906000
+398,Northern Europe,2050,6.0,22,6,Storms,15686,92906000
+399,Northern Europe,2050,8.5,18,7,Storms,12834,76014000
+400,Northern Europe,2060,2.6,20,5,Storms,14260,84460000
+401,Northern Europe,2060,4.5,22,6,Storms,15686,92906000
+402,Northern Europe,2060,6.0,22,6,Storms,15686,92906000
+403,Northern Europe,2060,8.5,18,7,Storms,12834,76014000
+404,Northern Europe,2070,2.6,20,5,Storms,14260,84460000
+405,Northern Europe,2070,4.5,22,6,Storms,15686,92906000
+406,Northern Europe,2070,6.0,20,7,Storms,14260,84460000
+407,Northern Europe,2070,8.5,17,8,Storms,12121,71791000
+408,Northern Europe,2080,2.6,19,5,Storms,13547,80237000
+409,Northern Europe,2080,4.5,21,6,Storms,14973,88683000
+410,Northern Europe,2080,6.0,18,7,Storms,12834,76014000
+411,Northern Europe,2080,8.5,21,8,Storms,14973,88683000
+412,Northern Europe,2090,2.6,19,5,Storms,13547,80237000
+413,Northern Europe,2090,4.5,21,6,Storms,14973,88683000
+414,Northern Europe,2090,6.0,18,7,Storms,12834,76014000
+415,Northern Europe,2090,8.5,21,8,Storms,14973,88683000
+416,Polynesia,2020,2.6,4,27,Storms,1060,2356000
+417,Polynesia,2020,4.5,4,27,Storms,1060,2356000
+418,Polynesia,2020,6.0,4,27,Storms,1060,2356000
+419,Polynesia,2020,8.5,3,27,Storms,795,1767000
+420,Polynesia,2030,2.6,5,27,Storms,1325,2945000
+421,Polynesia,2030,4.5,4,27,Storms,1060,2356000
+422,Polynesia,2030,6.0,3,27,Storms,795,1767000
+423,Polynesia,2030,8.5,3,27,Storms,795,1767000
+424,Polynesia,2040,2.6,3,27,Storms,795,1767000
+425,Polynesia,2040,4.5,4,27,Storms,1060,2356000
+426,Polynesia,2040,6.0,3,27,Storms,795,1767000
+427,Polynesia,2040,8.5,2,27,Storms,530,1178000
+428,Polynesia,2050,2.6,3,27,Storms,795,1767000
+429,Polynesia,2050,4.5,3,27,Storms,795,1767000
+430,Polynesia,2050,6.0,3,27,Storms,795,1767000
+431,Polynesia,2050,8.5,2,28,Storms,530,1178000
+432,Polynesia,2060,2.6,3,27,Storms,795,1767000
+433,Polynesia,2060,4.5,2,27,Storms,530,1178000
+434,Polynesia,2060,6.0,2,27,Storms,530,1178000
+435,Polynesia,2060,8.5,3,28,Storms,795,1767000
+436,Polynesia,2070,2.6,3,27,Storms,795,1767000
+437,Polynesia,2070,4.5,2,27,Storms,530,1178000
+438,Polynesia,2070,6.0,1,28,Storms,265,589000
+439,Polynesia,2070,8.5,3,28,Storms,795,1767000
+440,Polynesia,2080,2.6,3,27,Storms,795,1767000
+441,Polynesia,2080,4.5,2,28,Storms,530,1178000
+442,Polynesia,2080,6.0,2,28,Storms,530,1178000
+443,Polynesia,2080,8.5,8,29,Storms,2120,4712000
+444,Polynesia,2090,2.6,3,27,Storms,795,1767000
+445,Polynesia,2090,4.5,2,28,Storms,530,1178000
+446,Polynesia,2090,6.0,2,28,Storms,530,1178000
+447,Polynesia,2090,8.5,8,29,Storms,2120,4712000
+448,South America,2020,2.6,55,22,Storms,22110,20680000
+449,South America,2020,4.5,56,22,Storms,22512,21056000
+450,South America,2020,6.0,57,22,Storms,22914,21432000
+451,South America,2020,8.5,58,23,Storms,23316,21808000
+452,South America,2030,2.6,58,22,Storms,23316,21808000
+453,South America,2030,4.5,49,23,Storms,19698,18424000
+454,South America,2030,6.0,56,23,Storms,22512,21056000
+455,South America,2030,8.5,52,23,Storms,20904,19552000
+456,South America,2040,2.6,55,22,Storms,22110,20680000
+457,South America,2040,4.5,52,23,Storms,20904,19552000
+458,South America,2040,6.0,49,23,Storms,19698,18424000
+459,South America,2040,8.5,56,23,Storms,22512,21056000
+460,South America,2050,2.6,51,22,Storms,20502,19176000
+461,South America,2050,4.5,55,23,Storms,22110,20680000
+462,South America,2050,6.0,55,23,Storms,22110,20680000
+463,South America,2050,8.5,50,24,Storms,20100,18800000
+464,South America,2060,2.6,49,23,Storms,19698,18424000
+465,South America,2060,4.5,48,23,Storms,19296,18048000
+466,South America,2060,6.0,50,23,Storms,20100,18800000
+467,South America,2060,8.5,48,24,Storms,19296,18048000
+468,South America,2070,2.6,49,23,Storms,19698,18424000
+469,South America,2070,4.5,54,23,Storms,21708,20304000
+470,South America,2070,6.0,52,23,Storms,20904,19552000
+471,South America,2070,8.5,46,25,Storms,18492,17296000
+472,South America,2080,2.6,43,23,Storms,17286,16168000
+473,South America,2080,4.5,56,23,Storms,22512,21056000
+474,South America,2080,6.0,59,24,Storms,23718,22184000
+475,South America,2080,8.5,54,25,Storms,21708,20304000
+476,South America,2090,2.6,43,23,Storms,17286,16168000
+477,South America,2090,4.5,56,23,Storms,22512,21056000
+478,South America,2090,6.0,59,24,Storms,23718,22184000
+479,South America,2090,8.5,54,25,Storms,21708,20304000
+480,South-Eastern Asia,2020,2.6,114,25,Storms,107388,21318000
+481,South-Eastern Asia,2020,4.5,107,25,Storms,100794,20009000
+482,South-Eastern Asia,2020,6.0,111,25,Storms,104562,20757000
+483,South-Eastern Asia,2020,8.5,108,25,Storms,101736,20196000
+484,South-Eastern Asia,2030,2.6,107,25,Storms,100794,20009000
+485,South-Eastern Asia,2030,4.5,108,25,Storms,101736,20196000
+486,South-Eastern Asia,2030,6.0,107,25,Storms,100794,20009000
+487,South-Eastern Asia,2030,8.5,114,26,Storms,107388,21318000
+488,South-Eastern Asia,2040,2.6,107,25,Storms,100794,20009000
+489,South-Eastern Asia,2040,4.5,113,26,Storms,106446,21131000
+490,South-Eastern Asia,2040,6.0,111,26,Storms,104562,20757000
+491,South-Eastern Asia,2040,8.5,126,26,Storms,118692,23562000
+492,South-Eastern Asia,2050,2.6,110,25,Storms,103620,20570000
+493,South-Eastern Asia,2050,4.5,116,26,Storms,109272,21692000
+494,South-Eastern Asia,2050,6.0,113,26,Storms,106446,21131000
+495,South-Eastern Asia,2050,8.5,101,27,Storms,95142,18887000
+496,South-Eastern Asia,2060,2.6,108,25,Storms,101736,20196000
+497,South-Eastern Asia,2060,4.5,116,26,Storms,109272,21692000
+498,South-Eastern Asia,2060,6.0,121,26,Storms,113982,22627000
+499,South-Eastern Asia,2060,8.5,93,27,Storms,87606,17391000
+500,South-Eastern Asia,2070,2.6,108,25,Storms,101736,20196000
+501,South-Eastern Asia,2070,4.5,123,26,Storms,115866,23001000
+502,South-Eastern Asia,2070,6.0,122,26,Storms,114924,22814000
+503,South-Eastern Asia,2070,8.5,87,27,Storms,81954,16269000
+504,South-Eastern Asia,2080,2.6,108,25,Storms,101736,20196000
+505,South-Eastern Asia,2080,4.5,122,26,Storms,114924,22814000
+506,South-Eastern Asia,2080,6.0,109,27,Storms,102678,20383000
+507,South-Eastern Asia,2080,8.5,90,28,Storms,84780,16830000
+508,South-Eastern Asia,2090,2.6,108,25,Storms,101736,20196000
+509,South-Eastern Asia,2090,4.5,122,26,Storms,114924,22814000
+510,South-Eastern Asia,2090,6.0,109,27,Storms,102678,20383000
+511,South-Eastern Asia,2090,8.5,90,28,Storms,84780,16830000
+512,Southern Africa,2020,2.6,16,19,Storms,28432,43728000
+513,Southern Africa,2020,4.5,16,19,Storms,28432,43728000
+514,Southern Africa,2020,6.0,16,19,Storms,28432,43728000
+515,Southern Africa,2020,8.5,13,19,Storms,23101,35529000
+516,Southern Africa,2030,2.6,15,19,Storms,26655,40995000
+517,Southern Africa,2030,4.5,12,19,Storms,21324,32796000
+518,Southern Africa,2030,6.0,13,19,Storms,23101,35529000
+519,Southern Africa,2030,8.5,11,20,Storms,19547,30063000
+520,Southern Africa,2040,2.6,13,19,Storms,23101,35529000
+521,Southern Africa,2040,4.5,12,20,Storms,21324,32796000
+522,Southern Africa,2040,6.0,12,20,Storms,21324,32796000
+523,Southern Africa,2040,8.5,14,20,Storms,24878,38262000
+524,Southern Africa,2050,2.6,13,19,Storms,23101,35529000
+525,Southern Africa,2050,4.5,12,20,Storms,21324,32796000
+526,Southern Africa,2050,6.0,12,20,Storms,21324,32796000
+527,Southern Africa,2050,8.5,25,21,Storms,44425,68325000
+528,Southern Africa,2060,2.6,13,19,Storms,23101,35529000
+529,Southern Africa,2060,4.5,14,20,Storms,24878,38262000
+530,Southern Africa,2060,6.0,14,20,Storms,24878,38262000
+531,Southern Africa,2060,8.5,26,21,Storms,46202,71058000
+532,Southern Africa,2070,2.6,13,19,Storms,23101,35529000
+533,Southern Africa,2070,4.5,14,20,Storms,24878,38262000
+534,Southern Africa,2070,6.0,26,21,Storms,46202,71058000
+535,Southern Africa,2070,8.5,35,22,Storms,62195,95655000
+536,Southern Africa,2080,2.6,13,19,Storms,23101,35529000
+537,Southern Africa,2080,4.5,24,20,Storms,42648,65592000
+538,Southern Africa,2080,6.0,29,21,Storms,51533,79257000
+539,Southern Africa,2080,8.5,33,23,Storms,58641,90189000
+540,Southern Africa,2090,2.6,13,19,Storms,23101,35529000
+541,Southern Africa,2090,4.5,24,20,Storms,42648,65592000
+542,Southern Africa,2090,6.0,29,21,Storms,51533,79257000
+543,Southern Africa,2090,8.5,33,23,Storms,58641,90189000
+544,Southern Asia,2020,2.6,111,22,Storms,297369,129981000
+545,Southern Asia,2020,4.5,107,22,Storms,286653,125297000
+546,Southern Asia,2020,6.0,109,21,Storms,292011,127639000
+547,Southern Asia,2020,8.5,108,22,Storms,289332,126468000
+548,Southern Asia,2030,2.6,108,22,Storms,289332,126468000
+549,Southern Asia,2030,4.5,104,22,Storms,278616,121784000
+550,Southern Asia,2030,6.0,107,22,Storms,286653,125297000
+551,Southern Asia,2030,8.5,107,22,Storms,286653,125297000
+552,Southern Asia,2040,2.6,104,22,Storms,278616,121784000
+553,Southern Asia,2040,4.5,110,22,Storms,294690,128810000
+554,Southern Asia,2040,6.0,107,22,Storms,286653,125297000
+555,Southern Asia,2040,8.5,115,23,Storms,308085,134665000
+556,Southern Asia,2050,2.6,105,22,Storms,281295,122955000
+557,Southern Asia,2050,4.5,110,22,Storms,294690,128810000
+558,Southern Asia,2050,6.0,107,22,Storms,286653,125297000
+559,Southern Asia,2050,8.5,130,23,Storms,348270,152230000
+560,Southern Asia,2060,2.6,110,22,Storms,294690,128810000
+561,Southern Asia,2060,4.5,117,22,Storms,313443,137007000
+562,Southern Asia,2060,6.0,114,22,Storms,305406,133494000
+563,Southern Asia,2060,8.5,133,24,Storms,356307,155743000
+564,Southern Asia,2070,2.6,105,22,Storms,281295,122955000
+565,Southern Asia,2070,4.5,116,23,Storms,310764,135836000
+566,Southern Asia,2070,6.0,119,23,Storms,318801,139349000
+567,Southern Asia,2070,8.5,133,24,Storms,356307,155743000
+568,Southern Asia,2080,2.6,106,23,Storms,283974,124126000
+569,Southern Asia,2080,4.5,120,23,Storms,321480,140520000
+570,Southern Asia,2080,6.0,132,23,Storms,353628,154572000
+571,Southern Asia,2080,8.5,149,25,Storms,399171,174479000
+572,Southern Asia,2090,2.6,106,23,Storms,283974,124126000
+573,Southern Asia,2090,4.5,120,23,Storms,321480,140520000
+574,Southern Asia,2090,6.0,132,23,Storms,353628,154572000
+575,Southern Asia,2090,8.5,149,25,Storms,399171,174479000
+576,Southern Europe,2020,2.6,26,15,Storms,8424,92196000
+577,Southern Europe,2020,4.5,27,15,Storms,8748,95742000
+578,Southern Europe,2020,6.0,24,14,Storms,7776,85104000
+579,Southern Europe,2020,8.5,26,15,Storms,8424,92196000
+580,Southern Europe,2030,2.6,26,15,Storms,8424,92196000
+581,Southern Europe,2030,4.5,27,15,Storms,8748,95742000
+582,Southern Europe,2030,6.0,26,15,Storms,8424,92196000
+583,Southern Europe,2030,8.5,28,15,Storms,9072,99288000
+584,Southern Europe,2040,2.6,26,15,Storms,8424,92196000
+585,Southern Europe,2040,4.5,29,15,Storms,9396,102834000
+586,Southern Europe,2040,6.0,27,15,Storms,8748,95742000
+587,Southern Europe,2040,8.5,32,16,Storms,10368,113472000
+588,Southern Europe,2050,2.6,26,15,Storms,8424,92196000
+589,Southern Europe,2050,4.5,25,15,Storms,8100,88650000
+590,Southern Europe,2050,6.0,28,15,Storms,9072,99288000
+591,Southern Europe,2050,8.5,39,16,Storms,12636,138294000
+592,Southern Europe,2060,2.6,26,15,Storms,8424,92196000
+593,Southern Europe,2060,4.5,28,16,Storms,9072,99288000
+594,Southern Europe,2060,6.0,29,16,Storms,9396,102834000
+595,Southern Europe,2060,8.5,46,17,Storms,14904,163116000
+596,Southern Europe,2070,2.6,27,15,Storms,8748,95742000
+597,Southern Europe,2070,4.5,29,16,Storms,9396,102834000
+598,Southern Europe,2070,6.0,32,16,Storms,10368,113472000
+599,Southern Europe,2070,8.5,44,17,Storms,14256,156024000
+600,Southern Europe,2080,2.6,27,15,Storms,8748,95742000
+601,Southern Europe,2080,4.5,32,16,Storms,10368,113472000
+602,Southern Europe,2080,6.0,36,16,Storms,11664,127656000
+603,Southern Europe,2080,8.5,47,18,Storms,15228,166662000
+604,Southern Europe,2090,2.6,27,15,Storms,8748,95742000
+605,Southern Europe,2090,4.5,32,16,Storms,10368,113472000
+606,Southern Europe,2090,6.0,36,16,Storms,11664,127656000
+607,Southern Europe,2090,8.5,47,18,Storms,15228,166662000
+608,Western Africa,2020,2.6,24,27,Storms,6168,1248000
+609,Western Africa,2020,4.5,27,27,Storms,6939,1404000
+610,Western Africa,2020,6.0,26,27,Storms,6682,1352000
+611,Western Africa,2020,8.5,27,27,Storms,6939,1404000
+612,Western Africa,2030,2.6,26,27,Storms,6682,1352000
+613,Western Africa,2030,4.5,25,27,Storms,6425,1300000
+614,Western Africa,2030,6.0,27,27,Storms,6939,1404000
+615,Western Africa,2030,8.5,19,28,Storms,4883,988000
+616,Western Africa,2040,2.6,25,27,Storms,6425,1300000
+617,Western Africa,2040,4.5,20,28,Storms,5140,1040000
+618,Western Africa,2040,6.0,19,28,Storms,4883,988000
+619,Western Africa,2040,8.5,17,28,Storms,4369,884000
+620,Western Africa,2050,2.6,24,27,Storms,6168,1248000
+621,Western Africa,2050,4.5,16,28,Storms,4112,832000
+622,Western Africa,2050,6.0,15,28,Storms,3855,780000
+623,Western Africa,2050,8.5,14,29,Storms,3598,728000
+624,Western Africa,2060,2.6,24,27,Storms,6168,1248000
+625,Western Africa,2060,4.5,21,28,Storms,5397,1092000
+626,Western Africa,2060,6.0,21,28,Storms,5397,1092000
+627,Western Africa,2060,8.5,7,29,Storms,1799,364000
+628,Western Africa,2070,2.6,24,27,Storms,6168,1248000
+629,Western Africa,2070,4.5,17,28,Storms,4369,884000
+630,Western Africa,2070,6.0,16,28,Storms,4112,832000
+631,Western Africa,2070,8.5,5,30,Storms,1285,260000
+632,Western Africa,2080,2.6,25,27,Storms,6425,1300000
+633,Western Africa,2080,4.5,19,28,Storms,4883,988000
+634,Western Africa,2080,6.0,15,29,Storms,3855,780000
+635,Western Africa,2080,8.5,7,30,Storms,1799,364000
+636,Western Africa,2090,2.6,25,27,Storms,6425,1300000
+637,Western Africa,2090,4.5,19,28,Storms,4883,988000
+638,Western Africa,2090,6.0,15,29,Storms,3855,780000
+639,Western Africa,2090,8.5,7,30,Storms,1799,364000
+640,Western Asia,2020,2.6,29,20,Storms,53041,190530000
+641,Western Asia,2020,4.5,29,21,Storms,53041,190530000
+642,Western Asia,2020,6.0,26,20,Storms,47554,170820000
+643,Western Asia,2020,8.5,30,21,Storms,54870,197100000
+644,Western Asia,2030,2.6,29,21,Storms,53041,190530000
+645,Western Asia,2030,4.5,31,21,Storms,56699,203670000
+646,Western Asia,2030,6.0,27,21,Storms,49383,177390000
+647,Western Asia,2030,8.5,41,21,Storms,74989,269370000
+648,Western Asia,2040,2.6,32,21,Storms,58528,210240000
+649,Western Asia,2040,4.5,45,21,Storms,82305,295650000
+650,Western Asia,2040,6.0,39,21,Storms,71331,256230000
+651,Western Asia,2040,8.5,27,22,Storms,49383,177390000
+652,Western Asia,2050,2.6,31,21,Storms,56699,203670000
+653,Western Asia,2050,4.5,37,21,Storms,67673,243090000
+654,Western Asia,2050,6.0,38,21,Storms,69502,249660000
+655,Western Asia,2050,8.5,31,22,Storms,56699,203670000
+656,Western Asia,2060,2.6,31,21,Storms,56699,203670000
+657,Western Asia,2060,4.5,29,22,Storms,53041,190530000
+658,Western Asia,2060,6.0,26,22,Storms,47554,170820000
+659,Western Asia,2060,8.5,31,23,Storms,56699,203670000
+660,Western Asia,2070,2.6,30,21,Storms,54870,197100000
+661,Western Asia,2070,4.5,27,22,Storms,49383,177390000
+662,Western Asia,2070,6.0,28,22,Storms,51212,183960000
+663,Western Asia,2070,8.5,25,24,Storms,45725,164250000
+664,Western Asia,2080,2.6,28,21,Storms,51212,183960000
+665,Western Asia,2080,4.5,27,22,Storms,49383,177390000
+666,Western Asia,2080,6.0,32,22,Storms,58528,210240000
+667,Western Asia,2080,8.5,36,24,Storms,65844,236520000
+668,Western Asia,2090,2.6,28,21,Storms,51212,183960000
+669,Western Asia,2090,4.5,27,22,Storms,49383,177390000
+670,Western Asia,2090,6.0,32,22,Storms,58528,210240000
+671,Western Asia,2090,8.5,36,24,Storms,65844,236520000
+672,Western Europe,2020,2.6,17,10,Storms,10727,34850000
+673,Western Europe,2020,4.5,17,10,Storms,10727,34850000
+674,Western Europe,2020,6.0,18,10,Storms,11358,36900000
+675,Western Europe,2020,8.5,19,11,Storms,11989,38950000
+676,Western Europe,2030,2.6,18,10,Storms,11358,36900000
+677,Western Europe,2030,4.5,18,11,Storms,11358,36900000
+678,Western Europe,2030,6.0,18,10,Storms,11358,36900000
+679,Western Europe,2030,8.5,21,11,Storms,13251,43050000
+680,Western Europe,2040,2.6,18,10,Storms,11358,36900000
+681,Western Europe,2040,4.5,21,11,Storms,13251,43050000
+682,Western Europe,2040,6.0,19,11,Storms,11989,38950000
+683,Western Europe,2040,8.5,20,11,Storms,12620,41000000
+684,Western Europe,2050,2.6,18,10,Storms,11358,36900000
+685,Western Europe,2050,4.5,19,11,Storms,11989,38950000
+686,Western Europe,2050,6.0,19,11,Storms,11989,38950000
+687,Western Europe,2050,8.5,16,12,Storms,10096,32800000
+688,Western Europe,2060,2.6,18,11,Storms,11358,36900000
+689,Western Europe,2060,4.5,18,11,Storms,11358,36900000
+690,Western Europe,2060,6.0,19,11,Storms,11989,38950000
+691,Western Europe,2060,8.5,17,12,Storms,10727,34850000
+692,Western Europe,2070,2.6,18,11,Storms,11358,36900000
+693,Western Europe,2070,4.5,19,11,Storms,11989,38950000
+694,Western Europe,2070,6.0,21,12,Storms,13251,43050000
+695,Western Europe,2070,8.5,23,13,Storms,14513,47150000
+696,Western Europe,2080,2.6,18,10,Storms,11358,36900000
+697,Western Europe,2080,4.5,20,11,Storms,12620,41000000
+698,Western Europe,2080,6.0,16,12,Storms,10096,32800000
+699,Western Europe,2080,8.5,28,13,Storms,17668,57400000
+700,Western Europe,2090,2.6,18,10,Storms,11358,36900000
+701,Western Europe,2090,4.5,20,11,Storms,12620,41000000
+702,Western Europe,2090,6.0,16,12,Storms,10096,32800000
+703,Western Europe,2090,8.5,28,13,Storms,17668,57400000
