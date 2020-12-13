@@ -7,7 +7,8 @@ import plotly.express as px
 import pandas as pd
 from plotly.subplots import make_subplots
 
-df = pd.read_csv("data/input.csv", decimal=".")
+df = pd.read_csv("../data/input-magnitude.csv", decimal=".")
+dfe = pd.read_csv("../data/input-extra.csv", decimal=".")
 disaster = df["Disaster_Type"].unique()
 YEARS = df["Decade"].unique()
 
@@ -87,7 +88,7 @@ app.layout = html.Div([
     Input("Impact-Selector", "value")
 )
 def update_charts(disaster, year, ImpactType):
-    c = df.groupby(['Decade'])['°C'].mean().reset_index()
+    c = dfe.groupby(['Decade'])['°C'].mean().reset_index()
     df['Temperature'] = df.Decade.map(c.set_index('Decade')['°C'])
     is_disaster = df["Disaster_Type"] == disaster
     df_disaster = df[is_disaster]
