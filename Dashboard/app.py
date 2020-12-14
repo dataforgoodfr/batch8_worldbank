@@ -435,7 +435,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     # color={}
     # for i in range(21):
     #    color[i] = color_codes[i]
-    df_fig = df_disaster
+    df_fig = df_disaster.sort_values(by=['Decade'])
     bins = int((int(years[1]) - int(years[0])) / 10)
 
     subfig = make_subplots(specs=[[{"secondary_y": True}]])
@@ -482,6 +482,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         )
 
     fig4.update_xaxes(type='category')
+    fig4.update_layout(barmode = 'stack', xaxis = {'categoryorder': 'category ascending'})
     fig4.update_layout(legend=dict(
         orientation="h",
         yanchor="bottom",
