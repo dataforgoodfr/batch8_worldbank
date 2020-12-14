@@ -242,6 +242,8 @@ SIDEBAR_STYLE = {
     "top": 0,
     "left": 0,
     "width": "45rem",
+    "overflow": "scroll",
+    "maxHeight": "100rem"
 
 }
 
@@ -391,10 +393,6 @@ app.layout = html.Div(
         ),
     ],
 )
-
-
-# ‘scrollZoom’,  ‘showTips’, ‘showAxisDragHandles’, ‘showAxisRangeEntryBoxes’, ‘showLink’, ‘sendData’, ‘linkText’, ‘displayModeBar’, ‘modeBarButtonsToRemove’, ‘modeBarButtonsToAdd’, ‘modeBarButtons’, ‘displaylogo’, ‘plotGlPixelRatio’, ‘topojsonURL’, ‘mapboxAccessToken’.
-
 
 # ~~~~~ CALLBACKS TO UPDATE THE DASHBOARD BASED ON USER ACTIONS
 
