@@ -209,7 +209,7 @@ def climate_scenario():
                 id="scenario-slider",
                 min=0,
                 max=10,
-                value=0,
+                value=2.6,
                 step=None,
                 # marks={2.6: "2.6°C", 4.5: "4.5°C", 6.0: "6.0°C",8.5:"8.5°C"},
                 marks={
@@ -399,7 +399,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
 
     df_figs = (df_map_data[
         ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
-         & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'] == scenario))]
+         & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'].isin([0.0, scenario])))]
     ).copy()
     c = df_figs.groupby(['Decade'])['°C'].mean().reset_index()
     df_figs.loc[:, 'Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
@@ -419,6 +419,8 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     #    color[i] = color_codes[i]
     df_fig = df_disaster
     bins = int((int(years[1]) - int(years[0])) / 10)
+
+    print(df_figs.head())
 
     subfig = make_subplots(specs=[[{"secondary_y": True}]])
     fig2 = px.histogram(df_fig,
@@ -486,7 +488,7 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
         (df_map_data['Decade'] >= year[0])
         & (df_map_data['Decade'] <= year[1])
         & (df_map_data['Disaster_Type'] == DisasterType)
-        & (df_map_data['RCP'] == RcpType)].copy()
+        & (df_map_data['RCP'].isin([0.0, RcpType]))].copy()
 
     # Get the color scale settings to display the choropleth
     color = dict_feature_colors[DisasterType]
