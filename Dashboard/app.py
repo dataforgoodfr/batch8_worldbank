@@ -50,7 +50,7 @@ with open('data/un_subregion_contours.geojson') as json_data:
 
 # Import dataset to display
 
-df = pd.read_csv("data/input-magnitude.csv", decimal=".")
+df = pd.read_csv("data/input-magnitude.csv", decimal=".").rename({'DO': 'Number of Occurrences'}, axis=1)
 dict_dataset_labels = {
     "UN_Geosheme_Subregion": "UN subregion",
     "Disaster_Type": "Type of disaster",
@@ -68,14 +68,20 @@ YEARS = list(df.Decade.drop_duplicates())
 dict_dataset_aggregation_method = {
     "Financial_Impact": "sum",
     "Human_Impact": "sum",
-    "DO": "sum",
+    "Number of Occurrences": "sum",
     "°C": "mean",
     "Rain": "mean",
 }
 
+# Import temperature data
+
+df_temperature = pd.read_csv("data/input-extra.csv", decimal='.')
+
 # Data preparation
 
-df_map_data = df.sort_values(by=['UN_Geosheme_Subregion'])
+df_full = df.merge(df_temperature, how='left', on=['Decade', 'UN_Geosheme_Subregion', 'RCP'])
+
+df_map_data = df_full.sort_values(by=['UN_Geosheme_Subregion'])
 df_map_data["RCP"].fillna(value=0, inplace=True)
 
 # Mapbox credentials
@@ -126,11 +132,9 @@ def choropleth_map(df, impact, colordisaster):
             zoom=1.15,
             hover_name='UN_Geosheme_Subregion',
             labels=dict_dataset_labels,
-            #range_color=[0, 6500]
+            # range_color=[0, 6500]
         )
     )
-
-
 
 
 # Display the map
@@ -159,11 +163,11 @@ def disaster_type_card():
                 id="Disaster-Selector",
                 options=[{'label': i, 'value': i} for i in list_disasters],
                 value='Droughts',
-                labelStyle={#"display": "inline-block",
-                            "margin-top": "0px",
-                            "font-size": "16px",
-                            "padding": "12px 12px 12px 0px",
-                            },
+                labelStyle={  # "display": "inline-block",
+                    "margin-top": "0px",
+                    "font-size": "16px",
+                    "padding": "12px 12px 12px 0px",
+                },
                 labelClassName="data-group-labels",
             )
         ]
@@ -207,7 +211,7 @@ def climate_scenario():
                 id="scenario-slider",
                 min=0,
                 max=10,
-                value=0,
+                value=2.6,
                 step=None,
                 # marks={2.6: "2.6°C", 4.5: "4.5°C", 6.0: "6.0°C",8.5:"8.5°C"},
                 marks={
@@ -232,14 +236,6 @@ colors = {
     'text': '#7FDBFF'
 }
 
-# fig = px.bar(df_map_data, x="Disaster_Type", y="Human_Impact", color="Disaster_Type", barmode="group")
-#
-# fig.update_layout(
-#     plot_bgcolor=colors['background'],
-#     paper_bgcolor=colors['background'],
-#     font_color=colors['text']
-# )
-
 # Add sidebar 
 SIDEBAR_STYLE = {
     # "position": "fixed",
@@ -261,21 +257,19 @@ sidebar = html.Div(
     className="pretty_container-3",
     children=
     [
-        # html.H2("Sidebar", className="display-4"),
-        # html.Hr(),
         html.Div(
-            dcc.Graph(id="bc_DOHI" ,
-                       config={
-                                'displayModeBar': False
-                              }
-                     ),
+            dcc.Graph(id="bc_DOHI",
+                      config={
+                          'displayModeBar': False
+                      }
+                      ),
         ),
         html.Div(
-            dcc.Graph(id="bc_ImpactDisasterType", 
-                       config={
-                                'displayModeBar': False
-                              }
-                     ),
+            dcc.Graph(id="bc_ImpactDisasterType",
+                      config={
+                          'displayModeBar': False
+                      }
+                      ),
         ),
     ],
     style=SIDEBAR_STYLE,
@@ -285,10 +279,10 @@ content = html.Div(id="page-content", style=CONTENT_STYLE)
 
 # Add collapses 
 collapses = html.Div(
-    #className="pretty_container-3",
-    #children=
+    # className="pretty_container-3",
+    # children=
     [
-      
+
         dbc.Collapse(
             sidebar,
             id="collapse",
@@ -336,15 +330,15 @@ app.layout = html.Div(
                         ),
                         html.Br(),
                         html.Div(
-                           
-                            children=[html.Button('Display Charts', id='collapse-button' ,style={"display":"block"}) , 
-                                     html.Button('Hidden Charts', id='collapse-button2' ,style={"display":"None"}) ]
+
+                            children=[html.Button('Display Charts', id='collapse-button', style={"display": "block"}),
+                                      html.Button('Hidden Charts', id='collapse-button2', style={"display": "None"})]
                         ),
                     ],
                 ),
 
                 html.Div(
-                      collapses
+                    collapses
                 ),
                 html.Div(
                     id="right-column",
@@ -385,8 +379,9 @@ app.layout = html.Div(
                                                     & (df_map_data['RCP'] == 2.6)],
                                         'Human_Impact', 'reds'),
                                     config={
-                                              'modeBarButtonsToRemove': ['toImage','toggleSpikelines', "pan2d", "select2d", "lasso2d","hoverClosestCartesian"]
-                                           }
+                                        'modeBarButtonsToRemove': ['toImage', 'toggleSpikelines', "pan2d", "select2d",
+                                                                   "lasso2d", "hoverClosestCartesian"]
+                                    }
                                 ),
                             ],
                         ),
@@ -397,7 +392,8 @@ app.layout = html.Div(
     ],
 )
 
-#‘scrollZoom’,  ‘showTips’, ‘showAxisDragHandles’, ‘showAxisRangeEntryBoxes’, ‘showLink’, ‘sendData’, ‘linkText’, ‘displayModeBar’, ‘modeBarButtonsToRemove’, ‘modeBarButtonsToAdd’, ‘modeBarButtons’, ‘displaylogo’, ‘plotGlPixelRatio’, ‘topojsonURL’, ‘mapboxAccessToken’.
+
+# ‘scrollZoom’,  ‘showTips’, ‘showAxisDragHandles’, ‘showAxisRangeEntryBoxes’, ‘showLink’, ‘sendData’, ‘linkText’, ‘displayModeBar’, ‘modeBarButtonsToRemove’, ‘modeBarButtonsToAdd’, ‘modeBarButtons’, ‘displaylogo’, ‘plotGlPixelRatio’, ‘topojsonURL’, ‘mapboxAccessToken’.
 
 
 # ~~~~~ CALLBACKS TO UPDATE THE DASHBOARD BASED ON USER ACTIONS
@@ -419,25 +415,19 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     else:
         location = 'Western Europe'
 
-    df_decade_disaster_temp = (df_map_data[
-        ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
-         & (df_map_data['Decade'] <= years[1]) & (df_map_data['Disaster_Type'] == disaster)
-         & (df_map_data['RCP'] == scenario))]
-    )
-
     df_figs = (df_map_data[
         ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
-         & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'] == scenario))]
-    )
-    c = df_figs.groupby(['Decade'])['RCP'].mean().reset_index()
-    df_figs['Temperature'] = df_figs.Decade.map(c.set_index('Decade')['RCP'])
+         & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'].isin([0.0, scenario])))]
+    ).copy()
+    c = df_figs.groupby(['Decade'])['°C'].mean().reset_index()
+    df_figs.loc[:, 'Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
     is_disaster = df_figs["Disaster_Type"] == disaster
     df_disaster = df_figs[is_disaster]
     if impact != 'Number of Occurrences':
         # color = "reds"
         impact_type = impact.replace(" ", "_")
     else:
-        impact_type = 'DO'
+        impact_type = 'Number of Occurrences'
     # Si on veut définir toutes les couleurs une par une nous même:
     # color_codes= ['#CCFFFF','#CCCCFF','#CC99FF','#009999','#0033FF','#003333',
     # '#9900CC','#FFFF33','#339966','#CC6666','#996633','#009900','#6666FF','#330033',
@@ -451,14 +441,14 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     subfig = make_subplots(specs=[[{"secondary_y": True}]])
     fig2 = px.histogram(df_fig,
                         x="Decade",
-                        y="DO",
+                        y="Number of Occurrences",
                         template='plotly',
                         # barmode="stack",
                         color_discrete_sequence={0: '#CC0000'},
                         nbins=bins,
-                        title='Evolution of disaster occurence and human impact worldwide',
+                        title='Evolution of disaster occurrence and human impact worldwide',
                         # animation_frame="Decade", #ne autoscale pas malheureusement
-                        labels={'Decade': 'Decade', 'DO': 'Disaster Occurence'},
+                        labels={'Decade': 'Decade', 'Number of Occurrences': 'Disaster Occurence'},
                         )
     fig2.update_xaxes(type='category')
 
@@ -471,6 +461,13 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     subfig.layout.yaxis.title = "Occurences"
     subfig.layout.yaxis2.title = "Temperatures"
     subfig.layout.title = "{0} Occurence vs Temperature".format(disaster)
+    subfig.update_layout(legend=dict(
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1
+    ))
 
     fig4 = px.histogram(df_figs,
                         x="Decade",
@@ -485,7 +482,13 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         )
 
     fig4.update_xaxes(type='category')
-    
+    fig4.update_layout(legend=dict(
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1
+    ))
 
     return subfig, fig4
 
@@ -516,14 +519,14 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
         (df_map_data['Decade'] >= year[0])
         & (df_map_data['Decade'] <= year[1])
         & (df_map_data['Disaster_Type'] == DisasterType)
-        & (df_map_data['RCP'] == RcpType)].copy()
+        & (df_map_data['RCP'].isin([0.0, RcpType]))].copy()
 
     # Get the color scale settings to display the choropleth
     color = dict_feature_colors[DisasterType]
 
     # Select the feature in the dataset
     if MagnitudeType == "Number of Occurrences":
-        magnitude_type = 'DO'
+        magnitude_type = 'Number of Occurrences'
     elif MagnitudeType == "Financial Impact":
         magnitude_type = 'Financial_Impact'
     elif MagnitudeType == 'Human Impact':
@@ -547,24 +550,13 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
 @app.callback(Output('collapse', 'style'),
               [Input('collapse-button', 'n_clicks')],
               [State('collapse', 'style')]
-            )
+              )
 def callback(n_clicks, style):
-    if style  is None or 'display' not in style:
-        style  = {'display': 'none'}     
+    if style is None or 'display' not in style:
+        style = {'display': 'none'}
     else:
         style['display'] = 'block' if style['display'] == 'none' else 'none'
     return style
- 
-
-
-
-
-
-# Not in used anymore
-
-# def hide_slider(year):
-#    if year[0] >= 2020:
-#        return "Choropleth map of disaster damages from {0} to {1}".format(year[0], year[1])
 
 
 # ~~~~~ MAIN - when file executed as a standalone application
