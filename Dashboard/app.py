@@ -234,14 +234,6 @@ colors = {
     'text': '#7FDBFF'
 }
 
-# fig = px.bar(df_map_data, x="Disaster_Type", y="Human_Impact", color="Disaster_Type", barmode="group")
-#
-# fig.update_layout(
-#     plot_bgcolor=colors['background'],
-#     paper_bgcolor=colors['background'],
-#     font_color=colors['text']
-# )
-
 # Add sidebar 
 SIDEBAR_STYLE = {
     # "position": "fixed",
@@ -408,9 +400,9 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     df_figs = (df_map_data[
         ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
          & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'] == scenario))]
-    )
+    ).copy()
     c = df_figs.groupby(['Decade'])['°C'].mean().reset_index()
-    df_figs['Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
+    df_figs.loc[:, 'Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
     is_disaster = df_figs["Disaster_Type"] == disaster
     df_disaster = df_figs[is_disaster]
     if impact != 'Number of Occurrences':
@@ -532,13 +524,6 @@ def callback(n_clicks, style):
     else:
         style['display'] = 'block' if style['display'] == 'none' else 'none'
     return style
-
-
-# Not in used anymore
-
-# def hide_slider(year):
-#    if year[0] >= 2020:
-#        return "Choropleth map of disaster damages from {0} to {1}".format(year[0], year[1])
 
 
 # ~~~~~ MAIN - when file executed as a standalone application
