@@ -241,7 +241,7 @@ SIDEBAR_STYLE = {
     # "position": "fixed",
     "top": 0,
     "left": 0,
-    "width": "45rem",
+    "width": "30vw",
     "overflow": "scroll",
     "maxHeight": "100rem"
 
@@ -304,6 +304,7 @@ collapses = html.Div(
 
 app.layout = html.Div(
     id="root",
+    style={"width": "100vw"},
     children=[
         html.Div(
             id="app-container",
@@ -547,15 +548,25 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
 
 
 @app.callback(Output('collapse', 'style'),
+              Output('right-column', 'style'),
               [Input('collapse-button', 'n_clicks')],
+              [State('right-column', 'style')],
               [State('collapse', 'style')]
               )
-def callback(n_clicks, style):
+def callback(n_clicks, style_map, style):
     if style is None or 'display' not in style:
         style = {'display': 'none'}
+        style_map = {"width": "66vw"}
     else:
-        style['display'] = 'block' if style['display'] == 'none' else 'none'
-    return style
+        if style['display'] == 'none':
+            style['display'] = 'block'
+            style_map["width"] = "33vw"
+        else:
+            style['display'] = 'none'
+            style_map["width"] = "66vw"
+
+
+    return style, style_map
 
 
 # ~~~~~ MAIN - when file executed as a standalone application
