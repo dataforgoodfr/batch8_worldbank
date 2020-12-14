@@ -20,7 +20,9 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-# ~~~~~ MODULES
+# ~~~~~~~~~~~~~~~~~~~
+#       MODULES
+# ~~~~~~~~~~~~~~~~~~~
 
 import pandas as pd
 import json
@@ -36,7 +38,10 @@ from dash.dependencies import Input, Output, State
 from plotly.subplots import make_subplots
 import dash_bootstrap_components as dbc
 
-# ~~~~~ INITIALISATION
+
+# ~~~~~~~~~~~~~~~~~~~
+#   INITIALIZATION
+# ~~~~~~~~~~~~~~~~~~~
 
 # Style
 
@@ -48,9 +53,13 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 with open('data/un_subregion_contours.geojson') as json_data:
     regions_data = json.load(json_data)
 
-# Import dataset to display
+# Import data from datasets
 
-df = pd.read_csv("data/input-magnitude.csv", decimal=".")
+df_disasters = pd.read_csv("data/input-magnitude.csv", decimal=".")
+df_extra = pd.read_csv("data/input-extra.csv", decimal=".")
+
+# Preparation of global variables
+
 dict_dataset_labels = {
     "UN_Geosheme_Subregion": "UN subregion",
     "Disaster_Type": "Type of disaster",
@@ -61,10 +70,10 @@ dict_dataset_labels = {
     "°C": "Average temperature (°C)",
     "Rain": "Rainfall",
 }
-list_disasters = df['Disaster_Type'].unique()
+list_disasters = df_disasters['Disaster_Type'].unique()
 list_features = ['Number of Occurrences', 'Financial Impact', 'Human Impact']
-list_rcp = df['RCP'].unique()
-YEARS = list(df.Decade.drop_duplicates())
+list_rcp = df_disasters['RCP'].unique()
+YEARS = list(df_disasters.Decade.drop_duplicates())
 dict_dataset_aggregation_method = {
     "Financial_Impact": "sum",
     "Human_Impact": "sum",
@@ -73,10 +82,13 @@ dict_dataset_aggregation_method = {
     "Rain": "mean",
 }
 
-# Data preparation
+# Preparation of main dataframes
 
-df_map_data = df.sort_values(by=['UN_Geosheme_Subregion'])
-df_map_data["RCP"].fillna(value=0, inplace=True)
+# Sorting values and filling the empties
+df_disasters = df_disasters.sort_values(by=['UN_Geosheme_Subregion'])
+df_disasters["RCP"].fillna(value=0, inplace=True)
+df_extra = df_extra.sort_values(by=['UN_Geosheme_Subregion'])
+df_extra["RCP"].fillna(value=0, inplace=True)
 
 # Mapbox credentials
 
@@ -91,23 +103,9 @@ dict_feature_colors = {
 }
 
 
-# ~~~~~ FUNCTIONS
-
-# Title & Logo
-
-def Title_App():
-    return html.Div(
-        className="pretty_container",
-        children=[
-            #            html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
-            html.Img(id="logo", src=app.get_asset_url("logo.png")),
-            html.Br(),
-            dcc.Markdown("""
-        ### Natural Disasters Map
-        """),
-        ],
-    )
-
+# ~~~~~~~~~~~~~~~~~~~
+#      FUNCTIONS
+# ~~~~~~~~~~~~~~~~~~~
 
 # Build the choropleth map from data in dataframe and regional contours in geojson
 
@@ -141,6 +139,40 @@ def display_map(df, impact, colordisaster):
     )
     return fig
 
+def slice_data_on_decades(df_source, rcp_type, decade_start, decade_end):
+    '''
+    Return the slice of the dataframe, on selected decades only
+    '''
+    df = pd.concat(
+        [df_source[ # historical data
+            (df_source['Decade'] >= decade_start)
+            & (df_source['Decade'] <= min(decade_end, 2010))
+            & (df_source['RCP'] == 0)],
+         df_source[ # predicted data, selected on one of the RCP's scenario
+             (df_source['Decade'] >= max(2020, decade_start))
+             & (df_source['Decade'] <= decade_end)
+             & (df_source['RCP'] == rcp_type)]],
+        axis=0)
+    return df
+
+# ~~~~~~~~~~~~~~~~~~~
+#    HTML BLOCKS
+# ~~~~~~~~~~~~~~~~~~~
+
+# Title & Logo
+
+def Title_App():
+    return html.Div(
+        className="pretty_container",
+        children=[
+            #            html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
+            html.Img(id="logo", src=app.get_asset_url("logo.png")),
+            html.Br(),
+            dcc.Markdown("""
+        ### Natural Disasters Map
+        """),
+        ],
+    )
 
 # Disaster selector
 
@@ -203,11 +235,11 @@ def climate_scenario():
                 id="scenario-slider",
                 min=0,
                 max=10,
-                value=0,
+                value=2.6,# default value
                 step=None,
                 # marks={2.6: "2.6°C", 4.5: "4.5°C", 6.0: "6.0°C",8.5:"8.5°C"},
                 marks={
-                    0: {'label': '0', 'style': {'color': '#77b0b1'}},
+                    #0: {'label': '0', 'style': {'color': '#77b0b1'}},
                     2.6: {'label': '2.6', 'style': {'color': '#77b0b1'}},
                     4.5: {'label': '4.5'},
                     6: {'label': '6.0'},
@@ -220,15 +252,16 @@ def climate_scenario():
     )
 
 
-###################################################
-# Stacked Bar graph 
+# ~~~~~~~~~~~~~~~~~~~
+#  STACK BAR GRAPHS
+# ~~~~~~~~~~~~~~~~~~~
 
 colors = {
     'background': '#111111',
     'text': '#7FDBFF'
 }
 
-# fig = px.bar(df_map_data, x="Disaster_Type", y="Human_Impact", color="Disaster_Type", barmode="group")
+# fig = px.bar(df_disasters, x="Disaster_Type", y="Human_Impact", color="Disaster_Type", barmode="group")
 #
 # fig.update_layout(
 #     plot_bgcolor=colors['background'],
@@ -281,12 +314,10 @@ collapses = html.Div(
     ]
 )
 
-###################################################
 
-# ~~~~~ MAIN HTML LAYOUT
-
-# Specify layout information
-
+# ~~~~~~~~~~~~~~~~~~~
+#  MAIN HTML LAYOUT
+# ~~~~~~~~~~~~~~~~~~~
 
 # Layout
 
@@ -364,10 +395,10 @@ app.layout = html.Div(
                                 dcc.Graph(
                                     id="county-choropleth",
                                     figure=display_map(
-                                        df_map_data[(df_map_data['Decade'] >= 1900)
-                                                    & (df_map_data['Decade'] <= 1920)
-                                                    & (df_map_data['Disaster_Type'] == 'Droughts')
-                                                    & (df_map_data['RCP'] == 2.6)],
+                                        df_disasters[(df_disasters['Decade'] >= 1900)
+                                                    & (df_disasters['Decade'] <= 1920)
+                                                    & (df_disasters['Disaster_Type'] == 'Droughts')
+                                                    & (df_disasters['RCP'] == 2.6)],
                                         'Human_Impact', 'reds')
                                 ),
                             ],
@@ -380,10 +411,12 @@ app.layout = html.Div(
 )
 
 
-# ~~~~~ CALLBACKS TO UPDATE THE DASHBOARD BASED ON USER ACTIONS
+# ~~~~~~~~~~~~~~~~~~~
+#      CALLBACKS
+# ~~~~~~~~~~~~~~~~~~~
+# TO UPDATE THE DASHBOARD BASED ON USER ACTIONS
 
-# Update map title according to selected decades
-
+# Update charts
 @app.callback(
     Output("bc_DOHI", "figure"),
     Output("bc_ImpactDisasterType", "figure"),
@@ -399,16 +432,17 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     else:
         location = 'Western Europe'
 
-    df_decade_disaster_temp = (df_map_data[
-        ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
-         & (df_map_data['Decade'] <= years[1]) & (df_map_data['Disaster_Type'] == disaster)
-         & (df_map_data['RCP'] == scenario))]
-    )
+    # Select decades and RCP
+    df = slice_data_on_decades(df_disasters, scenario, years[0], years[1])
+    print(df)
+    df_temperatures = slice_data_on_decades(df_extra[['Decade','UN_Geosheme_Subregion','RCP','°C']], scenario, years[0], years[1])
+    # Select region
+    to_drop = df[~(df['UN_Geosheme_Subregion'] == location)].index
+    df.drop(to_drop, inplace=True)
+    to_drop = df_temperatures[~(df_temperatures['UN_Geosheme_Subregion'] == location)].index
+    df_temperatures.drop(to_drop, inplace=True)
 
-    df_figs = (df_map_data[
-        ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
-         & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'] == scenario))]
-    )
+    df_figs = df.copy()
     c = df_figs.groupby(['Decade'])['RCP'].mean().reset_index()
     df_figs['Temperature'] = df_figs.Decade.map(c.set_index('Decade')['RCP'])
     is_disaster = df_figs["Disaster_Type"] == disaster
@@ -418,7 +452,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
         impact_type = impact.replace(" ", "_")
     else:
         impact_type = 'DO'
-    # Si on veut définir toutes les couleurs une par une nous même:
+    # In case we want to force all colors
     # color_codes= ['#CCFFFF','#CCCCFF','#CC99FF','#009999','#0033FF','#003333',
     # '#9900CC','#FFFF33','#339966','#CC6666','#996633','#009900','#6666FF','#330033',
     # '#FF3333','#FFCCFF','#33FF99','#33FF99','#9999FF','#CC3300','#3300CC','#9999FF']
@@ -437,7 +471,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         color_discrete_sequence={0: '#CC0000'},
                         nbins=bins,
                         title='Evolution of disaster occurence and human impact worldwide',
-                        # animation_frame="Decade", #ne autoscale pas malheureusement
+                        # animation_frame="Decade", #doesn't autoscale automatically unfortunately
                         labels={'Decade': 'Decade', 'DO': 'Disaster Occurence'},
                         )
     fig2.update_xaxes(type='category')
@@ -468,20 +502,17 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     return subfig, fig4
 
 
+# Update map title according to selected decades
 @app.callback(Output("heatmap-title", "children"), [Input("years-slider", "value")])
 def update_map_title(year):
     return "Choropleth map from the beginning of the {0}s to the end of the {1}s".format(year[0], year[1])
 
 
 # Update the data selection sent to the map - period, magnitude, impact
-
 @app.callback(
     Output("county-choropleth", "figure"),
     Input("years-slider", "value"),
     Input("Disaster-Selector", "value"),
-    # Input("temp-slider","value"),
-    # for callback : & (df_map_data['RCP'] == temp
-    # def update_map(year,DisasterType,temp,MagnitudeType):
     Input("Magnitude-Selector", "value"),
     Input("scenario-slider", "value")
 )
@@ -489,12 +520,12 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
     '''
     Update the map according to the parameters selected by the user
     '''
-    # Selection of the slice of data to send to the map
-    df_decade_disaster_temp = df_map_data[
-        (df_map_data['Decade'] >= year[0])
-        & (df_map_data['Decade'] <= year[1])
-        & (df_map_data['Disaster_Type'] == DisasterType)
-        & (df_map_data['RCP'] == RcpType)].copy()
+
+    # Selection of the slice of decades to keep
+    df = slice_data_on_decades(df_disasters, RcpType, year[0], year[1]).copy()
+    # Selection of the disaster to keep
+    to_drop = df[~(df['Disaster_Type'] == DisasterType)].index
+    df.drop(to_drop, inplace=True)
 
     # Get the color scale settings to display the choropleth
     color = dict_feature_colors[DisasterType]
@@ -509,19 +540,14 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
 
     # Select the feature and aggregate its data on the selected decades
     if dict_dataset_aggregation_method[magnitude_type] == 'sum':
-        df_decade_disaster_temp = (df_decade_disaster_temp
-                                   .groupby(['UN_Geosheme_Subregion'])[magnitude_type]
-                                   .sum()
-                                   .reset_index())
+        df = df.groupby(['UN_Geosheme_Subregion'])[magnitude_type].sum().reset_index()
     elif dict_dataset_aggregation_method[magnitude_type] == 'mean':
-        df_decade_disaster_temp = (df_decade_disaster_temp
-                                   .groupby(['UN_Geosheme_Subregion'])[magnitude_type]
-                                   .mean()
-                                   .reset_index())
+        df = df.groupby(['UN_Geosheme_Subregion'])[magnitude_type].mean().reset_index()
 
-    return display_map(df_decade_disaster_temp, magnitude_type, color)
+    return display_map(df, magnitude_type, color)
 
 
+# Display left side panel when clicking on button
 @app.callback(Output('collapse', 'style'),
               [Input('collapse-button', 'n_clicks')],
               [State('collapse', 'style')],
@@ -534,14 +560,10 @@ def callback(n_clicks, style):
     return style
 
 
-# Not in used anymore
-
-# def hide_slider(year):
-#    if year[0] >= 2020:
-#        return "Choropleth map of disaster damages from {0} to {1}".format(year[0], year[1])
-
-
-# ~~~~~ MAIN - when file executed as a standalone application
+# ~~~~~~~~~~~~~~~~~~~
+#        MAIN
+# ~~~~~~~~~~~~~~~~~~~
+# Run server when file executed as a standalone application
 
 if __name__ == '__main__':
     app.run_server(debug=True, host="127.0.0.1", port=8050)
