@@ -73,9 +73,15 @@ dict_dataset_aggregation_method = {
     "Rain": "mean",
 }
 
+# Import temperature data
+
+df_temperature = pd.read_csv("data/input-extra.csv", decimal='.')
+
 # Data preparation
 
-df_map_data = df.sort_values(by=['UN_Geosheme_Subregion'])
+df_full = df.merge(df_temperature, how='left', on=['Decade', 'UN_Geosheme_Subregion', 'RCP'])
+
+df_map_data = df_full.sort_values(by=['UN_Geosheme_Subregion'])
 df_map_data["RCP"].fillna(value=0, inplace=True)
 
 # Mapbox credentials
@@ -399,18 +405,12 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     else:
         location = 'Western Europe'
 
-    df_decade_disaster_temp = (df_map_data[
-        ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
-         & (df_map_data['Decade'] <= years[1]) & (df_map_data['Disaster_Type'] == disaster)
-         & (df_map_data['RCP'] == scenario))]
-    )
-
     df_figs = (df_map_data[
         ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
          & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'] == scenario))]
     )
-    c = df_figs.groupby(['Decade'])['RCP'].mean().reset_index()
-    df_figs['Temperature'] = df_figs.Decade.map(c.set_index('Decade')['RCP'])
+    c = df_figs.groupby(['Decade'])['°C'].mean().reset_index()
+    df_figs['Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
     is_disaster = df_figs["Disaster_Type"] == disaster
     df_disaster = df_figs[is_disaster]
     if impact != 'Number of Occurrences':
