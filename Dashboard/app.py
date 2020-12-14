@@ -304,7 +304,6 @@ collapses = html.Div(
 
 app.layout = html.Div(
     id="root",
-    style={"width": "100vw"},
     children=[
         html.Div(
             id="app-container",
