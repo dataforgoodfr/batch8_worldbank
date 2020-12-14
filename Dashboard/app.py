@@ -438,8 +438,6 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     df_fig = df_disaster
     bins = int((int(years[1]) - int(years[0])) / 10)
 
-    print(df_figs.head())
-
     subfig = make_subplots(specs=[[{"secondary_y": True}]])
     fig2 = px.histogram(df_fig,
                         x="Decade",
