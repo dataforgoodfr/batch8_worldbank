@@ -97,7 +97,7 @@ dict_feature_colors = {
 
 def Title_App():
     return html.Div(
-        className="pretty_container",
+        className="pretty_container-3",
         children=[
             #            html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
             html.Img(id="logo", src=app.get_asset_url("logo.png")),
@@ -122,11 +122,15 @@ def choropleth_map(df, impact, colordisaster):
             color_continuous_scale=colordisaster,
             mapbox_style=mapbox_style,
             opacity=0.8,
-            zoom=1,
+            center={"lat": 10.190, "lon": 64.709},
+            zoom=1.15,
             hover_name='UN_Geosheme_Subregion',
             labels=dict_dataset_labels,
+            #range_color=[0, 6500]
         )
     )
+
+
 
 
 # Display the map
@@ -155,7 +159,7 @@ def disaster_type_card():
                 id="Disaster-Selector",
                 options=[{'label': i, 'value': i} for i in list_disasters],
                 value='Droughts',
-                labelStyle={"display": "inline-block",
+                labelStyle={#"display": "inline-block",
                             "margin-top": "0px",
                             "font-size": "16px",
                             "padding": "12px 12px 12px 0px",
@@ -254,14 +258,24 @@ CONTENT_STYLE = {
 }
 
 sidebar = html.Div(
+    className="pretty_container-3",
+    children=
     [
         # html.H2("Sidebar", className="display-4"),
         # html.Hr(),
         html.Div(
-            dcc.Graph(id="bc_DOHI"),
+            dcc.Graph(id="bc_DOHI" ,
+                       config={
+                                'displayModeBar': False
+                              }
+                     ),
         ),
         html.Div(
-            dcc.Graph(id="bc_ImpactDisasterType"),
+            dcc.Graph(id="bc_ImpactDisasterType", 
+                       config={
+                                'displayModeBar': False
+                              }
+                     ),
         ),
     ],
     style=SIDEBAR_STYLE,
@@ -271,8 +285,10 @@ content = html.Div(id="page-content", style=CONTENT_STYLE)
 
 # Add collapses 
 collapses = html.Div(
+    #className="pretty_container-3",
+    #children=
     [
-
+      
         dbc.Collapse(
             sidebar,
             id="collapse",
@@ -300,11 +316,12 @@ app.layout = html.Div(
                     id="Rectangle_Menu",
                     children=[
                         html.Div(
-                            className="pretty-container",
+                            className="pretty-container-3",
                             children=[Title_App()]
                         ),
+                        html.Br(),
                         html.Div(
-                            className="pretty_container",
+                            className="pretty_container-3",
                             children=[disaster_type_card()]
                         ),
                         html.Br(),
@@ -314,22 +331,20 @@ app.layout = html.Div(
                         ),
                         html.Br(),
                         html.Div(
-                            className="pretty_container",
+                            className="pretty_container-3",
                             children=[climate_scenario()]
                         ),
                         html.Br(),
                         html.Div(
-                            className="pretty_container-2",
-                            children=[html.Button('Expand World Figures', id='collapse-button')]
+                           
+                            children=[html.Button('Display Charts', id='collapse-button' ,style={"display":"block"}) , 
+                                     html.Button('Hidden Charts', id='collapse-button2' ,style={"display":"None"}) ]
                         ),
                     ],
                 ),
 
                 html.Div(
-                    className="pretty_container-2",
-                    children=[
-                        collapses
-                    ],
+                      collapses
                 ),
                 html.Div(
                     id="right-column",
@@ -368,7 +383,10 @@ app.layout = html.Div(
                                                     & (df_map_data['Decade'] <= 1920)
                                                     & (df_map_data['Disaster_Type'] == 'Droughts')
                                                     & (df_map_data['RCP'] == 2.6)],
-                                        'Human_Impact', 'reds')
+                                        'Human_Impact', 'reds'),
+                                    config={
+                                              'modeBarButtonsToRemove': ['toImage','toggleSpikelines', "pan2d", "select2d", "lasso2d","hoverClosestCartesian"]
+                                           }
                                 ),
                             ],
                         ),
@@ -378,6 +396,8 @@ app.layout = html.Div(
         ),
     ],
 )
+
+#‘scrollZoom’,  ‘showTips’, ‘showAxisDragHandles’, ‘showAxisRangeEntryBoxes’, ‘showLink’, ‘sendData’, ‘linkText’, ‘displayModeBar’, ‘modeBarButtonsToRemove’, ‘modeBarButtonsToAdd’, ‘modeBarButtons’, ‘displaylogo’, ‘plotGlPixelRatio’, ‘topojsonURL’, ‘mapboxAccessToken’.
 
 
 # ~~~~~ CALLBACKS TO UPDATE THE DASHBOARD BASED ON USER ACTIONS
@@ -463,7 +483,9 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         # animation_frame="Decade",
                         labels={'x': 'Decade', 'y': 'Total Financial Impact', 'color': 'Disaster Type'},
                         )
+
     fig4.update_xaxes(type='category')
+    
 
     return subfig, fig4
 
@@ -524,14 +546,18 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
 
 @app.callback(Output('collapse', 'style'),
               [Input('collapse-button', 'n_clicks')],
-              [State('collapse', 'style')],
-              )
+              [State('collapse', 'style')]
+            )
 def callback(n_clicks, style):
-    if style is None or 'display' not in style:
-        style = {'display': 'none'}
+    if style  is None or 'display' not in style:
+        style  = {'display': 'none'}     
     else:
         style['display'] = 'block' if style['display'] == 'none' else 'none'
     return style
+ 
+
+
+
 
 
 # Not in used anymore
