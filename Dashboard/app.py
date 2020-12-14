@@ -103,7 +103,7 @@ dict_feature_colors = {
 
 def Title_App():
     return html.Div(
-        className="pretty_container-3",
+        #className="pretty_container-3",
         children=[
             #            html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
             html.Img(id="logo", src=app.get_asset_url("logo.png")),
@@ -244,7 +244,6 @@ SIDEBAR_STYLE = {
     "width": "30vw",
     "overflow": "scroll",
     "maxHeight": "100rem"
-
 }
 
 # the styles for the main content position it to the right of the sidebar and
@@ -310,24 +309,25 @@ app.layout = html.Div(
             children=[
                 html.Div(
                     id="Rectangle_Menu",
+                    className="pretty_container-3",
                     children=[
                         html.Div(
-                            className="pretty-container-3",
+                            #className="pretty-container-3",
                             children=[Title_App()]
                         ),
                         html.Br(),
                         html.Div(
-                            className="pretty_container-3",
+                            #className="pretty_container-3",
                             children=[disaster_type_card()]
                         ),
                         html.Br(),
                         html.Div(
-                            className="pretty_container-3",
+                            #className="pretty_container-3",
                             children=[magnitude_type_card()]
                         ),
                         html.Br(),
                         html.Div(
-                            className="pretty_container-3",
+                            #className="pretty_container-3",
                             children=[climate_scenario()]
                         ),
                         html.Br(),

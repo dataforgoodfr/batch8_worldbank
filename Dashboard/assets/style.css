@@ -57,7 +57,7 @@
     stroke-linecap: butt;
     stroke-miterlimit: 4;
     shape-rendering: auto;*/
-    background-color: #eaeaee;
+    background-color: white;
 }
 
 #Divider_ci {
@@ -90,21 +90,22 @@
     margin: 0.5rem;
     padding: 1rem;
     position: relative;
-    border: none;
+    border: 1px;
   }
   
   .pretty_container-3 {
-    border-radius: 1px;
+    /*border-radius: 5px;*/
     margin: 1rem ;
     position: relative;
     text-align: left;
     align-content: center;
-    border:  1px solid ;
+   /* border:  0px solid ;
+    box-shadow: 2px 2px 2px lightgrey;*/
   }
 
 
   .pretty_container-3b {
-    border-radius: 1px;
+    /*border-radius: 1px;*/
     margin: 1rem ;
     position: relative;
     text-align: left;
@@ -291,7 +292,7 @@ html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
     font-size: 50%;
-    background-color: #eaeaee;
+    background-color: #F8FAFF;
     max-width: 100% !important;
     width: 100% !important;
     margin: 0;
@@ -338,7 +339,7 @@ body {
 
 #root {
     margin: 0;
-    background-color: #eaeaee;
+    background-color: #F8FAFF;
 }
 
 @media (max-width: 550px) {
@@ -778,7 +779,9 @@ hr {
     height: 8rem;*/
     height:10rem;
     margin: 1px ;
-    border: 1px solid;
+    border: 0px solid;
+    /*box-shadow: 2px 2px 2px lightgrey;
+    border-radius: 5px;*/
 }
 
 .rc-slider-dot-active, .rc-slider-handle {
@@ -798,7 +801,9 @@ hr {
 #heatmap-container {
     margin: 2.5rem 0 0 0;
     background-color: white;
-    border: 1px solid;
+    border: 0px solid;
+    /*box-shadow: 2px 2px 2px lightgrey;
+    border-radius: 5px;*/
 }
 
 #heatmap-title {
@@ -972,7 +977,7 @@ hr {
     /*For mobile and smaller screens*/
     #app-container {
         width: 100%;
-        background-color: #eaeaee;
+        background-color: #F8FAFF;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -985,7 +990,7 @@ hr {
     /*For desktop*/
     #app-container {
         display: flex;
-        background-color: #eaeaee;
+        background-color: #F8FAFF;
         flex-direction: row;
         justify-content: flex-start;
         align-items: stretch;
