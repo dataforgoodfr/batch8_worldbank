@@ -70,6 +70,7 @@ dict_dataset_labels = {
     "RCP": "Climate Prospective Scenario",
     "Financial_Impact": "Total Cost ($US)",
     "Human_Impact": "Affected People",
+
     "Number of Occurrences": "Nb of events",
     "°C": "Average temperature (°C)",
     "Rain": "Rainfall",
