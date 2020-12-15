@@ -207,7 +207,7 @@ def disaster_type_card():
             dcc.RadioItems(
                 id="Disaster-Selector",
                 options=[{'label': i, 'value': i} for i in list_disasters],
-                value='Droughts',
+                value='Storms',
                 labelStyle={  # "display": "inline-block",
                     "margin-top": "0px",
                     "font-size": "16px",
@@ -250,8 +250,8 @@ def magnitude_type_card():
 def climate_scenario():
     return html.Div(
         children=[
-            html.H5(dcc.Markdown("**Select a RCP**")),
-            html.H6(dcc.Markdown("**RCP only impacts years 2020 and beyond**")),
+            html.H5(dcc.Markdown("**Select* a RCP**")),
+            html.H6(dcc.Markdown("*Only effective from 2020")),
             html.Br(),
             dcc.Slider(
                 id="scenario-slider",
@@ -402,7 +402,7 @@ app.layout = html.Div(
                                     min=1900,
                                     max=2090,
                                     step=10,
-                                    value=[1900, 1920],
+                                    value=[1960, 2010],
                                     marks={
                                         str(year): {"label": str(year), "style": {"color": "#7fafdf"}} for year in YEARS
                                     },
@@ -422,7 +422,7 @@ app.layout = html.Div(
                                     figure=display_map(
                                         df_full[(df_full['Decade'] >= 1900)
                                                     & (df_full['Decade'] <= 1920)
-                                                    & (df_full['Disaster_Type'] == 'Droughts')
+                                                    & (df_full['Disaster_Type'] == 'Floods')
                                                     & (df_full['RCP'] == 2.6)],
                                         'Human_Impact', 'reds'),
                                     config={
@@ -533,14 +533,14 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         x="Decade",
                         y=impact_type,
                         color="Disaster_Type",
-                        color_discrete_sequence={0: '#FFAE5D', 1: '#C5EBFD', 2: '#B561F4'},
+                        color_discrete_sequence={0: '#B561F4', 1: '#C5EBFD', 2: '#FFAE5D'},
                         template='plotly',
                         nbins=bins,
-                        title='Total {0} per Disaster Type'.format(impact_type),
+                        title='World: {0} per Disaster Type'.format(impact_type),
                         # animation_frame="Decade",
                         labels={'x': 'Decade', 'y': 'Total Financial Impact', 'color': 'Disaster Type'},
                         )
-
+    
     fig4.update_xaxes(type='category')
     fig4.update_layout(barmode = 'stack', xaxis = {'categoryorder': 'category ascending'})
     fig4.update_layout(legend=dict(
@@ -549,6 +549,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
         y=1.02,
         xanchor="right",
         x=1
+        
     ))
 
     return subfig, fig4
