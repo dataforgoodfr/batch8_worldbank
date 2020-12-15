@@ -60,10 +60,6 @@ df_extra = pd.read_csv("data/input-extra.csv", decimal=".")
 
 # Preparation of global variables
 
-#<<<<<<< various_improvements
-#=======
-#df = pd.read_csv("data/input-magnitude.csv", decimal=".").rename({'DO': 'Number of Occurrences'}, axis=1)
-#>>>>>>> master
 dict_dataset_labels = {
     "UN_Geosheme_Subregion": "UN Subregion",
     "Disaster_Type": "Type of Disaster",
@@ -85,6 +81,11 @@ dict_dataset_aggregation_method = {
     "Number of Occurrences": "sum",
     "°C": "mean",
     "Rain": "mean",
+}
+dict_magnitude_types = {
+    "Number of Occurrences": 'Number of Occurrences',
+    "Financial Impact": 'Financial_Impact',
+    'Human Impact': 'Human_Impact',
 }
 
 # Preparation of main dataframes
@@ -461,34 +462,22 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     else:
         location = 'Western Europe'
 
-
     # Select decades and RCP
-    df = slice_data_on_decades(df_disasters, scenario, years[0], years[1])
-    #print(df)
-    df_temperatures = slice_data_on_decades(df_extra[['Decade','UN_Geosheme_Subregion','RCP','°C']], scenario, years[0], years[1])
+    df = slice_data_on_decades(df_full, scenario, years[0], years[1])
     # Select region
     to_drop = df[~(df['UN_Geosheme_Subregion'] == location)].index
     df.drop(to_drop, inplace=True)
-    to_drop = df_temperatures[~(df_temperatures['UN_Geosheme_Subregion'] == location)].index
-    df_temperatures.drop(to_drop, inplace=True)
 
-    df_map_data = df_full
-    df_figs = (df_map_data[
-        ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
-         & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'].isin([0.0, scenario])))]
-    ).copy()
+    # Prepare data to display
+    df_figs = df.copy()
     c = df_figs.groupby(['Decade'])['°C'].mean().reset_index()
     df_figs.loc[:, 'Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
 
+    # Select disaster
+    df_disaster = df_figs[df_figs["Disaster_Type"] == disaster].copy()
+    impact_type = dict_magnitude_types[impact]
 
-    is_disaster = df_figs["Disaster_Type"] == disaster
-    df_disaster = df_figs[is_disaster]
-    if impact != 'Number of Occurrences':
-        # color = "reds"
-        impact_type = impact.replace(" ", "_")
-    else:
-        impact_type = 'Number of Occurrences'
-    # Si on veut définir toutes les couleurs une par une nous même:
+    # In case we want to force all colors:
     # color_codes= ['#CCFFFF','#CCCCFF','#CC99FF','#009999','#0033FF','#003333',
     # '#9900CC','#FFFF33','#339966','#CC6666','#996633','#009900','#6666FF','#330033',
     # '#FF3333','#FFCCFF','#33FF99','#33FF99','#9999FF','#CC3300','#3300CC','#9999FF']
@@ -584,12 +573,7 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
     color = dict_feature_colors[DisasterType]
 
     # Select the feature in the dataset
-    if MagnitudeType == "Number of Occurrences":
-        magnitude_type = 'Number of Occurrences'
-    elif MagnitudeType == "Financial Impact":
-        magnitude_type = 'Financial_Impact'
-    elif MagnitudeType == 'Human Impact':
-        magnitude_type = 'Human_Impact'
+    magnitude_type = dict_magnitude_types[MagnitudeType]
 
     # Select the feature and aggregate its data on the selected decades
     if dict_dataset_aggregation_method[magnitude_type] == 'sum':
@@ -623,7 +607,10 @@ def callback(n_clicks, style_map, style):
     return style, style_map
 
 
-# ~~~~~ MAIN - when file executed as a standalone application
+# ~~~~~~~~~~~~~~~~~~~
+#        MAIN
+# ~~~~~~~~~~~~~~~~~~~
+# when file executed as a standalone application
 
 if __name__ == '__main__':
     app.run_server(debug=True, host="127.0.0.1", port=8050)
