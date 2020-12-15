@@ -208,7 +208,7 @@ def disaster_type_card():
             dcc.RadioItems(
                 id="Disaster-Selector",
                 options=[{'label': i, 'value': i} for i in list_disasters],
-                value='Storms',
+                value='Floods',
                 labelStyle={  # "display": "inline-block",
                     "margin-top": "0px",
                     "font-size": "16px",
@@ -497,7 +497,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         nbins=bins,
                         title='Evolution of disaster occurrence and human impact worldwide',
                         # animation_frame="Decade", #ne autoscale pas malheureusement
-                        labels={'Decade': 'Decade', 'Number of Occurrences': 'Disaster Occurence'},
+                        #labels={'Decade': 'Decade', 'Number of Occurrences': 'Disaster Occurence'},
                         )
     fig2.update_xaxes(type='category')
 
@@ -522,12 +522,12 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         x="Decade",
                         y=impact_type,
                         color="Disaster_Type",
-                        color_discrete_sequence={0: '#B561F4', 1: '#C5EBFD', 2: '#FFAE5D'},
+                        color_discrete_map={'Floods':'#C5EBFD', 'Storms':'#B561F4', 'Droughts':'#FFAE5D'},
                         template='plotly',
                         nbins=bins,
-                        title='World: {0} per Disaster Type'.format(impact_type),
+                        title='<b>World</b>: {0} per Disaster Type'.format(impact_type),
                         # animation_frame="Decade",
-                        labels={'x': 'Decade', 'y': 'Total Financial Impact', 'color': 'Disaster Type'},
+                        labels={'Disaster_Type':'Disasters'},
                         )
     
     fig4.update_xaxes(type='category')
