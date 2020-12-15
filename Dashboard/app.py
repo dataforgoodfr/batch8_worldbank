@@ -55,18 +55,22 @@ with open('data/un_subregion_contours.geojson') as json_data:
 
 # Import data from datasets
 
-df_disasters = pd.read_csv("data/input-magnitude.csv", decimal=".")
+df_disasters = pd.read_csv("data/input-magnitude.csv", decimal=".").rename({'DO': 'Number of Occurrences'}, axis=1)
 df_extra = pd.read_csv("data/input-extra.csv", decimal=".")
 
 # Preparation of global variables
 
+#<<<<<<< various_improvements
+#=======
+#df = pd.read_csv("data/input-magnitude.csv", decimal=".").rename({'DO': 'Number of Occurrences'}, axis=1)
+#>>>>>>> master
 dict_dataset_labels = {
     "UN_Geosheme_Subregion": "UN subregion",
     "Disaster_Type": "Type of disaster",
     "RCP": "Climate prospective scenario",
     "Financial_Impact": "Total cost $US",
     "Human_Impact": "Affected people",
-    "DO": "Nb of events",
+    "Number of Occurrences": "Nb of events",
     "°C": "Average temperature (°C)",
     "Rain": "Rainfall",
 }
@@ -77,7 +81,7 @@ YEARS = list(df_disasters.Decade.drop_duplicates())
 dict_dataset_aggregation_method = {
     "Financial_Impact": "sum",
     "Human_Impact": "sum",
-    "DO": "sum",
+    "Number of Occurrences": "sum",
     "°C": "mean",
     "Rain": "mean",
 }
@@ -89,6 +93,10 @@ df_disasters = df_disasters.sort_values(by=['UN_Geosheme_Subregion'])
 df_disasters["RCP"].fillna(value=0, inplace=True)
 df_extra = df_extra.sort_values(by=['UN_Geosheme_Subregion'])
 df_extra["RCP"].fillna(value=0, inplace=True)
+# Data preparation
+
+df_full = df_disasters.merge(df_extra, how='left', on=['Decade', 'UN_Geosheme_Subregion', 'RCP'])
+
 
 # Mapbox credentials
 
@@ -103,9 +111,11 @@ dict_feature_colors = {
 }
 
 
+
 # ~~~~~~~~~~~~~~~~~~~
 #      FUNCTIONS
 # ~~~~~~~~~~~~~~~~~~~
+
 
 # Build the choropleth map from data in dataframe and regional contours in geojson
 
@@ -120,9 +130,11 @@ def choropleth_map(df, impact, colordisaster):
             color_continuous_scale=colordisaster,
             mapbox_style=mapbox_style,
             opacity=0.8,
-            zoom=1,
+            center={"lat": 10.190, "lon": 64.709},
+            zoom=1.15,
             hover_name='UN_Geosheme_Subregion',
             labels=dict_dataset_labels,
+            # range_color=[0, 6500]
         )
     )
 
@@ -160,10 +172,9 @@ def slice_data_on_decades(df_source, rcp_type, decade_start, decade_end):
 # ~~~~~~~~~~~~~~~~~~~
 
 # Title & Logo
-
 def Title_App():
     return html.Div(
-        className="pretty_container",
+        #className="pretty_container-3",
         children=[
             #            html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
             html.Img(id="logo", src=app.get_asset_url("logo.png")),
@@ -187,11 +198,11 @@ def disaster_type_card():
                 id="Disaster-Selector",
                 options=[{'label': i, 'value': i} for i in list_disasters],
                 value='Droughts',
-                labelStyle={"display": "inline-block",
-                            "margin-top": "0px",
-                            "font-size": "16px",
-                            "padding": "12px 12px 12px 0px",
-                            },
+                labelStyle={  # "display": "inline-block",
+                    "margin-top": "0px",
+                    "font-size": "16px",
+                    "padding": "12px 12px 12px 0px",
+                },
                 labelClassName="data-group-labels",
             )
         ]
@@ -230,6 +241,7 @@ def climate_scenario():
     return html.Div(
         children=[
             html.H5(dcc.Markdown("**Select a RCP**")),
+            html.H6(dcc.Markdown("**RCP only impacts years 2020 and beyond**")),
             html.Br(),
             dcc.Slider(
                 id="scenario-slider",
@@ -261,21 +273,14 @@ colors = {
     'text': '#7FDBFF'
 }
 
-# fig = px.bar(df_disasters, x="Disaster_Type", y="Human_Impact", color="Disaster_Type", barmode="group")
-#
-# fig.update_layout(
-#     plot_bgcolor=colors['background'],
-#     paper_bgcolor=colors['background'],
-#     font_color=colors['text']
-# )
-
 # Add sidebar 
 SIDEBAR_STYLE = {
     # "position": "fixed",
     "top": 0,
     "left": 0,
-    "width": "45rem",
-
+    "width": "30vw",
+    "overflow": "scroll",
+    "maxHeight": "100rem"
 }
 
 # the styles for the main content position it to the right of the sidebar and
@@ -287,14 +292,22 @@ CONTENT_STYLE = {
 }
 
 sidebar = html.Div(
+    className="pretty_container-3",
+    children=
     [
-        # html.H2("Sidebar", className="display-4"),
-        # html.Hr(),
         html.Div(
-            dcc.Graph(id="bc_DOHI"),
+            dcc.Graph(id="bc_DOHI",
+                      config={
+                          'displayModeBar': False
+                      }
+                      ),
         ),
         html.Div(
-            dcc.Graph(id="bc_ImpactDisasterType"),
+            dcc.Graph(id="bc_ImpactDisasterType",
+                      config={
+                          'displayModeBar': False
+                      }
+                      ),
         ),
     ],
     style=SIDEBAR_STYLE,
@@ -304,6 +317,8 @@ content = html.Div(id="page-content", style=CONTENT_STYLE)
 
 # Add collapses 
 collapses = html.Div(
+    # className="pretty_container-3",
+    # children=
     [
 
         dbc.Collapse(
@@ -329,38 +344,38 @@ app.layout = html.Div(
             children=[
                 html.Div(
                     id="Rectangle_Menu",
+                    className="pretty_container-3",
                     children=[
                         html.Div(
-                            className="pretty-container",
+                            #className="pretty-container-3",
                             children=[Title_App()]
                         ),
+                        html.Br(),
                         html.Div(
-                            className="pretty_container",
+                            #className="pretty_container-3",
                             children=[disaster_type_card()]
                         ),
                         html.Br(),
                         html.Div(
-                            className="pretty_container-3",
+                            #className="pretty_container-3",
                             children=[magnitude_type_card()]
                         ),
                         html.Br(),
                         html.Div(
-                            className="pretty_container",
+                            #className="pretty_container-3",
                             children=[climate_scenario()]
                         ),
                         html.Br(),
                         html.Div(
-                            className="pretty_container-2",
-                            children=[html.Button('Expand World Figures', id='collapse-button')]
+
+                            children=[html.Button('Display Charts', id='collapse-button', style={"display": "block"}),
+                                      html.Button('Hidden Charts', id='collapse-button2', style={"display": "None"})]
                         ),
                     ],
                 ),
 
                 html.Div(
-                    className="pretty_container-2",
-                    children=[
-                        collapses
-                    ],
+                    collapses
                 ),
                 html.Div(
                     id="right-column",
@@ -395,11 +410,15 @@ app.layout = html.Div(
                                 dcc.Graph(
                                     id="county-choropleth",
                                     figure=display_map(
-                                        df_disasters[(df_disasters['Decade'] >= 1900)
-                                                    & (df_disasters['Decade'] <= 1920)
-                                                    & (df_disasters['Disaster_Type'] == 'Droughts')
-                                                    & (df_disasters['RCP'] == 2.6)],
-                                        'Human_Impact', 'reds')
+                                        df_full[(df_full['Decade'] >= 1900)
+                                                    & (df_full['Decade'] <= 1920)
+                                                    & (df_full['Disaster_Type'] == 'Droughts')
+                                                    & (df_full['RCP'] == 2.6)],
+                                        'Human_Impact', 'reds'),
+                                    config={
+                                        'modeBarButtonsToRemove': ['toImage', 'toggleSpikelines', "pan2d", "select2d",
+                                                                   "lasso2d", "hoverClosestCartesian"]
+                                    }
                                 ),
                             ],
                         ),
@@ -432,9 +451,10 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     else:
         location = 'Western Europe'
 
+
     # Select decades and RCP
     df = slice_data_on_decades(df_disasters, scenario, years[0], years[1])
-    print(df)
+    #print(df)
     df_temperatures = slice_data_on_decades(df_extra[['Decade','UN_Geosheme_Subregion','RCP','°C']], scenario, years[0], years[1])
     # Select region
     to_drop = df[~(df['UN_Geosheme_Subregion'] == location)].index
@@ -442,37 +462,43 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     to_drop = df_temperatures[~(df_temperatures['UN_Geosheme_Subregion'] == location)].index
     df_temperatures.drop(to_drop, inplace=True)
 
-    df_figs = df.copy()
-    c = df_figs.groupby(['Decade'])['RCP'].mean().reset_index()
-    df_figs['Temperature'] = df_figs.Decade.map(c.set_index('Decade')['RCP'])
+    df_map_data = df_full
+    df_figs = (df_map_data[
+        ((df_map_data['UN_Geosheme_Subregion'] == location) & (df_map_data['Decade'] >= years[0])
+         & (df_map_data['Decade'] <= years[1]) & (df_map_data['RCP'].isin([0.0, scenario])))]
+    ).copy()
+    c = df_figs.groupby(['Decade'])['°C'].mean().reset_index()
+    df_figs.loc[:, 'Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
+
+
     is_disaster = df_figs["Disaster_Type"] == disaster
     df_disaster = df_figs[is_disaster]
     if impact != 'Number of Occurrences':
         # color = "reds"
         impact_type = impact.replace(" ", "_")
     else:
-        impact_type = 'DO'
-    # In case we want to force all colors
+        impact_type = 'Number of Occurrences'
+    # Si on veut définir toutes les couleurs une par une nous même:
     # color_codes= ['#CCFFFF','#CCCCFF','#CC99FF','#009999','#0033FF','#003333',
     # '#9900CC','#FFFF33','#339966','#CC6666','#996633','#009900','#6666FF','#330033',
     # '#FF3333','#FFCCFF','#33FF99','#33FF99','#9999FF','#CC3300','#3300CC','#9999FF']
     # color={}
     # for i in range(21):
     #    color[i] = color_codes[i]
-    df_fig = df_disaster
+    df_fig = df_disaster.sort_values(by=['Decade'])
     bins = int((int(years[1]) - int(years[0])) / 10)
 
     subfig = make_subplots(specs=[[{"secondary_y": True}]])
     fig2 = px.histogram(df_fig,
                         x="Decade",
-                        y="DO",
+                        y="Number of Occurrences",
                         template='plotly',
                         # barmode="stack",
                         color_discrete_sequence={0: '#CC0000'},
                         nbins=bins,
-                        title='Evolution of disaster occurence and human impact worldwide',
-                        # animation_frame="Decade", #doesn't autoscale automatically unfortunately
-                        labels={'Decade': 'Decade', 'DO': 'Disaster Occurence'},
+                        title='Evolution of disaster occurrence and human impact worldwide',
+                        # animation_frame="Decade", #ne autoscale pas malheureusement
+                        labels={'Decade': 'Decade', 'Number of Occurrences': 'Disaster Occurence'},
                         )
     fig2.update_xaxes(type='category')
 
@@ -485,6 +511,13 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     subfig.layout.yaxis.title = "Occurences"
     subfig.layout.yaxis2.title = "Temperatures"
     subfig.layout.title = "{0} Occurence vs Temperature".format(disaster)
+    subfig.update_layout(legend=dict(
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1
+    ))
 
     fig4 = px.histogram(df_figs,
                         x="Decade",
@@ -497,7 +530,16 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         # animation_frame="Decade",
                         labels={'x': 'Decade', 'y': 'Total Financial Impact', 'color': 'Disaster Type'},
                         )
+
     fig4.update_xaxes(type='category')
+    fig4.update_layout(barmode = 'stack', xaxis = {'categoryorder': 'category ascending'})
+    fig4.update_layout(legend=dict(
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1
+    ))
 
     return subfig, fig4
 
@@ -532,7 +574,7 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
 
     # Select the feature in the dataset
     if MagnitudeType == "Number of Occurrences":
-        magnitude_type = 'DO'
+        magnitude_type = 'Number of Occurrences'
     elif MagnitudeType == "Financial Impact":
         magnitude_type = 'Financial_Impact'
     elif MagnitudeType == 'Human Impact':
@@ -549,21 +591,30 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
 
 # Display left side panel when clicking on button
 @app.callback(Output('collapse', 'style'),
+              Output('right-column', 'style'),
               [Input('collapse-button', 'n_clicks')],
-              [State('collapse', 'style')],
+              [State('right-column', 'style')],
+              [State('collapse', 'style')]
               )
-def callback(n_clicks, style):
+def callback(n_clicks, style_map, style):
     if style is None or 'display' not in style:
         style = {'display': 'none'}
+        style_map = {"width": "66vw"}
     else:
-        style['display'] = 'block' if style['display'] == 'none' else 'none'
-    return style
+        if style['display'] == 'none':
+            style['display'] = 'block'
+            style_map["width"] = "33vw"
+        else:
+            style['display'] = 'none'
+            style_map["width"] = "66vw"
 
 
-# ~~~~~~~~~~~~~~~~~~~
-#        MAIN
-# ~~~~~~~~~~~~~~~~~~~
-# Run server when file executed as a standalone application
+    return style, style_map
+
+
+# ~~~~~ MAIN - when file executed as a standalone application
 
 if __name__ == '__main__':
     app.run_server(debug=True, host="127.0.0.1", port=8050)
+
+
