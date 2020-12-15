@@ -65,11 +65,12 @@ df_extra = pd.read_csv("data/input-extra.csv", decimal=".")
 #df = pd.read_csv("data/input-magnitude.csv", decimal=".").rename({'DO': 'Number of Occurrences'}, axis=1)
 #>>>>>>> master
 dict_dataset_labels = {
-    "UN_Geosheme_Subregion": "UN subregion",
-    "Disaster_Type": "Type of disaster",
-    "RCP": "Climate prospective scenario",
-    "Financial_Impact": "Total cost $US",
-    "Human_Impact": "Affected people",
+    "UN_Geosheme_Subregion": "UN Subregion",
+    "Disaster_Type": "Type of Disaster",
+    "RCP": "Climate Prospective Scenario",
+    "Financial_Impact": "Total Cost ($US)",
+    "Human_Impact": "Affected People",
+
     "Number of Occurrences": "Nb of events",
     "°C": "Average temperature (°C)",
     "Rain": "Rainfall",
@@ -148,7 +149,16 @@ def display_map(df, impact, colordisaster):
     fig.update_layout(
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
         mapbox_accesstoken=mapbox_access_token
-    )
+    ),
+    fig.update_layout(coloraxis=dict(colorbar_x=0, 
+                                 colorbar_xanchor="left",
+                                 colorbar_y=0.25, 
+                                 colorbar_len=0.5, 
+                                 colorbar_bordercolor='#ffffff'
+                                 #colorbar_thickness=20
+                                 )),
+    fig.update_coloraxes(colorbar_bgcolor="white")
+    
     return fig
 
 def slice_data_on_decades(df_source, rcp_type, decade_start, decade_end):
