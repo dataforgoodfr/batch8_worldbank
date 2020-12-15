@@ -38,7 +38,6 @@ from dash.dependencies import Input, Output, State
 from plotly.subplots import make_subplots
 import dash_bootstrap_components as dbc
 
-
 # ~~~~~~~~~~~~~~~~~~~
 #   INITIALIZATION
 # ~~~~~~~~~~~~~~~~~~~
@@ -60,10 +59,10 @@ df_extra = pd.read_csv("data/input-extra.csv", decimal=".")
 
 # Preparation of global variables
 
-#<<<<<<< various_improvements
-#=======
-#df = pd.read_csv("data/input-magnitude.csv", decimal=".").rename({'DO': 'Number of Occurrences'}, axis=1)
-#>>>>>>> master
+# <<<<<<< various_improvements
+# =======
+# df = pd.read_csv("data/input-magnitude.csv", decimal=".").rename({'DO': 'Number of Occurrences'}, axis=1)
+# >>>>>>> master
 dict_dataset_labels = {
     "UN_Geosheme_Subregion": "UN Subregion",
     "Disaster_Type": "Type of Disaster",
@@ -98,7 +97,6 @@ df_extra["RCP"].fillna(value=0, inplace=True)
 
 df_full = df_disasters.merge(df_extra, how='left', on=['Decade', 'UN_Geosheme_Subregion', 'RCP'])
 
-
 # Mapbox credentials
 
 mapbox_access_token = "pk.eyJ1IjoibWFoZGlrYXJhYmliZW4iLCJhIjoiY2tmeWlnZzJqMXhyMzJ0czgzcWc3ejViNyJ9.MsvguTk0F7cxDBaV1Zlm_g"
@@ -110,7 +108,6 @@ dict_feature_colors = {
     "Storms": "RdPu",
     "Floods": "Blues",
 }
-
 
 
 # ~~~~~~~~~~~~~~~~~~~
@@ -150,32 +147,34 @@ def display_map(df, impact, colordisaster):
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
         mapbox_accesstoken=mapbox_access_token
     ),
-    fig.update_layout(coloraxis=dict(colorbar_x=0, 
-                                 colorbar_xanchor="left",
-                                 colorbar_y=0.25, 
-                                 colorbar_len=0.5, 
-                                 colorbar_bordercolor='#ffffff'
-                                 #colorbar_thickness=20
-                                 )),
+    fig.update_layout(coloraxis=dict(colorbar_x=0,
+                                     colorbar_xanchor="left",
+                                     colorbar_y=0.25,
+                                     colorbar_len=0.5,
+                                     colorbar_bordercolor='#ffffff'
+                                     # colorbar_thickness=20
+                                     )),
     fig.update_coloraxes(colorbar_bgcolor="white")
-    
+
     return fig
+
 
 def slice_data_on_decades(df_source, rcp_type, decade_start, decade_end):
     '''
     Return the slice of the dataframe, on selected decades only
     '''
     df = pd.concat(
-        [df_source[ # historical data
-            (df_source['Decade'] >= decade_start)
-            & (df_source['Decade'] <= min(decade_end, 2010))
-            & (df_source['RCP'] == 0)],
-         df_source[ # predicted data, selected on one of the RCP's scenario
+        [df_source[  # historical data
+             (df_source['Decade'] >= decade_start)
+             & (df_source['Decade'] <= min(decade_end, 2010))
+             & (df_source['RCP'] == 0)],
+         df_source[  # predicted data, selected on one of the RCP's scenario
              (df_source['Decade'] >= max(2020, decade_start))
              & (df_source['Decade'] <= decade_end)
              & (df_source['RCP'] == rcp_type)]],
         axis=0)
     return df
+
 
 # ~~~~~~~~~~~~~~~~~~~
 #    HTML BLOCKS
@@ -184,7 +183,7 @@ def slice_data_on_decades(df_source, rcp_type, decade_start, decade_end):
 # Title & Logo
 def Title_App():
     return html.Div(
-        #className="pretty_container-3",
+        # className="pretty_container-3",
         children=[
             #            html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
             html.Img(id="logo", src=app.get_asset_url("logo.png")),
@@ -194,6 +193,7 @@ def Title_App():
         """),
         ],
     )
+
 
 # Disaster selector
 
@@ -257,11 +257,11 @@ def climate_scenario():
                 id="scenario-slider",
                 min=0,
                 max=10,
-                value=2.6,# default value
+                value=2.6,  # default value
                 step=None,
                 # marks={2.6: "2.6°C", 4.5: "4.5°C", 6.0: "6.0°C",8.5:"8.5°C"},
                 marks={
-                    #0: {'label': '0', 'style': {'color': '#77b0b1'}},
+                    # 0: {'label': '0', 'style': {'color': '#77b0b1'}},
                     2.6: {'label': '2.6', 'style': {'color': '#77b0b1'}},
                     4.5: {'label': '4.5'},
                     6: {'label': '6.0'},
@@ -339,7 +339,6 @@ collapses = html.Div(
     ]
 )
 
-
 # ~~~~~~~~~~~~~~~~~~~
 #  MAIN HTML LAYOUT
 # ~~~~~~~~~~~~~~~~~~~
@@ -357,22 +356,22 @@ app.layout = html.Div(
                     className="pretty_container-3",
                     children=[
                         html.Div(
-                            #className="pretty-container-3",
+                            # className="pretty-container-3",
                             children=[Title_App()]
                         ),
                         html.Br(),
                         html.Div(
-                            #className="pretty_container-3",
+                            # className="pretty_container-3",
                             children=[disaster_type_card()]
                         ),
                         html.Br(),
                         html.Div(
-                            #className="pretty_container-3",
+                            # className="pretty_container-3",
                             children=[magnitude_type_card()]
                         ),
                         html.Br(),
                         html.Div(
-                            #className="pretty_container-3",
+                            # className="pretty_container-3",
                             children=[climate_scenario()]
                         ),
                         html.Br(),
@@ -421,9 +420,9 @@ app.layout = html.Div(
                                     id="county-choropleth",
                                     figure=display_map(
                                         df_full[(df_full['Decade'] >= 1900)
-                                                    & (df_full['Decade'] <= 1920)
-                                                    & (df_full['Disaster_Type'] == 'Droughts')
-                                                    & (df_full['RCP'] == 2.6)],
+                                                & (df_full['Decade'] <= 1920)
+                                                & (df_full['Disaster_Type'] == 'Droughts')
+                                                & (df_full['RCP'] == 2.6)],
                                         'Human_Impact', 'reds'),
                                     config={
                                         'modeBarButtonsToRemove': ['toImage', 'toggleSpikelines', "pan2d", "select2d",
@@ -461,11 +460,11 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     else:
         location = 'Western Europe'
 
-
     # Select decades and RCP
     df = slice_data_on_decades(df_disasters, scenario, years[0], years[1])
-    #print(df)
-    df_temperatures = slice_data_on_decades(df_extra[['Decade','UN_Geosheme_Subregion','RCP','°C']], scenario, years[0], years[1])
+    # print(df)
+    df_temperatures = slice_data_on_decades(df_extra[['Decade', 'UN_Geosheme_Subregion', 'RCP', '°C']], scenario,
+                                            years[0], years[1])
     # Select region
     to_drop = df[~(df['UN_Geosheme_Subregion'] == location)].index
     df.drop(to_drop, inplace=True)
@@ -479,7 +478,6 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     ).copy()
     c = df_figs.groupby(['Decade'])['°C'].mean().reset_index()
     df_figs.loc[:, 'Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
-
 
     is_disaster = df_figs["Disaster_Type"] == disaster
     df_disaster = df_figs[is_disaster]
@@ -542,7 +540,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         )
 
     fig4.update_xaxes(type='category')
-    fig4.update_layout(barmode = 'stack', xaxis = {'categoryorder': 'category ascending'})
+    fig4.update_layout(barmode='stack', xaxis={'categoryorder': 'category ascending'})
     fig4.update_layout(legend=dict(
         orientation="h",
         yanchor="bottom",
@@ -618,7 +616,6 @@ def callback(n_clicks, style_map, style):
             style['display'] = 'none'
             style_map["width"] = "66vw"
 
-
     return style, style_map
 
 
@@ -626,5 +623,3 @@ def callback(n_clicks, style_map, style):
 
 if __name__ == '__main__':
     app.run_server(debug=True, host="127.0.0.1", port=8050)
-
-
