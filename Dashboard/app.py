@@ -487,61 +487,60 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     df_fig = df_disaster.sort_values(by=['Decade'])
     bins = int((int(years[1]) - int(years[0])) / 10)
 
-    subfig = make_subplots(specs=[[{"secondary_y": True}]])
+    #Chart 1: Region X Disaster X Magnitude VS Temperatures 
+    subfig1 = make_subplots(specs=[[{"secondary_y": True}]])
     fig2 = px.histogram(df_fig,
                         x="Decade",
-                        y="Number of Occurrences",
+                        y=impact_type,
                         template='plotly',
-                        # barmode="stack",
-                        color_discrete_sequence={0: '#CC0000'},
+                        color="Disaster_Type",
+                        color_discrete_map={'Floods':'#C5EBFD', 'Storms':'#B561F4', 'Droughts':'#FFAE5D'},
                         nbins=bins,
-                        title='Evolution of disaster occurrence and human impact worldwide',
-                        # animation_frame="Decade", #ne autoscale pas malheureusement
-                        # labels={'Decade': 'Decade', 'Number of Occurrences': 'Disaster Occurence'},
                         )
-    fig2.update_xaxes(type='category')
 
     fig3 = px.line(df_fig, x="Decade", y="Temperature", labels={'°C': 'Average Temperature'})
     fig3.update_traces(yaxis="y2", showlegend=True, name='Temperatures', line_color='black')
 
-    subfig.add_traces(fig2.data + fig3.data)
-    subfig.update_xaxes(type='category')
-    subfig.layout.xaxis.title = "Decades"
-    subfig.layout.yaxis.title = "Occurences"
-    subfig.layout.yaxis2.title = "Temperatures"
-    subfig.layout.title = "{0} Occurence vs Temperature".format(disaster)
-    subfig.update_layout(legend=dict(
+    subfig1.add_traces(fig2.data + fig3.data)
+    subfig1.layout.title = "<b>{0}</b>: {1} Occurence vs Temperature".format(location,disaster)    
+    subfig1.update_xaxes(type='category')
+    subfig1.layout.xaxis.title = "Decades"
+    subfig1.layout.yaxis.title = "{0}".format(impact_type)
+    subfig1.layout.yaxis2.title = "Average Temperatures"
+    subfig1.update_layout(legend=dict(
         orientation="h",
         yanchor="bottom",
         y=1.02,
         xanchor="right",
         x=1
     ))
-
+    #Chart 2: World X Magnitude VS Temperatures
+    subfig2 = make_subplots(specs=[[{"secondary_y": True}]])
     fig4 = px.histogram(df_figs,
                         x="Decade",
                         y=impact_type,
+                        template='plotly',                        
                         color="Disaster_Type",
-                        color_discrete_map={'Floods': '#C5EBFD', 'Storms': '#B561F4', 'Droughts': '#FFAE5D'},
-                        template='plotly',
+                        color_discrete_map={'Floods':'#C5EBFD', 'Storms':'#B561F4', 'Droughts':'#FFAE5D'},
                         nbins=bins,
-                        title='<b>World</b>: {0} per Disaster Type'.format(impact_type),
-                        # animation_frame="Decade",
-                        labels={'Disaster_Type': 'Disasters'},
                         )
-
-    fig4.update_xaxes(type='category')
-    fig4.update_layout(barmode='stack', xaxis={'categoryorder': 'category ascending'})
-    fig4.update_layout(legend=dict(
+    
+    subfig2.update_layout(barmode = 'stack', xaxis = {'categoryorder': 'category ascending'})	
+    subfig2.add_traces(fig4.data + fig3.data)
+    subfig2.layout.title = '<b>World</b>: {0} per Disaster Type'.format(impact_type)
+    subfig2.update_xaxes(type='category')
+    subfig2.layout.xaxis.title = "Decades"    
+    subfig2.layout.yaxis.title = "{0}".format(impact_type)
+    subfig2.layout.yaxis2.title = "Average Temperatures"
+    subfig2.update_layout(legend=dict(
         orientation="h",
         yanchor="bottom",
         y=1.02,
         xanchor="right",
         x=1
+    ))    
 
-    ))
-
-    return subfig, fig4
+    return subfig1, subfig2
 
 
 # Update map title according to selected decades
