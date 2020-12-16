@@ -485,7 +485,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     # Prepare data
     df_chart1 = df_figs.copy()
     # Keep only occurrences
-    df_chart1.drop(columns=['Financial_Impact','Human_Impact'], inplace=True)
+    #df_chart1.drop(columns=['Financial_Impact','Human_Impact'], inplace=True)
     # Region selection
     if location:
         to_drop = df_chart1[~(df_chart1['UN_Geosheme_Subregion'] == location)].index
@@ -507,7 +507,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     subfig1 = make_subplots(specs=[[{"secondary_y": True}]])
     fig2 = px.histogram(df_chart1,
                         x="Decade",
-                        y="Number of Occurrences",
+                        y=impact_type,
                         template='plotly',
                         color="Disaster_Type",
                         color_discrete_map={'Floods':'#C5EBFD', 'Storms':'#B561F4', 'Droughts':'#FFAE5D'},
@@ -518,7 +518,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     fig3.update_traces(yaxis="y2", showlegend=True, name='Temperatures', line_color='black')
 
     subfig1.add_traces(fig2.data + fig3.data)
-    subfig1.layout.title = "<b>{0}</b>: {1} Occurence vs Temperature".format((location if location else 'World'),disaster)
+    subfig1.layout.title = "<b>{0}</b>: {1} {2} vs °C".format((location if location else 'World'),disaster,impact)
     subfig1.update_xaxes(type='category')
     subfig1.layout.xaxis.title = "Decades"
     subfig1.layout.yaxis.title = "{0}".format(impact)
@@ -557,7 +557,7 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
 
     subfig2.update_layout(barmode = 'stack', xaxis = {'categoryorder': 'category ascending'})	
     subfig2.add_traces(fig4.data + fig5.data)
-    subfig2.layout.title = '<b>World</b>: {0} per Disaster Type'.format(impact)
+    subfig2.layout.title = '<b>World</b>: {0} per Disaster Type vs °C'.format(impact)
     subfig2.update_xaxes(type='category')
     subfig2.layout.xaxis.title = "Decades"    
     subfig2.layout.yaxis.title = "{0}".format(impact)
