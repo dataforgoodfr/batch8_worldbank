@@ -346,6 +346,9 @@ collapses = html.Div(
 app.layout = html.Div(
     id="root",
     children=[
+        html.P(className="warning",
+            children=dbc.Alert("WARNING : Work in progress, prediction is not accurate to take any decision !", color="info")
+        ),
         html.Div(
             id="app-container",
             children=[

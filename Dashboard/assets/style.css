@@ -1012,3 +1012,26 @@ div, svg {
 ._dash-undo-redo {
     display: none;
 }
+
+/*________ Bootstrap alert _____________*/
+
+.warning {
+    margin-left: 1rem;
+}
+.alert-info {
+	color: #0c5460;
+	background-color: #d1ecf1;
+	border-color: #bee5eb;
+}
+
+.alert {
+	position: relative;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.fade {
+	transition: opacity .15s linear;
+}
