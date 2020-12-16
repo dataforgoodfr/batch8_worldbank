@@ -437,10 +437,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2010,Western Asia,Storms,,2223822000,3327453,28
 2010,Western Europe,Floods,,22632146,121,23
 2010,Western Europe,Storms,,14361686000,503825,56
-2020,Australia and New Zealand,Droughts,2.6,14282892000,31859919,117
-2020,Australia and New Zealand,Droughts,4.5,14282892000,31859919,117
-2020,Australia and New Zealand,Droughts,6.0,12695904000,28319928,104
-2020,Australia and New Zealand,Droughts,8.5,14282892000,31859919,117
+2020,Australia and New Zealand,Droughts,2.6,1586988000,3539991,13
+2020,Australia and New Zealand,Droughts,4.5,1586988000,3539991,13
+2020,Australia and New Zealand,Droughts,6.0,1586988000,3539991,13
+2020,Australia and New Zealand,Droughts,8.5,1586988000,3539991,13
 2020,Australia and New Zealand,Floods,2.6,697426300,565633,4
 2020,Australia and New Zealand,Floods,4.5,697426300,565633,4
 2020,Australia and New Zealand,Floods,6.0,348713150,282816,2
@@ -449,10 +449,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Australia and New Zealand,Storms,4.5,43995000,13062,21
 2020,Australia and New Zealand,Storms,6.0,43995000,13062,21
 2020,Australia and New Zealand,Storms,8.5,41900000,12440,20
-2020,Caribbean,Droughts,2.6,41268000,779798,38
-2020,Caribbean,Droughts,4.5,41268000,779798,38
-2020,Caribbean,Droughts,6.0,39096000,738756,36
-2020,Caribbean,Droughts,8.5,41268000,779798,38
+2020,Caribbean,Droughts,2.6,58644000,1108134,54
+2020,Caribbean,Droughts,4.5,58644000,1108134,54
+2020,Caribbean,Droughts,6.0,58644000,1108134,54
+2020,Caribbean,Droughts,8.5,58644000,1108134,54
 2020,Caribbean,Floods,2.6,1917922325,1555492,11
 2020,Caribbean,Floods,4.5,1569209175,1272675,9
 2020,Caribbean,Floods,6.0,1743565750,1414084,10
@@ -461,10 +461,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Caribbean,Storms,4.5,174629000,49959,91
 2020,Caribbean,Storms,6.0,176548000,50508,92
 2020,Caribbean,Storms,8.5,184224000,52704,96
-2020,Central America,Droughts,2.6,135488000,586960,58
-2020,Central America,Droughts,4.5,135488000,586960,58
-2020,Central America,Droughts,6.0,135488000,586960,58
-2020,Central America,Droughts,8.5,135488000,586960,58
+2020,Central America,Droughts,2.6,128480000,556600,55
+2020,Central America,Droughts,4.5,128480000,556600,55
+2020,Central America,Droughts,6.0,128480000,556600,55
+2020,Central America,Droughts,8.5,128480000,556600,55
 2020,Central America,Floods,2.6,1569209175,1272675,9
 2020,Central America,Floods,4.5,2092278900,1696900,12
 2020,Central America,Floods,6.0,1917922325,1555492,11
@@ -473,10 +473,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Central America,Storms,4.5,92850000,23400,50
 2020,Central America,Storms,6.0,77994000,19656,42
 2020,Central America,Storms,8.5,100278000,25272,54
-2020,Central Asia,Droughts,2.6,588500000,17600000,44
-2020,Central Asia,Droughts,4.5,588500000,17600000,44
-2020,Central Asia,Droughts,6.0,588500000,17600000,44
-2020,Central Asia,Droughts,8.5,588500000,17600000,44
+2020,Central Asia,Droughts,2.6,508250000,15200000,38
+2020,Central Asia,Droughts,4.5,508250000,15200000,38
+2020,Central Asia,Droughts,6.0,508250000,15200000,38
+2020,Central Asia,Droughts,8.5,508250000,15200000,38
 2020,Central Asia,Floods,2.6,1394852600,1131267,8
 2020,Central Asia,Floods,4.5,1220496025,989858,7
 2020,Central Asia,Floods,6.0,1569209175,1272675,9
@@ -485,10 +485,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Central Asia,Storms,4.5,2964000,12870,13
 2020,Central Asia,Storms,6.0,2964000,12870,13
 2020,Central Asia,Storms,8.5,3192000,13860,14
-2020,Eastern Africa,Droughts,2.6,86304000,994542,62
-2020,Eastern Africa,Droughts,4.5,83520000,962460,60
-2020,Eastern Africa,Droughts,6.0,86304000,994542,62
-2020,Eastern Africa,Droughts,8.5,83520000,962460,60
+2020,Eastern Africa,Droughts,2.6,84912000,978501,61
+2020,Eastern Africa,Droughts,4.5,96048000,1106829,69
+2020,Eastern Africa,Droughts,6.0,103008000,1187034,74
+2020,Eastern Africa,Droughts,8.5,94656000,1090788,68
 2020,Eastern Africa,Floods,2.6,2789705200,2262534,16
 2020,Eastern Africa,Floods,4.5,3661488075,2969576,21
 2020,Eastern Africa,Floods,6.0,2964061775,2403943,17
@@ -497,10 +497,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Eastern Africa,Storms,4.5,35220000,69540,60
 2020,Eastern Africa,Storms,6.0,32285000,63745,55
 2020,Eastern Africa,Storms,8.5,35220000,69540,60
-2020,Eastern Asia,Droughts,2.6,4196827000,32547073,109
-2020,Eastern Asia,Droughts,4.5,4196827000,32547073,109
-2020,Eastern Asia,Droughts,6.0,4196827000,32547073,109
-2020,Eastern Asia,Droughts,8.5,4196827000,32547073,109
+2020,Eastern Asia,Droughts,2.6,500539000,3881761,13
+2020,Eastern Asia,Droughts,4.5,539042000,4180358,14
+2020,Eastern Asia,Droughts,6.0,539042000,4180358,14
+2020,Eastern Asia,Droughts,8.5,539042000,4180358,14
 2020,Eastern Asia,Floods,2.6,24712906408,20042908,7
 2020,Eastern Asia,Floods,4.5,30101409634,24413146,8
 2020,Eastern Asia,Floods,6.0,42646803688,34587837,9
@@ -509,10 +509,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Eastern Asia,Storms,4.5,61568000,138824,74
 2020,Eastern Asia,Storms,6.0,61568000,138824,74
 2020,Eastern Asia,Storms,8.5,64896000,146328,78
-2020,Eastern Europe,Droughts,2.6,2295000000,1216146,51
-2020,Eastern Europe,Droughts,4.5,2295000000,1216146,51
-2020,Eastern Europe,Droughts,6.0,2295000000,1216146,51
-2020,Eastern Europe,Droughts,8.5,2295000000,1216146,51
+2020,Eastern Europe,Droughts,2.6,765000000,405382,17
+2020,Eastern Europe,Droughts,4.5,765000000,405382,17
+2020,Eastern Europe,Droughts,6.0,765000000,405382,17
+2020,Eastern Europe,Droughts,8.5,765000000,405382,17
 2020,Eastern Europe,Floods,2.6,2440992050,1979717,14
 2020,Eastern Europe,Floods,4.5,2440992050,1979717,14
 2020,Eastern Europe,Floods,6.0,2440992050,1979717,14
@@ -521,10 +521,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Eastern Europe,Storms,4.5,8448000,13596,12
 2020,Eastern Europe,Storms,6.0,10560000,16995,15
 2020,Eastern Europe,Storms,8.5,8448000,13596,12
-2020,Melanesia,Droughts,2.6,0,0,0
-2020,Melanesia,Droughts,4.5,0,0,0
-2020,Melanesia,Droughts,6.0,0,0,0
-2020,Melanesia,Droughts,8.5,0,0,0
+2020,Melanesia,Droughts,2.6,315000000,3421782,63
+2020,Melanesia,Droughts,4.5,320000000,3476096,64
+2020,Melanesia,Droughts,6.0,315000000,3421782,63
+2020,Melanesia,Droughts,8.5,320000000,3476096,64
 2020,Melanesia,Floods,2.6,1046139450,848450,6
 2020,Melanesia,Floods,4.5,1046139450,848450,6
 2020,Melanesia,Floods,6.0,1046139450,848450,6
@@ -533,10 +533,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Melanesia,Storms,4.5,4944000,4464,12
 2020,Melanesia,Storms,6.0,5768000,5208,14
 2020,Melanesia,Storms,8.5,5768000,5208,14
-2020,Micronesia,Droughts,2.6,0,0,0
-2020,Micronesia,Droughts,4.5,26460000,259389,27
-2020,Micronesia,Droughts,6.0,0,0,0
-2020,Micronesia,Droughts,8.5,26460000,259389,27
+2020,Micronesia,Droughts,2.6,84280000,826202,86
+2020,Micronesia,Droughts,4.5,84280000,826202,86
+2020,Micronesia,Droughts,6.0,84280000,826202,86
+2020,Micronesia,Droughts,8.5,84280000,826202,86
 2020,Micronesia,Floods,2.6,819427938,664580,5
 2020,Micronesia,Floods,4.5,819427938,664580,5
 2020,Micronesia,Floods,6.0,819427938,664580,5
@@ -545,10 +545,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Micronesia,Storms,4.5,0,0,0
 2020,Micronesia,Storms,6.0,0,0,0
 2020,Micronesia,Storms,8.5,0,0,0
-2020,Middle Africa,Droughts,2.6,75712000,1459952,52
-2020,Middle Africa,Droughts,4.5,75712000,1459952,52
-2020,Middle Africa,Droughts,6.0,75712000,1459952,52
-2020,Middle Africa,Droughts,8.5,75712000,1459952,52
+2020,Middle Africa,Droughts,2.6,106288000,2049548,73
+2020,Middle Africa,Droughts,4.5,106288000,2049548,73
+2020,Middle Africa,Droughts,6.0,106288000,2049548,73
+2020,Middle Africa,Droughts,8.5,106288000,2049548,73
 2020,Middle Africa,Floods,2.6,1569209175,1272675,9
 2020,Middle Africa,Floods,4.5,1917922325,1555492,11
 2020,Middle Africa,Floods,6.0,1743565750,1414084,10
@@ -557,10 +557,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Middle Africa,Storms,4.5,42000,3185,7
 2020,Middle Africa,Storms,6.0,36000,2730,6
 2020,Middle Africa,Storms,8.5,60000,4550,10
-2020,Northern Africa,Droughts,2.6,1160614000,7053060,49
-2020,Northern Africa,Droughts,4.5,1160614000,7053060,49
-2020,Northern Africa,Droughts,6.0,1160614000,7053060,49
-2020,Northern Africa,Droughts,8.5,1373788000,8348520,58
+2020,Northern Africa,Droughts,2.6,923754000,5613660,39
+2020,Northern Africa,Droughts,4.5,1421160000,8636400,60
+2020,Northern Africa,Droughts,6.0,923754000,5613660,39
+2020,Northern Africa,Droughts,8.5,1610648000,9787920,68
 2020,Northern Africa,Floods,2.6,1569209175,1272675,9
 2020,Northern Africa,Floods,4.5,1917922325,1555492,11
 2020,Northern Africa,Floods,6.0,1394852600,1131267,8
@@ -569,10 +569,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Northern Africa,Storms,4.5,33131000,13587,7
 2020,Northern Africa,Storms,6.0,37864000,15528,8
 2020,Northern Africa,Storms,8.5,56796000,23292,12
-2020,Northern America,Droughts,2.6,7880150000,65450,50
-2020,Northern America,Droughts,4.5,7880150000,65450,50
-2020,Northern America,Droughts,6.0,7880150000,65450,50
-2020,Northern America,Droughts,8.5,7880150000,65450,50
+2020,Northern America,Droughts,2.6,8037753000,66759,51
+2020,Northern America,Droughts,4.5,8037753000,66759,51
+2020,Northern America,Droughts,6.0,8037753000,66759,51
+2020,Northern America,Droughts,8.5,8037753000,66759,51
 2020,Northern America,Floods,2.6,523069725,424225,3
 2020,Northern America,Floods,4.5,523069725,424225,3
 2020,Northern America,Floods,6.0,523069725,424225,3
@@ -581,10 +581,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Northern America,Storms,4.5,83241000,27729,27
 2020,Northern America,Storms,6.0,123320000,41080,40
 2020,Northern America,Storms,8.5,86324000,28756,28
-2020,Northern Europe,Droughts,2.6,0,0,0
-2020,Northern Europe,Droughts,4.5,0,0,0
-2020,Northern Europe,Droughts,6.0,0,0,0
-2020,Northern Europe,Droughts,8.5,0,0,0
+2020,Northern Europe,Droughts,2.6,3176339000,0,37
+2020,Northern Europe,Droughts,4.5,3176339000,0,37
+2020,Northern Europe,Droughts,6.0,3176339000,0,37
+2020,Northern Europe,Droughts,8.5,3176339000,0,37
 2020,Northern Europe,Floods,2.6,1917922325,1555492,11
 2020,Northern Europe,Floods,4.5,1743565750,1414084,10
 2020,Northern Europe,Floods,6.0,1569209175,1272675,9
@@ -593,18 +593,18 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Northern Europe,Storms,4.5,80237000,13547,19
 2020,Northern Europe,Storms,6.0,76014000,12834,18
 2020,Northern Europe,Storms,8.5,80237000,13547,19
-2020,Polynesia,Droughts,2.6,0,0,27
-2020,Polynesia,Droughts,4.5,0,0,0
-2020,Polynesia,Droughts,6.0,0,0,27
-2020,Polynesia,Droughts,8.5,0,0,27
+2020,Polynesia,Droughts,2.6,0,0,81
+2020,Polynesia,Droughts,4.5,0,0,86
+2020,Polynesia,Droughts,6.0,0,0,81
+2020,Polynesia,Droughts,8.5,0,0,86
 2020,Polynesia,Storms,2.6,2356000,1060,4
 2020,Polynesia,Storms,4.5,2356000,1060,4
 2020,Polynesia,Storms,6.0,2356000,1060,4
 2020,Polynesia,Storms,8.5,1767000,795,3
-2020,South America,Droughts,2.6,931476000,2741340,84
-2020,South America,Droughts,4.5,1485926000,4373090,134
-2020,South America,Droughts,6.0,809497000,2382355,73
-2020,South America,Droughts,8.5,720785000,2121275,65
+2020,South America,Droughts,2.6,0,0,0
+2020,South America,Droughts,4.5,454649000,1338035,41
+2020,South America,Droughts,6.0,454649000,1338035,41
+2020,South America,Droughts,8.5,432471000,1272765,39
 2020,South America,Floods,2.6,2789705200,2262534,16
 2020,South America,Floods,4.5,2615348625,2121126,15
 2020,South America,Floods,6.0,2789705200,2262534,16
@@ -613,10 +613,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,South America,Storms,4.5,21056000,22512,56
 2020,South America,Storms,6.0,21432000,22914,57
 2020,South America,Storms,8.5,21808000,23316,58
-2020,South-Eastern Asia,Droughts,2.6,1129548000,3792360,102
-2020,South-Eastern Asia,Droughts,4.5,653366000,2193620,59
-2020,South-Eastern Asia,Droughts,6.0,1129548000,3792360,102
-2020,South-Eastern Asia,Droughts,8.5,653366000,2193620,59
+2020,South-Eastern Asia,Droughts,2.6,620144000,2082080,56
+2020,South-Eastern Asia,Droughts,4.5,620144000,2082080,56
+2020,South-Eastern Asia,Droughts,6.0,620144000,2082080,56
+2020,South-Eastern Asia,Droughts,8.5,620144000,2082080,56
 2020,South-Eastern Asia,Floods,2.6,2349028709,1905132,12
 2020,South-Eastern Asia,Floods,4.5,2257065368,1830547,10
 2020,South-Eastern Asia,Floods,6.0,2605778518,2113364,12
@@ -625,10 +625,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,South-Eastern Asia,Storms,4.5,20009000,100794,107
 2020,South-Eastern Asia,Storms,6.0,20757000,104562,111
 2020,South-Eastern Asia,Storms,8.5,20196000,101736,108
-2020,Southern Africa,Droughts,2.6,226424000,991804,44
-2020,Southern Africa,Droughts,4.5,226424000,991804,44
-2020,Southern Africa,Droughts,6.0,277884000,1217214,54
-2020,Southern Africa,Droughts,8.5,216132000,946722,42
+2020,Southern Africa,Droughts,2.6,25730000,112705,5
+2020,Southern Africa,Droughts,4.5,25730000,112705,5
+2020,Southern Africa,Droughts,6.0,25730000,112705,5
+2020,Southern Africa,Droughts,8.5,25730000,112705,5
 2020,Southern Africa,Floods,2.6,1394852600,1131267,8
 2020,Southern Africa,Floods,4.5,1220496025,989858,7
 2020,Southern Africa,Floods,6.0,1220496025,989858,7
@@ -637,10 +637,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Southern Africa,Storms,4.5,43728000,28432,16
 2020,Southern Africa,Storms,6.0,43728000,28432,16
 2020,Southern Africa,Storms,8.5,35529000,23101,13
-2020,Southern Asia,Droughts,2.6,321412000,19809036,26
-2020,Southern Asia,Droughts,4.5,49448000,3047544,4
-2020,Southern Asia,Droughts,6.0,49448000,3047544,4
-2020,Southern Asia,Droughts,8.5,49448000,3047544,4
+2020,Southern Asia,Droughts,2.6,655186000,40379958,53
+2020,Southern Asia,Droughts,4.5,890064000,54855792,72
+2020,Southern Asia,Droughts,6.0,890064000,54855792,72
+2020,Southern Asia,Droughts,8.5,939512000,57903336,76
 2020,Southern Asia,Floods,2.6,26988168693,21888214,11
 2020,Southern Asia,Floods,4.5,47414966224,38454960,10
 2020,Southern Asia,Floods,6.0,28207551564,22877170,10
@@ -649,10 +649,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Southern Asia,Storms,4.5,125297000,286653,107
 2020,Southern Asia,Storms,6.0,127639000,292011,109
 2020,Southern Asia,Storms,8.5,126468000,289332,108
-2020,Southern Europe,Droughts,2.6,3733744000,6825605,53
-2020,Southern Europe,Droughts,4.5,3733744000,6825605,53
-2020,Southern Europe,Droughts,6.0,3733744000,6825605,53
-2020,Southern Europe,Droughts,8.5,3804192000,6954390,54
+2020,Southern Europe,Droughts,2.6,563584000,1030280,8
+2020,Southern Europe,Droughts,4.5,563584000,1030280,8
+2020,Southern Europe,Droughts,6.0,563584000,1030280,8
+2020,Southern Europe,Droughts,8.5,563584000,1030280,8
 2020,Southern Europe,Floods,2.6,2440992050,1979717,14
 2020,Southern Europe,Floods,4.5,3138418350,2545351,18
 2020,Southern Europe,Floods,6.0,2615348625,2121126,15
@@ -661,10 +661,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Southern Europe,Storms,4.5,95742000,8748,27
 2020,Southern Europe,Storms,6.0,85104000,7776,24
 2020,Southern Europe,Storms,8.5,92196000,8424,26
-2020,Western Africa,Droughts,2.6,66766000,1882083,133
-2020,Western Africa,Droughts,4.5,66766000,1882083,133
-2020,Western Africa,Droughts,6.0,66766000,1882083,133
-2020,Western Africa,Droughts,8.5,66264000,1867932,132
+2020,Western Africa,Droughts,2.6,34638000,976419,69
+2020,Western Africa,Droughts,4.5,34638000,976419,69
+2020,Western Africa,Droughts,6.0,34638000,976419,69
+2020,Western Africa,Droughts,8.5,38152000,1075476,76
 2020,Western Africa,Floods,2.6,3138418350,2545351,18
 2020,Western Africa,Floods,4.5,3661488075,2969576,21
 2020,Western Africa,Floods,6.0,2615348625,2121126,15
@@ -673,10 +673,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Western Africa,Storms,4.5,1404000,6939,27
 2020,Western Africa,Storms,6.0,1352000,6682,26
 2020,Western Africa,Storms,8.5,1404000,6939,27
-2020,Western Asia,Droughts,2.6,329680000,2778750,65
-2020,Western Asia,Droughts,4.5,309392000,2607750,61
-2020,Western Asia,Droughts,6.0,309392000,2607750,61
-2020,Western Asia,Droughts,8.5,329680000,2778750,65
+2020,Western Asia,Droughts,2.6,50720000,427500,10
+2020,Western Asia,Droughts,4.5,50720000,427500,10
+2020,Western Asia,Droughts,6.0,50720000,427500,10
+2020,Western Asia,Droughts,8.5,50720000,427500,10
 2020,Western Asia,Floods,2.6,3661488075,2969576,21
 2020,Western Asia,Floods,4.5,3138418350,2545351,18
 2020,Western Asia,Floods,6.0,3835844650,3110985,22
@@ -685,10 +685,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Western Asia,Storms,4.5,190530000,53041,29
 2020,Western Asia,Storms,6.0,170820000,47554,26
 2020,Western Asia,Storms,8.5,197100000,54870,30
-2020,Western Europe,Droughts,2.6,5152000000,0,32
-2020,Western Europe,Droughts,4.5,5152000000,0,32
-2020,Western Europe,Droughts,6.0,5152000000,0,32
-2020,Western Europe,Droughts,8.5,8533000000,0,53
+2020,Western Europe,Droughts,2.6,2737000000,0,17
+2020,Western Europe,Droughts,4.5,2737000000,0,17
+2020,Western Europe,Droughts,6.0,2737000000,0,17
+2020,Western Europe,Droughts,8.5,2737000000,0,17
 2020,Western Europe,Floods,2.6,1917922325,1555492,11
 2020,Western Europe,Floods,4.5,1917922325,1555492,11
 2020,Western Europe,Floods,6.0,1743565750,1414084,10
@@ -697,7 +697,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2020,Western Europe,Storms,4.5,34850000,10727,17
 2020,Western Europe,Storms,6.0,36900000,11358,18
 2020,Western Europe,Storms,8.5,38950000,11989,19
-2030,Australia and New Zealand,Droughts,2.6,14282892000,31859919,117
+2030,Australia and New Zealand,Droughts,2.6,1586988000,3539991,13
+2030,Australia and New Zealand,Droughts,4.5,1586988000,3539991,13
+2030,Australia and New Zealand,Droughts,6.0,1586988000,3539991,13
+2030,Australia and New Zealand,Droughts,8.5,1586988000,3539991,13
 2030,Australia and New Zealand,Floods,2.6,348713150,282816,2
 2030,Australia and New Zealand,Floods,4.5,348713150,282816,2
 2030,Australia and New Zealand,Floods,6.0,697426300,565633,4
@@ -706,7 +709,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Australia and New Zealand,Storms,4.5,43995000,13062,21
 2030,Australia and New Zealand,Storms,6.0,39805000,11818,19
 2030,Australia and New Zealand,Storms,8.5,52375000,15550,25
-2030,Caribbean,Droughts,2.6,41268000,779798,38
+2030,Caribbean,Droughts,2.6,58644000,1108134,54
+2030,Caribbean,Droughts,4.5,58644000,1108134,54
+2030,Caribbean,Droughts,6.0,58644000,1108134,54
+2030,Caribbean,Droughts,8.5,58644000,1108134,54
 2030,Caribbean,Floods,2.6,1743565750,1414084,10
 2030,Caribbean,Floods,4.5,2092278900,1696900,12
 2030,Caribbean,Floods,6.0,1917922325,1555492,11
@@ -715,7 +721,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Caribbean,Storms,4.5,170791000,48861,89
 2030,Caribbean,Storms,6.0,182305000,52155,95
 2030,Caribbean,Storms,8.5,186143000,53253,97
-2030,Central America,Droughts,2.6,135488000,586960,58
+2030,Central America,Droughts,2.6,128480000,556600,55
+2030,Central America,Droughts,4.5,128480000,556600,55
+2030,Central America,Droughts,6.0,128480000,556600,55
+2030,Central America,Droughts,8.5,128480000,556600,55
 2030,Central America,Floods,2.6,2615348625,2121126,15
 2030,Central America,Floods,4.5,2092278900,1696900,12
 2030,Central America,Floods,6.0,2266635475,1838309,13
@@ -724,7 +733,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Central America,Storms,4.5,102135000,25740,55
 2030,Central America,Storms,6.0,100278000,25272,54
 2030,Central America,Storms,8.5,77994000,19656,42
-2030,Central Asia,Droughts,2.6,588500000,17600000,44
+2030,Central Asia,Droughts,2.6,508250000,15200000,38
+2030,Central Asia,Droughts,4.5,508250000,15200000,38
+2030,Central Asia,Droughts,6.0,508250000,15200000,38
+2030,Central Asia,Droughts,8.5,508250000,15200000,38
 2030,Central Asia,Floods,2.6,1220496025,989858,7
 2030,Central Asia,Floods,4.5,1394852600,1131267,8
 2030,Central Asia,Floods,6.0,1046139450,848450,6
@@ -733,7 +745,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Central Asia,Storms,4.5,3192000,13860,14
 2030,Central Asia,Storms,6.0,3192000,13860,14
 2030,Central Asia,Storms,8.5,2736000,11880,12
-2030,Eastern Africa,Droughts,2.6,86304000,994542,62
+2030,Eastern Africa,Droughts,2.6,84912000,978501,61
+2030,Eastern Africa,Droughts,4.5,96048000,1106829,69
+2030,Eastern Africa,Droughts,6.0,103008000,1187034,74
+2030,Eastern Africa,Droughts,8.5,94656000,1090788,68
 2030,Eastern Africa,Floods,2.6,3487131500,2828168,20
 2030,Eastern Africa,Floods,4.5,2615348625,2121126,15
 2030,Eastern Africa,Floods,6.0,3312774925,2686759,19
@@ -742,7 +757,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Eastern Africa,Storms,4.5,36394000,71858,62
 2030,Eastern Africa,Storms,6.0,36394000,71858,62
 2030,Eastern Africa,Storms,8.5,31111000,61427,53
-2030,Eastern Asia,Droughts,2.6,4196827000,32547073,109
+2030,Eastern Asia,Droughts,2.6,500539000,3881761,13
+2030,Eastern Asia,Droughts,4.5,539042000,4180358,14
+2030,Eastern Asia,Droughts,6.0,539042000,4180358,14
+2030,Eastern Asia,Droughts,8.5,539042000,4180358,14
 2030,Eastern Asia,Floods,2.6,39518833987,32050960,8
 2030,Eastern Asia,Floods,4.5,34130330761,27680722,7
 2030,Eastern Asia,Floods,6.0,21584936706,17506031,6
@@ -751,7 +769,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Eastern Asia,Storms,4.5,64064000,144452,77
 2030,Eastern Asia,Storms,6.0,65728000,148204,79
 2030,Eastern Asia,Storms,8.5,64896000,146328,78
-2030,Eastern Europe,Droughts,2.6,2295000000,1216146,51
+2030,Eastern Europe,Droughts,2.6,765000000,405382,17
+2030,Eastern Europe,Droughts,4.5,765000000,405382,17
+2030,Eastern Europe,Droughts,6.0,765000000,405382,17
+2030,Eastern Europe,Droughts,8.5,765000000,405382,17
 2030,Eastern Europe,Floods,2.6,2440992050,1979717,14
 2030,Eastern Europe,Floods,4.5,2440992050,1979717,14
 2030,Eastern Europe,Floods,6.0,2440992050,1979717,14
@@ -760,7 +781,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Eastern Europe,Storms,4.5,7744000,12463,11
 2030,Eastern Europe,Storms,6.0,8448000,13596,12
 2030,Eastern Europe,Storms,8.5,7744000,12463,11
-2030,Melanesia,Droughts,2.6,0,0,0
+2030,Melanesia,Droughts,2.6,315000000,3421782,63
+2030,Melanesia,Droughts,4.5,320000000,3476096,64
+2030,Melanesia,Droughts,6.0,315000000,3421782,63
+2030,Melanesia,Droughts,8.5,320000000,3476096,64
 2030,Melanesia,Floods,2.6,1046139450,848450,6
 2030,Melanesia,Floods,4.5,1046139450,848450,6
 2030,Melanesia,Floods,6.0,1046139450,848450,6
@@ -769,7 +793,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Melanesia,Storms,4.5,5768000,5208,14
 2030,Melanesia,Storms,6.0,4944000,4464,12
 2030,Melanesia,Storms,8.5,5356000,4836,13
-2030,Micronesia,Droughts,2.6,0,0,0
+2030,Micronesia,Droughts,2.6,84280000,826202,86
+2030,Micronesia,Droughts,4.5,84280000,826202,86
+2030,Micronesia,Droughts,6.0,84280000,826202,86
+2030,Micronesia,Droughts,8.5,84280000,826202,86
 2030,Micronesia,Floods,2.6,671248831,544402,4
 2030,Micronesia,Floods,4.5,671248831,544402,4
 2030,Micronesia,Floods,6.0,671248831,544402,4
@@ -778,7 +805,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Micronesia,Storms,4.5,3561000,214,1
 2030,Micronesia,Storms,6.0,0,0,0
 2030,Micronesia,Storms,8.5,7122000,428,2
-2030,Middle Africa,Droughts,2.6,75712000,1459952,52
+2030,Middle Africa,Droughts,2.6,106288000,2049548,73
+2030,Middle Africa,Droughts,4.5,106288000,2049548,73
+2030,Middle Africa,Droughts,6.0,106288000,2049548,73
+2030,Middle Africa,Droughts,8.5,106288000,2049548,73
 2030,Middle Africa,Floods,2.6,1743565750,1414084,10
 2030,Middle Africa,Floods,4.5,1394852600,1131267,8
 2030,Middle Africa,Floods,6.0,1569209175,1272675,9
@@ -787,7 +817,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Middle Africa,Storms,4.5,54000,4095,9
 2030,Middle Africa,Storms,6.0,54000,4095,9
 2030,Middle Africa,Storms,8.5,42000,3185,7
-2030,Northern Africa,Droughts,2.6,1160614000,7053060,49
+2030,Northern Africa,Droughts,2.6,923754000,5613660,39
+2030,Northern Africa,Droughts,4.5,1421160000,8636400,60
+2030,Northern Africa,Droughts,6.0,923754000,5613660,39
+2030,Northern Africa,Droughts,8.5,1610648000,9787920,68
 2030,Northern Africa,Floods,2.6,1569209175,1272675,9
 2030,Northern Africa,Floods,4.5,1220496025,989858,7
 2030,Northern Africa,Floods,6.0,1743565750,1414084,10
@@ -796,7 +829,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Northern Africa,Storms,4.5,56796000,23292,12
 2030,Northern Africa,Storms,6.0,47330000,19410,10
 2030,Northern Africa,Storms,8.5,42597000,17469,9
-2030,Northern America,Droughts,2.6,7880150000,65450,50
+2030,Northern America,Droughts,2.6,8037753000,66759,51
+2030,Northern America,Droughts,4.5,8037753000,66759,51
+2030,Northern America,Droughts,6.0,8037753000,66759,51
+2030,Northern America,Droughts,8.5,8037753000,66759,51
 2030,Northern America,Floods,2.6,523069725,424225,3
 2030,Northern America,Floods,4.5,523069725,424225,3
 2030,Northern America,Floods,6.0,523069725,424225,3
@@ -805,7 +841,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Northern America,Storms,4.5,86324000,28756,28
 2030,Northern America,Storms,6.0,86324000,28756,28
 2030,Northern America,Storms,8.5,80158000,26702,26
-2030,Northern Europe,Droughts,2.6,0,0,0
+2030,Northern Europe,Droughts,2.6,3176339000,0,37
+2030,Northern Europe,Droughts,4.5,3176339000,0,37
+2030,Northern Europe,Droughts,6.0,3176339000,0,37
+2030,Northern Europe,Droughts,8.5,3176339000,0,37
 2030,Northern Europe,Floods,2.6,1743565750,1414084,10
 2030,Northern Europe,Floods,4.5,1917922325,1555492,11
 2030,Northern Europe,Floods,6.0,2092278900,1696900,12
@@ -814,12 +853,18 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Northern Europe,Storms,4.5,84460000,14260,20
 2030,Northern Europe,Storms,6.0,84460000,14260,20
 2030,Northern Europe,Storms,8.5,97129000,16399,23
-2030,Polynesia,Droughts,2.6,0,0,27
+2030,Polynesia,Droughts,2.6,0,0,81
+2030,Polynesia,Droughts,4.5,0,0,86
+2030,Polynesia,Droughts,6.0,0,0,81
+2030,Polynesia,Droughts,8.5,0,0,86
 2030,Polynesia,Storms,2.6,2945000,1325,5
 2030,Polynesia,Storms,4.5,2356000,1060,4
 2030,Polynesia,Storms,6.0,1767000,795,3
 2030,Polynesia,Storms,8.5,1767000,795,3
-2030,South America,Droughts,2.6,931476000,2741340,84
+2030,South America,Droughts,2.6,0,0,0
+2030,South America,Droughts,4.5,454649000,1338035,41
+2030,South America,Droughts,6.0,454649000,1338035,41
+2030,South America,Droughts,8.5,432471000,1272765,39
 2030,South America,Floods,2.6,3487131500,2828168,20
 2030,South America,Floods,4.5,3661488075,2969576,21
 2030,South America,Floods,6.0,3487131500,2828168,20
@@ -828,7 +873,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,South America,Storms,4.5,18424000,19698,49
 2030,South America,Storms,6.0,21056000,22512,56
 2030,South America,Storms,8.5,19552000,20904,52
-2030,South-Eastern Asia,Droughts,2.6,1129548000,3792360,102
+2030,South-Eastern Asia,Droughts,2.6,620144000,2082080,56
+2030,South-Eastern Asia,Droughts,4.5,620144000,2082080,56
+2030,South-Eastern Asia,Droughts,6.0,620144000,2082080,56
+2030,South-Eastern Asia,Droughts,8.5,620144000,2082080,56
 2030,South-Eastern Asia,Floods,2.6,2082708793,1689139,9
 2030,South-Eastern Asia,Floods,4.5,2174672134,1763724,11
 2030,South-Eastern Asia,Floods,6.0,1825958984,1480907,9
@@ -837,7 +885,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,South-Eastern Asia,Storms,4.5,20196000,101736,108
 2030,South-Eastern Asia,Storms,6.0,20009000,100794,107
 2030,South-Eastern Asia,Storms,8.5,21318000,107388,114
-2030,Southern Africa,Droughts,2.6,226424000,991804,44
+2030,Southern Africa,Droughts,2.6,25730000,112705,5
+2030,Southern Africa,Droughts,4.5,25730000,112705,5
+2030,Southern Africa,Droughts,6.0,25730000,112705,5
+2030,Southern Africa,Droughts,8.5,25730000,112705,5
 2030,Southern Africa,Floods,2.6,1220496025,989858,7
 2030,Southern Africa,Floods,4.5,1394852600,1131267,8
 2030,Southern Africa,Floods,6.0,1394852600,1131267,8
@@ -846,7 +897,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Southern Africa,Storms,4.5,32796000,21324,12
 2030,Southern Africa,Storms,6.0,35529000,23101,13
 2030,Southern Africa,Storms,8.5,30063000,19547,11
-2030,Southern Asia,Droughts,2.6,321412000,19809036,26
+2030,Southern Asia,Droughts,2.6,655186000,40379958,53
+2030,Southern Asia,Droughts,4.5,890064000,54855792,72
+2030,Southern Asia,Droughts,6.0,890064000,54855792,72
+2030,Southern Asia,Droughts,8.5,939512000,57903336,76
 2030,Southern Asia,Floods,2.6,50100613599,40633101,13
 2030,Southern Asia,Floods,4.5,29673816068,24066355,14
 2030,Southern Asia,Floods,6.0,48881230728,39644144,14
@@ -855,7 +909,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Southern Asia,Storms,4.5,121784000,278616,104
 2030,Southern Asia,Storms,6.0,125297000,286653,107
 2030,Southern Asia,Storms,8.5,125297000,286653,107
-2030,Southern Europe,Droughts,2.6,3733744000,6825605,53
+2030,Southern Europe,Droughts,2.6,563584000,1030280,8
+2030,Southern Europe,Droughts,4.5,563584000,1030280,8
+2030,Southern Europe,Droughts,6.0,563584000,1030280,8
+2030,Southern Europe,Droughts,8.5,563584000,1030280,8
 2030,Southern Europe,Floods,2.6,3312774925,2686759,19
 2030,Southern Europe,Floods,4.5,2615348625,2121126,15
 2030,Southern Europe,Floods,6.0,3138418350,2545351,18
@@ -864,7 +921,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Southern Europe,Storms,4.5,95742000,8748,27
 2030,Southern Europe,Storms,6.0,92196000,8424,26
 2030,Southern Europe,Storms,8.5,99288000,9072,28
-2030,Western Africa,Droughts,2.6,66766000,1882083,133
+2030,Western Africa,Droughts,2.6,34638000,976419,69
+2030,Western Africa,Droughts,4.5,34638000,976419,69
+2030,Western Africa,Droughts,6.0,34638000,976419,69
+2030,Western Africa,Droughts,8.5,38152000,1075476,76
 2030,Western Africa,Floods,2.6,3661488075,2969576,21
 2030,Western Africa,Floods,4.5,3138418350,2545351,18
 2030,Western Africa,Floods,6.0,4184557800,3393801,24
@@ -873,7 +933,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Western Africa,Storms,4.5,1300000,6425,25
 2030,Western Africa,Storms,6.0,1404000,6939,27
 2030,Western Africa,Storms,8.5,988000,4883,19
-2030,Western Asia,Droughts,2.6,329680000,2778750,65
+2030,Western Asia,Droughts,2.6,50720000,427500,10
+2030,Western Asia,Droughts,4.5,50720000,427500,10
+2030,Western Asia,Droughts,6.0,50720000,427500,10
+2030,Western Asia,Droughts,8.5,50720000,427500,10
 2030,Western Asia,Floods,2.6,3138418350,2545351,18
 2030,Western Asia,Floods,4.5,3661488075,2969576,21
 2030,Western Asia,Floods,6.0,2964061775,2403943,17
@@ -882,7 +945,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Western Asia,Storms,4.5,203670000,56699,31
 2030,Western Asia,Storms,6.0,177390000,49383,27
 2030,Western Asia,Storms,8.5,269370000,74989,41
-2030,Western Europe,Droughts,2.6,5152000000,0,32
+2030,Western Europe,Droughts,2.6,2737000000,0,17
+2030,Western Europe,Droughts,4.5,2737000000,0,17
+2030,Western Europe,Droughts,6.0,2737000000,0,17
+2030,Western Europe,Droughts,8.5,2737000000,0,17
 2030,Western Europe,Floods,2.6,1743565750,1414084,10
 2030,Western Europe,Floods,4.5,1743565750,1414084,10
 2030,Western Europe,Floods,6.0,1917922325,1555492,11
@@ -891,10 +957,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2030,Western Europe,Storms,4.5,36900000,11358,18
 2030,Western Europe,Storms,6.0,36900000,11358,18
 2030,Western Europe,Storms,8.5,43050000,13251,21
-2040,Australia and New Zealand,Droughts,2.6,12695904000,28319928,104
-2040,Australia and New Zealand,Droughts,4.5,12695904000,28319928,104
-2040,Australia and New Zealand,Droughts,6.0,12695904000,28319928,104
-2040,Australia and New Zealand,Droughts,8.5,12573828000,28047621,103
+2040,Australia and New Zealand,Droughts,2.6,1586988000,3539991,13
+2040,Australia and New Zealand,Droughts,4.5,1586988000,3539991,13
+2040,Australia and New Zealand,Droughts,6.0,1586988000,3539991,13
+2040,Australia and New Zealand,Droughts,8.5,1464912000,3267684,12
 2040,Australia and New Zealand,Floods,2.6,348713150,282816,2
 2040,Australia and New Zealand,Floods,4.5,697426300,565633,4
 2040,Australia and New Zealand,Floods,6.0,523069725,424225,3
@@ -903,10 +969,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Australia and New Zealand,Storms,4.5,52375000,15550,25
 2040,Australia and New Zealand,Storms,6.0,52375000,15550,25
 2040,Australia and New Zealand,Storms,8.5,35615000,10574,17
-2040,Caribbean,Droughts,2.6,41268000,779798,38
-2040,Caribbean,Droughts,4.5,57558000,1087613,53
-2040,Caribbean,Droughts,6.0,56472000,1067092,52
-2040,Caribbean,Droughts,8.5,56472000,1067092,52
+2040,Caribbean,Droughts,2.6,58644000,1108134,54
+2040,Caribbean,Droughts,4.5,58644000,1108134,54
+2040,Caribbean,Droughts,6.0,58644000,1108134,54
+2040,Caribbean,Droughts,8.5,76020000,1436470,70
 2040,Caribbean,Floods,2.6,1569209175,1272675,9
 2040,Caribbean,Floods,4.5,1917922325,1555492,11
 2040,Caribbean,Floods,6.0,2266635475,1838309,13
@@ -915,10 +981,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Caribbean,Storms,4.5,178467000,51057,93
 2040,Caribbean,Storms,6.0,170791000,48861,89
 2040,Caribbean,Storms,8.5,186143000,53253,97
-2040,Central America,Droughts,2.6,135488000,586960,58
-2040,Central America,Droughts,4.5,135488000,586960,58
-2040,Central America,Droughts,6.0,135488000,586960,58
-2040,Central America,Droughts,8.5,135488000,586960,58
+2040,Central America,Droughts,2.6,142496000,617320,61
+2040,Central America,Droughts,4.5,163520000,708400,70
+2040,Central America,Droughts,6.0,165856000,718520,71
+2040,Central America,Droughts,8.5,175200000,759000,75
 2040,Central America,Floods,2.6,2092278900,1696900,12
 2040,Central America,Floods,4.5,2266635475,1838309,13
 2040,Central America,Floods,6.0,2266635475,1838309,13
@@ -927,10 +993,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Central America,Storms,4.5,85422000,21528,46
 2040,Central America,Storms,6.0,94707000,23868,51
 2040,Central America,Storms,8.5,96564000,24336,52
-2040,Central Asia,Droughts,2.6,588500000,17600000,44
-2040,Central Asia,Droughts,4.5,588500000,17600000,44
-2040,Central Asia,Droughts,6.0,588500000,17600000,44
-2040,Central Asia,Droughts,8.5,588500000,17600000,44
+2040,Central Asia,Droughts,2.6,508250000,15200000,38
+2040,Central Asia,Droughts,4.5,307625000,9200000,23
+2040,Central Asia,Droughts,6.0,307625000,9200000,23
+2040,Central Asia,Droughts,8.5,307625000,9200000,23
 2040,Central Asia,Floods,2.6,1569209175,1272675,9
 2040,Central Asia,Floods,4.5,1220496025,989858,7
 2040,Central Asia,Floods,6.0,1046139450,848450,6
@@ -939,10 +1005,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Central Asia,Storms,4.5,2508000,10890,11
 2040,Central Asia,Storms,6.0,3648000,15840,16
 2040,Central Asia,Storms,8.5,2280000,9900,10
-2040,Eastern Africa,Droughts,2.6,83520000,962460,60
-2040,Eastern Africa,Droughts,4.5,76560000,882255,55
-2040,Eastern Africa,Droughts,6.0,77952000,898296,56
-2040,Eastern Africa,Droughts,8.5,83520000,962460,60
+2040,Eastern Africa,Droughts,2.6,94656000,1090788,68
+2040,Eastern Africa,Droughts,4.5,107184000,1235157,77
+2040,Eastern Africa,Droughts,6.0,97440000,1122870,70
+2040,Eastern Africa,Droughts,8.5,104400000,1203075,75
 2040,Eastern Africa,Floods,2.6,2964061775,2403943,17
 2040,Eastern Africa,Floods,4.5,2789705200,2262534,16
 2040,Eastern Africa,Floods,6.0,2615348625,2121126,15
@@ -951,10 +1017,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Eastern Africa,Storms,4.5,32285000,63745,55
 2040,Eastern Africa,Storms,6.0,34046000,67222,58
 2040,Eastern Africa,Storms,8.5,21719000,42883,37
-2040,Eastern Asia,Droughts,2.6,4196827000,32547073,109
-2040,Eastern Asia,Droughts,4.5,4196827000,32547073,109
-2040,Eastern Asia,Droughts,6.0,4196827000,32547073,109
-2040,Eastern Asia,Droughts,8.5,4196827000,32547073,109
+2040,Eastern Asia,Droughts,2.6,539042000,4180358,14
+2040,Eastern Asia,Droughts,4.5,539042000,4180358,14
+2040,Eastern Asia,Droughts,6.0,539042000,4180358,14
+2040,Eastern Asia,Droughts,8.5,500539000,3881761,13
 2040,Eastern Asia,Floods,2.6,26973439933,21876269,7
 2040,Eastern Asia,Floods,4.5,42472447113,34446429,8
 2040,Eastern Asia,Floods,6.0,30101409634,24413146,8
@@ -963,10 +1029,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Eastern Asia,Storms,4.5,65728000,148204,79
 2040,Eastern Asia,Storms,6.0,64064000,144452,77
 2040,Eastern Asia,Storms,8.5,82368000,185724,99
-2040,Eastern Europe,Droughts,2.6,2295000000,1216146,51
-2040,Eastern Europe,Droughts,4.5,2295000000,1216146,51
-2040,Eastern Europe,Droughts,6.0,2295000000,1216146,51
-2040,Eastern Europe,Droughts,8.5,3285000000,1740758,73
+2040,Eastern Europe,Droughts,2.6,765000000,405382,17
+2040,Eastern Europe,Droughts,4.5,765000000,405382,17
+2040,Eastern Europe,Droughts,6.0,765000000,405382,17
+2040,Eastern Europe,Droughts,8.5,765000000,405382,17
 2040,Eastern Europe,Floods,2.6,1917922325,1555492,11
 2040,Eastern Europe,Floods,4.5,2266635475,1838309,13
 2040,Eastern Europe,Floods,6.0,2789705200,2262534,16
@@ -975,10 +1041,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Eastern Europe,Storms,4.5,7744000,12463,11
 2040,Eastern Europe,Storms,6.0,8448000,13596,12
 2040,Eastern Europe,Storms,8.5,9856000,15862,14
-2040,Melanesia,Droughts,2.6,0,0,0
-2040,Melanesia,Droughts,4.5,0,0,0
-2040,Melanesia,Droughts,6.0,0,0,0
-2040,Melanesia,Droughts,8.5,0,0,0
+2040,Melanesia,Droughts,2.6,320000000,3476096,64
+2040,Melanesia,Droughts,4.5,320000000,3476096,64
+2040,Melanesia,Droughts,6.0,320000000,3476096,64
+2040,Melanesia,Droughts,8.5,320000000,3476096,64
 2040,Melanesia,Floods,2.6,871782875,707042,5
 2040,Melanesia,Floods,4.5,1046139450,848450,6
 2040,Melanesia,Floods,6.0,871782875,707042,5
@@ -987,10 +1053,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Melanesia,Storms,4.5,5356000,4836,13
 2040,Melanesia,Storms,6.0,5768000,5208,14
 2040,Melanesia,Storms,8.5,5768000,5208,14
-2040,Micronesia,Droughts,2.6,25480000,249782,26
-2040,Micronesia,Droughts,4.5,0,0,0
-2040,Micronesia,Droughts,6.0,0,0,0
-2040,Micronesia,Droughts,8.5,0,0,0
+2040,Micronesia,Droughts,2.6,84280000,826202,86
+2040,Micronesia,Droughts,4.5,84280000,826202,86
+2040,Micronesia,Droughts,6.0,84280000,826202,86
+2040,Micronesia,Droughts,8.5,84280000,826202,86
 2040,Micronesia,Floods,2.6,645071363,523172,4
 2040,Micronesia,Floods,4.5,645071363,523172,4
 2040,Micronesia,Floods,6.0,496892256,402994,3
@@ -999,10 +1065,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Micronesia,Storms,4.5,7122000,428,2
 2040,Micronesia,Storms,6.0,3561000,214,1
 2040,Micronesia,Storms,8.5,0,0,0
-2040,Middle Africa,Droughts,2.6,75712000,1459952,52
-2040,Middle Africa,Droughts,4.5,77168000,1488028,53
-2040,Middle Africa,Droughts,6.0,75712000,1459952,52
-2040,Middle Africa,Droughts,8.5,106288000,2049548,73
+2040,Middle Africa,Droughts,2.6,106288000,2049548,73
+2040,Middle Africa,Droughts,4.5,101920000,1965320,70
+2040,Middle Africa,Droughts,6.0,112112000,2161852,77
+2040,Middle Africa,Droughts,8.5,78624000,1516104,54
 2040,Middle Africa,Floods,2.6,1569209175,1272675,9
 2040,Middle Africa,Floods,4.5,1394852600,1131267,8
 2040,Middle Africa,Floods,6.0,1917922325,1555492,11
@@ -1011,10 +1077,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Middle Africa,Storms,4.5,42000,3185,7
 2040,Middle Africa,Storms,6.0,66000,5005,11
 2040,Middle Africa,Storms,8.5,54000,4095,9
-2040,Northern Africa,Droughts,2.6,1113242000,6765180,47
-2040,Northern Africa,Droughts,4.5,1113242000,6765180,47
-2040,Northern Africa,Droughts,6.0,1373788000,8348520,58
-2040,Northern Africa,Droughts,8.5,757952000,4606080,32
+2040,Northern Africa,Droughts,2.6,1634334000,9931860,69
+2040,Northern Africa,Droughts,4.5,1776450000,10795500,75
+2040,Northern Africa,Droughts,6.0,1658020000,10075800,70
+2040,Northern Africa,Droughts,8.5,1752764000,10651560,74
 2040,Northern Africa,Floods,2.6,1917922325,1555492,11
 2040,Northern Africa,Floods,4.5,1046139450,848450,6
 2040,Northern Africa,Floods,6.0,1569209175,1272675,9
@@ -1023,9 +1089,9 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Northern Africa,Storms,4.5,47330000,19410,10
 2040,Northern Africa,Storms,6.0,52063000,21351,11
 2040,Northern Africa,Storms,8.5,47330000,19410,10
-2040,Northern America,Droughts,2.6,7880150000,65450,50
-2040,Northern America,Droughts,4.5,7880150000,65450,50
-2040,Northern America,Droughts,6.0,7880150000,65450,50
+2040,Northern America,Droughts,2.6,8037753000,66759,51
+2040,Northern America,Droughts,4.5,8037753000,66759,51
+2040,Northern America,Droughts,6.0,8037753000,66759,51
 2040,Northern America,Droughts,8.5,8037753000,66759,51
 2040,Northern America,Floods,2.6,697426300,565633,4
 2040,Northern America,Floods,4.5,523069725,424225,3
@@ -1035,10 +1101,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Northern America,Storms,4.5,86324000,28756,28
 2040,Northern America,Storms,6.0,86324000,28756,28
 2040,Northern America,Storms,8.5,83241000,27729,27
-2040,Northern Europe,Droughts,2.6,0,0,0
-2040,Northern Europe,Droughts,4.5,0,0,0
-2040,Northern Europe,Droughts,6.0,0,0,0
-2040,Northern Europe,Droughts,8.5,0,0,0
+2040,Northern Europe,Droughts,2.6,1888634000,0,22
+2040,Northern Europe,Droughts,4.5,1888634000,0,22
+2040,Northern Europe,Droughts,6.0,1888634000,0,22
+2040,Northern Europe,Droughts,8.5,1888634000,0,22
 2040,Northern Europe,Floods,2.6,1569209175,1272675,9
 2040,Northern Europe,Floods,4.5,1917922325,1555492,11
 2040,Northern Europe,Floods,6.0,2266635475,1838309,13
@@ -1047,18 +1113,18 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Northern Europe,Storms,4.5,97129000,16399,23
 2040,Northern Europe,Storms,6.0,97129000,16399,23
 2040,Northern Europe,Storms,8.5,84460000,14260,20
-2040,Polynesia,Droughts,2.6,0,0,0
-2040,Polynesia,Droughts,4.5,0,0,0
-2040,Polynesia,Droughts,6.0,0,0,27
-2040,Polynesia,Droughts,8.5,0,0,0
+2040,Polynesia,Droughts,2.6,0,0,86
+2040,Polynesia,Droughts,4.5,0,0,86
+2040,Polynesia,Droughts,6.0,0,0,86
+2040,Polynesia,Droughts,8.5,0,0,86
 2040,Polynesia,Storms,2.6,1767000,795,3
 2040,Polynesia,Storms,4.5,2356000,1060,4
 2040,Polynesia,Storms,6.0,1767000,795,3
 2040,Polynesia,Storms,8.5,1178000,530,2
-2040,South America,Droughts,2.6,1352858000,3981470,122
-2040,South America,Droughts,4.5,654251000,1925465,59
-2040,South America,Droughts,6.0,720785000,2121275,65
-2040,South America,Droughts,8.5,620984000,1827560,56
+2040,South America,Droughts,2.6,454649000,1338035,41
+2040,South America,Droughts,4.5,765141000,2251815,69
+2040,South America,Droughts,6.0,820586000,2414990,74
+2040,South America,Droughts,8.5,831675000,2447625,75
 2040,South America,Floods,2.6,3138418350,2545351,18
 2040,South America,Floods,4.5,3312774925,2686759,19
 2040,South America,Floods,6.0,2964061775,2403943,17
@@ -1067,10 +1133,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,South America,Storms,4.5,19552000,20904,52
 2040,South America,Storms,6.0,18424000,19698,49
 2040,South America,Storms,8.5,21056000,22512,56
-2040,South-Eastern Asia,Droughts,2.6,653366000,2193620,59
-2040,South-Eastern Asia,Droughts,4.5,642292000,2156440,58
-2040,South-Eastern Asia,Droughts,6.0,653366000,2193620,59
-2040,South-Eastern Asia,Droughts,8.5,741958000,2491060,67
+2040,South-Eastern Asia,Droughts,2.6,620144000,2082080,56
+2040,South-Eastern Asia,Droughts,4.5,786254000,2639780,71
+2040,South-Eastern Asia,Droughts,6.0,620144000,2082080,56
+2040,South-Eastern Asia,Droughts,8.5,775180000,2602600,70
 2040,South-Eastern Asia,Floods,2.6,2257065368,1830547,10
 2040,South-Eastern Asia,Floods,4.5,2431421943,1971956,11
 2040,South-Eastern Asia,Floods,6.0,2349028709,1905132,12
@@ -1079,10 +1145,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,South-Eastern Asia,Storms,4.5,21131000,106446,113
 2040,South-Eastern Asia,Storms,6.0,20757000,104562,111
 2040,South-Eastern Asia,Storms,8.5,23562000,118692,126
-2040,Southern Africa,Droughts,2.6,216132000,946722,42
-2040,Southern Africa,Droughts,4.5,128650000,563525,25
-2040,Southern Africa,Droughts,6.0,128650000,563525,25
-2040,Southern Africa,Droughts,8.5,118358000,518443,23
+2040,Southern Africa,Droughts,2.6,25730000,112705,5
+2040,Southern Africa,Droughts,4.5,123504000,540984,24
+2040,Southern Africa,Droughts,6.0,123504000,540984,24
+2040,Southern Africa,Droughts,8.5,113212000,495902,22
 2040,Southern Africa,Floods,2.6,1220496025,989858,7
 2040,Southern Africa,Floods,4.5,1394852600,1131267,8
 2040,Southern Africa,Floods,6.0,1394852600,1131267,8
@@ -1091,10 +1157,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Southern Africa,Storms,4.5,32796000,21324,12
 2040,Southern Africa,Storms,6.0,32796000,21324,12
 2040,Southern Africa,Storms,8.5,38262000,24878,14
-2040,Southern Asia,Droughts,2.6,49448000,3047544,4
-2040,Southern Asia,Droughts,4.5,49448000,3047544,4
-2040,Southern Asia,Droughts,6.0,49448000,3047544,4
-2040,Southern Asia,Droughts,8.5,321412000,19809036,26
+2040,Southern Asia,Droughts,2.6,890064000,54855792,72
+2040,Southern Asia,Droughts,4.5,655186000,40379958,53
+2040,Southern Asia,Droughts,6.0,939512000,57903336,76
+2040,Southern Asia,Droughts,8.5,655186000,40379958,53
 2040,Southern Asia,Floods,2.6,17692039736,14348775,13
 2040,Southern Asia,Floods,4.5,48191290918,39084583,10
 2040,Southern Asia,Floods,6.0,51051294868,41404132,14
@@ -1103,10 +1169,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Southern Asia,Storms,4.5,128810000,294690,110
 2040,Southern Asia,Storms,6.0,125297000,286653,107
 2040,Southern Asia,Storms,8.5,134665000,308085,115
-2040,Southern Europe,Droughts,2.6,3804192000,6954390,54
-2040,Southern Europe,Droughts,4.5,3733744000,6825605,53
-2040,Southern Europe,Droughts,6.0,3733744000,6825605,53
-2040,Southern Europe,Droughts,8.5,3733744000,6825605,53
+2040,Southern Europe,Droughts,2.6,563584000,1030280,8
+2040,Southern Europe,Droughts,4.5,563584000,1030280,8
+2040,Southern Europe,Droughts,6.0,563584000,1030280,8
+2040,Southern Europe,Droughts,8.5,493136000,901495,7
 2040,Southern Europe,Floods,2.6,3138418350,2545351,18
 2040,Southern Europe,Floods,4.5,2789705200,2262534,16
 2040,Southern Europe,Floods,6.0,3312774925,2686759,19
@@ -1115,10 +1181,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Southern Europe,Storms,4.5,102834000,9396,29
 2040,Southern Europe,Storms,6.0,95742000,8748,27
 2040,Southern Europe,Storms,8.5,113472000,10368,32
-2040,Western Africa,Droughts,2.6,66264000,1867932,132
-2040,Western Africa,Droughts,4.5,66264000,1867932,132
-2040,Western Africa,Droughts,6.0,66264000,1867932,132
-2040,Western Africa,Droughts,8.5,66264000,1867932,132
+2040,Western Africa,Droughts,2.6,38152000,1075476,76
+2040,Western Africa,Droughts,4.5,38152000,1075476,76
+2040,Western Africa,Droughts,6.0,38152000,1075476,76
+2040,Western Africa,Droughts,8.5,38152000,1075476,76
 2040,Western Africa,Floods,2.6,3661488075,2969576,21
 2040,Western Africa,Floods,4.5,3835844650,3110985,22
 2040,Western Africa,Floods,6.0,3312774925,2686759,19
@@ -1127,10 +1193,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Western Africa,Storms,4.5,1040000,5140,20
 2040,Western Africa,Storms,6.0,988000,4883,19
 2040,Western Africa,Storms,8.5,884000,4369,17
-2040,Western Asia,Droughts,2.6,314464000,2650500,62
-2040,Western Asia,Droughts,4.5,309392000,2607750,61
-2040,Western Asia,Droughts,6.0,309392000,2607750,61
-2040,Western Asia,Droughts,8.5,319536000,2693250,63
+2040,Western Asia,Droughts,2.6,50720000,427500,10
+2040,Western Asia,Droughts,4.5,50720000,427500,10
+2040,Western Asia,Droughts,6.0,50720000,427500,10
+2040,Western Asia,Droughts,8.5,65936000,555750,13
 2040,Western Asia,Floods,2.6,3661488075,2969576,21
 2040,Western Asia,Floods,4.5,2964061775,2403943,17
 2040,Western Asia,Floods,6.0,3487131500,2828168,20
@@ -1139,10 +1205,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Western Asia,Storms,4.5,295650000,82305,45
 2040,Western Asia,Storms,6.0,256230000,71331,39
 2040,Western Asia,Storms,8.5,177390000,49383,27
-2040,Western Europe,Droughts,2.6,8533000000,0,53
-2040,Western Europe,Droughts,4.5,8533000000,0,53
-2040,Western Europe,Droughts,6.0,8533000000,0,53
-2040,Western Europe,Droughts,8.5,8533000000,0,53
+2040,Western Europe,Droughts,2.6,2576000000,0,16
+2040,Western Europe,Droughts,4.5,2737000000,0,17
+2040,Western Europe,Droughts,6.0,2737000000,0,17
+2040,Western Europe,Droughts,8.5,2576000000,0,16
 2040,Western Europe,Floods,2.6,2092278900,1696900,12
 2040,Western Europe,Floods,4.5,1917922325,1555492,11
 2040,Western Europe,Floods,6.0,2092278900,1696900,12
@@ -1151,7 +1217,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2040,Western Europe,Storms,4.5,43050000,13251,21
 2040,Western Europe,Storms,6.0,38950000,11989,19
 2040,Western Europe,Storms,8.5,41000000,12620,20
-2050,Australia and New Zealand,Droughts,2.6,12695904000,28319928,104
+2050,Australia and New Zealand,Droughts,2.6,1586988000,3539991,13
+2050,Australia and New Zealand,Droughts,4.5,1586988000,3539991,13
+2050,Australia and New Zealand,Droughts,6.0,1586988000,3539991,13
+2050,Australia and New Zealand,Droughts,8.5,1464912000,3267684,12
 2050,Australia and New Zealand,Floods,2.6,697426300,565633,4
 2050,Australia and New Zealand,Floods,4.5,348713150,282816,2
 2050,Australia and New Zealand,Floods,6.0,523069725,424225,3
@@ -1160,7 +1229,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Australia and New Zealand,Storms,4.5,48185000,14306,23
 2050,Australia and New Zealand,Storms,6.0,43995000,13062,21
 2050,Australia and New Zealand,Storms,8.5,43995000,13062,21
-2050,Caribbean,Droughts,2.6,41268000,779798,38
+2050,Caribbean,Droughts,2.6,58644000,1108134,54
+2050,Caribbean,Droughts,4.5,58644000,1108134,54
+2050,Caribbean,Droughts,6.0,58644000,1108134,54
+2050,Caribbean,Droughts,8.5,76020000,1436470,70
 2050,Caribbean,Floods,2.6,2092278900,1696900,12
 2050,Caribbean,Floods,4.5,1743565750,1414084,10
 2050,Caribbean,Floods,6.0,1394852600,1131267,8
@@ -1169,7 +1241,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Caribbean,Storms,4.5,188062000,53802,98
 2050,Caribbean,Storms,6.0,186143000,53253,97
 2050,Caribbean,Storms,8.5,216847000,62037,113
-2050,Central America,Droughts,2.6,135488000,586960,58
+2050,Central America,Droughts,2.6,142496000,617320,61
+2050,Central America,Droughts,4.5,163520000,708400,70
+2050,Central America,Droughts,6.0,165856000,718520,71
+2050,Central America,Droughts,8.5,175200000,759000,75
 2050,Central America,Floods,2.6,2092278900,1696900,12
 2050,Central America,Floods,4.5,1917922325,1555492,11
 2050,Central America,Floods,6.0,1917922325,1555492,11
@@ -1178,7 +1253,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Central America,Storms,4.5,85422000,21528,46
 2050,Central America,Storms,6.0,83565000,21060,45
 2050,Central America,Storms,8.5,66852000,16848,36
-2050,Central Asia,Droughts,2.6,588500000,17600000,44
+2050,Central Asia,Droughts,2.6,508250000,15200000,38
+2050,Central Asia,Droughts,4.5,307625000,9200000,23
+2050,Central Asia,Droughts,6.0,307625000,9200000,23
+2050,Central Asia,Droughts,8.5,307625000,9200000,23
 2050,Central Asia,Floods,2.6,1046139450,848450,6
 2050,Central Asia,Floods,4.5,1394852600,1131267,8
 2050,Central Asia,Floods,6.0,1569209175,1272675,9
@@ -1187,7 +1265,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Central Asia,Storms,4.5,2508000,10890,11
 2050,Central Asia,Storms,6.0,2964000,12870,13
 2050,Central Asia,Storms,8.5,2052000,8910,9
-2050,Eastern Africa,Droughts,2.6,83520000,962460,60
+2050,Eastern Africa,Droughts,2.6,94656000,1090788,68
+2050,Eastern Africa,Droughts,4.5,107184000,1235157,77
+2050,Eastern Africa,Droughts,6.0,97440000,1122870,70
+2050,Eastern Africa,Droughts,8.5,104400000,1203075,75
 2050,Eastern Africa,Floods,2.6,3312774925,2686759,19
 2050,Eastern Africa,Floods,4.5,3487131500,2828168,20
 2050,Eastern Africa,Floods,6.0,3661488075,2969576,21
@@ -1196,7 +1277,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Eastern Africa,Storms,4.5,23480000,46360,40
 2050,Eastern Africa,Storms,6.0,27002000,53314,46
 2050,Eastern Africa,Storms,8.5,22306000,44042,38
-2050,Eastern Asia,Droughts,2.6,4196827000,32547073,109
+2050,Eastern Asia,Droughts,2.6,539042000,4180358,14
+2050,Eastern Asia,Droughts,4.5,539042000,4180358,14
+2050,Eastern Asia,Droughts,6.0,539042000,4180358,14
+2050,Eastern Asia,Droughts,8.5,500539000,3881761,13
 2050,Eastern Asia,Floods,2.6,37258300462,30217599,8
 2050,Eastern Asia,Floods,4.5,21759293281,17647439,7
 2050,Eastern Asia,Floods,6.0,34130330761,27680722,7
@@ -1205,7 +1289,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Eastern Asia,Storms,4.5,86528000,195104,104
 2050,Eastern Asia,Storms,6.0,64896000,146328,78
 2050,Eastern Asia,Storms,8.5,84864000,191352,102
-2050,Eastern Europe,Droughts,2.6,2295000000,1216146,51
+2050,Eastern Europe,Droughts,2.6,765000000,405382,17
+2050,Eastern Europe,Droughts,4.5,765000000,405382,17
+2050,Eastern Europe,Droughts,6.0,765000000,405382,17
+2050,Eastern Europe,Droughts,8.5,765000000,405382,17
 2050,Eastern Europe,Floods,2.6,2964061775,2403943,17
 2050,Eastern Europe,Floods,4.5,2615348625,2121126,15
 2050,Eastern Europe,Floods,6.0,2092278900,1696900,12
@@ -1214,7 +1301,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Eastern Europe,Storms,4.5,6336000,10197,9
 2050,Eastern Europe,Storms,6.0,7040000,11330,10
 2050,Eastern Europe,Storms,8.5,9152000,14729,13
-2050,Melanesia,Droughts,2.6,0,0,0
+2050,Melanesia,Droughts,2.6,320000000,3476096,64
+2050,Melanesia,Droughts,4.5,320000000,3476096,64
+2050,Melanesia,Droughts,6.0,320000000,3476096,64
+2050,Melanesia,Droughts,8.5,320000000,3476096,64
 2050,Melanesia,Floods,2.6,1220496025,989858,7
 2050,Melanesia,Floods,4.5,1046139450,848450,6
 2050,Melanesia,Floods,6.0,1220496025,989858,7
@@ -1223,7 +1313,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Melanesia,Storms,4.5,6592000,5952,16
 2050,Melanesia,Storms,6.0,6592000,5952,16
 2050,Melanesia,Storms,8.5,7004000,6324,17
-2050,Micronesia,Droughts,2.6,25480000,249782,26
+2050,Micronesia,Droughts,2.6,84280000,826202,86
+2050,Micronesia,Droughts,4.5,84280000,826202,86
+2050,Micronesia,Droughts,6.0,84280000,826202,86
+2050,Micronesia,Droughts,8.5,84280000,826202,86
 2050,Micronesia,Floods,2.6,845605406,685811,5
 2050,Micronesia,Floods,4.5,845605406,685811,5
 2050,Micronesia,Floods,6.0,993784513,805989,6
@@ -1232,7 +1325,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Micronesia,Storms,4.5,3561000,214,1
 2050,Micronesia,Storms,6.0,7122000,428,2
 2050,Micronesia,Storms,8.5,3561000,214,1
-2050,Middle Africa,Droughts,2.6,75712000,1459952,52
+2050,Middle Africa,Droughts,2.6,106288000,2049548,73
+2050,Middle Africa,Droughts,4.5,101920000,1965320,70
+2050,Middle Africa,Droughts,6.0,112112000,2161852,77
+2050,Middle Africa,Droughts,8.5,78624000,1516104,54
 2050,Middle Africa,Floods,2.6,1743565750,1414084,10
 2050,Middle Africa,Floods,4.5,1917922325,1555492,11
 2050,Middle Africa,Floods,6.0,1394852600,1131267,8
@@ -1241,7 +1337,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Middle Africa,Storms,4.5,54000,4095,9
 2050,Middle Africa,Storms,6.0,36000,2730,6
 2050,Middle Africa,Storms,8.5,102000,7735,17
-2050,Northern Africa,Droughts,2.6,1113242000,6765180,47
+2050,Northern Africa,Droughts,2.6,1634334000,9931860,69
+2050,Northern Africa,Droughts,4.5,1776450000,10795500,75
+2050,Northern Africa,Droughts,6.0,1658020000,10075800,70
+2050,Northern Africa,Droughts,8.5,1752764000,10651560,74
 2050,Northern Africa,Floods,2.6,1220496025,989858,7
 2050,Northern Africa,Floods,4.5,2092278900,1696900,12
 2050,Northern Africa,Floods,6.0,1569209175,1272675,9
@@ -1250,7 +1349,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Northern Africa,Storms,4.5,33131000,13587,7
 2050,Northern Africa,Storms,6.0,37864000,15528,8
 2050,Northern Africa,Storms,8.5,66262000,27174,14
-2050,Northern America,Droughts,2.6,7880150000,65450,50
+2050,Northern America,Droughts,2.6,8037753000,66759,51
+2050,Northern America,Droughts,4.5,8037753000,66759,51
+2050,Northern America,Droughts,6.0,8037753000,66759,51
+2050,Northern America,Droughts,8.5,8037753000,66759,51
 2050,Northern America,Floods,2.6,348713150,282816,2
 2050,Northern America,Floods,4.5,523069725,424225,3
 2050,Northern America,Floods,6.0,348713150,282816,2
@@ -1259,7 +1361,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Northern America,Storms,4.5,86324000,28756,28
 2050,Northern America,Storms,6.0,86324000,28756,28
 2050,Northern America,Storms,8.5,80158000,26702,26
-2050,Northern Europe,Droughts,2.6,0,0,0
+2050,Northern Europe,Droughts,2.6,1888634000,0,22
+2050,Northern Europe,Droughts,4.5,1888634000,0,22
+2050,Northern Europe,Droughts,6.0,1888634000,0,22
+2050,Northern Europe,Droughts,8.5,1888634000,0,22
 2050,Northern Europe,Floods,2.6,2092278900,1696900,12
 2050,Northern Europe,Floods,4.5,1743565750,1414084,10
 2050,Northern Europe,Floods,6.0,1394852600,1131267,8
@@ -1268,12 +1373,18 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Northern Europe,Storms,4.5,92906000,15686,22
 2050,Northern Europe,Storms,6.0,92906000,15686,22
 2050,Northern Europe,Storms,8.5,76014000,12834,18
-2050,Polynesia,Droughts,2.6,0,0,0
+2050,Polynesia,Droughts,2.6,0,0,86
+2050,Polynesia,Droughts,4.5,0,0,86
+2050,Polynesia,Droughts,6.0,0,0,86
+2050,Polynesia,Droughts,8.5,0,0,86
 2050,Polynesia,Storms,2.6,1767000,795,3
 2050,Polynesia,Storms,4.5,1767000,795,3
 2050,Polynesia,Storms,6.0,1767000,795,3
 2050,Polynesia,Storms,8.5,1178000,530,2
-2050,South America,Droughts,2.6,1352858000,3981470,122
+2050,South America,Droughts,2.6,454649000,1338035,41
+2050,South America,Droughts,4.5,765141000,2251815,69
+2050,South America,Droughts,6.0,820586000,2414990,74
+2050,South America,Droughts,8.5,831675000,2447625,75
 2050,South America,Floods,2.6,3138418350,2545351,18
 2050,South America,Floods,4.5,2964061775,2403943,17
 2050,South America,Floods,6.0,3312774925,2686759,19
@@ -1282,7 +1393,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,South America,Storms,4.5,20680000,22110,55
 2050,South America,Storms,6.0,20680000,22110,55
 2050,South America,Storms,8.5,18800000,20100,50
-2050,South-Eastern Asia,Droughts,2.6,653366000,2193620,59
+2050,South-Eastern Asia,Droughts,2.6,620144000,2082080,56
+2050,South-Eastern Asia,Droughts,4.5,786254000,2639780,71
+2050,South-Eastern Asia,Droughts,6.0,620144000,2082080,56
+2050,South-Eastern Asia,Droughts,8.5,775180000,2602600,70
 2050,South-Eastern Asia,Floods,2.6,2174672134,1763724,11
 2050,South-Eastern Asia,Floods,4.5,2000315559,1622315,10
 2050,South-Eastern Asia,Floods,6.0,2082708793,1689139,9
@@ -1291,7 +1405,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,South-Eastern Asia,Storms,4.5,21692000,109272,116
 2050,South-Eastern Asia,Storms,6.0,21131000,106446,113
 2050,South-Eastern Asia,Storms,8.5,18887000,95142,101
-2050,Southern Africa,Droughts,2.6,216132000,946722,42
+2050,Southern Africa,Droughts,2.6,25730000,112705,5
+2050,Southern Africa,Droughts,4.5,123504000,540984,24
+2050,Southern Africa,Droughts,6.0,123504000,540984,24
+2050,Southern Africa,Droughts,8.5,113212000,495902,22
 2050,Southern Africa,Floods,2.6,1394852600,1131267,8
 2050,Southern Africa,Floods,4.5,1220496025,989858,7
 2050,Southern Africa,Floods,6.0,1220496025,989858,7
@@ -1300,7 +1417,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Southern Africa,Storms,4.5,32796000,21324,12
 2050,Southern Africa,Storms,6.0,32796000,21324,12
 2050,Southern Africa,Storms,8.5,68325000,44425,25
-2050,Southern Asia,Droughts,2.6,49448000,3047544,4
+2050,Southern Asia,Droughts,2.6,890064000,54855792,72
+2050,Southern Asia,Droughts,4.5,655186000,40379958,53
+2050,Southern Asia,Droughts,6.0,939512000,57903336,76
+2050,Southern Asia,Droughts,8.5,655186000,40379958,53
 2050,Southern Asia,Floods,2.6,10795111497,8755159,11
 2050,Southern Asia,Floods,4.5,28897491374,23436732,14
 2050,Southern Asia,Floods,6.0,26037487424,21117183,10
@@ -1309,7 +1429,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Southern Asia,Storms,4.5,128810000,294690,110
 2050,Southern Asia,Storms,6.0,125297000,286653,107
 2050,Southern Asia,Storms,8.5,152230000,348270,130
-2050,Southern Europe,Droughts,2.6,3804192000,6954390,54
+2050,Southern Europe,Droughts,2.6,563584000,1030280,8
+2050,Southern Europe,Droughts,4.5,563584000,1030280,8
+2050,Southern Europe,Droughts,6.0,563584000,1030280,8
+2050,Southern Europe,Droughts,8.5,493136000,901495,7
 2050,Southern Europe,Floods,2.6,2615348625,2121126,15
 2050,Southern Europe,Floods,4.5,2964061775,2403943,17
 2050,Southern Europe,Floods,6.0,2440992050,1979717,14
@@ -1318,7 +1441,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Southern Europe,Storms,4.5,88650000,8100,25
 2050,Southern Europe,Storms,6.0,99288000,9072,28
 2050,Southern Europe,Storms,8.5,138294000,12636,39
-2050,Western Africa,Droughts,2.6,66264000,1867932,132
+2050,Western Africa,Droughts,2.6,38152000,1075476,76
+2050,Western Africa,Droughts,4.5,38152000,1075476,76
+2050,Western Africa,Droughts,6.0,38152000,1075476,76
+2050,Western Africa,Droughts,8.5,38152000,1075476,76
 2050,Western Africa,Floods,2.6,3138418350,2545351,18
 2050,Western Africa,Floods,4.5,2964061775,2403943,17
 2050,Western Africa,Floods,6.0,3487131500,2828168,20
@@ -1327,7 +1453,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Western Africa,Storms,4.5,832000,4112,16
 2050,Western Africa,Storms,6.0,780000,3855,15
 2050,Western Africa,Storms,8.5,728000,3598,14
-2050,Western Asia,Droughts,2.6,314464000,2650500,62
+2050,Western Asia,Droughts,2.6,50720000,427500,10
+2050,Western Asia,Droughts,4.5,50720000,427500,10
+2050,Western Asia,Droughts,6.0,50720000,427500,10
+2050,Western Asia,Droughts,8.5,65936000,555750,13
 2050,Western Asia,Floods,2.6,3138418350,2545351,18
 2050,Western Asia,Floods,4.5,3835844650,3110985,22
 2050,Western Asia,Floods,6.0,3312774925,2686759,19
@@ -1336,7 +1465,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Western Asia,Storms,4.5,243090000,67673,37
 2050,Western Asia,Storms,6.0,249660000,69502,38
 2050,Western Asia,Storms,8.5,203670000,56699,31
-2050,Western Europe,Droughts,2.6,8533000000,0,53
+2050,Western Europe,Droughts,2.6,2576000000,0,16
+2050,Western Europe,Droughts,4.5,2737000000,0,17
+2050,Western Europe,Droughts,6.0,2737000000,0,17
+2050,Western Europe,Droughts,8.5,2576000000,0,16
 2050,Western Europe,Floods,2.6,1569209175,1272675,9
 2050,Western Europe,Floods,4.5,1743565750,1414084,10
 2050,Western Europe,Floods,6.0,1569209175,1272675,9
@@ -1345,10 +1477,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2050,Western Europe,Storms,4.5,38950000,11989,19
 2050,Western Europe,Storms,6.0,38950000,11989,19
 2050,Western Europe,Storms,8.5,32800000,10096,16
-2060,Australia and New Zealand,Droughts,2.6,14282892000,31859919,117
-2060,Australia and New Zealand,Droughts,4.5,12695904000,28319928,104
-2060,Australia and New Zealand,Droughts,6.0,12573828000,28047621,103
-2060,Australia and New Zealand,Droughts,8.5,10254384000,22873788,84
+2060,Australia and New Zealand,Droughts,2.6,1586988000,3539991,13
+2060,Australia and New Zealand,Droughts,4.5,1464912000,3267684,12
+2060,Australia and New Zealand,Droughts,6.0,1464912000,3267684,12
+2060,Australia and New Zealand,Droughts,8.5,610380000,1361535,5
 2060,Australia and New Zealand,Floods,2.6,523069725,424225,3
 2060,Australia and New Zealand,Floods,4.5,523069725,424225,3
 2060,Australia and New Zealand,Floods,6.0,523069725,424225,3
@@ -1357,10 +1489,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Australia and New Zealand,Storms,4.5,33520000,9952,16
 2060,Australia and New Zealand,Storms,6.0,33520000,9952,16
 2060,Australia and New Zealand,Storms,8.5,16760000,4976,8
-2060,Caribbean,Droughts,2.6,56472000,1067092,52
-2060,Caribbean,Droughts,4.5,56472000,1067092,52
-2060,Caribbean,Droughts,6.0,56472000,1067092,52
-2060,Caribbean,Droughts,8.5,57558000,1087613,53
+2060,Caribbean,Droughts,2.6,58644000,1108134,54
+2060,Caribbean,Droughts,4.5,65160000,1231260,60
+2060,Caribbean,Droughts,6.0,76020000,1436470,70
+2060,Caribbean,Droughts,8.5,82536000,1559596,76
 2060,Caribbean,Floods,2.6,2092278900,1696900,12
 2060,Caribbean,Floods,4.5,1569209175,1272675,9
 2060,Caribbean,Floods,6.0,1743565750,1414084,10
@@ -1369,10 +1501,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Caribbean,Storms,4.5,182305000,52155,95
 2060,Caribbean,Storms,6.0,186143000,53253,97
 2060,Caribbean,Storms,8.5,205333000,58743,107
-2060,Central America,Droughts,2.6,135488000,586960,58
-2060,Central America,Droughts,4.5,133152000,576840,57
-2060,Central America,Droughts,6.0,133152000,576840,57
-2060,Central America,Droughts,8.5,130816000,566720,56
+2060,Central America,Droughts,2.6,165856000,718520,71
+2060,Central America,Droughts,4.5,175200000,759000,75
+2060,Central America,Droughts,6.0,175200000,759000,75
+2060,Central America,Droughts,8.5,175200000,759000,75
 2060,Central America,Floods,2.6,2266635475,1838309,13
 2060,Central America,Floods,4.5,1569209175,1272675,9
 2060,Central America,Floods,6.0,2092278900,1696900,12
@@ -1381,10 +1513,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Central America,Storms,4.5,85422000,21528,46
 2060,Central America,Storms,6.0,94707000,23868,51
 2060,Central America,Storms,8.5,48282000,12168,26
-2060,Central Asia,Droughts,2.6,561750000,16800000,42
-2060,Central Asia,Droughts,4.5,588500000,17600000,44
-2060,Central Asia,Droughts,6.0,588500000,17600000,44
-2060,Central Asia,Droughts,8.5,615250000,18400000,46
+2060,Central Asia,Droughts,2.6,508250000,15200000,38
+2060,Central Asia,Droughts,4.5,307625000,9200000,23
+2060,Central Asia,Droughts,6.0,307625000,9200000,23
+2060,Central Asia,Droughts,8.5,227375000,6800000,17
 2060,Central Asia,Floods,2.6,1220496025,989858,7
 2060,Central Asia,Floods,4.5,1394852600,1131267,8
 2060,Central Asia,Floods,6.0,1394852600,1131267,8
@@ -1393,10 +1525,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Central Asia,Storms,4.5,2280000,9900,10
 2060,Central Asia,Storms,6.0,2280000,9900,10
 2060,Central Asia,Storms,8.5,2052000,8910,9
-2060,Eastern Africa,Droughts,2.6,82128000,946419,59
-2060,Eastern Africa,Droughts,4.5,83520000,962460,60
-2060,Eastern Africa,Droughts,6.0,83520000,962460,60
-2060,Eastern Africa,Droughts,8.5,83520000,962460,60
+2060,Eastern Africa,Droughts,2.6,97440000,1122870,70
+2060,Eastern Africa,Droughts,4.5,104400000,1203075,75
+2060,Eastern Africa,Droughts,6.0,103008000,1187034,74
+2060,Eastern Africa,Droughts,8.5,76560000,882255,55
 2060,Eastern Africa,Floods,2.6,2964061775,2403943,17
 2060,Eastern Africa,Floods,4.5,2615348625,2121126,15
 2060,Eastern Africa,Floods,6.0,3138418350,2545351,18
@@ -1405,10 +1537,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Eastern Africa,Storms,4.5,18197000,35929,31
 2060,Eastern Africa,Storms,6.0,19958000,39406,34
 2060,Eastern Africa,Storms,8.5,18197000,35929,31
-2060,Eastern Asia,Droughts,2.6,4196827000,32547073,109
-2060,Eastern Asia,Droughts,4.5,4697366000,36428834,122
-2060,Eastern Asia,Droughts,6.0,4196827000,32547073,109
-2060,Eastern Asia,Droughts,8.5,4196827000,32547073,109
+2060,Eastern Asia,Droughts,2.6,539042000,4180358,14
+2060,Eastern Asia,Droughts,4.5,500539000,3881761,13
+2060,Eastern Asia,Droughts,6.0,500539000,3881761,13
+2060,Eastern Asia,Droughts,8.5,500539000,3881761,13
 2060,Eastern Asia,Floods,2.6,42821160263,34729245,10
 2060,Eastern Asia,Floods,4.5,34130330761,27680722,7
 2060,Eastern Asia,Floods,6.0,24887262983,20184317,8
@@ -1417,10 +1549,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Eastern Asia,Storms,4.5,81536000,183848,98
 2060,Eastern Asia,Storms,6.0,81536000,183848,98
 2060,Eastern Asia,Storms,8.5,58240000,131320,70
-2060,Eastern Europe,Droughts,2.6,2295000000,1216146,51
-2060,Eastern Europe,Droughts,4.5,2295000000,1216146,51
-2060,Eastern Europe,Droughts,6.0,2295000000,1216146,51
-2060,Eastern Europe,Droughts,8.5,3285000000,1740758,73
+2060,Eastern Europe,Droughts,2.6,765000000,405382,17
+2060,Eastern Europe,Droughts,4.5,765000000,405382,17
+2060,Eastern Europe,Droughts,6.0,765000000,405382,17
+2060,Eastern Europe,Droughts,8.5,360000000,190768,8
 2060,Eastern Europe,Floods,2.6,2615348625,2121126,15
 2060,Eastern Europe,Floods,4.5,2964061775,2403943,17
 2060,Eastern Europe,Floods,6.0,2615348625,2121126,15
@@ -1429,10 +1561,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Eastern Europe,Storms,4.5,5632000,9064,8
 2060,Eastern Europe,Storms,6.0,6336000,10197,9
 2060,Eastern Europe,Storms,8.5,5632000,9064,8
-2060,Melanesia,Droughts,2.6,0,0,0
-2060,Melanesia,Droughts,4.5,0,0,0
-2060,Melanesia,Droughts,6.0,245000000,2661386,49
-2060,Melanesia,Droughts,8.5,0,0,0
+2060,Melanesia,Droughts,2.6,320000000,3476096,64
+2060,Melanesia,Droughts,4.5,320000000,3476096,64
+2060,Melanesia,Droughts,6.0,320000000,3476096,64
+2060,Melanesia,Droughts,8.5,430000000,4671004,86
 2060,Melanesia,Floods,2.6,1046139450,848450,6
 2060,Melanesia,Floods,4.5,871782875,707042,5
 2060,Melanesia,Floods,6.0,1220496025,989858,7
@@ -1441,10 +1573,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Melanesia,Storms,4.5,6180000,5580,15
 2060,Melanesia,Storms,6.0,5768000,5208,14
 2060,Melanesia,Storms,8.5,6180000,5580,15
-2060,Micronesia,Droughts,2.6,26460000,259389,27
-2060,Micronesia,Droughts,4.5,26460000,259389,27
-2060,Micronesia,Droughts,6.0,0,0,0
-2060,Micronesia,Droughts,8.5,0,0,0
+2060,Micronesia,Droughts,2.6,84280000,826202,86
+2060,Micronesia,Droughts,4.5,84280000,826202,86
+2060,Micronesia,Droughts,6.0,84280000,826202,86
+2060,Micronesia,Droughts,8.5,84280000,826202,86
 2060,Micronesia,Floods,2.6,671248831,544402,4
 2060,Micronesia,Floods,4.5,819427938,664580,5
 2060,Micronesia,Floods,6.0,645071363,523172,4
@@ -1453,10 +1585,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Micronesia,Storms,4.5,0,0,0
 2060,Micronesia,Storms,6.0,0,0,0
 2060,Micronesia,Storms,8.5,0,0,0
-2060,Middle Africa,Droughts,2.6,75712000,1459952,52
-2060,Middle Africa,Droughts,4.5,75712000,1459952,52
-2060,Middle Africa,Droughts,6.0,75712000,1459952,52
-2060,Middle Africa,Droughts,8.5,42224000,814204,29
+2060,Middle Africa,Droughts,2.6,112112000,2161852,77
+2060,Middle Africa,Droughts,4.5,78624000,1516104,54
+2060,Middle Africa,Droughts,6.0,78624000,1516104,54
+2060,Middle Africa,Droughts,8.5,100464000,1937244,69
 2060,Middle Africa,Floods,2.6,1569209175,1272675,9
 2060,Middle Africa,Floods,4.5,1743565750,1414084,10
 2060,Middle Africa,Floods,6.0,1569209175,1272675,9
@@ -1465,10 +1597,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Middle Africa,Storms,4.5,66000,5005,11
 2060,Middle Africa,Storms,6.0,78000,5915,13
 2060,Middle Africa,Storms,8.5,42000,3185,7
-2060,Northern Africa,Droughts,2.6,1373788000,8348520,58
-2060,Northern Africa,Droughts,4.5,757952000,4606080,32
-2060,Northern Africa,Droughts,6.0,757952000,4606080,32
-2060,Northern Africa,Droughts,8.5,994812000,6045480,42
+2060,Northern Africa,Droughts,2.6,1610648000,9787920,68
+2060,Northern Africa,Droughts,4.5,1776450000,10795500,75
+2060,Northern Africa,Droughts,6.0,1776450000,10795500,75
+2060,Northern Africa,Droughts,8.5,1302730000,7916700,55
 2060,Northern Africa,Floods,2.6,1743565750,1414084,10
 2060,Northern Africa,Floods,4.5,1220496025,989858,7
 2060,Northern Africa,Floods,6.0,1394852600,1131267,8
@@ -1477,10 +1609,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Northern Africa,Storms,4.5,23665000,9705,5
 2060,Northern Africa,Storms,6.0,23665000,9705,5
 2060,Northern Africa,Storms,8.5,28398000,11646,6
-2060,Northern America,Droughts,2.6,7880150000,65450,50
-2060,Northern America,Droughts,4.5,7880150000,65450,50
+2060,Northern America,Droughts,2.6,8037753000,66759,51
+2060,Northern America,Droughts,4.5,8037753000,66759,51
 2060,Northern America,Droughts,6.0,8037753000,66759,51
-2060,Northern America,Droughts,8.5,7880150000,65450,50
+2060,Northern America,Droughts,8.5,8037753000,66759,51
 2060,Northern America,Floods,2.6,523069725,424225,3
 2060,Northern America,Floods,4.5,523069725,424225,3
 2060,Northern America,Floods,6.0,523069725,424225,3
@@ -1489,10 +1621,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Northern America,Storms,4.5,83241000,27729,27
 2060,Northern America,Storms,6.0,83241000,27729,27
 2060,Northern America,Storms,8.5,83241000,27729,27
-2060,Northern Europe,Droughts,2.6,0,0,0
-2060,Northern Europe,Droughts,4.5,0,0,0
-2060,Northern Europe,Droughts,6.0,0,0,0
-2060,Northern Europe,Droughts,8.5,0,0,0
+2060,Northern Europe,Droughts,2.6,3176339000,0,37
+2060,Northern Europe,Droughts,4.5,1888634000,0,22
+2060,Northern Europe,Droughts,6.0,1888634000,0,22
+2060,Northern Europe,Droughts,8.5,1373552000,0,16
 2060,Northern Europe,Floods,2.6,1917922325,1555492,11
 2060,Northern Europe,Floods,4.5,1569209175,1272675,9
 2060,Northern Europe,Floods,6.0,1743565750,1414084,10
@@ -1501,18 +1633,18 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Northern Europe,Storms,4.5,92906000,15686,22
 2060,Northern Europe,Storms,6.0,92906000,15686,22
 2060,Northern Europe,Storms,8.5,76014000,12834,18
-2060,Polynesia,Droughts,2.6,0,0,27
-2060,Polynesia,Droughts,4.5,0,0,0
-2060,Polynesia,Droughts,6.0,0,0,0
-2060,Polynesia,Droughts,8.5,0,0,0
+2060,Polynesia,Droughts,2.6,0,0,86
+2060,Polynesia,Droughts,4.5,0,0,86
+2060,Polynesia,Droughts,6.0,0,0,86
+2060,Polynesia,Droughts,8.5,0,0,86
 2060,Polynesia,Storms,2.6,1767000,795,3
 2060,Polynesia,Storms,4.5,1178000,530,2
 2060,Polynesia,Storms,6.0,1178000,530,2
 2060,Polynesia,Storms,8.5,1767000,795,3
-2060,South America,Droughts,2.6,720785000,2121275,65
-2060,South America,Droughts,4.5,620984000,1827560,56
-2060,South America,Droughts,6.0,654251000,1925465,59
-2060,South America,Droughts,8.5,665340000,1958100,60
+2060,South America,Droughts,2.6,432471000,1272765,39
+2060,South America,Droughts,4.5,831675000,2447625,75
+2060,South America,Droughts,6.0,765141000,2251815,69
+2060,South America,Droughts,8.5,787319000,2317085,71
 2060,South America,Floods,2.6,2964061775,2403943,17
 2060,South America,Floods,4.5,3138418350,2545351,18
 2060,South America,Floods,6.0,2440992050,1979717,14
@@ -1521,10 +1653,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,South America,Storms,4.5,18048000,19296,48
 2060,South America,Storms,6.0,18800000,20100,50
 2060,South America,Storms,8.5,18048000,19296,48
-2060,South-Eastern Asia,Droughts,2.6,653366000,2193620,59
-2060,South-Eastern Asia,Droughts,4.5,741958000,2491060,67
-2060,South-Eastern Asia,Droughts,6.0,741958000,2491060,67
-2060,South-Eastern Asia,Droughts,8.5,730884000,2453880,66
+2060,South-Eastern Asia,Droughts,2.6,620144000,2082080,56
+2060,South-Eastern Asia,Droughts,4.5,786254000,2639780,71
+2060,South-Eastern Asia,Droughts,6.0,786254000,2639780,71
+2060,South-Eastern Asia,Droughts,8.5,830550000,2788500,75
 2060,South-Eastern Asia,Floods,2.6,2780135093,2254772,13
 2060,South-Eastern Asia,Floods,4.5,2257065368,1830547,10
 2060,South-Eastern Asia,Floods,6.0,1651602409,1339499,8
@@ -1533,10 +1665,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,South-Eastern Asia,Storms,4.5,21692000,109272,116
 2060,South-Eastern Asia,Storms,6.0,22627000,113982,121
 2060,South-Eastern Asia,Storms,8.5,17391000,87606,93
-2060,Southern Africa,Droughts,2.6,216132000,946722,42
-2060,Southern Africa,Droughts,4.5,118358000,518443,23
-2060,Southern Africa,Droughts,6.0,118358000,518443,23
-2060,Southern Africa,Droughts,8.5,123504000,540984,24
+2060,Southern Africa,Droughts,2.6,25730000,112705,5
+2060,Southern Africa,Droughts,4.5,113212000,495902,22
+2060,Southern Africa,Droughts,6.0,113212000,495902,22
+2060,Southern Africa,Droughts,8.5,113212000,495902,22
 2060,Southern Africa,Floods,2.6,1394852600,1131267,8
 2060,Southern Africa,Floods,4.5,1394852600,1131267,8
 2060,Southern Africa,Floods,6.0,1569209175,1272675,9
@@ -1545,10 +1677,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Southern Africa,Storms,4.5,38262000,24878,14
 2060,Southern Africa,Storms,6.0,38262000,24878,14
 2060,Southern Africa,Storms,8.5,71058000,46202,26
-2060,Southern Asia,Droughts,2.6,49448000,3047544,4
-2060,Southern Asia,Droughts,4.5,321412000,19809036,26
-2060,Southern Asia,Droughts,6.0,1013684000,62474652,82
-2060,Southern Asia,Droughts,8.5,457394000,28189782,37
+2060,Southern Asia,Droughts,2.6,939512000,57903336,76
+2060,Southern Asia,Droughts,4.5,655186000,40379958,53
+2060,Southern Asia,Droughts,6.0,655186000,40379958,53
+2060,Southern Asia,Droughts,8.5,927150000,57141450,75
 2060,Southern Asia,Floods,2.6,26044973914,21123255,10
 2060,Southern Asia,Floods,4.5,25870617339,20981846,9
 2060,Southern Asia,Floods,6.0,31388779113,25457241,11
@@ -1557,10 +1689,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Southern Asia,Storms,4.5,137007000,313443,117
 2060,Southern Asia,Storms,6.0,133494000,305406,114
 2060,Southern Asia,Storms,8.5,155743000,356307,133
-2060,Southern Europe,Droughts,2.6,3733744000,6825605,53
-2060,Southern Europe,Droughts,4.5,3733744000,6825605,53
-2060,Southern Europe,Droughts,6.0,3804192000,6954390,54
-2060,Southern Europe,Droughts,8.5,3804192000,6954390,54
+2060,Southern Europe,Droughts,2.6,563584000,1030280,8
+2060,Southern Europe,Droughts,4.5,493136000,901495,7
+2060,Southern Europe,Droughts,6.0,493136000,901495,7
+2060,Southern Europe,Droughts,8.5,493136000,901495,7
 2060,Southern Europe,Floods,2.6,2615348625,2121126,15
 2060,Southern Europe,Floods,4.5,2789705200,2262534,16
 2060,Southern Europe,Floods,6.0,2964061775,2403943,17
@@ -1569,10 +1701,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Southern Europe,Storms,4.5,99288000,9072,28
 2060,Southern Europe,Storms,6.0,102834000,9396,29
 2060,Southern Europe,Storms,8.5,163116000,14904,46
-2060,Western Africa,Droughts,2.6,66264000,1867932,132
-2060,Western Africa,Droughts,4.5,66264000,1867932,132
-2060,Western Africa,Droughts,6.0,66264000,1867932,132
-2060,Western Africa,Droughts,8.5,66264000,1867932,132
+2060,Western Africa,Droughts,2.6,38152000,1075476,76
+2060,Western Africa,Droughts,4.5,38152000,1075476,76
+2060,Western Africa,Droughts,6.0,38152000,1075476,76
+2060,Western Africa,Droughts,8.5,38152000,1075476,76
 2060,Western Africa,Floods,2.6,3312774925,2686759,19
 2060,Western Africa,Floods,4.5,3312774925,2686759,19
 2060,Western Africa,Floods,6.0,3312774925,2686759,19
@@ -1581,10 +1713,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Western Africa,Storms,4.5,1092000,5397,21
 2060,Western Africa,Storms,6.0,1092000,5397,21
 2060,Western Africa,Storms,8.5,364000,1799,7
-2060,Western Asia,Droughts,2.6,329680000,2778750,65
-2060,Western Asia,Droughts,4.5,319536000,2693250,63
-2060,Western Asia,Droughts,6.0,314464000,2650500,62
-2060,Western Asia,Droughts,8.5,177520000,1496250,35
+2060,Western Asia,Droughts,2.6,50720000,427500,10
+2060,Western Asia,Droughts,4.5,60864000,513000,12
+2060,Western Asia,Droughts,6.0,60864000,513000,12
+2060,Western Asia,Droughts,8.5,25360000,213750,5
 2060,Western Asia,Floods,2.6,2964061775,2403943,17
 2060,Western Asia,Floods,4.5,3661488075,2969576,21
 2060,Western Asia,Floods,6.0,2964061775,2403943,17
@@ -1593,10 +1725,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Western Asia,Storms,4.5,190530000,53041,29
 2060,Western Asia,Storms,6.0,170820000,47554,26
 2060,Western Asia,Storms,8.5,203670000,56699,31
-2060,Western Europe,Droughts,2.6,5152000000,0,32
-2060,Western Europe,Droughts,4.5,8533000000,0,53
-2060,Western Europe,Droughts,6.0,8533000000,0,53
-2060,Western Europe,Droughts,8.5,5474000000,0,34
+2060,Western Europe,Droughts,2.6,2737000000,0,17
+2060,Western Europe,Droughts,4.5,2737000000,0,17
+2060,Western Europe,Droughts,6.0,2737000000,0,17
+2060,Western Europe,Droughts,8.5,1127000000,0,7
 2060,Western Europe,Floods,2.6,2092278900,1696900,12
 2060,Western Europe,Floods,4.5,1743565750,1414084,10
 2060,Western Europe,Floods,6.0,2266635475,1838309,13
@@ -1605,7 +1737,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2060,Western Europe,Storms,4.5,36900000,11358,18
 2060,Western Europe,Storms,6.0,38950000,11989,19
 2060,Western Europe,Storms,8.5,34850000,10727,17
-2070,Australia and New Zealand,Droughts,2.6,14282892000,31859919,117
+2070,Australia and New Zealand,Droughts,2.6,1586988000,3539991,13
+2070,Australia and New Zealand,Droughts,4.5,1464912000,3267684,12
+2070,Australia and New Zealand,Droughts,6.0,1464912000,3267684,12
+2070,Australia and New Zealand,Droughts,8.5,610380000,1361535,5
 2070,Australia and New Zealand,Floods,2.6,523069725,424225,3
 2070,Australia and New Zealand,Floods,4.5,523069725,424225,3
 2070,Australia and New Zealand,Floods,6.0,523069725,424225,3
@@ -1614,7 +1749,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Australia and New Zealand,Storms,4.5,35615000,10574,17
 2070,Australia and New Zealand,Storms,6.0,43995000,13062,21
 2070,Australia and New Zealand,Storms,8.5,14665000,4354,7
-2070,Caribbean,Droughts,2.6,56472000,1067092,52
+2070,Caribbean,Droughts,2.6,58644000,1108134,54
+2070,Caribbean,Droughts,4.5,65160000,1231260,60
+2070,Caribbean,Droughts,6.0,76020000,1436470,70
+2070,Caribbean,Droughts,8.5,82536000,1559596,76
 2070,Caribbean,Floods,2.6,1569209175,1272675,9
 2070,Caribbean,Floods,4.5,2092278900,1696900,12
 2070,Caribbean,Floods,6.0,1917922325,1555492,11
@@ -1623,7 +1761,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Caribbean,Storms,4.5,184224000,52704,96
 2070,Caribbean,Storms,6.0,191900000,54900,100
 2070,Caribbean,Storms,8.5,176548000,50508,92
-2070,Central America,Droughts,2.6,135488000,586960,58
+2070,Central America,Droughts,2.6,165856000,718520,71
+2070,Central America,Droughts,4.5,175200000,759000,75
+2070,Central America,Droughts,6.0,175200000,759000,75
+2070,Central America,Droughts,8.5,175200000,759000,75
 2070,Central America,Floods,2.6,1917922325,1555492,11
 2070,Central America,Floods,4.5,2615348625,2121126,15
 2070,Central America,Floods,6.0,2092278900,1696900,12
@@ -1632,7 +1773,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Central America,Storms,4.5,90993000,22932,49
 2070,Central America,Storms,6.0,77994000,19656,42
 2070,Central America,Storms,8.5,46425000,11700,25
-2070,Central Asia,Droughts,2.6,561750000,16800000,42
+2070,Central Asia,Droughts,2.6,508250000,15200000,38
+2070,Central Asia,Droughts,4.5,307625000,9200000,23
+2070,Central Asia,Droughts,6.0,307625000,9200000,23
+2070,Central Asia,Droughts,8.5,227375000,6800000,17
 2070,Central Asia,Floods,2.6,1394852600,1131267,8
 2070,Central Asia,Floods,4.5,1220496025,989858,7
 2070,Central Asia,Floods,6.0,1220496025,989858,7
@@ -1641,7 +1785,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Central Asia,Storms,4.5,2280000,9900,10
 2070,Central Asia,Storms,6.0,2052000,8910,9
 2070,Central Asia,Storms,8.5,1596000,6930,7
-2070,Eastern Africa,Droughts,2.6,82128000,946419,59
+2070,Eastern Africa,Droughts,2.6,97440000,1122870,70
+2070,Eastern Africa,Droughts,4.5,104400000,1203075,75
+2070,Eastern Africa,Droughts,6.0,103008000,1187034,74
+2070,Eastern Africa,Droughts,8.5,76560000,882255,55
 2070,Eastern Africa,Floods,2.6,3312774925,2686759,19
 2070,Eastern Africa,Floods,4.5,3661488075,2969576,21
 2070,Eastern Africa,Floods,6.0,3138418350,2545351,18
@@ -1650,7 +1797,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Eastern Africa,Storms,4.5,22893000,45201,39
 2070,Eastern Africa,Storms,6.0,23480000,46360,40
 2070,Eastern Africa,Storms,8.5,16436000,32452,28
-2070,Eastern Asia,Droughts,2.6,4196827000,32547073,109
+2070,Eastern Asia,Droughts,2.6,539042000,4180358,14
+2070,Eastern Asia,Droughts,4.5,500539000,3881761,13
+2070,Eastern Asia,Droughts,6.0,500539000,3881761,13
+2070,Eastern Asia,Droughts,8.5,500539000,3881761,13
 2070,Eastern Asia,Floods,2.6,21410580131,17364622,5
 2070,Eastern Asia,Floods,4.5,30101409634,24413146,8
 2070,Eastern Asia,Floods,6.0,39344477412,31909551,7
@@ -1659,7 +1809,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Eastern Asia,Storms,4.5,82368000,185724,99
 2070,Eastern Asia,Storms,6.0,80704000,181972,97
 2070,Eastern Asia,Storms,8.5,67392000,151956,81
-2070,Eastern Europe,Droughts,2.6,2295000000,1216146,51
+2070,Eastern Europe,Droughts,2.6,765000000,405382,17
+2070,Eastern Europe,Droughts,4.5,765000000,405382,17
+2070,Eastern Europe,Droughts,6.0,765000000,405382,17
+2070,Eastern Europe,Droughts,8.5,360000000,190768,8
 2070,Eastern Europe,Floods,2.6,2266635475,1838309,13
 2070,Eastern Europe,Floods,4.5,1917922325,1555492,11
 2070,Eastern Europe,Floods,6.0,2266635475,1838309,13
@@ -1668,7 +1821,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Eastern Europe,Storms,4.5,7744000,12463,11
 2070,Eastern Europe,Storms,6.0,9856000,15862,14
 2070,Eastern Europe,Storms,8.5,5632000,9064,8
-2070,Melanesia,Droughts,2.6,0,0,0
+2070,Melanesia,Droughts,2.6,320000000,3476096,64
+2070,Melanesia,Droughts,4.5,320000000,3476096,64
+2070,Melanesia,Droughts,6.0,320000000,3476096,64
+2070,Melanesia,Droughts,8.5,430000000,4671004,86
 2070,Melanesia,Floods,2.6,1046139450,848450,6
 2070,Melanesia,Floods,4.5,1220496025,989858,7
 2070,Melanesia,Floods,6.0,871782875,707042,5
@@ -1677,7 +1833,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Melanesia,Storms,4.5,6180000,5580,15
 2070,Melanesia,Storms,6.0,5768000,5208,14
 2070,Melanesia,Storms,8.5,4532000,4092,11
-2070,Micronesia,Droughts,2.6,26460000,259389,27
+2070,Micronesia,Droughts,2.6,84280000,826202,86
+2070,Micronesia,Droughts,4.5,84280000,826202,86
+2070,Micronesia,Droughts,6.0,84280000,826202,86
+2070,Micronesia,Droughts,8.5,84280000,826202,86
 2070,Micronesia,Floods,2.6,819427938,664580,5
 2070,Micronesia,Floods,4.5,671248831,544402,4
 2070,Micronesia,Floods,6.0,845605406,685811,5
@@ -1686,7 +1845,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Micronesia,Storms,4.5,0,0,0
 2070,Micronesia,Storms,6.0,0,0,0
 2070,Micronesia,Storms,8.5,0,0,0
-2070,Middle Africa,Droughts,2.6,75712000,1459952,52
+2070,Middle Africa,Droughts,2.6,112112000,2161852,77
+2070,Middle Africa,Droughts,4.5,78624000,1516104,54
+2070,Middle Africa,Droughts,6.0,78624000,1516104,54
+2070,Middle Africa,Droughts,8.5,100464000,1937244,69
 2070,Middle Africa,Floods,2.6,1743565750,1414084,10
 2070,Middle Africa,Floods,4.5,1569209175,1272675,9
 2070,Middle Africa,Floods,6.0,1743565750,1414084,10
@@ -1695,7 +1857,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Middle Africa,Storms,4.5,66000,5005,11
 2070,Middle Africa,Storms,6.0,72000,5460,12
 2070,Middle Africa,Storms,8.5,30000,2275,5
-2070,Northern Africa,Droughts,2.6,1373788000,8348520,58
+2070,Northern Africa,Droughts,2.6,1610648000,9787920,68
+2070,Northern Africa,Droughts,4.5,1776450000,10795500,75
+2070,Northern Africa,Droughts,6.0,1776450000,10795500,75
+2070,Northern Africa,Droughts,8.5,1302730000,7916700,55
 2070,Northern Africa,Floods,2.6,1394852600,1131267,8
 2070,Northern Africa,Floods,4.5,1917922325,1555492,11
 2070,Northern Africa,Floods,6.0,1743565750,1414084,10
@@ -1704,7 +1869,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Northern Africa,Storms,4.5,42597000,17469,9
 2070,Northern Africa,Storms,6.0,66262000,27174,14
 2070,Northern Africa,Storms,8.5,28398000,11646,6
-2070,Northern America,Droughts,2.6,7880150000,65450,50
+2070,Northern America,Droughts,2.6,8037753000,66759,51
+2070,Northern America,Droughts,4.5,8037753000,66759,51
+2070,Northern America,Droughts,6.0,8037753000,66759,51
+2070,Northern America,Droughts,8.5,8037753000,66759,51
 2070,Northern America,Floods,2.6,523069725,424225,3
 2070,Northern America,Floods,4.5,523069725,424225,3
 2070,Northern America,Floods,6.0,523069725,424225,3
@@ -1713,7 +1881,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Northern America,Storms,4.5,83241000,27729,27
 2070,Northern America,Storms,6.0,77075000,25675,25
 2070,Northern America,Storms,8.5,83241000,27729,27
-2070,Northern Europe,Droughts,2.6,0,0,0
+2070,Northern Europe,Droughts,2.6,3176339000,0,37
+2070,Northern Europe,Droughts,4.5,1888634000,0,22
+2070,Northern Europe,Droughts,6.0,1888634000,0,22
+2070,Northern Europe,Droughts,8.5,1373552000,0,16
 2070,Northern Europe,Floods,2.6,1743565750,1414084,10
 2070,Northern Europe,Floods,4.5,2092278900,1696900,12
 2070,Northern Europe,Floods,6.0,1917922325,1555492,11
@@ -1722,12 +1893,18 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Northern Europe,Storms,4.5,92906000,15686,22
 2070,Northern Europe,Storms,6.0,84460000,14260,20
 2070,Northern Europe,Storms,8.5,71791000,12121,17
-2070,Polynesia,Droughts,2.6,0,0,27
+2070,Polynesia,Droughts,2.6,0,0,86
+2070,Polynesia,Droughts,4.5,0,0,86
+2070,Polynesia,Droughts,6.0,0,0,86
+2070,Polynesia,Droughts,8.5,0,0,86
 2070,Polynesia,Storms,2.6,1767000,795,3
 2070,Polynesia,Storms,4.5,1178000,530,2
 2070,Polynesia,Storms,6.0,589000,265,1
 2070,Polynesia,Storms,8.5,1767000,795,3
-2070,South America,Droughts,2.6,720785000,2121275,65
+2070,South America,Droughts,2.6,432471000,1272765,39
+2070,South America,Droughts,4.5,831675000,2447625,75
+2070,South America,Droughts,6.0,765141000,2251815,69
+2070,South America,Droughts,8.5,787319000,2317085,71
 2070,South America,Floods,2.6,3312774925,2686759,19
 2070,South America,Floods,4.5,3138418350,2545351,18
 2070,South America,Floods,6.0,3835844650,3110985,22
@@ -1736,7 +1913,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,South America,Storms,4.5,20304000,21708,54
 2070,South America,Storms,6.0,19552000,20904,52
 2070,South America,Storms,8.5,17296000,18492,46
-2070,South-Eastern Asia,Droughts,2.6,653366000,2193620,59
+2070,South-Eastern Asia,Droughts,2.6,620144000,2082080,56
+2070,South-Eastern Asia,Droughts,4.5,786254000,2639780,71
+2070,South-Eastern Asia,Droughts,6.0,786254000,2639780,71
+2070,South-Eastern Asia,Droughts,8.5,830550000,2788500,75
 2070,South-Eastern Asia,Floods,2.6,1651602409,1339499,8
 2070,South-Eastern Asia,Floods,4.5,2174672134,1763724,11
 2070,South-Eastern Asia,Floods,6.0,2780135093,2254772,13
@@ -1745,7 +1925,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,South-Eastern Asia,Storms,4.5,23001000,115866,123
 2070,South-Eastern Asia,Storms,6.0,22814000,114924,122
 2070,South-Eastern Asia,Storms,8.5,16269000,81954,87
-2070,Southern Africa,Droughts,2.6,216132000,946722,42
+2070,Southern Africa,Droughts,2.6,25730000,112705,5
+2070,Southern Africa,Droughts,4.5,113212000,495902,22
+2070,Southern Africa,Droughts,6.0,113212000,495902,22
+2070,Southern Africa,Droughts,8.5,113212000,495902,22
 2070,Southern Africa,Floods,2.6,1220496025,989858,7
 2070,Southern Africa,Floods,4.5,1220496025,989858,7
 2070,Southern Africa,Floods,6.0,1046139450,848450,6
@@ -1754,7 +1937,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Southern Africa,Storms,4.5,38262000,24878,14
 2070,Southern Africa,Storms,6.0,71058000,46202,26
 2070,Southern Africa,Storms,8.5,95655000,62195,35
-2070,Southern Asia,Droughts,2.6,49448000,3047544,4
+2070,Southern Asia,Droughts,2.6,939512000,57903336,76
+2070,Southern Asia,Droughts,4.5,655186000,40379958,53
+2070,Southern Asia,Droughts,6.0,655186000,40379958,53
+2070,Southern Asia,Droughts,8.5,927150000,57141450,75
 2070,Southern Asia,Floods,2.6,51043808378,41398060,14
 2070,Southern Asia,Floods,4.5,36398710588,29520446,15
 2070,Southern Asia,Floods,6.0,13298915807,10785819,13
@@ -1763,7 +1949,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Southern Asia,Storms,4.5,135836000,310764,116
 2070,Southern Asia,Storms,6.0,139349000,318801,119
 2070,Southern Asia,Storms,8.5,155743000,356307,133
-2070,Southern Europe,Droughts,2.6,3733744000,6825605,53
+2070,Southern Europe,Droughts,2.6,563584000,1030280,8
+2070,Southern Europe,Droughts,4.5,493136000,901495,7
+2070,Southern Europe,Droughts,6.0,493136000,901495,7
+2070,Southern Europe,Droughts,8.5,493136000,901495,7
 2070,Southern Europe,Floods,2.6,3138418350,2545351,18
 2070,Southern Europe,Floods,4.5,2964061775,2403943,17
 2070,Southern Europe,Floods,6.0,2789705200,2262534,16
@@ -1772,7 +1961,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Southern Europe,Storms,4.5,102834000,9396,29
 2070,Southern Europe,Storms,6.0,113472000,10368,32
 2070,Southern Europe,Storms,8.5,156024000,14256,44
-2070,Western Africa,Droughts,2.6,66264000,1867932,132
+2070,Western Africa,Droughts,2.6,38152000,1075476,76
+2070,Western Africa,Droughts,4.5,38152000,1075476,76
+2070,Western Africa,Droughts,6.0,38152000,1075476,76
+2070,Western Africa,Droughts,8.5,38152000,1075476,76
 2070,Western Africa,Floods,2.6,3487131500,2828168,20
 2070,Western Africa,Floods,4.5,3487131500,2828168,20
 2070,Western Africa,Floods,6.0,3487131500,2828168,20
@@ -1781,7 +1973,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Western Africa,Storms,4.5,884000,4369,17
 2070,Western Africa,Storms,6.0,832000,4112,16
 2070,Western Africa,Storms,8.5,260000,1285,5
-2070,Western Asia,Droughts,2.6,329680000,2778750,65
+2070,Western Asia,Droughts,2.6,50720000,427500,10
+2070,Western Asia,Droughts,4.5,60864000,513000,12
+2070,Western Asia,Droughts,6.0,60864000,513000,12
+2070,Western Asia,Droughts,8.5,25360000,213750,5
 2070,Western Asia,Floods,2.6,3835844650,3110985,22
 2070,Western Asia,Floods,4.5,3138418350,2545351,18
 2070,Western Asia,Floods,6.0,3835844650,3110985,22
@@ -1790,7 +1985,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Western Asia,Storms,4.5,177390000,49383,27
 2070,Western Asia,Storms,6.0,183960000,51212,28
 2070,Western Asia,Storms,8.5,164250000,45725,25
-2070,Western Europe,Droughts,2.6,5152000000,0,32
+2070,Western Europe,Droughts,2.6,2737000000,0,17
+2070,Western Europe,Droughts,4.5,2737000000,0,17
+2070,Western Europe,Droughts,6.0,2737000000,0,17
+2070,Western Europe,Droughts,8.5,1127000000,0,7
 2070,Western Europe,Floods,2.6,1569209175,1272675,9
 2070,Western Europe,Floods,4.5,1917922325,1555492,11
 2070,Western Europe,Floods,6.0,1394852600,1131267,8
@@ -1799,10 +1997,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2070,Western Europe,Storms,4.5,38950000,11989,19
 2070,Western Europe,Storms,6.0,43050000,13251,21
 2070,Western Europe,Storms,8.5,47150000,14513,23
-2080,Australia and New Zealand,Droughts,2.6,12695904000,28319928,104
-2080,Australia and New Zealand,Droughts,4.5,12573828000,28047621,103
-2080,Australia and New Zealand,Droughts,6.0,12451752000,27775314,102
-2080,Australia and New Zealand,Droughts,8.5,17090640000,38122980,140
+2080,Australia and New Zealand,Droughts,2.6,1586988000,3539991,13
+2080,Australia and New Zealand,Droughts,4.5,1464912000,3267684,12
+2080,Australia and New Zealand,Droughts,6.0,1464912000,3267684,12
+2080,Australia and New Zealand,Droughts,8.5,610380000,1361535,5
 2080,Australia and New Zealand,Floods,2.6,523069725,424225,3
 2080,Australia and New Zealand,Floods,4.5,523069725,424225,3
 2080,Australia and New Zealand,Floods,6.0,523069725,424225,3
@@ -1811,10 +2009,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Australia and New Zealand,Storms,4.5,35615000,10574,17
 2080,Australia and New Zealand,Storms,6.0,29330000,8708,14
 2080,Australia and New Zealand,Storms,8.5,14665000,4354,7
-2080,Caribbean,Droughts,2.6,41268000,779798,38
-2080,Caribbean,Droughts,4.5,56472000,1067092,52
-2080,Caribbean,Droughts,6.0,58644000,1108134,54
-2080,Caribbean,Droughts,8.5,57558000,1087613,53
+2080,Caribbean,Droughts,2.6,58644000,1108134,54
+2080,Caribbean,Droughts,4.5,76020000,1436470,70
+2080,Caribbean,Droughts,6.0,74934000,1415949,69
+2080,Caribbean,Droughts,8.5,82536000,1559596,76
 2080,Caribbean,Floods,2.6,1917922325,1555492,11
 2080,Caribbean,Floods,4.5,1743565750,1414084,10
 2080,Caribbean,Floods,6.0,1394852600,1131267,8
@@ -1823,10 +2021,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Caribbean,Storms,4.5,186143000,53253,97
 2080,Caribbean,Storms,6.0,214928000,61488,112
 2080,Caribbean,Storms,8.5,201495000,57645,105
-2080,Central America,Droughts,2.6,133152000,576840,57
-2080,Central America,Droughts,4.5,133152000,576840,57
-2080,Central America,Droughts,6.0,130816000,566720,56
-2080,Central America,Droughts,8.5,130816000,566720,56
+2080,Central America,Droughts,2.6,142496000,617320,61
+2080,Central America,Droughts,4.5,175200000,759000,75
+2080,Central America,Droughts,6.0,175200000,759000,75
+2080,Central America,Droughts,8.5,175200000,759000,75
 2080,Central America,Floods,2.6,2615348625,2121126,15
 2080,Central America,Floods,4.5,2266635475,1838309,13
 2080,Central America,Floods,6.0,1917922325,1555492,11
@@ -1835,10 +2033,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Central America,Storms,4.5,92850000,23400,50
 2080,Central America,Storms,6.0,70566000,17784,38
 2080,Central America,Storms,8.5,63138000,15912,34
-2080,Central Asia,Droughts,2.6,588500000,17600000,44
-2080,Central Asia,Droughts,4.5,561750000,16800000,42
-2080,Central Asia,Droughts,6.0,588500000,17600000,44
-2080,Central Asia,Droughts,8.5,642000000,19200000,48
+2080,Central Asia,Droughts,2.6,508250000,15200000,38
+2080,Central Asia,Droughts,4.5,307625000,9200000,23
+2080,Central Asia,Droughts,6.0,214000000,6400000,16
+2080,Central Asia,Droughts,8.5,227375000,6800000,17
 2080,Central Asia,Floods,2.6,1569209175,1272675,9
 2080,Central Asia,Floods,4.5,1569209175,1272675,9
 2080,Central Asia,Floods,6.0,1569209175,1272675,9
@@ -1847,10 +2045,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Central Asia,Storms,4.5,2280000,9900,10
 2080,Central Asia,Storms,6.0,2052000,8910,9
 2080,Central Asia,Storms,8.5,2508000,10890,11
-2080,Eastern Africa,Droughts,2.6,83520000,962460,60
-2080,Eastern Africa,Droughts,4.5,83520000,962460,60
-2080,Eastern Africa,Droughts,6.0,83520000,962460,60
-2080,Eastern Africa,Droughts,8.5,51504000,593517,37
+2080,Eastern Africa,Droughts,2.6,94656000,1090788,68
+2080,Eastern Africa,Droughts,4.5,103008000,1187034,74
+2080,Eastern Africa,Droughts,6.0,108576000,1251198,78
+2080,Eastern Africa,Droughts,8.5,98832000,1138911,71
 2080,Eastern Africa,Floods,2.6,3312774925,2686759,19
 2080,Eastern Africa,Floods,4.5,2964061775,2403943,17
 2080,Eastern Africa,Floods,6.0,3312774925,2686759,19
@@ -1859,10 +2057,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Eastern Africa,Storms,4.5,21132000,41724,36
 2080,Eastern Africa,Storms,6.0,27589000,54473,47
 2080,Eastern Africa,Storms,8.5,12327000,24339,21
-2080,Eastern Asia,Droughts,2.6,4196827000,32547073,109
-2080,Eastern Asia,Droughts,4.5,4196827000,32547073,109
-2080,Eastern Asia,Droughts,6.0,4697366000,36428834,122
-2080,Eastern Asia,Droughts,8.5,4119821000,31949879,107
+2080,Eastern Asia,Droughts,2.6,500539000,3881761,13
+2080,Eastern Asia,Droughts,4.5,500539000,3881761,13
+2080,Eastern Asia,Droughts,6.0,500539000,3881761,13
+2080,Eastern Asia,Droughts,8.5,500539000,3881761,13
 2080,Eastern Asia,Floods,2.6,42472447113,34446429,8
 2080,Eastern Asia,Floods,4.5,34130330761,27680722,7
 2080,Eastern Asia,Floods,6.0,37258300462,30217599,8
@@ -1871,10 +2069,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Eastern Asia,Storms,4.5,80704000,181972,97
 2080,Eastern Asia,Storms,6.0,84864000,191352,102
 2080,Eastern Asia,Storms,8.5,71552000,161336,86
-2080,Eastern Europe,Droughts,2.6,2295000000,1216146,51
-2080,Eastern Europe,Droughts,4.5,3285000000,1740758,73
-2080,Eastern Europe,Droughts,6.0,3285000000,1740758,73
-2080,Eastern Europe,Droughts,8.5,2385000000,1263838,53
+2080,Eastern Europe,Droughts,2.6,765000000,405382,17
+2080,Eastern Europe,Droughts,4.5,765000000,405382,17
+2080,Eastern Europe,Droughts,6.0,765000000,405382,17
+2080,Eastern Europe,Droughts,8.5,360000000,190768,8
 2080,Eastern Europe,Floods,2.6,2440992050,1979717,14
 2080,Eastern Europe,Floods,4.5,2092278900,1696900,12
 2080,Eastern Europe,Floods,6.0,2266635475,1838309,13
@@ -1883,10 +2081,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Eastern Europe,Storms,4.5,9152000,14729,13
 2080,Eastern Europe,Storms,6.0,7744000,12463,11
 2080,Eastern Europe,Storms,8.5,10560000,16995,15
-2080,Melanesia,Droughts,2.6,0,0,0
-2080,Melanesia,Droughts,4.5,0,0,0
-2080,Melanesia,Droughts,6.0,0,0,0
-2080,Melanesia,Droughts,8.5,30000000,325884,6
+2080,Melanesia,Droughts,2.6,320000000,3476096,64
+2080,Melanesia,Droughts,4.5,345000000,3747666,69
+2080,Melanesia,Droughts,6.0,405000000,4399434,81
+2080,Melanesia,Droughts,8.5,430000000,4671004,86
 2080,Melanesia,Floods,2.6,1220496025,989858,7
 2080,Melanesia,Floods,4.5,1046139450,848450,6
 2080,Melanesia,Floods,6.0,1220496025,989858,7
@@ -1895,10 +2093,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Melanesia,Storms,4.5,5356000,4836,13
 2080,Melanesia,Storms,6.0,6180000,5580,15
 2080,Melanesia,Storms,8.5,4532000,4092,11
-2080,Micronesia,Droughts,2.6,25480000,249782,26
-2080,Micronesia,Droughts,4.5,0,0,0
-2080,Micronesia,Droughts,6.0,0,0,0
-2080,Micronesia,Droughts,8.5,0,0,0
+2080,Micronesia,Droughts,2.6,84280000,826202,86
+2080,Micronesia,Droughts,4.5,84280000,826202,86
+2080,Micronesia,Droughts,6.0,84280000,826202,86
+2080,Micronesia,Droughts,8.5,84280000,826202,86
 2080,Micronesia,Floods,2.6,645071363,523172,4
 2080,Micronesia,Floods,4.5,819427938,664580,5
 2080,Micronesia,Floods,6.0,671248831,544402,4
@@ -1907,10 +2105,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Micronesia,Storms,4.5,0,0,0
 2080,Micronesia,Storms,6.0,3561000,214,1
 2080,Micronesia,Storms,8.5,0,0,0
-2080,Middle Africa,Droughts,2.6,75712000,1459952,52
-2080,Middle Africa,Droughts,4.5,106288000,2049548,73
-2080,Middle Africa,Droughts,6.0,42224000,814204,29
-2080,Middle Africa,Droughts,8.5,45136000,870356,31
+2080,Middle Africa,Droughts,2.6,106288000,2049548,73
+2080,Middle Africa,Droughts,4.5,78624000,1516104,54
+2080,Middle Africa,Droughts,6.0,78624000,1516104,54
+2080,Middle Africa,Droughts,8.5,110656000,2133776,76
 2080,Middle Africa,Floods,2.6,1569209175,1272675,9
 2080,Middle Africa,Floods,4.5,1743565750,1414084,10
 2080,Middle Africa,Floods,6.0,1394852600,1131267,8
@@ -1919,10 +2117,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Middle Africa,Storms,4.5,60000,4550,10
 2080,Middle Africa,Storms,6.0,84000,6370,14
 2080,Middle Africa,Storms,8.5,18000,1365,3
-2080,Northern Africa,Droughts,2.6,1113242000,6765180,47
-2080,Northern Africa,Droughts,4.5,757952000,4606080,32
-2080,Northern Africa,Droughts,6.0,757952000,4606080,32
-2080,Northern Africa,Droughts,8.5,1065870000,6477300,45
+2080,Northern Africa,Droughts,2.6,1658020000,10075800,70
+2080,Northern Africa,Droughts,4.5,1752764000,10651560,74
+2080,Northern Africa,Droughts,6.0,1681706000,10219740,71
+2080,Northern Africa,Droughts,8.5,1776450000,10795500,75
 2080,Northern Africa,Floods,2.6,1917922325,1555492,11
 2080,Northern Africa,Floods,4.5,2092278900,1696900,12
 2080,Northern Africa,Floods,6.0,1917922325,1555492,11
@@ -1931,10 +2129,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Northern Africa,Storms,4.5,47330000,19410,10
 2080,Northern Africa,Storms,6.0,61529000,25233,13
 2080,Northern Africa,Storms,8.5,42597000,17469,9
-2080,Northern America,Droughts,2.6,7880150000,65450,50
-2080,Northern America,Droughts,4.5,7880150000,65450,50
+2080,Northern America,Droughts,2.6,8037753000,66759,51
+2080,Northern America,Droughts,4.5,8037753000,66759,51
 2080,Northern America,Droughts,6.0,8037753000,66759,51
-2080,Northern America,Droughts,8.5,7722547000,64141,49
+2080,Northern America,Droughts,8.5,7092135000,58905,45
 2080,Northern America,Floods,2.6,348713150,282816,2
 2080,Northern America,Floods,4.5,697426300,565633,4
 2080,Northern America,Floods,6.0,523069725,424225,3
@@ -1943,10 +2141,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Northern America,Storms,4.5,80158000,26702,26
 2080,Northern America,Storms,6.0,77075000,25675,25
 2080,Northern America,Storms,8.5,86324000,28756,28
-2080,Northern Europe,Droughts,2.6,0,0,0
-2080,Northern Europe,Droughts,4.5,0,0,0
-2080,Northern Europe,Droughts,6.0,0,0,0
-2080,Northern Europe,Droughts,8.5,0,0,0
+2080,Northern Europe,Droughts,2.6,3176339000,0,37
+2080,Northern Europe,Droughts,4.5,1888634000,0,22
+2080,Northern Europe,Droughts,6.0,1287705000,0,15
+2080,Northern Europe,Droughts,8.5,1373552000,0,16
 2080,Northern Europe,Floods,2.6,1743565750,1414084,10
 2080,Northern Europe,Floods,4.5,2092278900,1696900,12
 2080,Northern Europe,Floods,6.0,1917922325,1555492,11
@@ -1955,18 +2153,18 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Northern Europe,Storms,4.5,88683000,14973,21
 2080,Northern Europe,Storms,6.0,76014000,12834,18
 2080,Northern Europe,Storms,8.5,88683000,14973,21
-2080,Polynesia,Droughts,2.6,0,0,27
-2080,Polynesia,Droughts,4.5,0,0,0
-2080,Polynesia,Droughts,6.0,0,0,0
-2080,Polynesia,Droughts,8.5,0,0,0
+2080,Polynesia,Droughts,2.6,0,0,86
+2080,Polynesia,Droughts,4.5,0,0,86
+2080,Polynesia,Droughts,6.0,0,0,86
+2080,Polynesia,Droughts,8.5,0,0,86
 2080,Polynesia,Storms,2.6,1767000,795,3
 2080,Polynesia,Storms,4.5,1178000,530,2
 2080,Polynesia,Storms,6.0,1178000,530,2
 2080,Polynesia,Storms,8.5,4712000,2120,8
-2080,South America,Droughts,2.6,720785000,2121275,65
-2080,South America,Droughts,4.5,665340000,1958100,60
-2080,South America,Droughts,6.0,665340000,1958100,60
-2080,South America,Droughts,8.5,432471000,1272765,39
+2080,South America,Droughts,2.6,432471000,1272765,39
+2080,South America,Droughts,4.5,853853000,2512895,77
+2080,South America,Droughts,6.0,820586000,2414990,74
+2080,South America,Droughts,8.5,609895000,1794925,55
 2080,South America,Floods,2.6,2789705200,2262534,16
 2080,South America,Floods,4.5,3312774925,2686759,19
 2080,South America,Floods,6.0,2964061775,2403943,17
@@ -1975,10 +2173,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,South America,Storms,4.5,21056000,22512,56
 2080,South America,Storms,6.0,22184000,23718,59
 2080,South America,Storms,8.5,20304000,21708,54
-2080,South-Eastern Asia,Droughts,2.6,653366000,2193620,59
-2080,South-Eastern Asia,Droughts,4.5,741958000,2491060,67
-2080,South-Eastern Asia,Droughts,6.0,730884000,2453880,66
-2080,South-Eastern Asia,Droughts,8.5,730884000,2453880,66
+2080,South-Eastern Asia,Droughts,2.6,620144000,2082080,56
+2080,South-Eastern Asia,Droughts,4.5,775180000,2602600,70
+2080,South-Eastern Asia,Droughts,6.0,830550000,2788500,75
+2080,South-Eastern Asia,Droughts,8.5,830550000,2788500,75
 2080,South-Eastern Asia,Floods,2.6,2257065368,1830547,10
 2080,South-Eastern Asia,Floods,4.5,2000315559,1622315,10
 2080,South-Eastern Asia,Floods,6.0,2431421943,1971956,11
@@ -1987,10 +2185,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,South-Eastern Asia,Storms,4.5,22814000,114924,122
 2080,South-Eastern Asia,Storms,6.0,20383000,102678,109
 2080,South-Eastern Asia,Storms,8.5,16830000,84780,90
-2080,Southern Africa,Droughts,2.6,216132000,946722,42
-2080,Southern Africa,Droughts,4.5,118358000,518443,23
-2080,Southern Africa,Droughts,6.0,123504000,540984,24
-2080,Southern Africa,Droughts,8.5,247008000,1081968,48
+2080,Southern Africa,Droughts,2.6,25730000,112705,5
+2080,Southern Africa,Droughts,4.5,113212000,495902,22
+2080,Southern Africa,Droughts,6.0,113212000,495902,22
+2080,Southern Africa,Droughts,8.5,0,0,0
 2080,Southern Africa,Floods,2.6,1743565750,1414084,10
 2080,Southern Africa,Floods,4.5,1220496025,989858,7
 2080,Southern Africa,Floods,6.0,1220496025,989858,7
@@ -1999,10 +2197,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Southern Africa,Storms,4.5,65592000,42648,24
 2080,Southern Africa,Storms,6.0,79257000,51533,29
 2080,Southern Africa,Storms,8.5,90189000,58641,33
-2080,Southern Asia,Droughts,2.6,494480000,30475440,40
-2080,Southern Asia,Droughts,4.5,494480000,30475440,40
-2080,Southern Asia,Droughts,6.0,494480000,30475440,40
-2080,Southern Asia,Droughts,8.5,469756000,28951668,38
+2080,Southern Asia,Droughts,2.6,655186000,40379958,53
+2080,Southern Asia,Droughts,4.5,655186000,40379958,53
+2080,Southern Asia,Droughts,6.0,852978000,52570134,69
+2080,Southern Asia,Droughts,8.5,927150000,57141450,75
 2080,Southern Asia,Floods,2.6,26995655183,21894286,11
 2080,Southern Asia,Floods,4.5,29848172643,24207763,15
 2080,Southern Asia,Floods,6.0,26646942033,21611469,9
@@ -2011,10 +2209,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Southern Asia,Storms,4.5,140520000,321480,120
 2080,Southern Asia,Storms,6.0,154572000,353628,132
 2080,Southern Asia,Storms,8.5,174479000,399171,149
-2080,Southern Europe,Droughts,2.6,3733744000,6825605,53
-2080,Southern Europe,Droughts,4.5,3804192000,6954390,54
-2080,Southern Europe,Droughts,6.0,3733744000,6825605,53
-2080,Southern Europe,Droughts,8.5,3874640000,7083175,55
+2080,Southern Europe,Droughts,2.6,563584000,1030280,8
+2080,Southern Europe,Droughts,4.5,493136000,901495,7
+2080,Southern Europe,Droughts,6.0,493136000,901495,7
+2080,Southern Europe,Droughts,8.5,634032000,1159065,9
 2080,Southern Europe,Floods,2.6,2440992050,1979717,14
 2080,Southern Europe,Floods,4.5,2964061775,2403943,17
 2080,Southern Europe,Floods,6.0,2615348625,2121126,15
@@ -2023,10 +2221,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Southern Europe,Storms,4.5,113472000,10368,32
 2080,Southern Europe,Storms,6.0,127656000,11664,36
 2080,Southern Europe,Storms,8.5,166662000,15228,47
-2080,Western Africa,Droughts,2.6,66264000,1867932,132
-2080,Western Africa,Droughts,4.5,66264000,1867932,132
-2080,Western Africa,Droughts,6.0,66264000,1867932,132
-2080,Western Africa,Droughts,8.5,66264000,1867932,132
+2080,Western Africa,Droughts,2.6,38152000,1075476,76
+2080,Western Africa,Droughts,4.5,38152000,1075476,76
+2080,Western Africa,Droughts,6.0,38152000,1075476,76
+2080,Western Africa,Droughts,8.5,38152000,1075476,76
 2080,Western Africa,Floods,2.6,3487131500,2828168,20
 2080,Western Africa,Floods,4.5,4010201225,3252393,23
 2080,Western Africa,Floods,6.0,3138418350,2545351,18
@@ -2035,10 +2233,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Western Africa,Storms,4.5,988000,4883,19
 2080,Western Africa,Storms,6.0,780000,3855,15
 2080,Western Africa,Storms,8.5,364000,1799,7
-2080,Western Asia,Droughts,2.6,329680000,2778750,65
-2080,Western Asia,Droughts,4.5,334752000,2821500,66
-2080,Western Asia,Droughts,6.0,233312000,1966500,46
-2080,Western Asia,Droughts,8.5,177520000,1496250,35
+2080,Western Asia,Droughts,2.6,50720000,427500,10
+2080,Western Asia,Droughts,4.5,60864000,513000,12
+2080,Western Asia,Droughts,6.0,25360000,213750,5
+2080,Western Asia,Droughts,8.5,126800000,1068750,25
 2080,Western Asia,Floods,2.6,2964061775,2403943,17
 2080,Western Asia,Floods,4.5,3835844650,3110985,22
 2080,Western Asia,Floods,6.0,3487131500,2828168,20
@@ -2047,10 +2245,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Western Asia,Storms,4.5,177390000,49383,27
 2080,Western Asia,Storms,6.0,210240000,58528,32
 2080,Western Asia,Storms,8.5,236520000,65844,36
-2080,Western Europe,Droughts,2.6,5152000000,0,32
-2080,Western Europe,Droughts,4.5,8533000000,0,53
-2080,Western Europe,Droughts,6.0,8533000000,0,53
-2080,Western Europe,Droughts,8.5,5796000000,0,36
+2080,Western Europe,Droughts,2.6,2737000000,0,17
+2080,Western Europe,Droughts,4.5,2576000000,0,16
+2080,Western Europe,Droughts,6.0,1288000000,0,8
+2080,Western Europe,Droughts,8.5,1288000000,0,8
 2080,Western Europe,Floods,2.6,2092278900,1696900,12
 2080,Western Europe,Floods,4.5,1917922325,1555492,11
 2080,Western Europe,Floods,6.0,1743565750,1414084,10
@@ -2059,7 +2257,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2080,Western Europe,Storms,4.5,41000000,12620,20
 2080,Western Europe,Storms,6.0,32800000,10096,16
 2080,Western Europe,Storms,8.5,57400000,17668,28
-2090,Australia and New Zealand,Droughts,2.6,12695904000,28319928,104
+2090,Australia and New Zealand,Droughts,2.6,1586988000,3539991,13
+2090,Australia and New Zealand,Droughts,4.5,1464912000,3267684,12
+2090,Australia and New Zealand,Droughts,6.0,1464912000,3267684,12
+2090,Australia and New Zealand,Droughts,8.5,610380000,1361535,5
 2090,Australia and New Zealand,Floods,2.6,523069725,424225,3
 2090,Australia and New Zealand,Floods,4.5,523069725,424225,3
 2090,Australia and New Zealand,Floods,6.0,523069725,424225,3
@@ -2068,7 +2269,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Australia and New Zealand,Storms,4.5,35615000,10574,17
 2090,Australia and New Zealand,Storms,6.0,29330000,8708,14
 2090,Australia and New Zealand,Storms,8.5,14665000,4354,7
-2090,Caribbean,Droughts,2.6,41268000,779798,38
+2090,Caribbean,Droughts,2.6,58644000,1108134,54
+2090,Caribbean,Droughts,4.5,76020000,1436470,70
+2090,Caribbean,Droughts,6.0,74934000,1415949,69
+2090,Caribbean,Droughts,8.5,82536000,1559596,76
 2090,Caribbean,Floods,2.6,1743565750,1414084,10
 2090,Caribbean,Floods,4.5,1917922325,1555492,11
 2090,Caribbean,Floods,6.0,2266635475,1838309,13
@@ -2077,7 +2281,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Caribbean,Storms,4.5,186143000,53253,97
 2090,Caribbean,Storms,6.0,214928000,61488,112
 2090,Caribbean,Storms,8.5,201495000,57645,105
-2090,Central America,Droughts,2.6,133152000,576840,57
+2090,Central America,Droughts,2.6,142496000,617320,61
+2090,Central America,Droughts,4.5,175200000,759000,75
+2090,Central America,Droughts,6.0,175200000,759000,75
+2090,Central America,Droughts,8.5,175200000,759000,75
 2090,Central America,Floods,2.6,1569209175,1272675,9
 2090,Central America,Floods,4.5,1917922325,1555492,11
 2090,Central America,Floods,6.0,2266635475,1838309,13
@@ -2086,7 +2293,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Central America,Storms,4.5,92850000,23400,50
 2090,Central America,Storms,6.0,70566000,17784,38
 2090,Central America,Storms,8.5,63138000,15912,34
-2090,Central Asia,Droughts,2.6,588500000,17600000,44
+2090,Central Asia,Droughts,2.6,508250000,15200000,38
+2090,Central Asia,Droughts,4.5,307625000,9200000,23
+2090,Central Asia,Droughts,6.0,214000000,6400000,16
+2090,Central Asia,Droughts,8.5,227375000,6800000,17
 2090,Central Asia,Floods,2.6,1046139450,848450,6
 2090,Central Asia,Floods,4.5,1046139450,848450,6
 2090,Central Asia,Floods,6.0,1046139450,848450,6
@@ -2095,7 +2305,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Central Asia,Storms,4.5,2280000,9900,10
 2090,Central Asia,Storms,6.0,2052000,8910,9
 2090,Central Asia,Storms,8.5,2508000,10890,11
-2090,Eastern Africa,Droughts,2.6,83520000,962460,60
+2090,Eastern Africa,Droughts,2.6,94656000,1090788,68
+2090,Eastern Africa,Droughts,4.5,103008000,1187034,74
+2090,Eastern Africa,Droughts,6.0,108576000,1251198,78
+2090,Eastern Africa,Droughts,8.5,98832000,1138911,71
 2090,Eastern Africa,Floods,2.6,2964061775,2403943,17
 2090,Eastern Africa,Floods,4.5,3312774925,2686759,19
 2090,Eastern Africa,Floods,6.0,2964061775,2403943,17
@@ -2104,7 +2317,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Eastern Africa,Storms,4.5,21132000,41724,36
 2090,Eastern Africa,Storms,6.0,27589000,54473,47
 2090,Eastern Africa,Storms,8.5,12327000,24339,21
-2090,Eastern Asia,Droughts,2.6,4196827000,32547073,109
+2090,Eastern Asia,Droughts,2.6,500539000,3881761,13
+2090,Eastern Asia,Droughts,4.5,500539000,3881761,13
+2090,Eastern Asia,Droughts,6.0,500539000,3881761,13
+2090,Eastern Asia,Droughts,8.5,500539000,3881761,13
 2090,Eastern Asia,Floods,2.6,21759293281,17647439,7
 2090,Eastern Asia,Floods,4.5,30101409634,24413146,8
 2090,Eastern Asia,Floods,6.0,26973439933,21876269,7
@@ -2113,7 +2329,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Eastern Asia,Storms,4.5,80704000,181972,97
 2090,Eastern Asia,Storms,6.0,84864000,191352,102
 2090,Eastern Asia,Storms,8.5,71552000,161336,86
-2090,Eastern Europe,Droughts,2.6,2295000000,1216146,51
+2090,Eastern Europe,Droughts,2.6,765000000,405382,17
+2090,Eastern Europe,Droughts,4.5,765000000,405382,17
+2090,Eastern Europe,Droughts,6.0,765000000,405382,17
+2090,Eastern Europe,Droughts,8.5,360000000,190768,8
 2090,Eastern Europe,Floods,2.6,2440992050,1979717,14
 2090,Eastern Europe,Floods,4.5,2789705200,2262534,16
 2090,Eastern Europe,Floods,6.0,2615348625,2121126,15
@@ -2122,7 +2341,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Eastern Europe,Storms,4.5,9152000,14729,13
 2090,Eastern Europe,Storms,6.0,7744000,12463,11
 2090,Eastern Europe,Storms,8.5,10560000,16995,15
-2090,Melanesia,Droughts,2.6,0,0,0
+2090,Melanesia,Droughts,2.6,320000000,3476096,64
+2090,Melanesia,Droughts,4.5,345000000,3747666,69
+2090,Melanesia,Droughts,6.0,405000000,4399434,81
+2090,Melanesia,Droughts,8.5,430000000,4671004,86
 2090,Melanesia,Floods,2.6,871782875,707042,5
 2090,Melanesia,Floods,4.5,1046139450,848450,6
 2090,Melanesia,Floods,6.0,871782875,707042,5
@@ -2131,7 +2353,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Melanesia,Storms,4.5,5356000,4836,13
 2090,Melanesia,Storms,6.0,6180000,5580,15
 2090,Melanesia,Storms,8.5,4532000,4092,11
-2090,Micronesia,Droughts,2.6,25480000,249782,26
+2090,Micronesia,Droughts,2.6,84280000,826202,86
+2090,Micronesia,Droughts,4.5,84280000,826202,86
+2090,Micronesia,Droughts,6.0,84280000,826202,86
+2090,Micronesia,Droughts,8.5,84280000,826202,86
 2090,Micronesia,Floods,2.6,845605406,685811,5
 2090,Micronesia,Floods,4.5,671248831,544402,4
 2090,Micronesia,Floods,6.0,819427938,664580,5
@@ -2140,7 +2365,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Micronesia,Storms,4.5,0,0,0
 2090,Micronesia,Storms,6.0,3561000,214,1
 2090,Micronesia,Storms,8.5,0,0,0
-2090,Middle Africa,Droughts,2.6,75712000,1459952,52
+2090,Middle Africa,Droughts,2.6,106288000,2049548,73
+2090,Middle Africa,Droughts,4.5,78624000,1516104,54
+2090,Middle Africa,Droughts,6.0,78624000,1516104,54
+2090,Middle Africa,Droughts,8.5,110656000,2133776,76
 2090,Middle Africa,Floods,2.6,1743565750,1414084,10
 2090,Middle Africa,Floods,4.5,1569209175,1272675,9
 2090,Middle Africa,Floods,6.0,1917922325,1555492,11
@@ -2149,7 +2377,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Middle Africa,Storms,4.5,60000,4550,10
 2090,Middle Africa,Storms,6.0,84000,6370,14
 2090,Middle Africa,Storms,8.5,18000,1365,3
-2090,Northern Africa,Droughts,2.6,1113242000,6765180,47
+2090,Northern Africa,Droughts,2.6,1658020000,10075800,70
+2090,Northern Africa,Droughts,4.5,1752764000,10651560,74
+2090,Northern Africa,Droughts,6.0,1681706000,10219740,71
+2090,Northern Africa,Droughts,8.5,1776450000,10795500,75
 2090,Northern Africa,Floods,2.6,1220496025,989858,7
 2090,Northern Africa,Floods,4.5,1046139450,848450,6
 2090,Northern Africa,Floods,6.0,1220496025,989858,7
@@ -2158,7 +2389,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Northern Africa,Storms,4.5,47330000,19410,10
 2090,Northern Africa,Storms,6.0,61529000,25233,13
 2090,Northern Africa,Storms,8.5,42597000,17469,9
-2090,Northern America,Droughts,2.6,7880150000,65450,50
+2090,Northern America,Droughts,2.6,8037753000,66759,51
+2090,Northern America,Droughts,4.5,8037753000,66759,51
+2090,Northern America,Droughts,6.0,8037753000,66759,51
+2090,Northern America,Droughts,8.5,7092135000,58905,45
 2090,Northern America,Floods,2.6,697426300,565633,4
 2090,Northern America,Floods,4.5,348713150,282816,2
 2090,Northern America,Floods,6.0,523069725,424225,3
@@ -2167,7 +2401,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Northern America,Storms,4.5,80158000,26702,26
 2090,Northern America,Storms,6.0,77075000,25675,25
 2090,Northern America,Storms,8.5,86324000,28756,28
-2090,Northern Europe,Droughts,2.6,0,0,0
+2090,Northern Europe,Droughts,2.6,3176339000,0,37
+2090,Northern Europe,Droughts,4.5,1888634000,0,22
+2090,Northern Europe,Droughts,6.0,1287705000,0,15
+2090,Northern Europe,Droughts,8.5,1373552000,0,16
 2090,Northern Europe,Floods,2.6,1917922325,1555492,11
 2090,Northern Europe,Floods,4.5,1569209175,1272675,9
 2090,Northern Europe,Floods,6.0,1743565750,1414084,10
@@ -2176,12 +2413,18 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Northern Europe,Storms,4.5,88683000,14973,21
 2090,Northern Europe,Storms,6.0,76014000,12834,18
 2090,Northern Europe,Storms,8.5,88683000,14973,21
-2090,Polynesia,Droughts,2.6,0,0,27
+2090,Polynesia,Droughts,2.6,0,0,86
+2090,Polynesia,Droughts,4.5,0,0,86
+2090,Polynesia,Droughts,6.0,0,0,86
+2090,Polynesia,Droughts,8.5,0,0,86
 2090,Polynesia,Storms,2.6,1767000,795,3
 2090,Polynesia,Storms,4.5,1178000,530,2
 2090,Polynesia,Storms,6.0,1178000,530,2
 2090,Polynesia,Storms,8.5,4712000,2120,8
-2090,South America,Droughts,2.6,720785000,2121275,65
+2090,South America,Droughts,2.6,432471000,1272765,39
+2090,South America,Droughts,4.5,853853000,2512895,77
+2090,South America,Droughts,6.0,820586000,2414990,74
+2090,South America,Droughts,8.5,609895000,1794925,55
 2090,South America,Floods,2.6,3487131500,2828168,20
 2090,South America,Floods,4.5,2964061775,2403943,17
 2090,South America,Floods,6.0,3312774925,2686759,19
@@ -2190,7 +2433,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,South America,Storms,4.5,21056000,22512,56
 2090,South America,Storms,6.0,22184000,23718,59
 2090,South America,Storms,8.5,20304000,21708,54
-2090,South-Eastern Asia,Droughts,2.6,653366000,2193620,59
+2090,South-Eastern Asia,Droughts,2.6,620144000,2082080,56
+2090,South-Eastern Asia,Droughts,4.5,775180000,2602600,70
+2090,South-Eastern Asia,Droughts,6.0,830550000,2788500,75
+2090,South-Eastern Asia,Droughts,8.5,830550000,2788500,75
 2090,South-Eastern Asia,Floods,2.6,2174672134,1763724,11
 2090,South-Eastern Asia,Floods,4.5,2431421943,1971956,11
 2090,South-Eastern Asia,Floods,6.0,2000315559,1622315,10
@@ -2199,7 +2445,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,South-Eastern Asia,Storms,4.5,22814000,114924,122
 2090,South-Eastern Asia,Storms,6.0,20383000,102678,109
 2090,South-Eastern Asia,Storms,8.5,16830000,84780,90
-2090,Southern Africa,Droughts,2.6,216132000,946722,42
+2090,Southern Africa,Droughts,2.6,25730000,112705,5
+2090,Southern Africa,Droughts,4.5,113212000,495902,22
+2090,Southern Africa,Droughts,6.0,113212000,495902,22
+2090,Southern Africa,Droughts,8.5,0,0,0
 2090,Southern Africa,Floods,2.6,871782875,707042,5
 2090,Southern Africa,Floods,4.5,1394852600,1131267,8
 2090,Southern Africa,Floods,6.0,1394852600,1131267,8
@@ -2208,7 +2457,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Southern Africa,Storms,4.5,65592000,42648,24
 2090,Southern Africa,Storms,6.0,79257000,51533,29
 2090,Southern Africa,Storms,8.5,90189000,58641,33
-2090,Southern Asia,Droughts,2.6,494480000,30475440,40
+2090,Southern Asia,Droughts,2.6,655186000,40379958,53
+2090,Southern Asia,Droughts,4.5,655186000,40379958,53
+2090,Southern Asia,Droughts,6.0,852978000,52570134,69
+2090,Southern Asia,Droughts,8.5,927150000,57141450,75
 2090,Southern Asia,Floods,2.6,50093127109,40627029,13
 2090,Southern Asia,Floods,4.5,47240609649,38313552,9
 2090,Southern Asia,Floods,6.0,36319266847,29456015,15
@@ -2217,7 +2469,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Southern Asia,Storms,4.5,140520000,321480,120
 2090,Southern Asia,Storms,6.0,154572000,353628,132
 2090,Southern Asia,Storms,8.5,174479000,399171,149
-2090,Southern Europe,Droughts,2.6,3733744000,6825605,53
+2090,Southern Europe,Droughts,2.6,563584000,1030280,8
+2090,Southern Europe,Droughts,4.5,493136000,901495,7
+2090,Southern Europe,Droughts,6.0,493136000,901495,7
+2090,Southern Europe,Droughts,8.5,634032000,1159065,9
 2090,Southern Europe,Floods,2.6,3312774925,2686759,19
 2090,Southern Europe,Floods,4.5,2789705200,2262534,16
 2090,Southern Europe,Floods,6.0,3138418350,2545351,18
@@ -2226,7 +2481,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Southern Europe,Storms,4.5,113472000,10368,32
 2090,Southern Europe,Storms,6.0,127656000,11664,36
 2090,Southern Europe,Storms,8.5,166662000,15228,47
-2090,Western Africa,Droughts,2.6,66264000,1867932,132
+2090,Western Africa,Droughts,2.6,38152000,1075476,76
+2090,Western Africa,Droughts,4.5,38152000,1075476,76
+2090,Western Africa,Droughts,6.0,38152000,1075476,76
+2090,Western Africa,Droughts,8.5,38152000,1075476,76
 2090,Western Africa,Floods,2.6,3312774925,2686759,19
 2090,Western Africa,Floods,4.5,2789705200,2262534,16
 2090,Western Africa,Floods,6.0,3661488075,2969576,21
@@ -2235,7 +2493,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Western Africa,Storms,4.5,988000,4883,19
 2090,Western Africa,Storms,6.0,780000,3855,15
 2090,Western Africa,Storms,8.5,364000,1799,7
-2090,Western Asia,Droughts,2.6,329680000,2778750,65
+2090,Western Asia,Droughts,2.6,50720000,427500,10
+2090,Western Asia,Droughts,4.5,60864000,513000,12
+2090,Western Asia,Droughts,6.0,25360000,213750,5
+2090,Western Asia,Droughts,8.5,126800000,1068750,25
 2090,Western Asia,Floods,2.6,3835844650,3110985,22
 2090,Western Asia,Floods,4.5,2964061775,2403943,17
 2090,Western Asia,Floods,6.0,3312774925,2686759,19
@@ -2244,7 +2505,10 @@ Decade,UN_Geosheme_Subregion,Disaster_Type,RCP,Financial_Impact,Human_Impact,DO
 2090,Western Asia,Storms,4.5,177390000,49383,27
 2090,Western Asia,Storms,6.0,210240000,58528,32
 2090,Western Asia,Storms,8.5,236520000,65844,36
-2090,Western Europe,Droughts,2.6,5152000000,0,32
+2090,Western Europe,Droughts,2.6,2737000000,0,17
+2090,Western Europe,Droughts,4.5,2576000000,0,16
+2090,Western Europe,Droughts,6.0,1288000000,0,8
+2090,Western Europe,Droughts,8.5,1288000000,0,8
 2090,Western Europe,Floods,2.6,1569209175,1272675,9
 2090,Western Europe,Floods,4.5,1743565750,1414084,10
 2090,Western Europe,Floods,6.0,1917922325,1555492,11
