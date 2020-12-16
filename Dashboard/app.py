@@ -94,9 +94,6 @@ df_disasters = df_disasters.sort_values(by=['UN_Geosheme_Subregion'])
 df_disasters["RCP"].fillna(value=0, inplace=True)
 df_extra = df_extra.sort_values(by=['UN_Geosheme_Subregion'])
 df_extra["RCP"].fillna(value=0, inplace=True)
-# Data preparation
-
-df_full = df_disasters.merge(df_extra, how='left', on=['Decade', 'UN_Geosheme_Subregion', 'RCP'])
 
 # Mapbox credentials
 
@@ -420,10 +417,10 @@ app.layout = html.Div(
                                 dcc.Graph(
                                     id="county-choropleth",
                                     figure=display_map(
-                                        df_full[(df_full['Decade'] >= 1900)
-                                                & (df_full['Decade'] <= 1920)
-                                                & (df_full['Disaster_Type'] == 'Floods')
-                                                & (df_full['RCP'] == 2.6)],
+                                        df_disasters[(df_disasters['Decade'] >= 1900)
+                                                & (df_disasters['Decade'] <= 1920)
+                                                & (df_disasters['Disaster_Type'] == 'Floods')
+                                                & (df_disasters['RCP'] == 2.6)],
                                         'Human_Impact', 'reds'),
                                     config={
                                         'modeBarButtonsToRemove': ['toImage', 'toggleSpikelines', "pan2d", "select2d",
@@ -459,23 +456,20 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     if map_input:
         location = map_input.get('points')[0].get('location')
     else:
-        location = ''
+        location = '' # No selected region so display worldwide figures
 
     # Select decades and RCP
-    df = slice_data_on_decades(df_full, scenario, years[0], years[1])
-    # Select region
-    if location:
-        to_drop = df[~(df['UN_Geosheme_Subregion'] == location)].index
-        df.drop(to_drop, inplace=True)
+    df = slice_data_on_decades(df_disasters, scenario, years[0], years[1])
+    df_temperatures = slice_data_on_decades(df_extra[['Decade', 'UN_Geosheme_Subregion', 'RCP', '°C']], scenario,
+                                            years[0], years[1])
 
     # Prepare data to display
     df_figs = df.copy()
-    c = df_figs.groupby(['Decade'])['°C'].mean().reset_index()
-    df_figs.loc[:, 'Temperature'] = df_figs.Decade.map(c.set_index('Decade')['°C'])
 
-    # Select disaster
-    df_disaster = df_figs[df_figs["Disaster_Type"] == disaster].copy()
+    # Map the text of selected impact with the label of the corresponding dataframe column
     impact_type = dict_magnitude_types[impact]
+    # Number of bars
+    bins = int((int(years[1]) - int(years[0])) / 10)
 
     # In case we want to force all colors:
     # color_codes= ['#CCFFFF','#CCCCFF','#CC99FF','#009999','#0033FF','#003333',
@@ -484,28 +478,50 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
     # color={}
     # for i in range(21):
     #    color[i] = color_codes[i]
-    df_fig = df_disaster.sort_values(by=['Decade'])
-    bins = int((int(years[1]) - int(years[0])) / 10)
 
-    #Chart 1: Region X Disaster X Magnitude VS Temperatures 
+    # Chart 1: Region X Disaster X Magnitude VS Temperatures
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    # Prepare data
+    df_chart1 = df_figs.copy()
+    # Keep only occurrences
+    df_chart1.drop(columns=['Financial_Impact','Human_Impact'], inplace=True)
+    # Region selection
+    if location:
+        to_drop = df_chart1[~(df_chart1['UN_Geosheme_Subregion'] == location)].index
+        df_chart1.drop(to_drop, inplace=True)
+    # Disaster selection
+    to_drop = df_chart1[~(df_chart1['Disaster_Type'] == disaster)].index
+    df_chart1.drop(to_drop, inplace=True)
+    # Compute temperatures
+    if location: # Get temperatures for the selected region only
+        df_temp_to_merge = df_temperatures[df_temperatures['UN_Geosheme_Subregion'] == location]
+    else: # Compute the world mean of temperatures by decade (beware that no weighting with region area has been done)
+        df_temp_to_merge = df_temperatures.groupby(['Decade'])['°C'].mean().reset_index()
+    df_chart1.loc[:, 'Temperature'] = df_chart1.Decade.map(df_temp_to_merge.set_index('Decade')['°C'])
+
+    # Sorting and reordering
+    df_chart1 = df_chart1.sort_values(by=['Decade'])
+
+    # Make figure
     subfig1 = make_subplots(specs=[[{"secondary_y": True}]])
-    fig2 = px.histogram(df_fig,
+    fig2 = px.histogram(df_chart1,
                         x="Decade",
-                        y=impact_type,
+                        y="Number of Occurrences",
                         template='plotly',
                         color="Disaster_Type",
                         color_discrete_map={'Floods':'#C5EBFD', 'Storms':'#B561F4', 'Droughts':'#FFAE5D'},
                         nbins=bins,
                         )
 
-    fig3 = px.line(df_fig, x="Decade", y="Temperature", labels={'°C': 'Average Temperature'})
+    fig3 = px.line(df_chart1, x="Decade", y="Temperature", labels={'°C': 'Average Temperature'})
     fig3.update_traces(yaxis="y2", showlegend=True, name='Temperatures', line_color='black')
 
     subfig1.add_traces(fig2.data + fig3.data)
-    subfig1.layout.title = "<b>{0}</b>: {1} Occurence vs Temperature".format(location,disaster)    
+    subfig1.layout.title = "<b>{0}</b>: {1} Occurence vs Temperature".format((location if location else 'World'),disaster)
     subfig1.update_xaxes(type='category')
     subfig1.layout.xaxis.title = "Decades"
-    subfig1.layout.yaxis.title = "{0}".format(impact_type)
+    subfig1.layout.yaxis.title = "{0}".format(impact)
     subfig1.layout.yaxis2.title = "Average Temperatures"
     subfig1.update_layout(legend=dict(
         orientation="h",
@@ -514,9 +530,20 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
         xanchor="right",
         x=1
     ))
-    #Chart 2: World X Magnitude VS Temperatures
+
+    # Chart 2: World X Magnitude VS Temperatures
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    # Prepare data
+    df_chart2 = df_figs[['Decade','UN_Geosheme_Subregion','Disaster_Type',impact_type]].copy()
+    df_chart2 = df_chart2.groupby(['Decade','Disaster_Type']).sum().reset_index()
+    # Compute the world mean of temperatures by decade (beware that no weighting with region area has been done)
+    df_temp_to_merge = df_temperatures.groupby(['Decade'])['°C'].mean().reset_index()
+    df_chart2.loc[:, 'Temperature'] = df_chart2.Decade.map(df_temp_to_merge.set_index('Decade')['°C'])
+
+    # Make figure
     subfig2 = make_subplots(specs=[[{"secondary_y": True}]])
-    fig4 = px.histogram(df_figs,
+    fig4 = px.histogram(df_chart2,
                         x="Decade",
                         y=impact_type,
                         template='plotly',                        
@@ -524,13 +551,16 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
                         color_discrete_map={'Floods':'#C5EBFD', 'Storms':'#B561F4', 'Droughts':'#FFAE5D'},
                         nbins=bins,
                         )
-    
+
+    fig5 = px.line(df_chart2, x="Decade", y="Temperature", labels={'°C': 'Average Temperature'})
+    fig5.update_traces(yaxis="y2", showlegend=True, name='Temperatures', line_color='black')
+
     subfig2.update_layout(barmode = 'stack', xaxis = {'categoryorder': 'category ascending'})	
-    subfig2.add_traces(fig4.data + fig3.data)
-    subfig2.layout.title = '<b>World</b>: {0} per Disaster Type'.format(impact_type)
+    subfig2.add_traces(fig4.data + fig5.data)
+    subfig2.layout.title = '<b>World</b>: {0} per Disaster Type'.format(impact)
     subfig2.update_xaxes(type='category')
     subfig2.layout.xaxis.title = "Decades"    
-    subfig2.layout.yaxis.title = "{0}".format(impact_type)
+    subfig2.layout.yaxis.title = "{0}".format(impact)
     subfig2.layout.yaxis2.title = "Average Temperatures"
     subfig2.update_layout(legend=dict(
         orientation="h",
