@@ -616,23 +616,34 @@ def update_map(year, DisasterType, MagnitudeType, RcpType):
 # Display left side panel when clicking on button
 @app.callback(Output('collapse', 'style'),
               Output('right-column', 'style'),
+              Output('collapse-button', 'style'),
+              Output('collapse-button2', 'style'),
               [Input('collapse-button', 'n_clicks')],
+              [Input('collapse-button2', 'n_clicks')],
               [State('right-column', 'style')],
-              [State('collapse', 'style')]
+              [State('collapse', 'style')],
+              [State('collapse-button', 'style')],
+              [State('collapse-button2', 'style')]
               )
-def callback(n_clicks, style_map, style):
+def callback(n_clicks, nh_clicks, style_map, style, btn1, btn2):
     if style is None or 'display' not in style:
         style = {'display': 'none'}
         style_map = {"width": "66vw"}
+        btn1 = {'display': 'block'}
+        btn2 = {"display": "none"}
     else:
         if style['display'] == 'none':
             style['display'] = 'block'
             style_map["width"] = "33vw"
+            btn1['display'] = 'none'
+            btn2["display"] = "block"
         else:
             style['display'] = 'none'
             style_map["width"] = "66vw"
+            btn1['display'] = 'block'
+            btn2["display"] = "none"
 
-    return style, style_map
+    return style, style_map , btn1, btn2
 
 
 # ~~~~~~~~~~~~~~~~~~~
