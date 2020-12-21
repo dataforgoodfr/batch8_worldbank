@@ -1,64 +1,64 @@
 
 # Table of Contents
 
-1.  [Dataset](#org4bfae60)
-    1.  [Variables](#org5799d40)
-    2.  [Data sources](#org2610844)
-        1.  [`Decade`](#orgd8a40e8)
-        2.  [`UN_Geosheme_Subregion`](#org00730a6)
-        3.  [`Disaster_Type`](#orgc6ff093)
-        4.  [`RCP`](#orgc96f1cd)
-        5.  [`DO`](#orgdcb2bc9)
-        6.  [`Human_Impact`](#org80d177a)
-        7.  [`Financial_Impact`](#org7feab6c)
-        8.  [`°C`](#org332f18b)
-        9.  [`Geo`](#orgc91cf0b)
-2.  [Prototyping](#org6fc0c3d)
-    1.  [Features](#org9b155c5)
-    2.  [Wireframe](#orgec071df)
-        1.  [World map](#orgdaaa255)
-        2.  [World & Regional focus](#orgf516cd0)
-3.  [Development](#orgfad61e8)
-    1.  [Why did we pick Dash?](#org9d1d4a6)
-    2.  [Structure of `app.py`](#orged46f45)
-        1.  [Globals](#org3da7962)
-            -   [Libraries](#orgee9497d)
-            -   [Initialisation](#org4b4eacf)
-            -   [Functions](#orga4ad9d2)
-            -   [Sidebar](#orgbaa605d)
-        2.  [Layout](#orgf1ef2d2)
-        3.  [Callback functions](#orge5fae1b)
-            -   [Charts](#orgb3fa58f)
-            -   [Timeline title](#orgfc1882a)
-            -   [Timeline, Disaster, Magnitude, RCP selectors](#orgab4211a)
-            -   [Side panel](#org3064adc)
-        4.  [Main](#org6260c76)
-    3.  [Visual identity guidelines](#orga4c50f8)
-        1.  [Colors](#orgb29edee)
-            -   [Primary colors](#org5272fa8)
-            -   [Secondary colors](#orgd20372f)
-        2.  [Fonts](#orgb0d0bbc)
-            -   [Primary fonts](#org8647c47)
-            -   [Secondary fonts](#orgbec3799)
-        3.  [Logo](#org7c4eb2a)
-            -   [Symbol](#org5a250c9)
-            -   [Logotype](#org216f70e)
-    4.  [How to contribute](#org1734a0b)
-        1.  [Setting up a new Git repository](#org6b6b8b0)
-        2.  [Adding or modifying owned files (`push`)](#orgcdf7bdf)
-        3.  [Submit proposed changes to review (`pull-request`)](#orgc0d628e)
-4.  [Tools that we used](#org6af0be0)
-5.  [How to run the Dashboard](#org9333d67)
+1.  [Dataset](#orgc47d4f4)
+    1.  [Variables](#org375b640)
+    2.  [Data sources](#orga9814b8)
+        1.  [`Decade`](#org9a453d6)
+        2.  [`UN_Geosheme_Subregion`](#org456df88)
+        3.  [`Disaster_Type`](#org8b555ad)
+        4.  [`RCP`](#orgd21bc15)
+        5.  [`DO`](#org3699d6f)
+        6.  [`Human_Impact`](#org80d4f73)
+        7.  [`Financial_Impact`](#org549fb58)
+        8.  [`°C`](#org17a6ab1)
+        9.  [`Geo`](#org0e8785a)
+2.  [Prototyping](#orga28fd06)
+    1.  [Features](#org45e8fbb)
+    2.  [Wireframe](#org12ad4bf)
+        1.  [World map](#org8383275)
+        2.  [World & Regional focus](#org43bed8e)
+3.  [Development](#org04c9191)
+    1.  [Why did we pick Dash?](#org032bdd1)
+    2.  [Structure of `app.py`](#org02e9807)
+        1.  [Globals](#org6d654c8)
+            -   [Libraries](#org51bb6cb)
+            -   [Initialisation](#org97fa436)
+            -   [Functions](#orgd5a9485)
+            -   [Sidebar](#org66ab0e9)
+        2.  [Layout](#org68efc38)
+        3.  [Callback functions](#org4f22934)
+            -   [Charts](#org98726a7)
+            -   [Timeline title](#org01d6eeb)
+            -   [Timeline, Disaster, Magnitude, RCP selectors](#orga981e87)
+            -   [Side panel](#org7177013)
+        4.  [Main](#org12ee1c3)
+    3.  [Visual identity guidelines](#org8c53c7d)
+        1.  [Colors](#org023b79d)
+            -   [Primary colors](#orgf1eb46b)
+            -   [Secondary colors](#orgedfcb44)
+        2.  [Fonts](#orgf35637d)
+            -   [Primary fonts](#org703ddda)
+            -   [Secondary fonts](#org7055933)
+        3.  [Logo](#orgb5f9c4a)
+            -   [Symbol](#org360bc07)
+            -   [Logotype](#org0af2c2c)
+    4.  [How to contribute](#orga1f0296)
+        1.  [Setting up a new Git repository](#orgce71443)
+        2.  [Adding or modifying owned files (`push`)](#org5c294c0)
+        3.  [Submit proposed changes to review (`pull-request`)](#org9b58eb0)
+4.  [Tools that we used](#orgb818358)
+5.  [How to run the Dashboard](#org02dc5af)
 
 ![img](./Pics/screenshot.png "Screenshot of the dashboard as of Dec. 12 2020")
 
 
-<a id="org4bfae60"></a>
+<a id="orgc47d4f4"></a>
 
 # Dataset
 
 
-<a id="org5799d40"></a>
+<a id="org375b640"></a>
 
 ## Variables
 
@@ -146,12 +146,12 @@
 </table>
 
 
-<a id="org2610844"></a>
+<a id="orga9814b8"></a>
 
 ## Data sources
 
 
-<a id="orgd8a40e8"></a>
+<a id="org9a453d6"></a>
 
 ### `Decade`
 
@@ -162,7 +162,7 @@
 -   Notes: each value represents a decade. For example, `2020` starts with the year 2020 and ends with the year 2029.
 
 
-<a id="org00730a6"></a>
+<a id="org456df88"></a>
 
 ### `UN_Geosheme_Subregion`
 
@@ -173,7 +173,7 @@
 -   Notes: This classification is also referred as [United Nations geoscheme](https://en.wikipedia.org/wiki/United_Nations_geoscheme) and [UN M49](https://en.wikipedia.org/wiki/UN_M49).
 
 
-<a id="orgc6ff093"></a>
+<a id="org8b555ad"></a>
 
 ### `Disaster_Type`
 
@@ -185,7 +185,7 @@
 -   Notes: These disasters will be respectively described in the following pages : [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)
 
 
-<a id="orgc96f1cd"></a>
+<a id="orgd21bc15"></a>
 
 ### `RCP`
 
@@ -199,7 +199,7 @@
     <img src="./Pics/rcp.png" width="300px">
 
 
-<a id="orgdcb2bc9"></a>
+<a id="org3699d6f"></a>
 
 ### `DO`
 
@@ -208,7 +208,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) **Disaster Occurrences** (DO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org80d177a"></a>
+<a id="org80d4f73"></a>
 
 ### `Human_Impact`
 
@@ -217,7 +217,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) Human Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org7feab6c"></a>
+<a id="org549fb58"></a>
 
 ### `Financial_Impact`
 
@@ -226,7 +226,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) Financial Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org332f18b"></a>
+<a id="org17a6ab1"></a>
 
 ### `°C`
 
@@ -234,19 +234,19 @@
 -   Values: Temperatures
 
 
-<a id="orgc91cf0b"></a>
+<a id="org0e8785a"></a>
 
 ### `Geo`
 
 -   Source: In-house (generated by [this script](https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb))
 
 
-<a id="org6fc0c3d"></a>
+<a id="orga28fd06"></a>
 
 # Prototyping
 
 
-<a id="org9b155c5"></a>
+<a id="org45e8fbb"></a>
 
 ## Features
 
@@ -346,31 +346,31 @@
 </table>
 
 
-<a id="orgec071df"></a>
+<a id="org12ad4bf"></a>
 
 ## Wireframe
 
 
-<a id="orgdaaa255"></a>
+<a id="org8383275"></a>
 
 ### World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="orgf516cd0"></a>
+<a id="org43bed8e"></a>
 
 ### World & Regional focus
 
 <img src="./Pics/charts.png" width="500px">
 
 
-<a id="orgfad61e8"></a>
+<a id="org04c9191"></a>
 
 # Development
 
 
-<a id="org9d1d4a6"></a>
+<a id="org032bdd1"></a>
 
 ## Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -442,17 +442,17 @@ According to following benchmarck the team decided to develop the PoC with ****D
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="orged46f45"></a>
+<a id="org02e9807"></a>
 
 ## Structure of `app.py`
 
 
-<a id="org3da7962"></a>
+<a id="org6d654c8"></a>
 
 ### Globals
 
 
-<a id="orgee9497d"></a>
+<a id="org51bb6cb"></a>
 
 #### Libraries
 
@@ -471,7 +471,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
     import dash_bootstrap_components as dbc
 
 
-<a id="org4b4eacf"></a>
+<a id="org97fa436"></a>
 
 #### Initialisation
 
@@ -547,7 +547,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
         }  
 
 
-<a id="orga4ad9d2"></a>
+<a id="orgd5a9485"></a>
 
 #### Functions
 
@@ -699,7 +699,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
             )
 
 
-<a id="orgbaa605d"></a>
+<a id="org66ab0e9"></a>
 
 #### Sidebar
 
@@ -765,7 +765,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
     )
 
 
-<a id="orgf1ef2d2"></a>
+<a id="org68efc38"></a>
 
 ### Layout
 
@@ -863,12 +863,12 @@ According to following benchmarck the team decided to develop the PoC with ****D
     )  
 
 
-<a id="orge5fae1b"></a>
+<a id="org4f22934"></a>
 
 ### Callback functions
 
 
-<a id="orgb3fa58f"></a>
+<a id="org98726a7"></a>
 
 #### Charts
 
@@ -1002,7 +1002,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
         return subfig1, subfig2
 
 
-<a id="orgfc1882a"></a>
+<a id="org01d6eeb"></a>
 
 #### Timeline title
 
@@ -1011,7 +1011,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
         return "Choropleth map from the beginning of the {0}s to the end of the {1}s".format(year[0], year[1])
 
 
-<a id="orgab4211a"></a>
+<a id="orga981e87"></a>
 
 #### Timeline, Disaster, Magnitude, RCP selectors
 
@@ -1048,7 +1048,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
         return display_map(df, magnitude_type, color)   
 
 
-<a id="org3064adc"></a>
+<a id="org7177013"></a>
 
 #### Side panel
 
@@ -1084,7 +1084,7 @@ According to following benchmarck the team decided to develop the PoC with ****D
         return style, style_map , btn1, btn2
 
 
-<a id="org6260c76"></a>
+<a id="org12ee1c3"></a>
 
 ### Main
 
@@ -1092,19 +1092,19 @@ According to following benchmarck the team decided to develop the PoC with ****D
         app.run_server(debug=True, host="127.0.0.1", port=8050)
 
 
-<a id="orga4c50f8"></a>
+<a id="org8c53c7d"></a>
 
 ## Visual identity guidelines
 
 We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="orgb29edee"></a>
+<a id="org023b79d"></a>
 
 ### Colors
 
 
-<a id="org5272fa8"></a>
+<a id="orgf1eb46b"></a>
 
 #### Primary colors
 
@@ -1152,7 +1152,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="orgd20372f"></a>
+<a id="orgedfcb44"></a>
 
 #### Secondary colors
 
@@ -1260,50 +1260,50 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="orgb0d0bbc"></a>
+<a id="orgf35637d"></a>
 
 ### Fonts
 
 
-<a id="org8647c47"></a>
+<a id="org703ddda"></a>
 
 #### Primary fonts
 
 <img src="./Pics/primaryfonts.png" width="400px">
 
 
-<a id="orgbec3799"></a>
+<a id="org7055933"></a>
 
 #### Secondary fonts
 
 <img src="./Pics/secondaryfonts.png" width="400px">
 
 
-<a id="org7c4eb2a"></a>
+<a id="orgb5f9c4a"></a>
 
 ### Logo
 
 
-<a id="org5a250c9"></a>
+<a id="org360bc07"></a>
 
 #### Symbol
 
 <img src="./Pics/symbol.png" width="300px">
 
 
-<a id="org216f70e"></a>
+<a id="org0af2c2c"></a>
 
 #### Logotype
 
 <img src="./Pics/logotype.png" width="300px">
 
 
-<a id="org1734a0b"></a>
+<a id="orga1f0296"></a>
 
 ## How to contribute
 
 
-<a id="org6b6b8b0"></a>
+<a id="orgce71443"></a>
 
 ### Setting up a new Git repository
 
@@ -1314,7 +1314,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 -   Ask to join our GitHub
 
 
-<a id="orgcdf7bdf"></a>
+<a id="org5c294c0"></a>
 
 ### Adding or modifying owned files (`push`)
 
@@ -1327,7 +1327,7 @@ When adding a new file or modifying a file that you own, do:
 Where `filename` is the name of the file
 
 
-<a id="orgc0d628e"></a>
+<a id="org9b58eb0"></a>
 
 ### Submit proposed changes to review (`pull-request`)
 
@@ -1395,7 +1395,7 @@ Then go on our [GitHub](https://github.com/dataforgoodfr/batch8_worldbank), and 
 -   click on `create pull request`
 
 
-<a id="org6af0be0"></a>
+<a id="orgb818358"></a>
 
 # Tools that we used
 
@@ -1465,15 +1465,15 @@ Then go on our [GitHub](https://github.com/dataforgoodfr/batch8_worldbank), and 
 </table>
 
 
-<a id="org9333d67"></a>
+<a id="org02dc5af"></a>
 
 # How to run the Dashboard
 
 1.  Install following Python packages:
-    -   pandas
-    -   plotly
-    -   dash
-    -   dash<sub>bootstrap</sub><sub>components</sub>
+    -   `pandas`
+    -   `plotly`
+    -   `dash`
+    -   `dash_bootstrap_components`
 2.  Download required files and folders:
     
         ├── app.py                               # Dash app code
