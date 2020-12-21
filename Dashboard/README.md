@@ -1,54 +1,64 @@
 
 # Table of Contents
 
-1.  [Dataset](#orgeb2740f)
-    1.  [Variables](#org4b1eefa)
-    2.  [Data sources](#orgcb9804b)
-        1.  [`Decade`](#orgd86700e)
-        2.  [`UN_Geosheme_Subregion`](#orgaf2e17d)
-        3.  [`Disaster_Type`](#org195034a)
-        4.  [`RCP`](#orga682ad5)
-        5.  [`DO`](#orgd786990)
-        6.  [`Human_Impact`](#org5109932)
-        7.  [`Financial_Impact`](#org37c6db5)
-        8.  [`°C`](#org6df6dd3)
-        9.  [`Geo`](#orgac66285)
-2.  [Prototyping](#org267e0a0)
-    1.  [Features](#org59a5138)
-    2.  [Wireframe](#org37613db)
-        1.  [World map](#orgcb8057e)
-        2.  [Regional focus](#orgab39cc7)
-        3.  [World figures](#orga61e149)
-3.  [Development](#org1bfd2fc)
-    1.  [Why did we pick Dash?](#org00e0e8b)
-    2.  [Architecture](#org1cbced3)
-        1.  [Structure of `app.py`](#org661bec8)
-        2.  [Required files in `assets` folder](#org9751eb7)
-    3.  [Visual identity guidelines](#org324fc2e)
-        1.  [Colors](#org351b950)
-            -   [Primary colors](#org3cf1a44)
-            -   [Secondary colors](#org6c40164)
-        2.  [Fonts](#org6cfd691)
-            -   [Primary fonts](#org2eb75c9)
-            -   [Secondary fonts](#orge224f7e)
-        3.  [Logo](#org81f8607)
-            -   [Symbol](#orgc175706)
-            -   [Logotype](#org6516acb)
-    4.  [How to contribute](#orgb00aa28)
-        1.  [Setting up a new Git repository](#org0f4d85a)
-        2.  [Adding or modifying owned files (`push`)](#org1794074)
-        3.  [Submit proposed changes to review (`pull-request`)](#org9a9a6e4)
-4.  [Tools that we used](#orgdacc0f6)
+1.  [Dataset](#org4bfae60)
+    1.  [Variables](#org5799d40)
+    2.  [Data sources](#org2610844)
+        1.  [`Decade`](#orgd8a40e8)
+        2.  [`UN_Geosheme_Subregion`](#org00730a6)
+        3.  [`Disaster_Type`](#orgc6ff093)
+        4.  [`RCP`](#orgc96f1cd)
+        5.  [`DO`](#orgdcb2bc9)
+        6.  [`Human_Impact`](#org80d177a)
+        7.  [`Financial_Impact`](#org7feab6c)
+        8.  [`°C`](#org332f18b)
+        9.  [`Geo`](#orgc91cf0b)
+2.  [Prototyping](#org6fc0c3d)
+    1.  [Features](#org9b155c5)
+    2.  [Wireframe](#orgec071df)
+        1.  [World map](#orgdaaa255)
+        2.  [World & Regional focus](#orgf516cd0)
+3.  [Development](#orgfad61e8)
+    1.  [Why did we pick Dash?](#org9d1d4a6)
+    2.  [Structure of `app.py`](#orged46f45)
+        1.  [Globals](#org3da7962)
+            -   [Libraries](#orgee9497d)
+            -   [Initialisation](#org4b4eacf)
+            -   [Functions](#orga4ad9d2)
+            -   [Sidebar](#orgbaa605d)
+        2.  [Layout](#orgf1ef2d2)
+        3.  [Callback functions](#orge5fae1b)
+            -   [Charts](#orgb3fa58f)
+            -   [Timeline title](#orgfc1882a)
+            -   [Timeline, Disaster, Magnitude, RCP selectors](#orgab4211a)
+            -   [Side panel](#org3064adc)
+        4.  [Main](#org6260c76)
+    3.  [Visual identity guidelines](#orga4c50f8)
+        1.  [Colors](#orgb29edee)
+            -   [Primary colors](#org5272fa8)
+            -   [Secondary colors](#orgd20372f)
+        2.  [Fonts](#orgb0d0bbc)
+            -   [Primary fonts](#org8647c47)
+            -   [Secondary fonts](#orgbec3799)
+        3.  [Logo](#org7c4eb2a)
+            -   [Symbol](#org5a250c9)
+            -   [Logotype](#org216f70e)
+    4.  [How to contribute](#org1734a0b)
+        1.  [Setting up a new Git repository](#org6b6b8b0)
+        2.  [Adding or modifying owned files (`push`)](#orgcdf7bdf)
+        3.  [Submit proposed changes to review (`pull-request`)](#orgc0d628e)
+4.  [Tools that we used](#org6af0be0)
+5.  [How to run the Dashboard](#org9333d67)
 
 ![img](./Pics/screenshot.png "Screenshot of the dashboard as of Dec. 12 2020")
 
 
-<a id="orgeb2740f"></a>
+<a id="org4bfae60"></a>
 
 # Dataset
 
 
-<a id="org4b1eefa"></a>
+<a id="org5799d40"></a>
 
 ## Variables
 
@@ -136,12 +146,12 @@
 </table>
 
 
-<a id="orgcb9804b"></a>
+<a id="org2610844"></a>
 
 ## Data sources
 
 
-<a id="orgd86700e"></a>
+<a id="orgd8a40e8"></a>
 
 ### `Decade`
 
@@ -152,7 +162,7 @@
 -   Notes: each value represents a decade. For example, `2020` starts with the year 2020 and ends with the year 2029.
 
 
-<a id="orgaf2e17d"></a>
+<a id="org00730a6"></a>
 
 ### `UN_Geosheme_Subregion`
 
@@ -163,7 +173,7 @@
 -   Notes: This classification is also referred as [United Nations geoscheme](https://en.wikipedia.org/wiki/United_Nations_geoscheme) and [UN M49](https://en.wikipedia.org/wiki/UN_M49).
 
 
-<a id="org195034a"></a>
+<a id="orgc6ff093"></a>
 
 ### `Disaster_Type`
 
@@ -175,7 +185,7 @@
 -   Notes: These disasters will be respectively described in the following pages : [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes)
 
 
-<a id="orga682ad5"></a>
+<a id="orgc96f1cd"></a>
 
 ### `RCP`
 
@@ -189,7 +199,7 @@
     <img src="./Pics/rcp.png" width="300px">
 
 
-<a id="orgd786990"></a>
+<a id="orgdcb2bc9"></a>
 
 ### `DO`
 
@@ -198,7 +208,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) **Disaster Occurrences** (DO) see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org5109932"></a>
+<a id="org80d177a"></a>
 
 ### `Human_Impact`
 
@@ -207,7 +217,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) Human Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org37c6db5"></a>
+<a id="org7feab6c"></a>
 
 ### `Financial_Impact`
 
@@ -216,7 +226,7 @@
 -   Notes: For explanation on past and future (based on in house statistical models) Financial Impact see: [droughts](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_secheresse), [floods](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_innondations), and [storms](https://github.com/dataforgoodfr/batch8_worldbank/tree/master/model_tempetes) pages.
 
 
-<a id="org6df6dd3"></a>
+<a id="org332f18b"></a>
 
 ### `°C`
 
@@ -224,19 +234,19 @@
 -   Values: Temperatures
 
 
-<a id="orgac66285"></a>
+<a id="orgc91cf0b"></a>
 
 ### `Geo`
 
 -   Source: In-house (generated by [this script](https://github.com/dataforgoodfr/batch8_worldbank/blob/master/Dashboard/scripts/ContourGeneration.ipynb))
 
 
-<a id="org267e0a0"></a>
+<a id="org6fc0c3d"></a>
 
 # Prototyping
 
 
-<a id="org59a5138"></a>
+<a id="org9b155c5"></a>
 
 ## Features
 
@@ -336,34 +346,31 @@
 </table>
 
 
-<a id="org37613db"></a>
+<a id="orgec071df"></a>
 
 ## Wireframe
 
 
-<a id="orgcb8057e"></a>
+<a id="orgdaaa255"></a>
 
 ### World map
 
 ![img](./Pics/worldmapwireframe.png "World map wireframe")
 
 
-<a id="orgab39cc7"></a>
+<a id="orgf516cd0"></a>
 
-### Regional focus
+### World & Regional focus
 
-
-<a id="orga61e149"></a>
-
-### World figures
+<img src="./Pics/charts.png" width="500px">
 
 
-<a id="org1bfd2fc"></a>
+<a id="orgfad61e8"></a>
 
 # Development
 
 
-<a id="org00e0e8b"></a>
+<a id="org9d1d4a6"></a>
 
 ## Why did we pick [Dash](https://plotly.com/dash/)?
 
@@ -435,60 +442,669 @@ According to following benchmarck the team decided to develop the PoC with ****D
 ****Adaptability****: Based on how flexible and opinionated the library is.
 
 
-<a id="org1cbced3"></a>
+<a id="orged46f45"></a>
 
-## Architecture
-
-
-<a id="org661bec8"></a>
-
-### Structure of `app.py`
-
--   Globals
-    -   Modules
-        -   Graph libraries
-        -   Dashboard
-    -   Initialisation
-        -   Style
-        -   Import Geodata
-        -   Import dataset to display
-        -   Data preparation
-        -   Mapbox credentials
-    -   Functions
-        -   Title & Logo
-        -   Build the choropleth map from data in dataframe and regional contours in geojson
-        -   Display the map
-            -   Specify layout information
-        -   Disaster selector
-        -   Magnitude selector
-        -   RCP selector
--   HTML layout
--   Callbacks
-    -   Update map title according to the selected decades
-    -   Update the data selection sent to the map - period, magnitude, impact
+## Structure of `app.py`
 
 
-<a id="org9751eb7"></a>
+<a id="org3da7962"></a>
 
-### Required files in `assets` folder
-
--   `style.css`
--   `WorldBank_Logo@2x.png`
+### Globals
 
 
-<a id="org324fc2e"></a>
+<a id="orgee9497d"></a>
+
+#### Libraries
+
+    import pandas as pd
+    import json
+    # Graph library
+    import plotly.express as px
+    import plotly.graph_objects as go
+    # Dashboard
+    import dash
+    import dash_html_components as html
+    # import dash_daq as daq
+    import dash_core_components as dcc
+    from dash.dependencies import Input, Output, State
+    from plotly.subplots import make_subplots
+    import dash_bootstrap_components as dbc
+
+
+<a id="org4b4eacf"></a>
+
+#### Initialisation
+
+
+##### Style
+
+    external_stylesheets = ['assets/style.css']
+    app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+
+
+##### Import geo data
+
+    with open('data/un_subregion_contours.geojson') as json_data:
+        regions_data = json.load(json_data)
+
+
+##### Import Pandas DataFrame
+
+    df_disasters = pd.read_csv("data/input-magnitude.csv", decimal=".").rename({'DO': 'Number of Occurrences'}, axis=1)
+    df_extra = pd.read_csv("data/input-extra.csv", decimal=".")
+
+
+##### Preparation of global variables
+
+    dict_dataset_labels = {
+        "UN_Geosheme_Subregion": "UN Subregion",
+        "Disaster_Type": "Type of Disaster",
+        "RCP": "Climate Prospective Scenario",
+        "Financial_Impact": "Total Cost ($US)",
+        "Human_Impact": "Affected People",
+    
+        "Number of Occurrences": "Nb of events",
+        "°C": "Average temperature (°C)",
+        "Rain": "Rainfall",
+    }
+    list_disasters = df_disasters['Disaster_Type'].unique()
+    list_features = ['Number of Occurrences', 'Financial Impact', 'Human Impact']
+    list_rcp = df_disasters['RCP'].unique()
+    YEARS = list(df_disasters.Decade.drop_duplicates())
+    dict_dataset_aggregation_method = {
+        "Financial_Impact": "sum",
+        "Human_Impact": "sum",
+        "Number of Occurrences": "sum",
+        "°C": "mean",
+        "Rain": "mean",
+    }
+    dict_magnitude_types = {
+        "Number of Occurrences": 'Number of Occurrences',
+        "Financial Impact": 'Financial_Impact',
+        'Human Impact': 'Human_Impact',
+    }
+
+-   Preparation of main DataFrames
+
+    Sorting values and filling NaN
+    
+        df_disasters = df_disasters.sort_values(by=['UN_Geosheme_Subregion'])
+        df_disasters["RCP"].fillna(value=0, inplace=True)
+        df_extra = df_extra.sort_values(by=['UN_Geosheme_Subregion'])
+        df_extra["RCP"].fillna(value=0, inplace=True)
+
+-   Mapbox credentials
+
+        mapbox_access_token = "pk.eyJ1IjoibWFoZGlrYXJhYmliZW4iLCJhIjoiY2tmeWlnZzJqMXhyMzJ0czgzcWc3ejViNyJ9.MsvguTk0F7cxDBaV1Zlm_g"
+        mapbox_style = "mapbox://styles/mahdikarabiben/ckgzi4dac1jez19qlanqcpp5l"
+
+-   Choropleth color settings to display features on the map
+
+        dict_feature_colors = {
+            "Droughts": "YlOrRd",
+            "Storms": "RdPu",
+            "Floods": "Blues",
+        }  
+
+
+<a id="orga4ad9d2"></a>
+
+#### Functions
+
+
+##### Build choropleth map from dataframe and  geojson
+
+    def choropleth_map(df, impact, colordisaster):
+        return go.Figure(
+    	px.choropleth_mapbox(
+    	    data_frame=df,
+    	    geojson=regions_data,
+    	    locations='UN_Geosheme_Subregion',
+    	    featureidkey="properties.subregion",
+    	    color=impact,
+    	    color_continuous_scale=colordisaster,
+    	    mapbox_style=mapbox_style,
+    	    opacity=0.8,
+    	    center={"lat": 10.190, "lon": 64.709},
+    	    zoom=1.15,
+    	    hover_name='UN_Geosheme_Subregion',
+    	    labels=dict_dataset_labels,
+    	    # range_color=[0, 6500]
+    	)
+        ) 
+
+
+##### Display map
+
+    def display_map(df, impact, colordisaster):
+        fig = choropleth_map(df, impact, colordisaster)
+    
+        # Specify layout information
+        fig.update_layout(
+    	margin={"r": 0, "t": 0, "l": 0, "b": 0},
+    	mapbox_accesstoken=mapbox_access_token
+        ),
+        fig.update_layout(coloraxis=dict(colorbar_x=0,
+    				     colorbar_xanchor="left",
+    				     colorbar_y=0.25,
+    				     colorbar_len=0.5,
+    				     colorbar_bordercolor='#ffffff'
+    				     # colorbar_thickness=20
+    				     )),
+        fig.update_coloraxes(colorbar_bgcolor="white")
+    
+        return fig
+    
+    
+    def slice_data_on_decades(df_source, rcp_type, decade_start, decade_end):
+        '''
+        Return the slice of the dataframe, on selected decades only
+        '''
+        df = pd.concat(
+    	[df_source[  # historical data
+    	     (df_source['Decade'] >= decade_start)
+    	     & (df_source['Decade'] <= min(decade_end, 2010))
+    	     & (df_source['RCP'] == 0)],
+    	 df_source[  # predicted data, selected on one of the RCP's scenario
+    	     (df_source['Decade'] >= max(2020, decade_start))
+    	     & (df_source['Decade'] <= decade_end)
+    	     & (df_source['RCP'] == rcp_type)]],
+    	axis=0)
+        return df
+
+
+##### Layout
+
+-   Title & Logo
+
+        def Title_App():
+            return html.Div(
+        	# className="pretty_container-3",
+        	children=[
+        	    #html.Img(id="logo", src=app.get_asset_url("WorldBank_Logo@2x.png")),
+        	    html.Img(id="logo", src=app.get_asset_url("logo.png")),
+        	    html.Br(),
+        	    dcc.Markdown("""### Natural Disasters Map"""),
+        	],
+            )
+
+-   Disaster selector
+
+        def disaster_type_card():
+            return html.Div(
+        	children=[
+        	    html.H5(dcc.Markdown("**Select a Disaster**")),
+        	    dcc.RadioItems(
+        		id="Disaster-Selector",
+        		options=[{'label': i, 'value': i} for i in list_disasters],
+        		value='Floods',
+        		labelStyle={  # "display": "inline-block",
+        		    "margin-top": "0px",
+        		    "font-size": "16px",
+        		    "padding": "12px 12px 12px 0px",
+        		},
+        		labelClassName="data-group-labels",
+        	    )
+        	]
+        
+            )
+
+-   Magnitude selector
+
+        def magnitude_type_card():
+            return html.Div(
+        	children=[
+        	    html.H5(dcc.Markdown("**Select a Magnitude**")),
+        	    dcc.RadioItems(
+        		id="Magnitude-Selector",
+        		options=[{'label': i, 'value': i} for i in list_features],
+        		value='Number of Occurrences',
+        		labelStyle={  # "display": "inline-block",
+        		    "margin-top": "0px",
+        		    "font-size": "16px",
+        		    "padding": "12px 12px 12px 0px",
+        		},
+        		labelClassName="data-group-labels",
+        	    )
+        	]
+        
+            )
+
+-   RCP selector
+
+        def climate_scenario():
+            return html.Div(
+        	children=[
+        	    html.H5(dcc.Markdown("**Select* a RCP**")),
+        	    html.H6(dcc.Markdown("*Only effective from 2020")),
+        	    html.Br(),
+        	    dcc.Slider(
+        		id="scenario-slider",
+        		min=0,
+        		max=10,
+        		value=2.6,  # default value
+        		step=None,
+        		# marks={2.6: "2.6°C", 4.5: "4.5°C", 6.0: "6.0°C",8.5:"8.5°C"},
+        		marks={
+        		    # 0: {'label': '0', 'style': {'color': '#77b0b1'}},
+        		    2.6: {'label': '2.6', 'style': {'color': '#77b0b1'}},
+        		    4.5: {'label': '4.5'},
+        		    6: {'label': '6.0'},
+        		    8.5: {'label': '8.5', 'style': {'color': '#f50'}}
+        		},
+        		disabled=False
+        
+        	    )
+        	]
+            )
+
+
+<a id="orgbaa605d"></a>
+
+#### Sidebar
+
+    colors = {
+        'background': '#111111',
+        'text': '#7FDBFF'
+    }
+    
+    # Add sidebar 
+    SIDEBAR_STYLE = {
+        # "position": "fixed",
+        "top": 0,
+        "left": 0,
+        "width": "30vw",
+        "overflow": "scroll",
+        "maxHeight": "100rem"
+    }
+    
+    # the styles for the main content position it to the right of the sidebar and
+    # add some padding.
+    CONTENT_STYLE = {
+        "margin-left": "30rem",
+        "margin-right": "2rem",
+        "padding": "2rem 1rem",
+    }
+    
+    sidebar = html.Div(
+        className="pretty_container-3",
+        children=
+        [
+    	html.Div(
+    	    dcc.Graph(id="bc_DOHI",
+    		      config={
+    			  'displayModeBar': False
+    		      }
+    		      ),
+    	),
+    	html.Div(
+    	    dcc.Graph(id="bc_ImpactDisasterType",
+    		      config={
+    			  'displayModeBar': False
+    		      }
+    		      ),
+    	),
+        ],
+        style=SIDEBAR_STYLE,
+    )
+    
+    content = html.Div(id="page-content", style=CONTENT_STYLE)
+    
+    # Add collapses 
+    collapses = html.Div(
+        # className="pretty_container-3",
+        # children=
+        [
+    
+    	dbc.Collapse(
+    	    sidebar,
+    	    id="collapse",
+    	),
+    
+        ]
+    )
+
+
+<a id="orgf1ef2d2"></a>
+
+### Layout
+
+      app.layout = html.Div(
+          id="root",
+          children=[
+    	  html.Div(
+    	      id="app-container",
+    	      children=[
+    		  html.Div(
+    		      id="Rectangle_Menu",
+    		      className="pretty_container-3",
+    		      children=[
+    			  html.Div(
+    			      # className="pretty-container-3",
+    			      children=[Title_App()]
+    			  ),
+    			  html.Br(),
+    			  html.Div(
+    			      # className="pretty_container-3",
+    			      children=[disaster_type_card()]
+    			  ),
+    			  html.Br(),
+    			  html.Div(
+    			      # className="pretty_container-3",
+    			      children=[magnitude_type_card()]
+    			  ),
+    			  html.Br(),
+    			  html.Div(
+    			      # className="pretty_container-3",
+    			      children=[climate_scenario()]
+    			  ),
+    			  html.Br(),
+    			  html.Div(
+    
+    			      children=[html.Button('Display Charts', id='collapse-button', style={"display": "block"}),
+    					html.Button('Hidden Charts', id='collapse-button2', style={"display": "None"})]
+    			  ),
+    		      ],
+    		  ),
+    
+    		  html.Div(
+    		      collapses
+    		  ),
+    		  html.Div(
+    		      id="right-column",
+    		      children=[
+    			  html.Div(
+    			      id="slider-container",
+    			      children=[
+    				  html.P(
+    				      id="slider-text",
+    				      children="Drag the slider to choose the decade(s)",
+    				  ),
+    				  dcc.RangeSlider(
+    				      id="years-slider",
+    				      min=1900,
+    				      max=2090,
+    				      step=10,
+    				      value=[1960, 2010],
+    				      marks={
+    					  str(year): {"label": str(year), "style": {"color": "#7fafdf"}} for year in YEARS
+    				      },
+    				  ),
+    			      ],
+    			  ),
+    			  html.Div(
+    			      id="heatmap-container",
+    			      children=[
+    				  html.P(
+    				      "Choropleth map of disaster damages from {0} to {1}".format(min(YEARS),
+    												  min(YEARS) + 20),
+    				      id="heatmap-title",
+    				  ),
+    				  dcc.Graph(
+    				      id="county-choropleth",
+    				      figure=display_map(
+    					  df_disasters[(df_disasters['Decade'] >= 1900)
+    						  & (df_disasters['Decade'] <= 1920)
+    						  & (df_disasters['Disaster_Type'] == 'Floods')
+    						  & (df_disasters['RCP'] == 2.6)],
+    					  'Human_Impact', 'reds'),
+    				      config={
+    					  'modeBarButtonsToRemove': ['toImage', 'toggleSpikelines', "pan2d", "select2d",
+    								     "lasso2d", "hoverClosestCartesian"]
+    				      }
+    				  ),
+    			      ],
+    			  ),
+    		      ],
+    		  ),
+    	      ],
+    	  ),
+          ],
+    )  
+
+
+<a id="orge5fae1b"></a>
+
+### Callback functions
+
+
+<a id="orgb3fa58f"></a>
+
+#### Charts
+
+    @app.callback(
+        Output("bc_DOHI", "figure"),
+        Output("bc_ImpactDisasterType", "figure"),
+        [Input("county-choropleth", "clickData"),
+         Input("years-slider", "value"),
+         Input("Disaster-Selector", "value"),
+         Input("scenario-slider", "value"),
+         Input("Magnitude-Selector", "value")
+         ])
+    def update_bar_chart(map_input, years, disaster, scenario, impact):
+        if map_input:
+    	location = map_input.get('points')[0].get('location')
+        else:
+    	location = '' # No selected region so display worldwide figures
+    
+        # Select decades and RCP
+        df = slice_data_on_decades(df_disasters, scenario, years[0], years[1])
+        df_temperatures = slice_data_on_decades(df_extra[['Decade', 'UN_Geosheme_Subregion', 'RCP', '°C']], scenario,
+    					    years[0], years[1])
+    
+        # Prepare data to display
+        df_figs = df.copy()
+    
+        # Map the text of selected impact with the label of the corresponding dataframe column
+        impact_type = dict_magnitude_types[impact]
+        # Number of bars
+        bins = int((int(years[1]) - int(years[0])) / 10)
+    
+        # In case we want to force all colors:
+        # color_codes= ['#CCFFFF','#CCCCFF','#CC99FF','#009999','#0033FF','#003333',
+        # '#9900CC','#FFFF33','#339966','#CC6666','#996633','#009900','#6666FF','#330033',
+        # '#FF3333','#FFCCFF','#33FF99','#33FF99','#9999FF','#CC3300','#3300CC','#9999FF']
+        # color={}
+        # for i in range(21):
+        #    color[i] = color_codes[i]
+    
+        # Chart 1: Region X Disaster X Magnitude VS Temperatures
+        # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+        # Prepare data
+        df_chart1 = df_figs.copy()
+        # Keep only occurrences
+        #df_chart1.drop(columns=['Financial_Impact','Human_Impact'], inplace=True)
+        # Region selection
+        if location:
+    	to_drop = df_chart1[~(df_chart1['UN_Geosheme_Subregion'] == location)].index
+    	df_chart1.drop(to_drop, inplace=True)
+        # Disaster selection
+        to_drop = df_chart1[~(df_chart1['Disaster_Type'] == disaster)].index
+        df_chart1.drop(to_drop, inplace=True)
+        # Compute temperatures
+        if location: # Get temperatures for the selected region only
+    	df_temp_to_merge = df_temperatures[df_temperatures['UN_Geosheme_Subregion'] == location]
+        else: # Compute the world mean of temperatures by decade (beware that no weighting with region area has been done)
+    	df_temp_to_merge = df_temperatures.groupby(['Decade'])['°C'].mean().reset_index()
+        df_chart1.loc[:, 'Temperature'] = df_chart1.Decade.map(df_temp_to_merge.set_index('Decade')['°C'])
+    
+        # Sorting and reordering
+        df_chart1 = df_chart1.sort_values(by=['Decade'])
+    
+        # Make figure
+        subfig1 = make_subplots(specs=[[{"secondary_y": True}]])
+        fig2 = px.histogram(df_chart1,
+    			x="Decade",
+    			y=impact_type,
+    			template='plotly',
+    			color="Disaster_Type",
+    			color_discrete_map={'Floods':'#C5EBFD', 'Storms':'#B561F4', 'Droughts':'#FFAE5D'},
+    			nbins=bins,
+    			)
+    
+        fig3 = px.line(df_chart1, x="Decade", y="Temperature", labels={'°C': 'Average Temperature'})
+        fig3.update_traces(yaxis="y2", showlegend=True, name='Temperatures', line_color='black')
+    
+        subfig1.add_traces(fig2.data + fig3.data)
+        subfig1.layout.title = "<b>{0}</b>: {1} {2} vs °C".format((location if location else 'World'),disaster,impact)
+        subfig1.update_xaxes(type='category')
+        subfig1.layout.xaxis.title = "Decades"
+        subfig1.layout.yaxis.title = "{0}".format(impact)
+        subfig1.layout.yaxis2.title = "Average Temperatures"
+        subfig1.update_layout(legend=dict(
+    	orientation="h",
+    	yanchor="bottom",
+    	y=1.02,
+    	xanchor="right",
+    	x=1
+        ))
+    
+        # Chart 2: World X Magnitude VS Temperatures
+        # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+        # Prepare data
+        df_chart2 = df_figs[['Decade','UN_Geosheme_Subregion','Disaster_Type',impact_type]].copy()
+        df_chart2 = df_chart2.groupby(['Decade','Disaster_Type']).sum().reset_index()
+        # Compute the world mean of temperatures by decade (beware that no weighting with region area has been done)
+        df_temp_to_merge = df_temperatures.groupby(['Decade'])['°C'].mean().reset_index()
+        df_chart2.loc[:, 'Temperature'] = df_chart2.Decade.map(df_temp_to_merge.set_index('Decade')['°C'])
+    
+        # Make figure
+        subfig2 = make_subplots(specs=[[{"secondary_y": True}]])
+        fig4 = px.histogram(df_chart2,
+    			x="Decade",
+    			y=impact_type,
+    			template='plotly',                        
+    			color="Disaster_Type",
+    			color_discrete_map={'Floods':'#C5EBFD', 'Storms':'#B561F4', 'Droughts':'#FFAE5D'},
+    			nbins=bins,
+    			)
+    
+        fig5 = px.line(df_chart2, x="Decade", y="Temperature", labels={'°C': 'Average Temperature'})
+        fig5.update_traces(yaxis="y2", showlegend=True, name='Temperatures', line_color='black')
+    
+        subfig2.update_layout(barmode = 'stack', xaxis = {'categoryorder': 'category ascending'})	
+        subfig2.add_traces(fig4.data + fig5.data)
+        subfig2.layout.title = '<b>World</b>: {0} per Disaster Type vs °C'.format(impact)
+        subfig2.update_xaxes(type='category')
+        subfig2.layout.xaxis.title = "Decades"    
+        subfig2.layout.yaxis.title = "{0}".format(impact)
+        subfig2.layout.yaxis2.title = "Average Temperatures"
+        subfig2.update_layout(legend=dict(
+    	orientation="h",
+    	yanchor="bottom",
+    	y=1.02,
+    	xanchor="right",
+    	x=1
+        ))    
+    
+        return subfig1, subfig2
+
+
+<a id="orgfc1882a"></a>
+
+#### Timeline title
+
+    @app.callback(Output("heatmap-title", "children"), [Input("years-slider", "value")])
+    def update_map_title(year):
+        return "Choropleth map from the beginning of the {0}s to the end of the {1}s".format(year[0], year[1])
+
+
+<a id="orgab4211a"></a>
+
+#### Timeline, Disaster, Magnitude, RCP selectors
+
+    @app.callback(
+        Output("county-choropleth", "figure"),
+        Input("years-slider", "value"),
+        Input("Disaster-Selector", "value"),
+        Input("Magnitude-Selector", "value"),
+        Input("scenario-slider", "value")
+    )
+    def update_map(year, DisasterType, MagnitudeType, RcpType):
+        """
+        Update the map according to the parameters selected by the user
+        """
+    
+        # Selection of the slice of decades to keep
+        df = slice_data_on_decades(df_disasters, RcpType, year[0], year[1]).copy()
+        # Selection of the disaster to keep
+        to_drop = df[~(df['Disaster_Type'] == DisasterType)].index
+        df.drop(to_drop, inplace=True)
+    
+        # Get the color scale settings to display the choropleth
+        color = dict_feature_colors[DisasterType]
+    
+        # Select the feature in the dataset
+        magnitude_type = dict_magnitude_types[MagnitudeType]
+    
+        # Select the feature and aggregate its data on the selected decades
+        if dict_dataset_aggregation_method[magnitude_type] == 'sum':
+    	df = df.groupby(['UN_Geosheme_Subregion'])[magnitude_type].sum().reset_index()
+        elif dict_dataset_aggregation_method[magnitude_type] == 'mean':
+    	df = df.groupby(['UN_Geosheme_Subregion'])[magnitude_type].mean().reset_index()
+    
+        return display_map(df, magnitude_type, color)   
+
+
+<a id="org3064adc"></a>
+
+#### Side panel
+
+    @app.callback(Output('collapse', 'style'),
+    	      Output('right-column', 'style'),
+    	      Output('collapse-button', 'style'),
+    	      Output('collapse-button2', 'style'),
+    	      [Input('collapse-button', 'n_clicks')],
+    	      [Input('collapse-button2', 'n_clicks')],
+    	      [State('right-column', 'style')],
+    	      [State('collapse', 'style')],
+    	      [State('collapse-button', 'style')],
+    	      [State('collapse-button2', 'style')]
+    	      )
+    def callback(n_clicks, nh_clicks, style_map, style, btn1, btn2):
+        if style is None or 'display' not in style:
+    	style = {'display': 'none'}
+    	style_map = {"width": "66vw"}
+    	btn1 = {'display': 'block'}
+    	btn2 = {"display": "none"}
+        else:
+    	if style['display'] == 'none':
+    	    style['display'] = 'block'
+    	    style_map["width"] = "33vw"
+    	    btn1['display'] = 'none'
+    	    btn2["display"] = "block"
+    	else:
+    	    style['display'] = 'none'
+    	    style_map["width"] = "66vw"
+    	    btn1['display'] = 'block'
+    	    btn2["display"] = "none"
+    
+        return style, style_map , btn1, btn2
+
+
+<a id="org6260c76"></a>
+
+### Main
+
+    if __name__ == '__main__':
+        app.run_server(debug=True, host="127.0.0.1", port=8050)
+
+
+<a id="orga4c50f8"></a>
 
 ## Visual identity guidelines
 
 We will follow World Bank's visual identity guidelines for colors and fonts.
 
 
-<a id="org351b950"></a>
+<a id="orgb29edee"></a>
 
 ### Colors
 
 
-<a id="org3cf1a44"></a>
+<a id="org5272fa8"></a>
 
 #### Primary colors
 
@@ -536,7 +1152,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org6c40164"></a>
+<a id="orgd20372f"></a>
 
 #### Secondary colors
 
@@ -644,50 +1260,50 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 </table>
 
 
-<a id="org6cfd691"></a>
+<a id="orgb0d0bbc"></a>
 
 ### Fonts
 
 
-<a id="org2eb75c9"></a>
+<a id="org8647c47"></a>
 
 #### Primary fonts
 
 <img src="./Pics/primaryfonts.png" width="400px">
 
 
-<a id="orge224f7e"></a>
+<a id="orgbec3799"></a>
 
 #### Secondary fonts
 
 <img src="./Pics/secondaryfonts.png" width="400px">
 
 
-<a id="org81f8607"></a>
+<a id="org7c4eb2a"></a>
 
 ### Logo
 
 
-<a id="orgc175706"></a>
+<a id="org5a250c9"></a>
 
 #### Symbol
 
 <img src="./Pics/symbol.png" width="300px">
 
 
-<a id="org6516acb"></a>
+<a id="org216f70e"></a>
 
 #### Logotype
 
 <img src="./Pics/logotype.png" width="300px">
 
 
-<a id="orgb00aa28"></a>
+<a id="org1734a0b"></a>
 
 ## How to contribute
 
 
-<a id="org0f4d85a"></a>
+<a id="org6b6b8b0"></a>
 
 ### Setting up a new Git repository
 
@@ -698,7 +1314,7 @@ We will follow World Bank's visual identity guidelines for colors and fonts.
 -   Ask to join our GitHub
 
 
-<a id="org1794074"></a>
+<a id="orgcdf7bdf"></a>
 
 ### Adding or modifying owned files (`push`)
 
@@ -711,7 +1327,7 @@ When adding a new file or modifying a file that you own, do:
 Where `filename` is the name of the file
 
 
-<a id="org9a9a6e4"></a>
+<a id="orgc0d628e"></a>
 
 ### Submit proposed changes to review (`pull-request`)
 
@@ -779,7 +1395,7 @@ Then go on our [GitHub](https://github.com/dataforgoodfr/batch8_worldbank), and 
 -   click on `create pull request`
 
 
-<a id="orgdacc0f6"></a>
+<a id="org6af0be0"></a>
 
 # Tools that we used
 
@@ -849,9 +1465,32 @@ Then go on our [GitHub](https://github.com/dataforgoodfr/batch8_worldbank), and 
 </table>
 
 
+<a id="org9333d67"></a>
+
+# How to run the Dashboard
+
+1.  Install following Python packages:
+    -   pandas
+    -   plotly
+    -   dash
+    -   dash<sub>bootstrap</sub><sub>components</sub>
+2.  Download required files and folders:
+    
+        ├── app.py                               # Dash app code
+        ├── ./data          
+        │   ├── input-extra.csv                  # Magnitudes by disasters, decades, regions, RCPs
+        │   ├── input-magnitude.csv              # Temperatures by decades, Regions, RCPs
+        │   └── un_subregion_contours.geojson    # Geodata
+        └── ./assets              
+            ├── style.css                        # CSS stylesheet
+            └── logo.png                         # Dashboard logo
+3.  Go to `./` and run 
+    
+        $ python app.py
+
+
 # Footnotes
 
 <sup><a id="fn.1" href="#fnr.1">1</a></sup> Given a disaster, a decade, a region, and a climate scenario
 
 <sup><a id="fn.2" href="#fnr.2">2</a></sup> Given a decade, a region, and a climate scenario.
-
