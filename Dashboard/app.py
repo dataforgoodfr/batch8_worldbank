@@ -213,7 +213,7 @@ def Title_App():
 
 def disaster_type_card():
     """
-     :return: A Div containing the 3 disaster options
+    :return: A Div containing the 3 disaster options
     """
     return html.Div(
         children=[
@@ -238,7 +238,7 @@ def disaster_type_card():
 
 def magnitude_type_card():
     """
-     :return: A Div containing the 3 magnitude options
+    :return: A Div containing the 3 magnitude options
     """
     return html.Div(
         children=[
@@ -314,7 +314,9 @@ CONTENT_STYLE = {
 sidebar = html.Div(
     className="pretty_container-3",
     children=[
-        html.Div(dcc.Graph(id="bc_DOHI", config={"displayModeBar": False}),),
+        html.Div(
+            dcc.Graph(id="bc_DOHI", config={"displayModeBar": False}),
+        ),
         html.Div(
             dcc.Graph(id="bc_ImpactDisasterType", config={"displayModeBar": False}),
         ),
@@ -328,7 +330,12 @@ content = html.Div(id="page-content", style=CONTENT_STYLE)
 collapses = html.Div(
     # className="pretty_container-3",
     # children=
-    [dbc.Collapse(sidebar, id="collapse",),]
+    [
+        dbc.Collapse(
+            sidebar,
+            id="collapse",
+        ),
+    ]
 )
 
 # ~~~~~~~~~~~~~~~~~~~
@@ -624,8 +631,10 @@ def update_bar_chart(map_input, years, disaster, scenario, impact):
 # Update map title according to selected decades
 @app.callback(Output("heatmap-title", "children"), [Input("years-slider", "value")])
 def update_map_title(year):
-    return "Choropleth map from the beginning of the {0}s to the end of the {1}s".format(
-        year[0], year[1]
+    return (
+        "Choropleth map from the beginning of the {0}s to the end of the {1}s".format(
+            year[0], year[1]
+        )
     )
 
 

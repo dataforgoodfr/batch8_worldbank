@@ -40,8 +40,7 @@ def dataframe_flood():
 
 
 def gen_dataset():
-    """Créer les deux fichier : historique_precipitation_clean.csv et projection_precipitation_clean.csv
-    """
+    """Créer les deux fichier : historique_precipitation_clean.csv et projection_precipitation_clean.csv"""
 
     def abreviation2nombre(abr):
         lst_abr = [
@@ -151,7 +150,7 @@ def gen_dataset():
 
 
 def add_region(df):
-    """Rajoute une variable 'Region' dans une dataframe qui contient une variable 'Country' """
+    """Rajoute une variable 'Region' dans une dataframe qui contient une variable 'Country'"""
     try:
         df_region = pd.read_csv(f"{DATASET_FOLDER}country_region.csv", index_col=0)
     except FileNotFoundError:

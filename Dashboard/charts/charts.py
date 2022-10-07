@@ -29,7 +29,8 @@ app.layout = html.Div(
             id="slider-container",
             children=[
                 html.P(
-                    id="slider-text", children="Drag the slider to change the year:",
+                    id="slider-text",
+                    children="Drag the slider to change the year:",
                 ),
                 dcc.RangeSlider(
                     id="years-slider",
@@ -38,7 +39,10 @@ app.layout = html.Div(
                     step=10,
                     value=[1900, 1950],
                     marks={
-                        str(year): {"label": str(year), "style": {"color": "#7fafdf"},}
+                        str(year): {
+                            "label": str(year),
+                            "style": {"color": "#7fafdf"},
+                        }
                         for year in YEARS
                     },
                 ),
@@ -65,9 +69,15 @@ app.layout = html.Div(
             ],
         ),
         html.Br(),
-        html.Div(dcc.Graph(id="histogram"),),
-        html.Div(dcc.Graph(id="bc_DOHI"),),
-        html.Div(dcc.Graph(id="bc_ImpactDisasterType"),),
+        html.Div(
+            dcc.Graph(id="histogram"),
+        ),
+        html.Div(
+            dcc.Graph(id="bc_DOHI"),
+        ),
+        html.Div(
+            dcc.Graph(id="bc_ImpactDisasterType"),
+        ),
     ]
 )
 
